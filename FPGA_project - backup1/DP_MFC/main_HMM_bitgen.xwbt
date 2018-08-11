@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Z:\Documents\FPGA\HMM-Viterbi\main_HMM.ncd
+OUTFILE=Z:\Documents\FPGA\HMM-Viterbi\main_HMM.bit
+FAMILY=Spartan6
+PART=xc6slx45-2csg324
+WORKINGDIR=Z:\Documents\FPGA\HMM-Viterbi
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,24 @@
+ISim log file
+Running: C:\Users\tslab-802-2\Desktop\newtest4\FPGA_project - backup1\DP_MFC\BITDNNTEST_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/BITDNNTEST_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+WARNING: File "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 78.  For instance uut/nnpara/, width 14 of formal port addra is not equal to width 16 of actual variable addrW. 
+WARNING: File "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 157.  For instance uut/sigmoid/, width 27 of formal port sigin is not equal to width 28 of actual variable sigin. 
+WARNING: File "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/BITDNNTEST.v" Line 37.  For instance BITDNNTEST/uut/, width 16 of formal port dinV is not equal to width 15 of actual signal dinV.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module BITDNNTEST.uut.nnpara.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module BITDNNTEST.uut.vec_std.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module BITDNNTEST.uut.node.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# run 1.00ms

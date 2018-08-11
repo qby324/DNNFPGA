@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\tslab\Desktop\FPGA_project\DP_MFC\main_DP.ncd
+OUTFILE=C:\Users\tslab\Desktop\FPGA_project\DP_MFC\main_DP.bit
+FAMILY=Spartan6
+PART=xc6slx45-2csg324
+WORKINGDIR=C:\Users\tslab\Desktop\FPGA_project\DP_MFC
+LICENSE=ISE
+USER_INFO=208275596_209153116_210603101_602

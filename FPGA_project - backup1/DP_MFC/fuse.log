@@ -1,0 +1,313 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/BITDNNTEST_isim_beh.exe -prj C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/BITDNNTEST_beh.prj work.BITDNNTEST work.glbl -mt on -v 1 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Determining compilation order of HDL files
+INFO:Simulator:958 - Library Mapping: Sourcing library mapping file "C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt64/xilinxsim.ini"
+The vhdl library search path for library \"std\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/std\"
+The veri library search path for library \"std\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/std\"
+The vhdl library search path for library \"ieee\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/ieee\"
+The veri library search path for library \"ieee\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/ieee\"
+The vhdl library search path for library \"ieee_proposed\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/ieee_proposed\"
+The veri library search path for library \"ieee_proposed\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/ieee_proposed\"
+The vhdl library search path for library \"vl\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/vl\"
+The veri library search path for library \"vl\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/vl\"
+The vhdl library search path for library \"synopsys\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/synopsys\"
+The veri library search path for library \"synopsys\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/synopsys\"
+The vhdl library search path for library \"simprim\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/simprim\"
+The veri library search path for library \"simprim\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/simprim\"
+The vhdl library search path for library \"unisim\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/unisim\"
+The veri library search path for library \"unisim\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/unisim\"
+The vhdl library search path for library \"unimacro\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/unimacro\"
+The veri library search path for library \"unimacro\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/unimacro\"
+The vhdl library search path for library \"aim\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/aim\"
+The veri library search path for library \"aim\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/aim\"
+The vhdl library search path for library \"cpld\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/cpld\"
+The veri library search path for library \"cpld\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/cpld\"
+The vhdl library search path for library \"pls\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/pls\"
+The veri library search path for library \"pls\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/pls\"
+The vhdl library search path for library \"xilinxcorelib\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/xilinxcorelib\"
+The veri library search path for library \"xilinxcorelib\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt64/xilinxcorelib\"
+The vhdl library search path for library \"aim_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/aim_ver\"
+The veri library search path for library \"aim_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/aim_ver\"
+The vhdl library search path for library \"cpld_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/cpld_ver\"
+The veri library search path for library \"cpld_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/cpld_ver\"
+The vhdl library search path for library \"simprims_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/simprims_ver\"
+The veri library search path for library \"simprims_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/simprims_ver\"
+The vhdl library search path for library \"unisims_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/unisims_ver\"
+The veri library search path for library \"unisims_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/unisims_ver\"
+The vhdl library search path for library \"uni9000_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/uni9000_ver\"
+The veri library search path for library \"uni9000_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/uni9000_ver\"
+The vhdl library search path for library \"unimacro_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/unimacro_ver\"
+The veri library search path for library \"unimacro_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/unimacro_ver\"
+The vhdl library search path for library \"xilinxcorelib_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/xilinxcorelib_ver\"
+The veri library search path for library \"xilinxcorelib_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/xilinxcorelib_ver\"
+The vhdl library search path for library \"secureip\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/xip/secureip\"
+The veri library search path for library \"secureip\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/xip/secureip\"
+INFO:Simulator:958 - Library Mapping: Sourcing library mapping file "xilinxsim.ini"
+The vhdl library search path for library \"work\" is now \"c:/users/tslab-802-2/desktop/newtest4/fpga_project - backup1/dp_mfc/isim/work\"
+The veri library search path for library \"work\" is now \"c:/users/tslab-802-2/desktop/newtest4/fpga_project - backup1/dp_mfc/isim/work\"
+The vhdl library search path for library \"unisims_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/unisims_ver\"
+The veri library search path for library \"unisims_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/unisims_ver\"
+The vhdl library search path for library \"unimacro_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/unimacro_ver\"
+The veri library search path for library \"unimacro_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/unimacro_ver\"
+The vhdl library search path for library \"xilinxcorelib_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/xilinxcorelib_ver\"
+The veri library search path for library \"xilinxcorelib_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/xilinxcorelib_ver\"
+The vhdl library search path for library \"secureip\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/xip/secureip\"
+The veri library search path for library \"secureip\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt64/xip/secureip\"
+
+-- Dumping Relevant Parameters
+XILINX = C:\Xilinx\14.7\ISE_DS\ISE\
+PATH = C:\Xilinx\14.7\ISE_DS\ISE\\lib\nt64;C:\Xilinx\14.7\ISE_DS\ISE\\bin\nt64;C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64;C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64;C:\Xilinx\14.7\ISE_DS\ISE\..\..\..\DocNav;C:\Xilinx\14.7\ISE_DS\PlanAhead\bin;C:\Xilinx\14.7\ISE_DS\EDK\bin\nt64;C:\Xilinx\14.7\ISE_DS\EDK\lib\nt64;C:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin;C:\Xilinx\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;C:\Xilinx\14.7\ISE_DS\EDK\gnuwin\bin;C:\Xilinx\14.7\ISE_DS\EDK\gnu\arm\nt\bin;C:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin;C:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin;C:\Xilinx\14.7\ISE_DS\common\bin\nt64;C:\Xilinx\14.7\ISE_DS\common\lib\nt64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\CTEX\UserData\miktex\bin;C:\CTEX\MiKTeX\miktex\bin;C:\CTEX\CTeX\ctex\bin;C:\CTEX\CTeX\cct\bin;C:\CTEX\CTeX\ty\bin;C:\CTEX\Ghostscript\gs9.05\bin;C:\CTEX\GSview\gsview;C:\CTEX\WinEdt;C:\Program Files\MATLAB\R2016b\runtime\win64;C:\Program Files\MATLAB\R2016b\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Users\tslab-802-2\AppData\Local\Microsoft\WindowsApps
+CWD = C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC
+GCC = C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe
+-- Done dumping Relevant Parameters
+
+-- Dumping System Information
+release = 6.2 
+machine = x86_64
+-- Done dumping System Information
+
+-- Dumping Loaded Modules
+C:\WINDOWS\SYSTEM32\MPR.dll
+C:\WINDOWS\SYSTEM32\WSOCK32.dll
+C:\WINDOWS\SYSTEM32\cscapi.dll
+C:\WINDOWS\SYSTEM32\dbghelp.dll
+C:\WINDOWS\SYSTEM32\ntdll.dll
+C:\WINDOWS\System32\ADVAPI32.dll
+C:\WINDOWS\System32\DAVHLPR.dll
+C:\WINDOWS\System32\GDI32.dll
+C:\WINDOWS\System32\IMM32.DLL
+C:\WINDOWS\System32\KERNEL32.DLL
+C:\WINDOWS\System32\KERNELBASE.dll
+C:\WINDOWS\System32\PSAPI.DLL
+C:\WINDOWS\System32\RPCRT4.dll
+C:\WINDOWS\System32\SYSFER.DLL
+C:\WINDOWS\System32\USER32.dll
+C:\WINDOWS\System32\WINSTA.dll
+C:\WINDOWS\System32\WS2_32.dll
+C:\WINDOWS\System32\bcrypt.dll
+C:\WINDOWS\System32\bcryptPrimitives.dll
+C:\WINDOWS\System32\combase.dll
+C:\WINDOWS\System32\davclnt.dll
+C:\WINDOWS\System32\drprov.dll
+C:\WINDOWS\System32\gdi32full.dll
+C:\WINDOWS\System32\msvcrt.dll
+C:\WINDOWS\System32\netutils.dll
+C:\WINDOWS\System32\ntlanman.dll
+C:\WINDOWS\System32\ole32.dll
+C:\WINDOWS\System32\sechost.dll
+C:\WINDOWS\System32\ucrtbase.dll
+C:\WINDOWS\System32\win32u.dll
+C:\WINDOWS\System32\wkscli.dll
+C:\WINDOWS\WinSxS\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9247_none_08e394a1a83e212f\MSVCP90.dll
+C:\WINDOWS\WinSxS\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9247_none_08e394a1a83e212f\MSVCR90.dll
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\LIBBZ2.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\boost_date_time-vc90-mt-p-1_38.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\boost_filesystem-vc90-mt-p-1_38.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\boost_iostreams-vc90-mt-p-1_38.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\boost_program_options-vc90-mt-p-1_38.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\boost_regex-vc90-mt-p-1_38.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\boost_system-vc90-mt-p-1_38.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\boost_thread-vc90-mt-p-1_38.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\boost_zlib-vc90-mt-p-1_38.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\libICR.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\libMiniZip.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\libPersonalityModule.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\libPort_Std.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\libPortability.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\libPrjrep_Clientac.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\libStaticFileParsers.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\libThread.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\libUtilC_MessageDispatcher.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\libUtilities.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\libVrfc_Verific.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\libVrfc_Vhdl_Sort.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\libZlib.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\libisl_iostreams.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\libpthread.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\libxercesc.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt64\stlport.5.1.dll
+-- Done dumping Loaded Modules
+
+-- Dumping library mapping
+aim=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt64/aim
+aim_ver=C:/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/nt64/aim_ver
+cpld=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt64/cpld
+cpld_ver=C:/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/nt64/cpld_ver
+ieee=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt64/ieee
+ieee_proposed=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt64/ieee_proposed
+pls=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt64/pls
+secureip=C:/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/nt64/xip/secureip
+simprim=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt64/simprim
+simprims_ver=C:/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/nt64/simprims_ver
+std=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt64/std
+synopsys=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt64/synopsys
+uni9000_ver=C:/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/nt64/uni9000_ver
+unimacro=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt64/unimacro
+unimacro_ver=C:/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/nt64/unimacro_ver
+unisim=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt64/unisim
+unisims_ver=C:/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/nt64/unisims_ver
+vl=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt64/vl
+work=isim/work
+xilinxcorelib=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt64/xilinxcorelib
+xilinxcorelib_ver=C:/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/nt64/xilinxcorelib_ver
+-- Done dumping library mapping
+
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/ipcore_dir/MultAccum11bit.v" into library work
+Parsing module <MultAccum11bit>.
+Parsing module <glbl>.
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/sigmoid.v" into library work
+Parsing module <sigmoid>.
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/ipcore_dir/nnpara11bit.v" into library work
+Parsing module <nnpara11bit>.
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/ipcore_dir/multiplier.v" into library work
+Parsing module <multiplier>.
+Parsing module <glbl>.
+WARNING:HDLCompiler:687 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/ipcore_dir/multiplier.v" Line 770: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/ipcore_dir/BRAM_node11bit.v" into library work
+Parsing module <BRAM_node11bit>.
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/ipcore_dir/BRAM_input11bit.v" into library work
+Parsing module <BRAM_input11bit>.
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" into library work
+Parsing module <DNN_0117>.
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 36: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 37: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 38: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 39: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 40: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 41: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 42: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 43: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 44: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 49: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 51: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 52: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 53: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 54: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 55: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 56: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 57: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 58: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 59: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 60: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 61: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 62: Parameter declaration becomes local in DNN_0117 with formal parameter declaration list
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/BITDNNTEST.v" into library work
+Parsing module <BITDNNTEST>.
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing module <glbl>.
+WARNING:HDLCompiler:687 - "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module <glbl>.
+Starting static elaboration
+
+Elaborating module <BITDNNTEST>.
+
+Elaborating module <glbl>.
+WARNING:HDLCompiler:97 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 93: dinV was previously declared with a different range
+WARNING:HDLCompiler:189 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/BITDNNTEST.v" Line 48: Size mismatch in connection of port <dinV>. Formal port size is 16-bit while actual signal size is 15-bit.
+WARNING:HDLCompiler:189 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 83: Size mismatch in connection of port <addra>. Formal port size is 14-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:189 - "C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 168: Size mismatch in connection of port <sigin>. Formal port size is 27-bit while actual signal size is 28-bit.
+Completed static elaboration
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_... - m_00000000001358910285_2347017610
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001358910285_2347017610.c to isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001358910285_2347017610.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001358910285_2347017610.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001358910285_2347017610.c"
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_... - m_00000000001687936702_2744878058
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001687936702_2744878058.c to isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001687936702_2744878058.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001687936702_2744878058.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001687936702_2744878058.c"
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO... - m_00000000000277421008_0345340507
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000000277421008_0345340507.c to isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000000277421008_0345340507.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000000277421008_0345340507.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000000277421008_0345340507.c"
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart... - m_00000000001603977570_3850116391
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001603977570_3850116391.c to isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001603977570_3850116391.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001603977570_3850116391.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001603977570_3850116391.c"
+Compiling module nnpara11bit - m_00000000002489990758_3334603971
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000002489990758_3334603971.c to isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000002489990758_3334603971.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000002489990758_3334603971.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000002489990758_3334603971.c"
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_... - m_00000000001358910285_0359770596
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001358910285_0359770596.c to isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001358910285_0359770596.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001358910285_0359770596.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001358910285_0359770596.c"
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_... - m_00000000001687936702_2748435483
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001687936702_2748435483.c to isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001687936702_2748435483.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001687936702_2748435483.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001687936702_2748435483.c"
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO... - m_00000000000277421008_3042497055
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000000277421008_3042497055.c to isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000000277421008_3042497055.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000000277421008_3042497055.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000000277421008_3042497055.c"
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart... - m_00000000001603977570_3854723049
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001603977570_3854723049.c to isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001603977570_3854723049.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001603977570_3854723049.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001603977570_3854723049.c"
+Compiling module BRAM_input11bit - m_00000000000403262735_2452877731
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000000403262735_2452877731.c to isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000000403262735_2452877731.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000000403262735_2452877731.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000000403262735_2452877731.c"
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_... - m_00000000001358910285_0840757716
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001358910285_0840757716.c to isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001358910285_0840757716.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001358910285_0840757716.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001358910285_0840757716.c"
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_... - m_00000000001687936702_1929636017
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001687936702_1929636017.c to isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001687936702_1929636017.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001687936702_1929636017.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001687936702_1929636017.c"
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO... - m_00000000000277421008_3629189571
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000000277421008_3629189571.c to isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000000277421008_3629189571.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000000277421008_3629189571.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000000277421008_3629189571.c"
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart... - m_00000000001603977570_1011575302
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001603977570_1011575302.c to isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001603977570_1011575302.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001603977570_1011575302.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001603977570_1011575302.c"
+Compiling module BRAM_node11bit - m_00000000000403262735_0988281885
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000000403262735_0988281885.c to isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000000403262735_0988281885.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000000403262735_0988281885.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000000403262735_0988281885.c"
+Compiling module LUT2(INIT=4'b1000) - m_00000000001773747898_0257217429
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000001773747898_0257217429.c to isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000001773747898_0257217429.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000001773747898_0257217429.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000001773747898_0257217429.c"
+Compiling module LUT4(INIT=16'b0111100010001000) - m_00000000001784029001_1343423062
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000001784029001_1343423062.c to isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000001784029001_1343423062.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000001784029001_1343423062.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000001784029001_1343423062.c"
+Compiling module LUT3(INIT=8'b0101000) - m_00000000001108370118_1918347995
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000001108370118_1918347995.c to isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000001108370118_1918347995.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000001108370118_1918347995.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000001108370118_1918347995.c"
+Compiling module DSP48A1(A1REG=0,B1REG=0,CARRYINR... - m_00000000000073490608_0280471132
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000000073490608_0280471132.c to isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000000073490608_0280471132.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000000073490608_0280471132.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000000073490608_0280471132.c"
+Compiling module MULT_AND - m_00000000000129589818_1491383940
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000000129589818_1491383940.c to isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000000129589818_1491383940.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000000129589818_1491383940.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000000129589818_1491383940.c"
+Compiling module MUXCY - m_00000000003848737514_1058825862
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000003848737514_1058825862.c to isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000003848737514_1058825862.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000003848737514_1058825862.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000003848737514_1058825862.c"
+Compiling module XORCY - m_00000000000909115699_2771340377
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000000909115699_2771340377.c to isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000000909115699_2771340377.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000000909115699_2771340377.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000000909115699_2771340377.c"
+Compiling module GND - m_00000000003317509437_1759035934
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000003317509437_1759035934.c to isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000003317509437_1759035934.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000003317509437_1759035934.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000003317509437_1759035934.c"
+Compiling module VCC - m_00000000003927721830_1593237687
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000003927721830_1593237687.c to isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000003927721830_1593237687.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000003927721830_1593237687.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000003927721830_1593237687.c"
+Compiling module multiplier - m_00000000001811016685_1345475044
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000001811016685_1345475044.c to isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000001811016685_1345475044.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000001811016685_1345475044.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000001811016685_1345475044.c"
+Compiling module DSP48A1(A1REG=0,B1REG=0,CARRYINR... - m_00000000000073490608_1977786825
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000000073490608_1977786825.c to isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000000073490608_1977786825.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000000073490608_1977786825.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000000073490608_1977786825.c"
+Compiling module MultAccum11bit - m_00000000000267943468_3317365917
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000000267943468_3317365917.c to isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000000267943468_3317365917.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000000267943468_3317365917.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000000267943468_3317365917.c"
+Compiling module sigmoid(IBIT=27,OBIT=11) - m_00000000003350827930_0648830262
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000003350827930_0648830262.c to isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000003350827930_0648830262.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000003350827930_0648830262.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000003350827930_0648830262.c"
+Compiling module DNN_0117_default - m_00000000002345147072_1570799568
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000002345147072_1570799568.c to isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000002345147072_1570799568.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000002345147072_1570799568.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000002345147072_1570799568.c"
+Compiling module BITDNNTEST - m_00000000002681946823_2202771406
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000002681946823_2202771406.c to isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000002681946823_2202771406.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000002681946823_2202771406.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000002681946823_2202771406.c"
+Compiling module glbl - m_00000000004134447467_2073120511
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000004134447467_2073120511.c to isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000004134447467_2073120511.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000004134447467_2073120511.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000004134447467_2073120511.c"
+Time Resolution for simulation is 1ps.
+Compiling isim/BITDNNTEST_isim_beh.exe.sim/work/BITDNNTEST_isim_beh.exe_main.c to isim/BITDNNTEST_isim_beh.exe.sim/work/BITDNNTEST_isim_beh.exe_main.nt64.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/BITDNNTEST_isim_beh.exe.sim/work/BITDNNTEST_isim_beh.exe_main.nt64.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/BITDNNTEST_isim_beh.exe.sim/work/BITDNNTEST_isim_beh.exe_main.c"
+Waiting for 24 sub-compilation(s) to finish...
+Linking with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -Wl,--stack,157286400 -o "isim/BITDNNTEST_isim_beh.exe.sim/BITDNNTEST_isim_beh.exe" "isim/BITDNNTEST_isim_beh.exe.sim/work/BITDNNTEST_isim_beh.exe_main.nt64.obj"  "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001358910285_2347017610.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001687936702_2744878058.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000000277421008_0345340507.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001603977570_3850116391.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000002489990758_3334603971.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001358910285_0359770596.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001687936702_2748435483.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000000277421008_3042497055.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001603977570_3854723049.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000000403262735_2452877731.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001358910285_0840757716.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001687936702_1929636017.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000000277421008_3629189571.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/xilinxcorelib_ver/m_00000000001603977570_1011575302.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000000403262735_0988281885.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000001773747898_0257217429.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000001784029001_1343423062.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000001108370118_1918347995.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000000073490608_0280471132.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000000129589818_1491383940.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000003848737514_1058825862.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000000909115699_2771340377.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000003317509437_1759035934.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000003927721830_1593237687.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000001811016685_1345475044.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/unisims_ver/m_00000000000073490608_1977786825.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000000267943468_3317365917.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000003350827930_0648830262.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000002345147072_1570799568.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000002681946823_2202771406.nt64.obj" "isim/BITDNNTEST_isim_beh.exe.sim/work/m_00000000004134447467_2073120511.nt64.obj" "C:/Xilinx/14.7/ISE_DS/ISE/lib/nt64/libhsimengine.dll"
+Compiled 31 Verilog Units
+Built simulation executable C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/BITDNNTEST_isim_beh.exe
+Fuse Memory Usage: 42852 KB
+Fuse CPU Usage: 1483 ms

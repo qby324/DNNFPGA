@@ -1,0 +1,28 @@
+Command line:
+   BITDNNTEST_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63742
+
+Mon Apr 10 21:18:23 2017
+
+
+ Elaboration Time: 0.125 sec
+
+ Current Memory Usage: 379.757 Meg
+
+ Total Signals          : 1077
+ Total Nets             : 2602
+ Total Signal Drivers   : 314
+ Total Blocks           : 149
+ Total Primitive Blocks : 113
+ Total Processes        : 494
+ Total Traceable Variables  : 1298
+ Total Scalar Nets and Variables : 246781
+
+ Total Simulation Time: 7.65625 sec
+
+ Current Memory Usage: 694.329 Meg
+
+Mon Apr 10 21:24:02 2017
+

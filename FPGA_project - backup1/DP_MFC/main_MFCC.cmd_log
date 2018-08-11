@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/work2/haruka/fpga_work/HMM-V14/main_MFCC.xst" -ofn "/work2/haruka/fpga_work/HMM-V14/main_MFCC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/main_HMM.ucf -uc src/main_MFCC.ucf -p xc6slx45-csg324-2 main_MFCC.ngc main_MFCC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_MFCC_map.ncd main_MFCC.ngd main_MFCC.pcf 
+par -w -intstyle ise -ol high -mt 4 main_MFCC_map.ncd main_MFCC.ncd main_MFCC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_MFCC.twx main_MFCC.ncd -o main_MFCC.twr main_MFCC.pcf 
+bitgen -intstyle ise -f main_MFCC.ut main_MFCC.ncd 

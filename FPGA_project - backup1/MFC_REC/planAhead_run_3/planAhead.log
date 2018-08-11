@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Nov 02 17:03:37 2016
+# Process ID: 7476
+# Log file: C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/pa.fromHdl.tcl}
+# create_project -name MFC_REC -dir "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/planAhead_run_3" -part xc6slx45csg324-2
+ERROR: [Common 17-53] User Exception: Project already exists on disk, please use '-force' option to overwrite: 
+     C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/planAhead_run_3/MFC_REC.ppr
+     C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/planAhead_run_3/MFC_REC.data
+
+    while executing
+"create_project -name MFC_REC -dir "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/planAhead_run_3" -part xc6slx45csg324-2"
+    (file "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/pa.fromHdl.tcl" line 4)
+exit
+INFO: [Common 17-206] Exiting PlanAhead at Wed Nov 02 17:04:00 2016...
+INFO: [Common 17-83] Releasing license: PlanAhead

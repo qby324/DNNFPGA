@@ -1,0 +1,87 @@
+Release 14.7 - par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+WED 20 MAY 19:18:26 2015
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 75 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   DP_main_mfc/DP_matching/DP_distance/Mram_vec11_RAMD_D1_O
+   DP_main_mfc/DP_matching/DP_distance/Mram_vec12_RAMD_D1_O
+   DP_main_mfc/DP_matching/DP_distance/Mram_vec13_RAMD_D1_O
+   DP_main_mfc/DP_matching/DP_distance/Mram_vec14_RAMD_D1_O
+   DP_main_mfc/DP_matching/Mram_hmove_031_RAMD_O
+   DP_main_mfc/DP_matching/Mram_hmove_032_RAMD_O
+   DP_main_mfc/DP_matching/Mram_hmove_121_RAMD_O
+   DP_main_mfc/DP_matching/Mram_hmove_122_RAMD_O
+   DP_main_mfc/DP_matching/Mram_len_031_RAMD_O
+   DP_main_mfc/DP_matching/Mram_len_032_RAMD_O
+   DP_main_mfc/DP_matching/Mram_len_041_RAMD_O
+   DP_main_mfc/DP_matching/Mram_len_042_RAMD_O
+   DP_main_mfc/DP_matching/Mram_len_151_RAMD_O
+   DP_main_mfc/DP_matching/Mram_len_152_RAMD_O
+   DP_main_mfc/DP_matching/Mram_len_171_RAMD_O
+   DP_main_mfc/DP_matching/Mram_len_172_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_0310_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_0311_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_0312_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_0313_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_0314_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_0315_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_0316_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_0317_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_0318_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_0319_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_0320_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_0321_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_0322_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_0610_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_0611_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_0612_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_0613_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_061_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_062_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_063_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_064_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_065_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_066_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_067_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_068_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_069_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_11010_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_11011_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_11012_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_11013_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_1101_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_1102_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_1103_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_1104_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_1105_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_1106_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_1107_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_1108_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_1109_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_1910_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_1911_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_1912_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_1913_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_191_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_192_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_193_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_194_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_195_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_196_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_197_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_198_RAMD_O
+   DP_main_mfc/DP_matching/Mram_scr_199_RAMD_O
+   DP_main_mfc/DP_matching/Mram_vmove_021_RAMD_O
+   DP_main_mfc/DP_matching/Mram_vmove_022_RAMD_O
+   DP_main_mfc/DP_matching/Mram_vmove_121_RAMD_O
+   DP_main_mfc/DP_matching/Mram_vmove_122_RAMD_O
+   DP_main_mfc/DP_matching/Mram_vmove_131_RAMA_DPO
+   DP_main_mfc/DP_matching/Mram_vmove_131_RAMB_DPO
+   DP_main_mfc/DP_matching/Mram_vmove_131_RAMD_O
+
+

@@ -1,0 +1,40 @@
+Release 14.7 ngdbuild P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -sd ipcore_dir -sd ../MFC_REC/ipcore_dir -nt timestamp -uc
+main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd
+
+Reading NGO file "C:/.Xilinx/HMM-Viterbi/main_DP_cs.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "main_DP.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:443 - SFF primitive 'MFCC/FFT_16kHz/blk0000067e' has
+   unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive 'MFCC/FFT_16kHz/blk000006d0' has
+   unconnected output pin
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   2
+
+Total memory usage is 160852 kilobytes
+
+Writing NGD file "main_DP.ngd" ...
+Total REAL time to NGDBUILD completion:  15 sec
+Total CPU time to NGDBUILD completion:   15 sec
+
+Writing NGDBUILD log file "main_DP.bld"...

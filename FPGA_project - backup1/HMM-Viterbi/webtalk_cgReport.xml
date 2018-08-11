@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="cgReport" timeStamp="Mon Dec 16 00:04:40 2013">
+<section name="Intelligent Clock Gating (CooolGate)" visible="true">
+<item name="Statistics">
+<property name="Slice Registers gated" value="675" type="CGStatistics"/>
+<property name="Bram ports gated" value="27" type="CGStatistics"/>
+<property name="Processed CE nets" value="71" type="CGStatistics"/>
+<property name="Num added FF" value="0" type="CGStatistics"/>
+<property name="Num enables dropped due to constraints" value="0" type="CGStatistics"/>
+<property name="Num flops dropped due to constraints" value="26" type="CGStatistics"/>
+</item>
+</section>
+</application>
+</document>

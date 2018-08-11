@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="WordDetect" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/DNN_main C:|.Xilinx|HMM-Viterbi|DNN_main.v</ClosedNode>
+         <ClosedNode>/DNN_main C:|Users|tslab-802-2|Desktop|newtest2|FPGA_project - backup1|DP_MFC|DNN_main.v</ClosedNode>
+         <ClosedNode>/DNN_main C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|DNN_main.v</ClosedNode>
+         <ClosedNode>/DNN_main C:|Users|tslab|Desktop|FPGA_project - backup1|DP_MFC|DNN_main.v</ClosedNode>
+         <ClosedNode>/DNN_main C:|Users|tslab|Desktop|FPGA_project|DP_MFC|DNN_main.v</ClosedNode>
+         <ClosedNode>/DP_match_mfc C:|.Xilinx|HMM-Viterbi|DP_match_mfc.v</ClosedNode>
+         <ClosedNode>/HMM_1 C:|.Xilinx|HMM-Viterbi|HMM_1.v/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/HMM_1 C:|.Xilinx|HMM-Viterbi|HMM_1.v/green - HMM</ClosedNode>
+         <ClosedNode>/HMM_1 C:|.Xilinx|HMM-Viterbi|HMM_1.v/viterbi - viterbi_1</ClosedNode>
+         <ClosedNode>/HMM_1 C:|Users|tslab-802-2|Desktop|newtest2|FPGA_project - backup1|DP_MFC|HMM_1.v</ClosedNode>
+         <ClosedNode>/HMM_1 C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|HMM_1.v</ClosedNode>
+         <ClosedNode>/HMM_1 C:|Users|tslab-802-2|Desktop|work1|FPGA_project - backup1|DP_MFC|HMM_1.v</ClosedNode>
+         <ClosedNode>/HMM_1 C:|Users|tslab|Desktop|FPGA_project - backup1|DP_MFC|HMM_1.v</ClosedNode>
+         <ClosedNode>/HMM_1 C:|Users|tslab|Desktop|FPGA_project|DP_MFC|HMM_1.v</ClosedNode>
+         <ClosedNode>/HMM_1 Z:|Documents|FPGA|HMM-Viterbi|HMM_1.v</ClosedNode>
+         <ClosedNode>/HMM_1 Z:|Documents|FPGA|HMM-Viterbi|HMM_1.v/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/HMM_1 Z:|Documents|FPGA|HMM-Viterbi|HMM_1.v/green - HMM</ClosedNode>
+         <ClosedNode>/HMM_1 Z:|Documents|FPGA|HMM-Viterbi|HMM_1.v/viterbi - viterbi_1</ClosedNode>
+         <ClosedNode>/HMM_1 Z:|FPGA|HMM-Viterbi|HMM_1.v</ClosedNode>
+         <ClosedNode>/HMM_viterbi C:|.Xilinx|HMM-Viterbi|src|HMM_viterbi.v</ClosedNode>
+         <ClosedNode>/HMM_viterbi C:|.Xilinx|HMM-Viterbi|src|HMM_viterbi.v/HMM - HMM</ClosedNode>
+         <ClosedNode>/HMM_viterbi C:|.Xilinx|HMM-Viterbi|src|HMM_viterbi.v/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/HMM_viterbi C:|.Xilinx|HMM-Viterbi|src|HMM_viterbi.v/gbHMM - gbHMM</ClosedNode>
+         <ClosedNode>/HMM_viterbi C:|.Xilinx|HMM-Viterbi|src|HMM_viterbi.v/silHMM - silHMM</ClosedNode>
+         <ClosedNode>/HMM_viterbi C:|Users|tslab-802-2|Desktop|newtest2|FPGA_project - backup1|DP_MFC|src|HMM_viterbi.v</ClosedNode>
+         <ClosedNode>/HMM_viterbi C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|src|HMM_viterbi.v</ClosedNode>
+         <ClosedNode>/HMM_viterbi C:|Users|tslab-802-2|Desktop|work1|FPGA_project - backup1|DP_MFC|src|HMM_viterbi.v</ClosedNode>
+         <ClosedNode>/HMM_viterbi C:|Users|tslab|Desktop|FPGA_project - backup1|DP_MFC|src|HMM_viterbi.v</ClosedNode>
+         <ClosedNode>/HMM_viterbi Z:|Documents|FPGA|HMM-Viterbi|src|HMM_viterbi.v</ClosedNode>
+         <ClosedNode>/HMM_viterbi Z:|Documents|FPGA|HMM-Viterbi|src|HMM_viterbi.v/HMM - HMM</ClosedNode>
+         <ClosedNode>/HMM_viterbi Z:|Documents|FPGA|HMM-Viterbi|src|HMM_viterbi.v/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/HMM_viterbi Z:|Documents|FPGA|HMM-Viterbi|src|HMM_viterbi.v/gbHMM - gbHMM</ClosedNode>
+         <ClosedNode>/HMM_viterbi Z:|Documents|FPGA|HMM-Viterbi|src|HMM_viterbi.v/silHMM - silHMM</ClosedNode>
+         <ClosedNode>/HMM_viterbi Z:|FPGA|HMM-Viterbi|src|HMM_viterbi.v</ClosedNode>
+         <ClosedNode>/HMM_viterbi |work2|haruka|HMM-V14|src|HMM_viterbi.v</ClosedNode>
+         <ClosedNode>/MFCCtest C:|.Xilinx|HMM-Viterbi|src|MFCCtest.v</ClosedNode>
+         <ClosedNode>/MFCCtest C:|Users|tslab-802-2|Desktop|newtest2|FPGA_project - backup1|DP_MFC|src|MFCCtest.v</ClosedNode>
+         <ClosedNode>/MFCCtest C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|src|MFCCtest.v</ClosedNode>
+         <ClosedNode>/MFCCtest C:|Users|tslab-802-2|Desktop|work1|FPGA_project - backup1|DP_MFC|src|MFCCtest.v</ClosedNode>
+         <ClosedNode>/MFCCtest C:|Users|tslab|Desktop|FPGA_project - backup1|DP_MFC|src|MFCCtest.v</ClosedNode>
+         <ClosedNode>/MFCCtest C:|Users|tslab|Desktop|FPGA_project|DP_MFC|src|MFCCtest.v</ClosedNode>
+         <ClosedNode>/detect_NN D:|work|HMM-Viterbi|src|detect_NN.v</ClosedNode>
+         <ClosedNode>/detect_NN |work2|haruka|HMM-V14|src|detect_NN.v</ClosedNode>
+         <ClosedNode>/detect_NN |work2|haruka|HMM-V|src|detect_NN.v</ClosedNode>
+         <ClosedNode>/detect_NN |work2|haruka|HMM-V|src|detect_NN.v/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/main |work2|haruka|HMM-V14|src|main_fpga.v</ClosedNode>
+         <ClosedNode>/main |work2|haruka|HMM-V14|src|main_fpga.v/HMM_viterbi - HMM_viterbi</ClosedNode>
+         <ClosedNode>/main |work2|haruka|HMM-V14|src|main_fpga.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/main |work2|haruka|HMM-V|src|main_fpga.v/HMM_viterbi - HMM_viterbi/HMM - HMM</ClosedNode>
+         <ClosedNode>/main |work2|haruka|HMM-V|src|main_fpga.v/HMM_viterbi - HMM_viterbi/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/main |work2|haruka|HMM-V|src|main_fpga.v/HMM_viterbi - HMM_viterbi/gbHMM - gbHMM</ClosedNode>
+         <ClosedNode>/main |work2|haruka|HMM-V|src|main_fpga.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/main_DNN_DP C:|.Xilinx|DP_MFC|main_DNN_DP.v/DNN_0117 - DNN_0117</ClosedNode>
+         <ClosedNode>/main_DNN_DP C:|.Xilinx|DP_MFC|main_DNN_DP.v/DP_main - DP_main</ClosedNode>
+         <ClosedNode>/main_DNN_DP C:|.Xilinx|DP_MFC|main_DNN_DP.v/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/main_DNN_DP C:|.Xilinx|DP_MFC|main_DNN_DP.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/main_DNN_DP C:|.Xilinx|HMM-Viterbi|main_DNN_DP.v/DNN_0117 - DNN_0117</ClosedNode>
+         <ClosedNode>/main_DNN_DP C:|.Xilinx|HMM-Viterbi|main_DNN_DP.v/DNN_main - DNN_0117</ClosedNode>
+         <ClosedNode>/main_DNN_DP C:|.Xilinx|HMM-Viterbi|main_DNN_DP.v/DNN_main - DNN_main</ClosedNode>
+         <ClosedNode>/main_DNN_DP C:|.Xilinx|HMM-Viterbi|main_DNN_DP.v/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/main_DNN_DP C:|.Xilinx|HMM-Viterbi|main_DNN_DP.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/main_DNN_DP C:|Users|tslab|Desktop|FPGA_project - backup1|DP_MFC|main_DNN_DP.v</ClosedNode>
+         <ClosedNode>/main_DNN_DP C:|Users|tslab|Desktop|FPGA_project - backup1|DP_MFC|main_DNN_DP.v/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/main_DNN_DP C:|Users|tslab|Desktop|FPGA_project - backup1|DP_MFC|main_DNN_DP.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/main_DNN_DP C:|Users|tslab|Desktop|FPGA_project|DP_MFC|main_DNN_DP.v</ClosedNode>
+         <ClosedNode>/main_DP C:|.Xilinx|DP_MFC|src|main_DP.v/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/main_DP C:|.Xilinx|HMM-Viterbi|src|main_DP.v/DP_main - DP_main</ClosedNode>
+         <ClosedNode>/main_DP C:|.Xilinx|HMM-Viterbi|src|main_DP.v/DP_main - DP_main/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/main_DP C:|.Xilinx|HMM-Viterbi|src|main_DP.v/DP_main - DP_main_mfc</ClosedNode>
+         <ClosedNode>/main_DP C:|.Xilinx|HMM-Viterbi|src|main_DP.v/DP_main_mfc - DP_main_mfc</ClosedNode>
+         <ClosedNode>/main_DP C:|.Xilinx|HMM-Viterbi|src|main_DP.v/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/main_DP C:|.Xilinx|HMM-Viterbi|src|main_DP.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/main_DP C:|.Xilinx|HMM-Viterbi|src|main_HMM.v</ClosedNode>
+         <ClosedNode>/main_DP C:|.Xilinx|HMM-Viterbi|src|main_HMM.v/DP_main - DP_main</ClosedNode>
+         <ClosedNode>/main_DP C:|.Xilinx|HMM-Viterbi|src|main_HMM.v/DP_main - DP_main/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/main_DP C:|.Xilinx|HMM-Viterbi|src|main_HMM.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/main_DP C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|src|main_DP.v</ClosedNode>
+         <ClosedNode>/main_DP C:|Users|tslab-802-2|Desktop|work1|FPGA_project - backup1|DP_MFC|src|main_DP.v</ClosedNode>
+         <ClosedNode>/main_DP C:|Users|tslab|Desktop|FPGA_project - backup1|DP_MFC|src|main_DP.v</ClosedNode>
+         <ClosedNode>/main_DP C:|Users|tslab|Desktop|FPGA_project - backup1|DP_MFC|src|main_DP.v/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/main_DP C:|Users|tslab|Desktop|FPGA_project - backup1|DP_MFC|src|main_DP.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/main_DP C:|Users|tslab|Desktop|FPGA_project|DP_MFC|src|main_DP.v</ClosedNode>
+         <ClosedNode>/main_DP Z:|Documents|FPGA|HMM-Viterbi|src|main_HMM.v</ClosedNode>
+         <ClosedNode>/main_DP Z:|Documents|FPGA|HMM-Viterbi|src|main_HMM.v/DP_main - DP_main/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/main_DP Z:|Documents|FPGA|HMM-Viterbi|src|main_HMM.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/main_HMM C:|.Xilinx|haruka|HMM-V14|src|main_DNN.v</ClosedNode>
+         <ClosedNode>/main_HMM C:|.Xilinx|haruka|HMM-V14|src|main_HMM.v</ClosedNode>
+         <ClosedNode>/main_HMM C:|.Xilinx|haruka|HMM-V14|src|main_MFCC.v</ClosedNode>
+         <ClosedNode>/main_HMM D:|Xilinx|work|HMM-V14|src|main_DNN.v</ClosedNode>
+         <ClosedNode>/main_HMM D:|Xilinx|work|HMM-V14|src|main_MFCC.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/main_HMM D:|work|HMM-V14|src|main_DNN.v</ClosedNode>
+         <ClosedNode>/main_HMM D:|work|HMM-V14|src|main_HMM.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/main_HMM D:|work|HMM-V14|src|main_MFCC.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/main_HMM D:|work|HMM-V14|src|main_MFCC.v/recogaiueo - recogaiueo</ClosedNode>
+         <ClosedNode>/main_HMM D:|work|HMM-Viterbi|src|main_DNN.v</ClosedNode>
+         <ClosedNode>/main_HMM D:|work|HMM-Viterbi|src|main_HMM.v/HMM_viterbi - HMM_viterbi/HMM - HMM</ClosedNode>
+         <ClosedNode>/main_HMM D:|work|HMM-Viterbi|src|main_HMM.v/HMM_viterbi - HMM_viterbi/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/main_HMM D:|work|HMM-Viterbi|src|main_HMM.v/HMM_viterbi - HMM_viterbi/gbHMM - gbHMM</ClosedNode>
+         <ClosedNode>/main_HMM D:|work|HMM-Viterbi|src|main_HMM.v/HMM_viterbi - HMM_viterbi/silHMM - silHMM</ClosedNode>
+         <ClosedNode>/main_HMM D:|work|HMM-Viterbi|src|main_HMM.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/main_HMM D:|work|HMM-Viterbi|src|main_MFCC.v</ClosedNode>
+         <ClosedNode>/main_HMM Z:|Documents|FPGA|HMM-Viterbi|src|main_HMM.v</ClosedNode>
+         <ClosedNode>/main_HMM Z:|Documents|FPGA|HMM-Viterbi|src|main_HMM.v/HMM_1 - HMM_viterbi/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/main_HMM Z:|Documents|FPGA|HMM-Viterbi|src|main_HMM.v/HMM_viterbi - HMM_viterbi/HMM - HMM</ClosedNode>
+         <ClosedNode>/main_HMM Z:|Documents|FPGA|HMM-Viterbi|src|main_HMM.v/HMM_viterbi - HMM_viterbi/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/main_HMM Z:|Documents|FPGA|HMM-Viterbi|src|main_HMM.v/HMM_viterbi - HMM_viterbi/gbHMM - gbHMM</ClosedNode>
+         <ClosedNode>/main_HMM Z:|Documents|FPGA|HMM-Viterbi|src|main_HMM.v/HMM_viterbi - HMM_viterbi/silHMM - silHMM</ClosedNode>
+         <ClosedNode>/main_HMM Z:|Documents|FPGA|HMM-Viterbi|src|main_HMM.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/main_REC C:|.Xilinx|HMM-Viterbi|main_REC.v</ClosedNode>
+         <ClosedNode>/main_REC C:|.Xilinx|HMM-Viterbi|main_REC.v/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/main_REC C:|.Xilinx|HMM-Viterbi|main_REC.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/main_REC Z:|Documents|FPGA|HMM-Viterbi|main_REC.v</ClosedNode>
+         <ClosedNode>/main_REC Z:|Documents|FPGA|HMM-Viterbi|main_REC.v/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/makeSegment |work2|haruka|HMM-V|src|makesegment.v</ClosedNode>
+         <ClosedNode>/normalize C:|.Xilinx|HMM-Viterbi|normalize.v</ClosedNode>
+         <ClosedNode>/normalize C:|Users|tslab-802-2|Desktop|work1|FPGA_project - backup1|DP_MFC|normalize.v</ClosedNode>
+         <ClosedNode>/normalize C:|Users|tslab|Desktop|FPGA_project - backup1|DP_MFC|normalize.v</ClosedNode>
+         <ClosedNode>/normalize C:|Users|tslab|Desktop|FPGA_project|DP_MFC|normalize.v</ClosedNode>
+         <ClosedNode>/recogaiueo D:|work|HMM-Viterbi|src|recogaiueo.v</ClosedNode>
+         <ClosedNode>/sqrt C:|.Xilinx|HMM-Viterbi|sqrt.v</ClosedNode>
+         <ClosedNode>/tes_mac C:|.Xilinx|HMM-Viterbi|tes_mac.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>DNN_0117 - DNN_0117 (C:/Users/tslab-802-2/Desktop/jiken2/FPGA_project - backup1/DP_MFC/DNN_0117.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >90</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001f1000000020000000000000000000000000200000064ffffffff000000810000000300000002000001f10000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>DNN_0117 - DNN_0117 (C:/Users/tslab-802-2/Desktop/jiken2/FPGA_project - backup1/DP_MFC/DNN_0117.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Map/Generate Post-Map Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Back-annotate Pin Locations</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate IBIS Model</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate Post-Place &amp; Route Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000019d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000019d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000392000000040101000100000000000000000000000064ffffffff000000810000000000000004000000a800000001000000000000011800000001000000000000007300000001000000000000015f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>BITDNNTEST.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000010c000000010001000100000000000000000000000064ffffffff0000008100000000000000010000010c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/DNN_main C:|.Xilinx|HMM-Viterbi|DNN_main.v</ClosedNode>
+         <ClosedNode>/DP_matching Z:|Documents|FPGA|HMM-Viterbi|src|DP_matching.v</ClosedNode>
+         <ClosedNode>/HMM |work2|haruka|HMM-V|src|HMM.v</ClosedNode>
+         <ClosedNode>/HMM_1 C:|.Xilinx|HMM-Viterbi|HMM_1.v</ClosedNode>
+         <ClosedNode>/HMM_1 C:|.Xilinx|HMM-Viterbi|HMM_1.v/green - HMM</ClosedNode>
+         <ClosedNode>/HMM_1 C:|.Xilinx|HMM-Viterbi|HMM_1.v/viterbi - viterbi_1</ClosedNode>
+         <ClosedNode>/HMM_1 C:|Users|tslab-802-2|Desktop|newtest2|FPGA_project - backup1|DP_MFC|HMM_1.v</ClosedNode>
+         <ClosedNode>/HMM_1 C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|HMM_1.v</ClosedNode>
+         <ClosedNode>/HMM_1 Z:|Documents|FPGA|HMM-Viterbi|HMM_1.v</ClosedNode>
+         <ClosedNode>/HMM_1 Z:|FPGA|HMM-Viterbi|HMM_1.v</ClosedNode>
+         <ClosedNode>/HMM_viterbi C:|.Xilinx|HMM-Viterbi|src|HMM_viterbi.v</ClosedNode>
+         <ClosedNode>/HMM_viterbi C:|.Xilinx|HMM-Viterbi|src|HMM_viterbi.v/HMM - HMM</ClosedNode>
+         <ClosedNode>/HMM_viterbi C:|.Xilinx|HMM-Viterbi|src|HMM_viterbi.v/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/HMM_viterbi C:|.Xilinx|HMM-Viterbi|src|HMM_viterbi.v/gbHMM - gbHMM</ClosedNode>
+         <ClosedNode>/HMM_viterbi C:|.Xilinx|HMM-Viterbi|src|HMM_viterbi.v/silHMM - silHMM</ClosedNode>
+         <ClosedNode>/HMM_viterbi C:|Users|tslab-802-2|Desktop|newtest2|FPGA_project - backup1|DP_MFC|src|HMM_viterbi.v</ClosedNode>
+         <ClosedNode>/HMM_viterbi C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|src|HMM_viterbi.v</ClosedNode>
+         <ClosedNode>/HMM_viterbi Z:|Documents|FPGA|HMM-Viterbi|src|HMM_viterbi.v</ClosedNode>
+         <ClosedNode>/HMM_viterbi Z:|FPGA|HMM-Viterbi|src|HMM_viterbi.v</ClosedNode>
+         <ClosedNode>/HMM_viterbi |work2|haruka|HMM-V|src|HMM_viterbi.v</ClosedNode>
+         <ClosedNode>/Test_HMM_viterbi C:|.Xilinx|HMM-Viterbi|Test_HMM_viterbi.v/DP_main - DP_main/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/Test_HMM_viterbi C:|.Xilinx|haruka|HMM-V14|Test_HMM_viterbi.v</ClosedNode>
+         <ClosedNode>/Test_HMM_viterbi C:|Users|tslab-802-2|Desktop|newtest2|FPGA_project - backup1|DP_MFC|Test_HMM_viterbi.v</ClosedNode>
+         <ClosedNode>/Test_HMM_viterbi C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|Test_HMM_viterbi.v</ClosedNode>
+         <ClosedNode>/Test_HMM_viterbi D:|Xilinx|work|HMM-V14|Test_HMM_viterbi.v/uut - HMM_viterbi/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/Test_HMM_viterbi D:|work|HMM-V14|Test_HMM_viterbi.v</ClosedNode>
+         <ClosedNode>/Test_HMM_viterbi Z:|Documents|FPGA|HMM-Viterbi|Test_HMM_viterbi.v</ClosedNode>
+         <ClosedNode>/Test_HMM_viterbi Z:|FPGA|HMM-Viterbi|Test_HMM_viterbi.v</ClosedNode>
+         <ClosedNode>/Test_HMM_viterbi |work2|haruka|HMM-V|Test_HMM_viterbi.v</ClosedNode>
+         <ClosedNode>/Test_HMM_viterbi |work2|haruka|HMM-V|Test_HMM_viterbi.v/uut - HMM_viterbi</ClosedNode>
+         <ClosedNode>/Test_SPM0405HD4H C:|.Xilinx|HMM-Viterbi|src|Test_SPM0405HD4H.v</ClosedNode>
+         <ClosedNode>/Test_SPM0405HD4H C:|.Xilinx|haruka|HMM-V14|src|Test_SPM0405HD4H.v</ClosedNode>
+         <ClosedNode>/Test_SPM0405HD4H C:|Users|tslab-802-2|Desktop|newtest2|FPGA_project - backup1|DP_MFC|src|Test_SPM0405HD4H.v</ClosedNode>
+         <ClosedNode>/Test_SPM0405HD4H C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|src|Test_SPM0405HD4H.v</ClosedNode>
+         <ClosedNode>/Test_SPM0405HD4H D:|work|HMM-V14|src|Test_SPM0405HD4H.v</ClosedNode>
+         <ClosedNode>/Test_SPM0405HD4H Z:|Documents|FPGA|HMM-Viterbi|src|Test_SPM0405HD4H.v</ClosedNode>
+         <ClosedNode>/Test_SPM0405HD4H Z:|FPGA|HMM-Viterbi|src|Test_SPM0405HD4H.v</ClosedNode>
+         <ClosedNode>/Test_SPM0405HD4H |work2|haruka|HMM-V|src|Test_SPM0405HD4H.v</ClosedNode>
+         <ClosedNode>/Test_SPM0405HD4H |work2|haruka|HMM-V|src|Test_SPM0405HD4H.v/uut - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/Test_main_fpga C:|.Xilinx|HMM-Viterbi|src|Test_main_fpga.v</ClosedNode>
+         <ClosedNode>/Test_main_fpga C:|.Xilinx|haruka|HMM-V14|src|Test_main_fpga.v</ClosedNode>
+         <ClosedNode>/Test_main_fpga C:|Users|tslab-802-2|Desktop|newtest2|FPGA_project - backup1|DP_MFC|src|Test_main_fpga.v</ClosedNode>
+         <ClosedNode>/Test_main_fpga D:|work|HMM-V14|src|Test_main_fpga.v</ClosedNode>
+         <ClosedNode>/Test_main_fpga Z:|Documents|FPGA|HMM-Viterbi|src|Test_main_fpga.v</ClosedNode>
+         <ClosedNode>/Test_main_fpga Z:|FPGA|HMM-Viterbi|src|Test_main_fpga.v</ClosedNode>
+         <ClosedNode>/Test_main_fpga |work2|haruka|HMM-V|src|Test_main_fpga.v/uut - main</ClosedNode>
+         <ClosedNode>/Test_main_fpga |work2|haruka|HMM-V|src|Test_main_fpga.v/uut - main/HMM_viterbi - HMM_viterbi</ClosedNode>
+         <ClosedNode>/Test_main_fpga |work2|haruka|HMM-V|src|Test_main_fpga.v/uut - main/HMM_viterbi - HMM_viterbi/HMM - HMM</ClosedNode>
+         <ClosedNode>/Test_main_fpga |work2|haruka|HMM-V|src|Test_main_fpga.v/uut - main/HMM_viterbi - HMM_viterbi/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/Test_main_fpga |work2|haruka|HMM-V|src|Test_main_fpga.v/uut - main/HMM_viterbi - HMM_viterbi/gbHMM - gbHMM</ClosedNode>
+         <ClosedNode>/Test_main_fpga |work2|haruka|HMM-V|src|Test_main_fpga.v/uut - main/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/detect_NN |work2|haruka|HMM-V|src|detect_NN.v</ClosedNode>
+         <ClosedNode>/detect_NN |work2|haruka|HMM-V|src|detect_NN.v/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/gbHMM |work2|haruka|HMM-V|src|gbHMM.v</ClosedNode>
+         <ClosedNode>/main_DNN_DP C:|.Xilinx|HMM-Viterbi|main_DNN_DP.v/DP_main - DP_main</ClosedNode>
+         <ClosedNode>/main_DNN_DP C:|.Xilinx|HMM-Viterbi|main_DNN_DP.v/DP_main - DP_main/DP_matching - DP_matching</ClosedNode>
+         <ClosedNode>/main_DNN_DP C:|.Xilinx|HMM-Viterbi|main_DNN_DP.v/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/main_DNN_DP C:|.Xilinx|HMM-Viterbi|main_DNN_DP.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/main_DNN_DP C:|Users|tslab-802-2|Desktop|newtest2|FPGA_project - backup1|DP_MFC|main_DNN_DP.v</ClosedNode>
+         <ClosedNode>/main_DNN_DP C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|main_DNN_DP.v</ClosedNode>
+         <ClosedNode>/main_DP C:|.Xilinx|HMM-Viterbi|src|main_DP.v</ClosedNode>
+         <ClosedNode>/main_DP C:|.Xilinx|HMM-Viterbi|src|main_DP.v/DP_main - DP_main/DP_matching - DP_matching</ClosedNode>
+         <ClosedNode>/main_DP C:|.Xilinx|HMM-Viterbi|src|main_DP.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/main_DP C:|.Xilinx|HMM-Viterbi|src|main_HMM.v/DP_main - DP_main</ClosedNode>
+         <ClosedNode>/main_DP C:|.Xilinx|HMM-Viterbi|src|main_HMM.v/DP_main - DP_main/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/main_DP C:|.Xilinx|HMM-Viterbi|src|main_HMM.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/main_DP C:|Users|tslab-802-2|Desktop|newtest2|FPGA_project - backup1|DP_MFC|src|main_DP.v</ClosedNode>
+         <ClosedNode>/main_DP C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|src|main_DP.v</ClosedNode>
+         <ClosedNode>/main_DP Z:|Documents|FPGA|HMM-Viterbi|src|main_HMM.v</ClosedNode>
+         <ClosedNode>/main_DP Z:|FPGA|HMM-Viterbi|src|main_HMM.v/DP_main - DP_main</ClosedNode>
+         <ClosedNode>/main_DP Z:|FPGA|HMM-Viterbi|src|main_HMM.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/main_HMM C:|.Xilinx|haruka|HMM-V14|src|main_DNN.v</ClosedNode>
+         <ClosedNode>/main_HMM C:|.Xilinx|haruka|HMM-V14|src|main_HMM.v</ClosedNode>
+         <ClosedNode>/main_HMM C:|.Xilinx|haruka|HMM-V14|src|main_MFCC.v</ClosedNode>
+         <ClosedNode>/main_REC C:|.Xilinx|HMM-Viterbi|main_REC.v</ClosedNode>
+         <ClosedNode>/main_REC Z:|FPGA|HMM-Viterbi|main_REC.v</ClosedNode>
+         <ClosedNode>/makeSegment |work2|haruka|HMM-V|src|makesegment.v</ClosedNode>
+         <ClosedNode>/normalize C:|.Xilinx|HMM-Viterbi|normalize.v</ClosedNode>
+         <ClosedNode>/normalize C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|normalize.v</ClosedNode>
+         <ClosedNode>/sqrt C:|.Xilinx|HMM-Viterbi|sqrt.v</ClosedNode>
+         <ClosedNode>/tes_mac C:|.Xilinx|HMM-Viterbi|tes_mac.v</ClosedNode>
+         <ClosedNode>/tes_mac C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|tes_mac.v</ClosedNode>
+         <ClosedNode>/test_MFCC C:|.Xilinx|HMM-Viterbi|src|test_MFCC.v</ClosedNode>
+         <ClosedNode>/test_MFCC C:|.Xilinx|HMM-Viterbi|src|test_MFCC.v/uut - MFCCtest</ClosedNode>
+         <ClosedNode>/test_MFCC C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|src|test_MFCC.v</ClosedNode>
+         <ClosedNode>/test_bram1 C:|.Xilinx|HMM-Viterbi|test_bram1.v</ClosedNode>
+         <ClosedNode>/test_bram1 C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|test_bram1.v</ClosedNode>
+         <ClosedNode>/test_brom C:|.Xilinx|HMM-Viterbi|test_brom.v</ClosedNode>
+         <ClosedNode>/test_brom C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|test_brom.v</ClosedNode>
+         <ClosedNode>/test_clock C:|.Xilinx|HMM-Viterbi|src|test_clock.v</ClosedNode>
+         <ClosedNode>/test_clock C:|.Xilinx|haruka|HMM-V14|src|test_clock.v</ClosedNode>
+         <ClosedNode>/test_clock C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|src|test_clock.v</ClosedNode>
+         <ClosedNode>/test_clock Z:|Documents|FPGA|HMM-Viterbi|src|test_clock.v</ClosedNode>
+         <ClosedNode>/test_clock Z:|FPGA|HMM-Viterbi|src|test_clock.v</ClosedNode>
+         <ClosedNode>/test_clock |work2|haruka|HMM-V|src|test_clock.v</ClosedNode>
+         <ClosedNode>/test_div C:|.Xilinx|HMM-Viterbi|test_div.v</ClosedNode>
+         <ClosedNode>/test_div C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|test_div.v</ClosedNode>
+         <ClosedNode>/test_dnn C:|.Xilinx|HMM-Viterbi|test_dnn.v/uut - DNN_main</ClosedNode>
+         <ClosedNode>/test_dnn C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|test_dnn.v</ClosedNode>
+         <ClosedNode>/test_dnndp C:|.Xilinx|HMM-Viterbi|test_dnndp.v/DNN_main - DNN_main</ClosedNode>
+         <ClosedNode>/test_dnndp C:|.Xilinx|HMM-Viterbi|test_dnndp.v/uut - MFCC</ClosedNode>
+         <ClosedNode>/test_dnndp C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|test_dnndp.v</ClosedNode>
+         <ClosedNode>/test_dpmain C:|.Xilinx|HMM-Viterbi|test_dpmain.v</ClosedNode>
+         <ClosedNode>/test_dpmain C:|.Xilinx|HMM-Viterbi|test_dpmain.v/uut - DP_main</ClosedNode>
+         <ClosedNode>/test_dpmain C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|test_dpmain.v</ClosedNode>
+         <ClosedNode>/test_fft C:|.Xilinx|HMM-Viterbi|test_fft.v</ClosedNode>
+         <ClosedNode>/test_fft C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|test_fft.v</ClosedNode>
+         <ClosedNode>/test_multi C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|test_multi.v</ClosedNode>
+         <ClosedNode>/test_norm C:|.Xilinx|HMM-Viterbi|test_norm.v</ClosedNode>
+         <ClosedNode>/test_norm C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|test_norm.v</ClosedNode>
+         <ClosedNode>/test_sigmoid C:|.Xilinx|HMM-Viterbi|test_sigmoid.v</ClosedNode>
+         <ClosedNode>/test_sigmoid C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|test_sigmoid.v</ClosedNode>
+         <ClosedNode>/test_softmax C:|.Xilinx|HMM-Viterbi|test_softmax.v</ClosedNode>
+         <ClosedNode>/test_softmax C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|test_softmax.v</ClosedNode>
+         <ClosedNode>/test_sqrt C:|.Xilinx|HMM-Viterbi|test_sqrt.v</ClosedNode>
+         <ClosedNode>/test_sqrt C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|DP_MFC|test_sqrt.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>NEWDNNTEST (C:/Users/tslab-802-2/Desktop/newtest2/FPGA_project - backup1/DP_MFC/NEWDNNTEST.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001b3000000020000000000000000000000000200000064ffffffff000000810000000300000002000001b30000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>NEWDNNTEST (C:/Users/tslab-802-2/Desktop/newtest2/FPGA_project - backup1/DP_MFC/NEWDNNTEST.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013b000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013b0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013b000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013b0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000b7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000b70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013b000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013b0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001d2000001a101000000060100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013b000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013b0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000092000000010000000100000000000000000000000064ffffffff000000810000000000000001000000920000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_CDC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000225000000010000000100000000000000000000000064ffffffff000000810000000000000001000002250000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

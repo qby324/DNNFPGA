@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/work2/haruka/HMM-V/Test_main_fpga_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Test_main_fpga" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/Test_main_fpga/sclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sclk</obj_property>
+      <obj_property name="ObjectShortName">sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_main_fpga/led1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">led1</obj_property>
+      <obj_property name="ObjectShortName">led1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_main_fpga/led2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">led2</obj_property>
+      <obj_property name="ObjectShortName">led2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_main_fpga/led3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">led3</obj_property>
+      <obj_property name="ObjectShortName">led3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_main_fpga/beep" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">beep</obj_property>
+      <obj_property name="ObjectShortName">beep</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_main_fpga/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_main_fpga/dat_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dat_i</obj_property>
+      <obj_property name="ObjectShortName">dat_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="group45" type="group">
+      <obj_property name="label">uut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Test_main_fpga/uut/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/dat_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">dat_i</obj_property>
+         <obj_property name="ObjectShortName">dat_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/clk_2MHz" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk_2MHz</obj_property>
+         <obj_property name="ObjectShortName">clk_2MHz</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/clk_100Hz" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk_100Hz</obj_property>
+         <obj_property name="ObjectShortName">clk_100Hz</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/clk_5Hz" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk_5Hz</obj_property>
+         <obj_property name="ObjectShortName">clk_5Hz</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/clk_1Hz" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk_1Hz</obj_property>
+         <obj_property name="ObjectShortName">clk_1Hz</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/SPM0405HD4H_dv" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">SPM0405HD4H_dv</obj_property>
+         <obj_property name="ObjectShortName">SPM0405HD4H_dv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/dat_o" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dat_o[15:0]</obj_property>
+         <obj_property name="ObjectShortName">dat_o[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/dv" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">dv</obj_property>
+         <obj_property name="ObjectShortName">dv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/active_frame" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">active_frame</obj_property>
+         <obj_property name="ObjectShortName">active_frame</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/sclk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sclk</obj_property>
+         <obj_property name="ObjectShortName">sclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/led1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">led1</obj_property>
+         <obj_property name="ObjectShortName">led1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/led2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">led2</obj_property>
+         <obj_property name="ObjectShortName">led2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/led3" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">led3</obj_property>
+         <obj_property name="ObjectShortName">led3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/beep" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">beep</obj_property>
+         <obj_property name="ObjectShortName">beep</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/reset" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/counter" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">counter[15:0]</obj_property>
+         <obj_property name="ObjectShortName">counter[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/beep_start" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">beep_start</obj_property>
+         <obj_property name="ObjectShortName">beep_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/dat_o2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dat_o2[255:0]</obj_property>
+         <obj_property name="ObjectShortName">dat_o2[255:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/dat_o3" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dat_o3[255:0]</obj_property>
+         <obj_property name="ObjectShortName">dat_o3[255:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">i[20:0]</obj_property>
+         <obj_property name="ObjectShortName">i[20:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/j" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">j[20:0]</obj_property>
+         <obj_property name="ObjectShortName">j[20:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/max" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">max</obj_property>
+         <obj_property name="ObjectShortName">max</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/_beforedv" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">_beforedv</obj_property>
+         <obj_property name="ObjectShortName">_beforedv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/_beforei" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">_beforei[20:0]</obj_property>
+         <obj_property name="ObjectShortName">_beforei[20:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/before_SPM0405HD4H_dv" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">before_SPM0405HD4H_dv</obj_property>
+         <obj_property name="ObjectShortName">before_SPM0405HD4H_dv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/DATWIDTH" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">DATWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DATWIDTH[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/BWIDTH" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">BWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BWIDTH[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/QBIT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">QBIT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">QBIT[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group57" type="group">
+      <obj_property name="label">NN</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group192" type="group">
+      <obj_property name="label">MFCC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="group3047" type="group">
+         <obj_property name="label">Ring</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="group1732" type="group">
+         <obj_property name="label">MFB</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="group1022" type="group">
+         <obj_property name="label">HAM</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="group1023" type="group">
+         <obj_property name="label">DCT</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="group1024" type="group">
+         <obj_property name="label">Lift</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="group1025" type="group">
+         <obj_property name="label">Pick</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="group1020" type="group">
+         <obj_property name="label">SMULT</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1021" type="group">
+      <obj_property name="label">FFT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group1026" type="group">
+      <obj_property name="label">CS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group218" type="group">
+      <obj_property name="label">recog</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group229" type="group">
+      <obj_property name="label">ring</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group619" type="group">
+      <obj_property name="label">frame</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group240" type="group">
+      <obj_property name="label">ham</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group1557" type="group">
+      <obj_property name="label">BRAM_MFCC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group1624" type="group">
+      <obj_property name="label">FB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group1691" type="group">
+      <obj_property name="label">fft_po</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group1999" type="group">
+      <obj_property name="label">fft_re</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group2010" type="group">
+      <obj_property name="label">fft_im</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group3352" type="group">
+      <obj_property name="label">HMM-Viterbi</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/reset" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/x_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">x_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/write" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">write</obj_property>
+         <obj_property name="ObjectShortName">write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/result_dv" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">result_dv</obj_property>
+         <obj_property name="ObjectShortName">result_dv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/result" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">result</obj_property>
+         <obj_property name="ObjectShortName">result</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/x_o" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">x_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/dv" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">dv</obj_property>
+         <obj_property name="ObjectShortName">dv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/x_index" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">x_index[4:0]</obj_property>
+         <obj_property name="ObjectShortName">x_index[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/hmm_load1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">hmm_load1</obj_property>
+         <obj_property name="ObjectShortName">hmm_load1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/hmm_done1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">hmm_done1</obj_property>
+         <obj_property name="ObjectShortName">hmm_done1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/ll_dv1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ll_dv1</obj_property>
+         <obj_property name="ObjectShortName">ll_dv1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/ll1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ll1[63:0]</obj_property>
+         <obj_property name="ObjectShortName">ll1[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/hmm_load2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">hmm_load2</obj_property>
+         <obj_property name="ObjectShortName">hmm_load2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/hmm_done2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">hmm_done2</obj_property>
+         <obj_property name="ObjectShortName">hmm_done2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/ll_dv2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ll_dv2</obj_property>
+         <obj_property name="ObjectShortName">ll_dv2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/ll2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ll2[63:0]</obj_property>
+         <obj_property name="ObjectShortName">ll2[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/x_a" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">x_a[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x_a[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/align_dv" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">align_dv</obj_property>
+         <obj_property name="ObjectShortName">align_dv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/align_done" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">align_done</obj_property>
+         <obj_property name="ObjectShortName">align_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi_write" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">viterbi_write</obj_property>
+         <obj_property name="ObjectShortName">viterbi_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi_busy" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">viterbi_busy</obj_property>
+         <obj_property name="ObjectShortName">viterbi_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi_dv" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">viterbi_dv</obj_property>
+         <obj_property name="ObjectShortName">viterbi_dv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi_result" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">viterbi_result</obj_property>
+         <obj_property name="ObjectShortName">viterbi_result</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/hmm_start" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">hmm_start</obj_property>
+         <obj_property name="ObjectShortName">hmm_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/hmm_pop1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">hmm_pop1</obj_property>
+         <obj_property name="ObjectShortName">hmm_pop1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/hmm_pop2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">hmm_pop2</obj_property>
+         <obj_property name="ObjectShortName">hmm_pop2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi_start" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">viterbi_start</obj_property>
+         <obj_property name="ObjectShortName">viterbi_start</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group3380" type="group">
+      <obj_property name="label">viterbi</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/reset" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/start" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/x_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">x_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/write" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">write</obj_property>
+         <obj_property name="ObjectShortName">write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/busy" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">busy</obj_property>
+         <obj_property name="ObjectShortName">busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/dv" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">dv</obj_property>
+         <obj_property name="ObjectShortName">dv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/result" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">result</obj_property>
+         <obj_property name="ObjectShortName">result</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/node1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">node1[0:31,0:15,31:0]</obj_property>
+         <obj_property name="ObjectShortName">node1[0:31,0:15,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/branch1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">branch1[0:31,0:15]</obj_property>
+         <obj_property name="ObjectShortName">branch1[0:31,0:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/addr_state1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">addr_state1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_state1[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/node2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">node2[0:31,0:15,31:0]</obj_property>
+         <obj_property name="ObjectShortName">node2[0:31,0:15,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/branch2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">branch2[0:31,0:15]</obj_property>
+         <obj_property name="ObjectShortName">branch2[0:31,0:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/addr_state2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">addr_state2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_state2[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/addr_band" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">addr_band[4:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_band[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/addr_band_now" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">addr_band_now[4:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_band_now[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/process" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">process[4:0]</obj_property>
+         <obj_property name="ObjectShortName">process[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/tmp1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">tmp1[63:0]</obj_property>
+         <obj_property name="ObjectShortName">tmp1[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/tmp2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">tmp2[63:0]</obj_property>
+         <obj_property name="ObjectShortName">tmp2[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/TRANS1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">TRANS1[0:15,0:15,15:0]</obj_property>
+         <obj_property name="ObjectShortName">TRANS1[0:15,0:15,15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/TRANS2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">TRANS2[0:15,0:15,15:0]</obj_property>
+         <obj_property name="ObjectShortName">TRANS2[0:15,0:15,15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/state_cnt" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">state_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">state_cnt[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/band_cnt" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">band_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">band_cnt[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/j" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">j[31:0]</obj_property>
+         <obj_property name="ObjectShortName">j[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/STATE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">STATE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">STATE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/viterbi/BAND" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">BAND[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BAND[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group3394" type="group">
+      <obj_property name="label">align</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/align/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/align/x_i1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">x_i1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x_i1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/align/x_i2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">x_i2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x_i2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/align/write" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">write</obj_property>
+         <obj_property name="ObjectShortName">write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/align/x_o" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">x_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/align/dv" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">dv</obj_property>
+         <obj_property name="ObjectShortName">dv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/align/done" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/align/switch" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">switch</obj_property>
+         <obj_property name="ObjectShortName">switch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/align/pos" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">pos[4:0]</obj_property>
+         <obj_property name="ObjectShortName">pos[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/align/rom1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rom1[0:15,31:0]</obj_property>
+         <obj_property name="ObjectShortName">rom1[0:15,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/align/rom2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rom2[0:15,31:0]</obj_property>
+         <obj_property name="ObjectShortName">rom2[0:15,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/align/i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/HMM_viterbi/align/ROMSIZE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ROMSIZE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ROMSIZE[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

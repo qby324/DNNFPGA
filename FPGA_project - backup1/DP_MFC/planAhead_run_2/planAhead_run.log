@@ -1,0 +1,171 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -6 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/pa.fromHdl.tcl}
+# create_project -name WordDetect -dir "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/planAhead_run_2" -part xc6slx45csg324-2
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "main_DNN_DP.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/main_DNN_DP.ucf' to fileset 'constrs_1'
+# add_files [list {ipcore_dir/FFT_16kHz.ngc}]
+# add_files [list {../MFC_REC/ipcore_dir/BROM.ngc}]
+# set hdlfile [add_files [list {src/DP_distance.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {DP_multi.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../MFC_REC/ipcore_dir/BROM.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {src/vad.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {src/SMULTI.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {src/MEMS_Filter.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {src/log2_10bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {src/DP_matching.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {sigmoid.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/multiplier.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/MultAccum.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/FFT_16kHz.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/BRAM_node.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/BRAM_input.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {BRAM.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {src/SPM0405HD4H.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {src/MFCC.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {src/DP_main.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {src/clock_divide.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {DNN_0117.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {main_DNN_DP.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# add_files [list {ipcore_dir/BRAM_input.ngc}]
+# add_files [list {ipcore_dir/BRAM_node.ngc}]
+# add_files [list {ipcore_dir/MultAccum.ngc}]
+# add_files [list {ipcore_dir/multiplier.ngc}]
+# set_property top main_DNN_DP $srcset
+# add_files [list {main_DNN_DP.ucf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/BRAM_input.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/BRAM_node.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/div_gen_v4_0.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/FFT_16kHz.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/FFT_8kHz.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/MultAccum.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/multiplier.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {../MFC_REC/ipcore_dir/BROM.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {../MFC_REC/ipcore_dir/FFT_16kHz.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {../MFC_REC/ipcore_dir/voice.ncf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx45csg324-2
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/DP_distance.v" into library work
+Parsing verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/tpl/aka_template.dnn" included at line 96. [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/DP_distance.v:96]
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/DP_multi.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/ipcore_dir/BROM.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/vad.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/SMULTI.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/MEMS_Filter.v" into library work
+Parsing verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/mic_coef.dat" included at line 143. [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/MEMS_Filter.v:143]
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/log2_10bit.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/DP_matching.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/sigmoid.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/ipcore_dir/multiplier.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/ipcore_dir/MultAccum.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/ipcore_dir/FFT_16kHz.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/ipcore_dir/BRAM_node.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/ipcore_dir/BRAM_input.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/BRAM.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/SPM0405HD4H.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/MFCC.v" into library work
+Parsing verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/register.v" included at line 29. [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/MFCC.v:29]
+Parsing verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/ringbuffer.v" included at line 47. [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/MFCC.v:47]
+Parsing verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/hamwin.v" included at line 52. [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/MFCC.v:52]
+Parsing verilog file "src/ham16khz.dat" included at line 6. [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/hamwin.v:6]
+Parsing verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/fft_use.v" included at line 56. [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/MFCC.v:56]
+Parsing verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/fft_power.v" included at line 60. [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/MFCC.v:60]
+Parsing verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/MFB.v" included at line 64. [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/MFCC.v:64]
+Parsing verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/DCT.v" included at line 68. [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/MFCC.v:68]
+Parsing verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/pick.v" included at line 72. [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/MFCC.v:72]
+Parsing verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/liftering.v" included at line 76. [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/MFCC.v:76]
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/DP_main.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/src/clock_divide.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/DNN_0117.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/main_DNN_DP.v" into library work
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design FFT_16kHz.ngc ...
+WARNING:NetListWriters:298 - No output is written to FFT_16kHz.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file FFT_16kHz.edif ...
+ngc2edif: Total memory usage is 94640 kilobytes
+
+Reading core file 'C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/ipcore_dir/FFT_16kHz.ngc' for (cell view 'FFT_16kHz', library 'work', file 'FFT_16kHz.v')
+Parsing EDIF File [./.Xil/PlanAhead-8464-DESKTOP-CQ3EHDM/ngc2edif/FFT_16kHz.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-8464-DESKTOP-CQ3EHDM/ngc2edif/FFT_16kHz.edif]
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design BROM.ngc ...
+WARNING:NetListWriters:298 - No output is written to BROM.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file BROM.edif ...
+ngc2edif: Total memory usage is 86448 kilobytes
+
+Reading core file 'C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/ipcore_dir/BROM.ngc' for (cell view 'BROM', library 'work', file 'BROM.v')
+Parsing EDIF File [./.Xil/PlanAhead-8464-DESKTOP-CQ3EHDM/ngc2edif/BROM.edif]
+open_rtl_design: Time (s): elapsed = 00:00:13 . Memory (MB): peak = 654.066 ; gain = 232.207
+INFO: [Common 17-344] 'open_rtl_design' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+update_compile_order -fileset sim_1
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Fri Jan 06 19:22:04 2017...
+INFO: [Common 17-83] Releasing license: PlanAhead

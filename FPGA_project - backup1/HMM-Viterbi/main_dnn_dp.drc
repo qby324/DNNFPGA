@@ -1,0 +1,148 @@
+Release 14.7 Drc P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+FRI 23 JAN 17:36:26 2015
+
+drc -z main_DNN_DP.ncd main_DNN_DP.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net icon_control0<13> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_len_162_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_vmove_131_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_vmove_122_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_hmove_022_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_vmove_121_RAMA_DPO> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_vmove_121_RAMB_DPO> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_vmove_121_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_len_042_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_len_132_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_hmove_122_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_len_041_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_len_021_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_len_022_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_len_131_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_143_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_152_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_hmove_021_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_hmove_121_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_145_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_144_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_148_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_032_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_146_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_153_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_158_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_155_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_031_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_038_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_036_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_157_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_147_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_len_161_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_035_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_141_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_154_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_034_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_033_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_151_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_142_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_156_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_037_RAMD_O> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/DP_distance/Mram_vec13_RAMD_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/DP_distance/Mram_vec11_RAMD_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/DP_distance/Mram_vec12_RAMD_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:2410 - This design is using one or more 9K Block RAMs
+   (RAMB8BWER).  9K Block RAM initialization data, both user defined and
+   default, may be incorrect and should not be used.  For more information,
+   please reference Xilinx Answer Record 39999.
+DRC detected 0 errors and 46 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

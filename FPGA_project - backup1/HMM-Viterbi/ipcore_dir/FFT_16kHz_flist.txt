@@ -1,0 +1,15 @@
+# Output products list for <FFT_16kHz>
+FFT_16kHz.asy
+FFT_16kHz.gise
+FFT_16kHz.ngc
+FFT_16kHz.sym
+FFT_16kHz.v
+FFT_16kHz.veo
+FFT_16kHz.xco
+FFT_16kHz.xise
+FFT_16kHz\doc\xfft_ds260.pdf
+FFT_16kHz\doc\xfft_v7_1_readme.txt
+FFT_16kHz\doc\xfft_v7_1_vinfo.html
+FFT_16kHz_flist.txt
+FFT_16kHz_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

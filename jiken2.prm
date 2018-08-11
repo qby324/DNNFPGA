@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o C:\Users\tslab-802-2\Desktop\jiken2//jiken2 -s 2048 -u 0000 "C:/Users/tslab-802-2/Desktop/jiken2/FPGA_project - backup1/DP_MFC/main_dnn_dp_cclktemp.bit" -spi 
+
+PROM C:\Users\tslab-802-2\Desktop\jiken2\jiken2.prm map: WED 12 APR 20:10:7 2017
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          2048K
+PROM start    0000:0000
+PROM end      001f:ffff
+PROM checksum 0a65224f
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0016:a9b3     Apr 12 20:10:04 2017 C:/Users/tslab-802-2/Desktop/jiken2/FPGA_project - backup1/DP_MFC/main_dnn_dp_cclktemp.bit

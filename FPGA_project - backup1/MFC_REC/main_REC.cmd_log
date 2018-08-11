@@ -1,0 +1,327 @@
+xst -intstyle ise -ifn "Z:/Documents/FPGA/MFC_REC/main_REC.xst" -ofn "Z:/Documents/FPGA/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/MFC_REC/main_REC.xst" -ofn "Z:/Documents/FPGA/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/MFC_REC/main_REC.xst" -ofn "Z:/Documents/FPGA/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/MFC_REC/main_REC.xst" -ofn "Z:/Documents/FPGA/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/MFC_REC/main_REC.xst" -ofn "Z:/Documents/FPGA/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/MFC_REC/main_REC.xst" -ofn "Z:/Documents/FPGA/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/MFC_REC/main_REC.xst" -ofn "Z:/Documents/FPGA/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/MFC_REC/main_REC.xst" -ofn "Z:/Documents/FPGA/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/MFC_REC/main_REC.xst" -ofn "Z:/Documents/FPGA/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "Z:/FPGA/MFC_REC/main_REC.xst" -ofn "Z:/FPGA/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "Z:/FPGA/MFC_REC/main_REC.xst" -ofn "Z:/FPGA/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "Z:/FPGA/MFC_REC/main_REC.xst" -ofn "Z:/FPGA/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "Z:/FPGA/MFC_REC/main_REC.xst" -ofn "Z:/FPGA/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -i -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/main_REC.xst" -ofn "C:/.Xilinx/MFC_REC/main_REC.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -i -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -i -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 main_REC_cs.ngc main_REC.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o main_REC_map.ncd main_REC.ngd main_REC.pcf 
+par -w -intstyle ise -ol high -mt off main_REC_map.ncd main_REC.ncd main_REC.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_REC.twx main_REC.ncd -o main_REC.twr main_REC.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f main_REC.ut main_REC.ncd 

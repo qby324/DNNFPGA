@@ -1,0 +1,256 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/.Xilinx/HMM-Viterbi/testsig2_isim_beh.exe -prj C:/.Xilinx/HMM-Viterbi/testsig2_beh.prj work.testsig2 work.glbl -mt on -v 1 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Determining compilation order of HDL files
+INFO:Simulator:958 - Library Mapping: Sourcing library mapping file "C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt/xilinxsim.ini"
+The vhdl library search path for library \"std\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/std\"
+The veri library search path for library \"std\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/std\"
+The vhdl library search path for library \"ieee\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/ieee\"
+The veri library search path for library \"ieee\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/ieee\"
+The vhdl library search path for library \"ieee_proposed\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/ieee_proposed\"
+The veri library search path for library \"ieee_proposed\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/ieee_proposed\"
+The vhdl library search path for library \"vl\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/vl\"
+The veri library search path for library \"vl\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/vl\"
+The vhdl library search path for library \"synopsys\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/synopsys\"
+The veri library search path for library \"synopsys\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/synopsys\"
+The vhdl library search path for library \"simprim\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/simprim\"
+The veri library search path for library \"simprim\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/simprim\"
+The vhdl library search path for library \"unisim\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/unisim\"
+The veri library search path for library \"unisim\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/unisim\"
+The vhdl library search path for library \"unimacro\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/unimacro\"
+The veri library search path for library \"unimacro\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/unimacro\"
+The vhdl library search path for library \"aim\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/aim\"
+The veri library search path for library \"aim\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/aim\"
+The vhdl library search path for library \"cpld\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/cpld\"
+The veri library search path for library \"cpld\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/cpld\"
+The vhdl library search path for library \"pls\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/pls\"
+The veri library search path for library \"pls\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/pls\"
+The vhdl library search path for library \"xilinxcorelib\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/xilinxcorelib\"
+The veri library search path for library \"xilinxcorelib\" is now \"c:/xilinx/14.7/ise_ds/ise/vhdl/hdp/nt/xilinxcorelib\"
+The vhdl library search path for library \"aim_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/aim_ver\"
+The veri library search path for library \"aim_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/aim_ver\"
+The vhdl library search path for library \"cpld_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/cpld_ver\"
+The veri library search path for library \"cpld_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/cpld_ver\"
+The vhdl library search path for library \"simprims_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/simprims_ver\"
+The veri library search path for library \"simprims_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/simprims_ver\"
+The vhdl library search path for library \"unisims_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/unisims_ver\"
+The veri library search path for library \"unisims_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/unisims_ver\"
+The vhdl library search path for library \"uni9000_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/uni9000_ver\"
+The veri library search path for library \"uni9000_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/uni9000_ver\"
+The vhdl library search path for library \"unimacro_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/unimacro_ver\"
+The veri library search path for library \"unimacro_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/unimacro_ver\"
+The vhdl library search path for library \"xilinxcorelib_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/xilinxcorelib_ver\"
+The veri library search path for library \"xilinxcorelib_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/xilinxcorelib_ver\"
+The vhdl library search path for library \"secureip\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/xip/secureip\"
+The veri library search path for library \"secureip\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/xip/secureip\"
+INFO:Simulator:958 - Library Mapping: Sourcing library mapping file "xilinxsim.ini"
+The vhdl library search path for library \"work\" is now \"c:/.xilinx/hmm-viterbi/isim/work\"
+The veri library search path for library \"work\" is now \"c:/.xilinx/hmm-viterbi/isim/work\"
+The vhdl library search path for library \"unisims_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/unisims_ver\"
+The veri library search path for library \"unisims_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/unisims_ver\"
+The vhdl library search path for library \"unimacro_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/unimacro_ver\"
+The veri library search path for library \"unimacro_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/unimacro_ver\"
+The vhdl library search path for library \"xilinxcorelib_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/xilinxcorelib_ver\"
+The veri library search path for library \"xilinxcorelib_ver\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/xilinxcorelib_ver\"
+The vhdl library search path for library \"secureip\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/xip/secureip\"
+The veri library search path for library \"secureip\" is now \"c:/xilinx/14.7/ise_ds/ise/verilog/hdp/nt/xip/secureip\"
+
+-- Dumping Relevant Parameters
+XILINX = C:\Xilinx\14.7\ISE_DS\ISE\
+PATH = C:\Xilinx\14.7\ISE_DS\ISE\\lib\nt;C:\Xilinx\14.7\ISE_DS\ISE\\bin\nt;C:\Xilinx\14.7\ISE_DS\ISE\bin\nt;C:\Xilinx\14.7\ISE_DS\ISE\lib\nt;C:\Xilinx\14.7\ISE_DS\ISE\..\..\..\DocNav;C:\Xilinx\14.7\ISE_DS\PlanAhead\bin;C:\Xilinx\14.7\ISE_DS\EDK\bin\nt;C:\Xilinx\14.7\ISE_DS\EDK\lib\nt;C:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin;C:\Xilinx\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;C:\Xilinx\14.7\ISE_DS\EDK\gnuwin\bin;C:\Xilinx\14.7\ISE_DS\EDK\gnu\arm\nt\bin;C:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt_be\bin;C:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt_le\bin;C:\Xilinx\14.7\ISE_DS\common\bin\nt;C:\Xilinx\14.7\ISE_DS\common\lib\nt;C:\Program Files\Parallels\Parallels Tools\Applications;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+CWD = C:/.Xilinx/HMM-Viterbi
+GCC = C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe
+-- Done dumping Relevant Parameters
+
+-- Dumping System Information
+release = 5.1 Service Pack 3
+machine = x86
+-- Done dumping System Information
+
+-- Dumping Loaded Modules
+C:\WINDOWS\System32\NETRAP.dll
+C:\WINDOWS\System32\NETUI0.dll
+C:\WINDOWS\System32\NETUI1.dll
+C:\WINDOWS\System32\SAMLIB.dll
+C:\WINDOWS\System32\davclnt.dll
+C:\WINDOWS\System32\drprov.dll
+C:\WINDOWS\System32\ntlanman.dll
+C:\WINDOWS\System32\prl_np.dll
+C:\WINDOWS\WinSxS\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.30729.6161_x-ww_31a54e43\MSVCP90.dll
+C:\WINDOWS\WinSxS\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.30729.6161_x-ww_31a54e43\MSVCR90.dll
+C:\WINDOWS\system32\ADVAPI32.dll
+C:\WINDOWS\system32\GDI32.dll
+C:\WINDOWS\system32\IMM32.DLL
+C:\WINDOWS\system32\LPK.DLL
+C:\WINDOWS\system32\MPR.dll
+C:\WINDOWS\system32\NETAPI32.dll
+C:\WINDOWS\system32\PSAPI.DLL
+C:\WINDOWS\system32\RPCRT4.dll
+C:\WINDOWS\system32\Secur32.dll
+C:\WINDOWS\system32\USER32.dll
+C:\WINDOWS\system32\USP10.dll
+C:\WINDOWS\system32\VERSION.dll
+C:\WINDOWS\system32\WS2HELP.dll
+C:\WINDOWS\system32\WS2_32.dll
+C:\WINDOWS\system32\WSOCK32.dll
+C:\WINDOWS\system32\dbghelp.dll
+C:\WINDOWS\system32\kernel32.dll
+C:\WINDOWS\system32\msvcrt.dll
+C:\WINDOWS\system32\ntdll.dll
+C:\WINDOWS\system32\ole32.dll
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\LIBBZ2.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\SHSMP.DLL
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\boost_date_time-vc90-mt-p-1_38.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\boost_filesystem-vc90-mt-p-1_38.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\boost_iostreams-vc90-mt-p-1_38.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\boost_program_options-vc90-mt-p-1_38.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\boost_regex-vc90-mt-p-1_38.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\boost_system-vc90-mt-p-1_38.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\boost_thread-vc90-mt-p-1_38.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\boost_zlib-vc90-mt-p-1_38.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\libICR.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\libMiniZip.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\libPersonalityModule.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\libPort_Std.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\libPortability.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\libPrjrep_Clientac.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\libStaticFileParsers.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\libThread.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\libUtilC_MessageDispatcher.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\libUtilities.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\libVrfc_Verific.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\libVrfc_Vhdl_Sort.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\libZlib.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\libisl_iostreams.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\libpthread.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\libxercesc.dll
+C:\Xilinx\14.7\ISE_DS\ISE\lib\nt\stlport.5.1.dll
+-- Done dumping Loaded Modules
+
+-- Dumping library mapping
+aim=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt/aim
+aim_ver=C:/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/nt/aim_ver
+cpld=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt/cpld
+cpld_ver=C:/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/nt/cpld_ver
+ieee=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt/ieee
+ieee_proposed=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt/ieee_proposed
+pls=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt/pls
+secureip=C:/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/nt/xip/secureip
+simprim=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt/simprim
+simprims_ver=C:/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/nt/simprims_ver
+std=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt/std
+synopsys=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt/synopsys
+uni9000_ver=C:/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/nt/uni9000_ver
+unimacro=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt/unimacro
+unimacro_ver=C:/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/nt/unimacro_ver
+unisim=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt/unisim
+unisims_ver=C:/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/nt/unisims_ver
+vl=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt/vl
+work=isim/work
+xilinxcorelib=C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt/xilinxcorelib
+xilinxcorelib_ver=C:/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/nt/xilinxcorelib_ver
+-- Done dumping library mapping
+
+Analyzing Verilog file "C:/.Xilinx/HMM-Viterbi/ipcore_dir/sig_mulA.v" into library work
+Parsing module <sig_mulA>.
+Parsing module <glbl>.
+Analyzing Verilog file "C:/.Xilinx/HMM-Viterbi/ipcore_dir/sig_mulB.v" into library work
+Parsing module <sig_mulB>.
+Parsing module <glbl>.
+WARNING:HDLCompiler:687 - "C:/.Xilinx/HMM-Viterbi/ipcore_dir/sig_mulB.v" Line 17280: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "C:/.Xilinx/HMM-Viterbi/ipcore_dir/sig_mulC.v" into library work
+Parsing module <sig_mulC>.
+Parsing module <glbl>.
+WARNING:HDLCompiler:687 - "C:/.Xilinx/HMM-Viterbi/ipcore_dir/sig_mulC.v" Line 5521: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "C:/.Xilinx/HMM-Viterbi/sigmoid2.v" into library work
+Parsing module <sigmoid2>.
+Analyzing Verilog file "C:/.Xilinx/HMM-Viterbi/testsig2.v" into library work
+Parsing module <testsig2>.
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing module <glbl>.
+WARNING:HDLCompiler:687 - "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module <glbl>.
+Starting static elaboration
+
+Elaborating module <testsig2>.
+
+Elaborating module <glbl>.
+WARNING:HDLCompiler:189 - "C:/.Xilinx/HMM-Viterbi/sigmoid2.v" Line 42: Size mismatch in connection of port <a>. Formal port size is 27-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/.Xilinx/HMM-Viterbi/sigmoid2.v" Line 48: Size mismatch in connection of port <a>. Formal port size is 27-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/.Xilinx/HMM-Viterbi/sigmoid2.v" Line 49: Size mismatch in connection of port <b>. Formal port size is 27-bit while actual signal size is 32-bit.
+Completed static elaboration
+Fuse Memory Usage: 69396 KB
+Fuse CPU Usage: 515 ms
+Compiling module FDE - m_00000000003405408344_3841093685
+Compiling isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000003405408344_3841093685.c to isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000003405408344_3841093685.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000003405408344_3841093685.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000003405408344_3841093685.c"
+Compiling module SRLC16E - m_00000000004221170615_0679316750
+Compiling isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000004221170615_0679316750.c to isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000004221170615_0679316750.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000004221170615_0679316750.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000004221170615_0679316750.c"
+Compiling module LUT1(INIT=2'b10) - m_00000000002444920515_2091797430
+Compiling isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000002444920515_2091797430.c to isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000002444920515_2091797430.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000002444920515_2091797430.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000002444920515_2091797430.c"
+Compiling module LUT2(INIT=4'b0110) - m_00000000001773747898_2336946039
+Compiling isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000001773747898_2336946039.c to isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000001773747898_2336946039.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000001773747898_2336946039.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000001773747898_2336946039.c"
+Compiling module MUXCY - m_00000000003848737514_1058825862
+Compiling isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000003848737514_1058825862.c to isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000003848737514_1058825862.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000003848737514_1058825862.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000003848737514_1058825862.c"
+Compiling module XORCY - m_00000000000909115699_2771340377
+Compiling isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000000909115699_2771340377.c to isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000000909115699_2771340377.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000000909115699_2771340377.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000000909115699_2771340377.c"
+Compiling module FDRE - m_00000000002601448656_3367321443
+Compiling isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000002601448656_3367321443.c to isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000002601448656_3367321443.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000002601448656_3367321443.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000002601448656_3367321443.c"
+Compiling module SRL16E - m_00000000001602338581_1699826087
+Compiling isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000001602338581_1699826087.c to isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000001602338581_1699826087.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000001602338581_1699826087.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000001602338581_1699826087.c"
+Compiling module RAM64X1S(INIT=64'b01011010010110... - m_00000000000053605399_3167948275
+Compiling isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000000053605399_3167948275.c to isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000000053605399_3167948275.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000000053605399_3167948275.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000000053605399_3167948275.c"
+Compiling module GND - m_00000000003317509437_1759035934
+Compiling isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000003317509437_1759035934.c to isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000003317509437_1759035934.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000003317509437_1759035934.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000003317509437_1759035934.c"
+Compiling module sig_mulA - m_00000000000910693073_0323171264
+Compiling isim/testsig2_isim_beh.exe.sim/work/m_00000000000910693073_0323171264.c to isim/testsig2_isim_beh.exe.sim/work/m_00000000000910693073_0323171264.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/work/m_00000000000910693073_0323171264.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/work/m_00000000000910693073_0323171264.c"
+Compiling module LUT3(INIT=8'b01101010) - m_00000000001108370118_2687523668
+Compiling isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000001108370118_2687523668.c to isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000001108370118_2687523668.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000001108370118_2687523668.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000001108370118_2687523668.c"
+Compiling module LUT4(INIT=16'b0111100010001000) - m_00000000001784029001_1343423062
+Compiling isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000001784029001_1343423062.c to isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000001784029001_1343423062.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000001784029001_1343423062.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000001784029001_1343423062.c"
+Compiling module DSP48A1(A0REG=1,B0REG=1,CARRYINR... - m_00000000000073490608_4124707373
+Compiling isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000000073490608_4124707373.c to isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000000073490608_4124707373.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000000073490608_4124707373.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000000073490608_4124707373.c"
+Compiling module MULT_AND - m_00000000000129589818_1491383940
+Compiling isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000000129589818_1491383940.c to isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000000129589818_1491383940.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000000129589818_1491383940.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000000129589818_1491383940.c"
+Compiling module VCC - m_00000000003927721830_1593237687
+Compiling isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000003927721830_1593237687.c to isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000003927721830_1593237687.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000003927721830_1593237687.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000003927721830_1593237687.c"
+Compiling module sig_mulB - m_00000000003468947932_2320130682
+Compiling isim/testsig2_isim_beh.exe.sim/work/m_00000000003468947932_2320130682.c to isim/testsig2_isim_beh.exe.sim/work/m_00000000003468947932_2320130682.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/work/m_00000000003468947932_2320130682.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/work/m_00000000003468947932_2320130682.c"
+Compiling module sig_mulC - m_00000000000603797011_4249703148
+Compiling isim/testsig2_isim_beh.exe.sim/work/m_00000000000603797011_4249703148.c to isim/testsig2_isim_beh.exe.sim/work/m_00000000000603797011_4249703148.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/work/m_00000000000603797011_4249703148.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/work/m_00000000000603797011_4249703148.c"
+Compiling module sigmoid2 - m_00000000002912146422_1984094263
+Compiling isim/testsig2_isim_beh.exe.sim/work/m_00000000002912146422_1984094263.c to isim/testsig2_isim_beh.exe.sim/work/m_00000000002912146422_1984094263.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/work/m_00000000002912146422_1984094263.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/work/m_00000000002912146422_1984094263.c"
+Compiling module testsig2 - m_00000000003649449043_2138213824
+Compiling isim/testsig2_isim_beh.exe.sim/work/m_00000000003649449043_2138213824.c to isim/testsig2_isim_beh.exe.sim/work/m_00000000003649449043_2138213824.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/work/m_00000000003649449043_2138213824.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/work/m_00000000003649449043_2138213824.c"
+Compiling module glbl - m_00000000004134447467_2073120511
+Compiling isim/testsig2_isim_beh.exe.sim/work/m_00000000004134447467_2073120511.c to isim/testsig2_isim_beh.exe.sim/work/m_00000000004134447467_2073120511.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/work/m_00000000004134447467_2073120511.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/work/m_00000000004134447467_2073120511.c"
+Time Resolution for simulation is 1ps.
+Compiling isim/testsig2_isim_beh.exe.sim/work/testsig2_isim_beh.exe_main.c to isim/testsig2_isim_beh.exe.sim/work/testsig2_isim_beh.exe_main.nt.obj with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -c -o "isim/testsig2_isim_beh.exe.sim/work/testsig2_isim_beh.exe_main.nt.obj" -I"C:/Xilinx/14.7/ISE_DS/ISE/data/include" "isim/testsig2_isim_beh.exe.sim/work/testsig2_isim_beh.exe_main.c"
+Waiting for 14 sub-compilation(s) to finish...
+Linking with command:
+"C:/Xilinx/14.7/ISE_DS/ISE/gnu/MinGW/5.0.0/nt/bin/gcc.exe" -Wa,-W  -O  -Wl,--large-address-aware,--stack,157286400 -o "isim/testsig2_isim_beh.exe.sim/testsig2_isim_beh.exe" "isim/testsig2_isim_beh.exe.sim/work/testsig2_isim_beh.exe_main.nt.obj"  "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000003405408344_3841093685.nt.obj" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000004221170615_0679316750.nt.obj" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000002444920515_2091797430.nt.obj" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000001773747898_2336946039.nt.obj" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000003848737514_1058825862.nt.obj" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000000909115699_2771340377.nt.obj" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000002601448656_3367321443.nt.obj" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000001602338581_1699826087.nt.obj" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000000053605399_3167948275.nt.obj" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000003317509437_1759035934.nt.obj" "isim/testsig2_isim_beh.exe.sim/work/m_00000000000910693073_0323171264.nt.obj" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000001108370118_2687523668.nt.obj" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000001784029001_1343423062.nt.obj" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000000073490608_4124707373.nt.obj" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000000129589818_1491383940.nt.obj" "isim/testsig2_isim_beh.exe.sim/unisims_ver/m_00000000003927721830_1593237687.nt.obj" "isim/testsig2_isim_beh.exe.sim/work/m_00000000003468947932_2320130682.nt.obj" "isim/testsig2_isim_beh.exe.sim/work/m_00000000000603797011_4249703148.nt.obj" "isim/testsig2_isim_beh.exe.sim/work/m_00000000002912146422_1984094263.nt.obj" "isim/testsig2_isim_beh.exe.sim/work/m_00000000003649449043_2138213824.nt.obj" "isim/testsig2_isim_beh.exe.sim/work/m_00000000004134447467_2073120511.nt.obj" "C:/Xilinx/14.7/ISE_DS/ISE/lib/nt/libhsimengine.dll"
+Compiled 51 Verilog Units
+Built simulation executable C:/.Xilinx/HMM-Viterbi/testsig2_isim_beh.exe
+Fuse Memory Usage: 80408 KB
+Fuse CPU Usage: 1187 ms

@@ -1,0 +1,54 @@
+Release 14.7 - netgen P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis
+-ofmt verilog -sim main_DP.ngc main_DP_synthesis.v  
+
+Reading design 'main_DP.ngc' ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+
+WARNING:NetListWriters:306 - Signal bus clk_div_cnt[10 : 0] on block
+   clock_divide_6 is not reconstructed, because there are some missing bus
+   signals.
+
+WARNING:NetListWriters:306 - Signal bus vec2_11[303 : 0] on block DP_dist_mfc is
+   not reconstructed, because there are some missing bus signals.
+
+WARNING:NetListWriters:306 - Signal bus _n0283[303 : 0] on block DP_dist_mfc is
+   not reconstructed, because there are some missing bus signals.
+
+WARNING:NetListWriters:306 - Signal bus ff_GND_23_o_add_86_OUT[38 : 0] on block
+   DP_match_mfc is not reconstructed, because there are some missing bus
+   signals.
+
+WARNING:NetListWriters:306 - Signal bus ffnxt_GND_23_o_add_137_OUT[38 : 0] on
+   block DP_match_mfc is not reconstructed, because there are some missing bus
+   signals.
+
+WARNING:NetListWriters:306 - Signal bus GND_18_o_GND_18_o_sub_107_OUT[3 : 1] on
+   block log2_10bit is not reconstructed, because there are some missing bus
+   signals.
+
+WARNING:NetListWriters:306 - Signal bus _n5058[55 : 0] on block MFCC is not
+   reconstructed, because there are some missing bus signals.
+
+WARNING:NetListWriters:306 - Signal bus Madd__n1621_cy[3 : 0] on block MFCC is
+   not reconstructed, because there are some missing bus signals.
+
+WARNING:NetListWriters:306 - Signal bus clk_div_cnt[10 : 0] on block
+   clock_divide_2 is not reconstructed, because there are some missing bus
+   signals.
+
+WARNING:NetListWriters:306 - Signal bus scr_mfc[30 : 4] on block main_DP is not
+   reconstructed, because there are some missing bus signals.
+Writing Verilog netlist file
+'C:\Users\tslab\Desktop\FPGA_project\DP_MFC\netgen\synthesis\main_DP_synthesis.v
+' ...
+INFO:NetListWriters:633 - The generated Verilog netlist contains Xilinx UNISIM
+   simulation primitives and has to be used with UNISIM simulation library for
+   correct compilation and simulation. 
+Number of warnings: 10
+Number of info messages: 1
+Total memory usage is 169476 kilobytes

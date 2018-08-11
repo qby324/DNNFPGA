@@ -1,0 +1,247 @@
+//***********************************************************
+//!			MFCC module
+//!			Register instance
+//***********************************************************
+parameter WINDOWSIZE = 400;	//!< 8kHz:25ms:200 16kHz:400
+parameter SHIFTSIZE  = 160;	//!< 8kHz:10ms:80  16kHz:160
+
+parameter WINDOWSIZE_AWIDTH=9;                        //!< WINDOWSIZE < 2^n
+
+parameter DWIDTHR =16, AWIDTHR	=9, WORDSR = 512;     //!< RingBuffer
+parameter DWIDTH1 =30, AWIDTH1 = WINDOWSIZE_AWIDTH, WORDS1 = WINDOWSIZE;//!< 1 frame	
+parameter DWIDTH_ham =30, AWIDTH_ham=WINDOWSIZE_AWIDTH,WORDS_ham=WINDOWSIZE;//!< Hamming Window	
+parameter DWIDTH_F = 40, AWIDTH_F = 9,WORDS_F = 512;  //!< FFT real,imaginary
+parameter DWIDTH111 = 50, AWIDTH111 = 8, WORDS111 = 256; //!< FFTpower(halfsize of realpart)
+parameter DWIDTH2 = 21, AWIDTH2	= 5, WORDS2 = 24;     //!< MelFilterBank
+parameter DWIDTH3 = 26, AWIDTH3 = 4, WORDS3 = 13;     //!< DCT...MFCC
+
+//*************************
+//! 	RingBuffer
+//*************************
+reg writeR=0;
+reg [AWIDTHR-1:0] addrR=0;
+reg signed[DWIDTHR-1:0] indataR=0;
+wire signed[DWIDTHR-1:0] outdataR;
+
+//*************************
+//! 	1 frame
+//*************************
+reg write1=0;
+reg [AWIDTH1-1:0] addr1=0;
+reg signed [DWIDTH1-1:0] indata1=0;
+wire signed [DWIDTH1-1:0] outdata1;
+
+//*************************
+//!	Hamming Window
+//*************************
+reg write_ham=0;
+reg [AWIDTH_ham-1:0] addr_ham=0;
+reg signed[DWIDTH_ham-1:0] indata_ham=0;
+wire signed[DWIDTH_ham-1:0] outdata_ham;
+//reg signed [15:0] hamweight=0;
+reg [2:0] ham_cnt=0;
+reg  [WINDOWSIZE_AWIDTH:0]	ham_index=0;
+
+//*************************
+//! 	FFT real part
+//*************************
+reg write_re=0;
+reg [AWIDTH_F-1:0] addr_re=0;
+reg signed[DWIDTH_F-1:0] indata_re=0;
+wire signed[DWIDTH_F-1:0] outdata_re;
+//*************************
+//!	FFT imaginary part
+//*************************
+reg write_im=0;
+reg [AWIDTH_F-1:0] addr_im=0;
+reg signed[DWIDTH_F-1:0] indata_im=0;
+wire signed[DWIDTH_F-1:0] outdata_im;	
+//*************************
+//!	FFT power spectrum
+//*************************	
+reg write_po=0;
+reg [AWIDTH111-1:0] addr_po=0;
+reg signed[DWIDTH111-1:0] indata_po=0;
+wire signed[DWIDTH111-1:0] outdata_po;
+//*************************
+//!	MelFilterBank
+//*************************
+reg write_mfb=0;
+reg [AWIDTH2-1:0] addr_mfb=0;
+reg signed[DWIDTH2-1:0] indata_mfb=0;
+wire signed[DWIDTH2-1:0] outdata_mfb;
+//*************************
+//! 	DCT...lifter...MFCC
+//*************************
+reg write3=0;
+reg [AWIDTH3-1:0] addr3=0;
+reg signed[DWIDTH3-1:0] indata3=0;
+wire signed[DWIDTH3-1:0] outdata3;
+
+//************************************
+//!		Other Register
+//************************************
+
+//*************************
+//!	RingBuffer&Shift Out
+//*************************
+reg [AWIDTHR-1:0] ringaddr=0;	   //!< Ringbuffer Address
+integer clk_cnt=0;		   //!< 
+reg [9:0] shift_cnt=0;             //!< 
+reg shift_start=0;                 //!<  
+reg [9:0] shift_framecnt=0;        //!< 
+reg [9:0] shift_addr=0;            //!< 
+reg signed [15:0] shift_tmp=0;     //!< 
+reg [2:0] shift_in_cnt=0;          //!< 
+
+//*************************
+//!	MelFilterBank
+//*************************
+reg [4:0] fil_index_in=0;          //!< FilterBank Num
+wire signed [20:0] MFBtmp_out;     //!< MFB data (logarithm)
+wire fil_dv;                       //!< data valid
+reg signed [63:0] MFB_tmp=0;       //!< MFC data (calc tmp)
+reg signed [63:0] MFBtmp_in=0;     //!< MFB data (not logarithm)
+reg [5:0] fil_calc_index=0;        //!< MFB index
+reg [9:0] fil_index_num=0;         //!< param index
+reg log_en=0;                      //!< log start
+reg [2:0] fil_calc_cnt=0;          //!< MFC calc processing
+reg [8:0]addr_now=0;               //!< Filterbank Spectrum start address
+
+//*************************
+//!	 DCT 24dim
+//*************************
+reg [3:0]dct_cnt1=0;               //!< DCT calc processing
+reg dct_cnt2=0;                    //!< DCT calc processing
+reg [AWIDTH2-1:0] dct_index_in=0;  //!< DCT param index row
+reg [4:0] dct_calc_index=0;        //!< DCT param index col
+reg signed [35:0] dct_tmp1=0;      //!< DCT calc tmp
+reg signed [35:0] dct_tmp2=0;
+reg signed [21:0] dct_tmp3=0;
+
+//*************************
+//! 	Liftering
+//*************************
+reg signed [39:0] Lifter_tmp=0;    //!<  
+reg signed [25:0] Lif_tmp=0;       //!< 
+reg  [3:0] lif_index_in=0;         //!< Liftering Index (0-12)
+reg  [2:0] lif_cnt=0;              //!< Calc processing
+
+//*************************
+//! 	Pick
+//*************************
+reg [1:0]pick_cnt=0;
+reg [4:0] pick_calc_index=0;
+reg signed [24:0] pick_tmp=0;
+reg [25:0] C0=0;
+
+//*************************
+//! 	FFT_INPUT_PORT
+//*************************
+reg [14:0] xk_index_cnt=0;         //!< 0-255
+reg [14:0] pow_index=0;            //!< ***********
+reg [2:0]  pow_cnt=0;
+reg signed[79:0]pow_tmp=0;
+reg start = 0;			   //!< start FFT module
+reg sclr=0;			   //!< data clear
+reg signed [29:0]	xn_re = 0; //!< Real part input
+reg signed [29:0]	xn_im = 0; //!< Imaginary part input (usually "0...0")
+reg fwd_inv = 1;		   //!< 1:FFT, 0:IFFT
+reg fwd_inv_we = 1;		   //!< Write Enable:Active High
+
+//*************************
+//!	FFT_OUTPUTS_PORT
+//*************************
+wire edone;                       //!< edone=1;done=0; -> edone=0;done=1;
+wire done;                        //!< calculate done
+wire rfd;                         //!< Ready for Data
+wire	busy;                     //!< calculating
+wire	dv;                       //!< Data Valid: Active High
+wire	[8:0]	xn_index;         //!< index inputData
+wire	[8:0]	xk_index;         //!< index outputData
+wire	signed [39:0]	xk_re;    //!< Real part Output
+wire	signed [39:0]	xk_im;    //!< Imaginary part Output
+
+//*******************************************************
+//!                    Module instance
+//*******************************************************
+//!	RINGBUFFER
+BRAM #(.DWIDTH(DWIDTHR),.AWIDTH(AWIDTHR),.WORDS(WORDSR))
+RINGBUFFER(.clk(clk),.write(writeR),.addr(addrR),.indata(indataR),.outdata(outdataR));
+
+//!	1 frame
+BRAM #(.DWIDTH(DWIDTH1),.AWIDTH(AWIDTH1),.WORDS(WORDS1))
+BRAM_FRAME(.clk(clk),.write(write1),.addr(addr1),.indata(indata1),.outdata(outdata1));
+
+//!	Hamming Window
+BRAM #(.DWIDTH(DWIDTH_ham),.AWIDTH(AWIDTH_ham),.WORDS(WORDS_ham))
+BRAM_HAM(.clk(clk),.write(write_ham),.addr(addr_ham),.indata(indata_ham),.outdata(outdata_ham));
+
+//!	FFT Real part
+BRAM #(.DWIDTH(DWIDTH_F),.AWIDTH(AWIDTH_F),.WORDS(WORDS_F)) 
+BRAM_FFT_RE(.clk(clk),.write(write_re),.addr(addr_re),.indata(indata_re),.outdata(outdata_re));
+
+//!	FFT Imaginary part
+BRAM #(.DWIDTH(DWIDTH_F),.AWIDTH(AWIDTH_F),.WORDS(WORDS_F)) 
+BRAM_FFT_IM(.clk(clk),.write(write_im),.addr(addr_im),.indata(indata_im),.outdata(outdata_im));
+
+//!	FFT Power spectrum
+BRAM #(.DWIDTH(DWIDTH111),.AWIDTH(AWIDTH111),.WORDS(WORDS111)) 
+BRAM_FFT_PO(.clk(clk),.write(write_po),.addr(addr_po),.indata(indata_po),.outdata(outdata_po));
+
+//!	MelFilterBank
+BRAM #(.DWIDTH(DWIDTH2),.AWIDTH(AWIDTH2),.WORDS(WORDS2)) 
+BRAM_FB(.clk(clk),.write(write_mfb),.addr(addr_mfb),.indata(indata_mfb),.outdata(outdata_mfb));
+
+//!	DCT...Liftering...MFCC
+BRAM #(.DWIDTH(DWIDTH3),.AWIDTH(AWIDTH3),.WORDS(WORDS3)) 
+BRAM_MFCC(.clk(clk),.write(write3),.addr(addr3),.indata(indata3),.outdata(outdata3));
+
+
+FFT_16kHz FFT_16kHz (
+		     .clk(sclk),			// input clk
+		     .sclr(sclr),                  // input sclr
+		     .start(start), 		// input start
+		     .xn_re(xn_re), 		// input [31 : 0] xn_re
+		     .xn_im(xn_im), 		// input [31 : 0] xn_im
+		     .fwd_inv(fwd_inv), 		// input fwd_inv
+		     .fwd_inv_we(fwd_inv_we),      // input fwd_inv_we
+		     .rfd(rfd), 			// output rfd
+		     .xn_index(xn_index), 		// output [8 : 0] xn_index
+		     .busy(busy), 			// output busy
+		     .edone(edone), 		// output edone
+		     .done(done), 			// output done
+		     .dv(dv), 			// output dv
+		     .xk_index(xk_index), 		// output [8 : 0] xk_index
+		     .xk_re(xk_re), 		// output [31 : 0] xk_re
+		     .xk_im(xk_im) 		// output [31 : 0] xk_im
+		     );
+
+log2_10bit log2(
+		.clk(sclk),
+		.start(log_en),
+		.indata(MFBtmp_in),
+		.outdata(MFBtmp_out),
+		.dv(fil_dv)
+		);
+
+
+//!	Multiply
+reg signed[63:0]indataA=0;
+reg signed[63:0]indataB=0;
+wire signed[127:0]outdataX;
+reg signed[63:0]indataA2=0;
+reg signed[63:0]indataB2=0;
+wire signed[127:0]outdataX2;
+SMULTI 
+  SMULTI(.clk(clk),
+	 .indataA(indataA),
+	 .indataB(indataB),
+	 .outdataX(outdataX));
+
+SMULTI 
+  SMULTI2(.clk(clk),
+	  .indataA(indataA2),
+	  .indataB(indataB2),
+	  .outdataX(outdataX2));
+

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=Z:\Documents\FPGA\HMM-Viterbi\impact.xsl
+OUTFILE=Z:\Documents\FPGA\HMM-Viterbi\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=Z:\Documents\FPGA\HMM-Viterbi
+LICENSE=iMPACT
+USER_INFO=iMPACT

@@ -1,0 +1,30 @@
+ISim log file
+Running: C:\Users\tslab-802-2\Desktop\newtest\FPGA_project - backup1\MFC_REC\simtest_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/simtest_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your license support version '2016.12' for ISIM expires in 15 days after which you will not qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+WARNING: File "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/HMM-Viterbi/DNN_0117.v" Line 142.  For instance nnmain/mac_affine/, width 16 of formal port a is not equal to width 17 of actual variable indataA1. 
+WARNING: File "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/HMM-Viterbi/DNN_0117.v" Line 161.  For instance nnmain/sigmoid/, width 27 of formal port sigin is not equal to width 28 of actual variable sigin. 
+WARNING: File "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/simtest.v" Line 35.  For instance simtest/nnmain/, width 20 of formal port vec_in is not equal to width 32 of actual signal x_o.
+WARNING: File "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/simtest.v" Line 51.  For instance simtest/nnmain/, width 11 of formal port vec_out is not equal to width 22 of actual signal dnn_out.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module simtest.nnmain.nnpara.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module simtest.nnmain.vec_std.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module simtest.nnmain.node.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# run 1s
+Stopped at time : 2800440 ns : File "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/simtest.v" Line 14719

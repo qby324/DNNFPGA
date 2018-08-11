@@ -1,0 +1,946 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml main_DNN_DP.twx main_DNN_DP.ncd -o main_DNN_DP.twr
+main_DNN_DP.pcf -ucf main_DNN_DP.ucf
+
+Design file:              main_DNN_DP.ncd
+Physical constraint file: main_DNN_DP.pcf
+Device,package,speed:     xc6slx45,csg324,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more 
+   information, see the TSI report.  Please consult the Xilinx Command Line 
+   Tools User Guide for information on generating a TSI report.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: TS_clk = PERIOD TIMEGRP "clk" 20 ns HIGH 40%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 644074392086 paths analyzed, 32049 endpoints analyzed, 1201 failing endpoints
+ 1201 timing errors detected. (1201 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is  26.563ns.
+--------------------------------------------------------------------------------
+
+Paths for end point MFCC/pow_tmp_79 (SLICE_X8Y82.C3), 1788901541 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     -6.563ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               MFCC/indataA_42 (FF)
+  Destination:          MFCC/pow_tmp_79 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      26.460ns (Levels of Logic = 8)
+  Clock Path Skew:      -0.068ns (0.703 - 0.771)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: MFCC/indataA_42 to MFCC/pow_tmp_79
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X5Y62.AQ       Tcko                  0.430   MFCC/indataA<45>
+                                                       MFCC/indataA_42
+    DSP48_X0Y5.A8        net (fanout=3)        3.017   MFCC/indataA<42>
+    DSP48_X0Y5.P47       Tdspdo_A_P            3.926   MFCC/SMULTI/Mmult_outdataX_submult_2
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_2
+    DSP48_X0Y6.C31       net (fanout=18)       1.349   MFCC/SMULTI/Mmult_outdataX_submult_2_P47_to_Mmult_outdataX_submult_21
+    DSP48_X0Y6.PCOUT0    Tdspdo_C_PCOUT        3.149   MFCC/SMULTI/Mmult_outdataX_submult_21
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_21
+    DSP48_X0Y7.PCIN0     net (fanout=1)        0.002   MFCC/SMULTI/Mmult_outdataX_submult_21_PCOUT_to_Mmult_outdataX_submult_22_PCIN_0
+    DSP48_X0Y7.P30       Tdspdo_PCIN_P         2.645   MFCC/SMULTI/Mmult_outdataX_submult_22
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_22
+    DSP48_X0Y8.C13       net (fanout=1)        1.227   MFCC/SMULTI/Mmult_outdataX_submult_22_P30_to_Mmult_outdataX_submult_23
+    DSP48_X0Y8.P7        Tdspdo_C_P            3.141   MFCC/SMULTI/Mmult_outdataX_submult_23
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_23
+    SLICE_X8Y49.B4       net (fanout=2)        2.357   MFCC/SMULTI/Mmult_outdataX_submult_2_41
+    SLICE_X8Y49.COUT     Topcyb                0.448   MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_lut<41>
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+    SLICE_X8Y50.CIN      net (fanout=1)        0.003   MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+    SLICE_X8Y50.AMUX     Tcina                 0.210   MFCC/SMULTI/Mmult_outdataX1_Madd_45
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_xor<45>
+    SLICE_X6Y77.A4       net (fanout=1)        2.474   MFCC/SMULTI/Mmult_outdataX1_Madd_44
+    SLICE_X6Y77.AMUX     Topaa                 0.456   MFCC/outdataX<79>
+                                                       MFCC/SMULTI/Mmult_outdataX2_Madd_lut<78>
+                                                       MFCC/SMULTI/Mmult_outdataX2_Madd_xor<79>
+    SLICE_X8Y82.C3       net (fanout=2)        1.103   MFCC/outdataX<78>
+    SLICE_X8Y82.CLK      Tas                   0.523   MFCC/pow_tmp<79>
+                                                       MFCC/Madd_n1160_Madd_lut<78>
+                                                       MFCC/Madd_n1160_Madd_xor<79>
+                                                       MFCC/pow_tmp_79
+    -------------------------------------------------  ---------------------------
+    Total                                     26.460ns (14.928ns logic, 11.532ns route)
+                                                       (56.4% logic, 43.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     -6.563ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               MFCC/indataA_42 (FF)
+  Destination:          MFCC/pow_tmp_79 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      26.460ns (Levels of Logic = 8)
+  Clock Path Skew:      -0.068ns (0.703 - 0.771)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: MFCC/indataA_42 to MFCC/pow_tmp_79
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X5Y62.AQ       Tcko                  0.430   MFCC/indataA<45>
+                                                       MFCC/indataA_42
+    DSP48_X0Y5.A8        net (fanout=3)        3.017   MFCC/indataA<42>
+    DSP48_X0Y5.P47       Tdspdo_A_P            3.926   MFCC/SMULTI/Mmult_outdataX_submult_2
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_2
+    DSP48_X0Y6.C31       net (fanout=18)       1.349   MFCC/SMULTI/Mmult_outdataX_submult_2_P47_to_Mmult_outdataX_submult_21
+    DSP48_X0Y6.PCOUT9    Tdspdo_C_PCOUT        3.149   MFCC/SMULTI/Mmult_outdataX_submult_21
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_21
+    DSP48_X0Y7.PCIN9     net (fanout=1)        0.002   MFCC/SMULTI/Mmult_outdataX_submult_21_PCOUT_to_Mmult_outdataX_submult_22_PCIN_9
+    DSP48_X0Y7.P30       Tdspdo_PCIN_P         2.645   MFCC/SMULTI/Mmult_outdataX_submult_22
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_22
+    DSP48_X0Y8.C13       net (fanout=1)        1.227   MFCC/SMULTI/Mmult_outdataX_submult_22_P30_to_Mmult_outdataX_submult_23
+    DSP48_X0Y8.P7        Tdspdo_C_P            3.141   MFCC/SMULTI/Mmult_outdataX_submult_23
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_23
+    SLICE_X8Y49.B4       net (fanout=2)        2.357   MFCC/SMULTI/Mmult_outdataX_submult_2_41
+    SLICE_X8Y49.COUT     Topcyb                0.448   MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_lut<41>
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+    SLICE_X8Y50.CIN      net (fanout=1)        0.003   MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+    SLICE_X8Y50.AMUX     Tcina                 0.210   MFCC/SMULTI/Mmult_outdataX1_Madd_45
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_xor<45>
+    SLICE_X6Y77.A4       net (fanout=1)        2.474   MFCC/SMULTI/Mmult_outdataX1_Madd_44
+    SLICE_X6Y77.AMUX     Topaa                 0.456   MFCC/outdataX<79>
+                                                       MFCC/SMULTI/Mmult_outdataX2_Madd_lut<78>
+                                                       MFCC/SMULTI/Mmult_outdataX2_Madd_xor<79>
+    SLICE_X8Y82.C3       net (fanout=2)        1.103   MFCC/outdataX<78>
+    SLICE_X8Y82.CLK      Tas                   0.523   MFCC/pow_tmp<79>
+                                                       MFCC/Madd_n1160_Madd_lut<78>
+                                                       MFCC/Madd_n1160_Madd_xor<79>
+                                                       MFCC/pow_tmp_79
+    -------------------------------------------------  ---------------------------
+    Total                                     26.460ns (14.928ns logic, 11.532ns route)
+                                                       (56.4% logic, 43.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     -6.563ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               MFCC/indataA_42 (FF)
+  Destination:          MFCC/pow_tmp_79 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      26.460ns (Levels of Logic = 8)
+  Clock Path Skew:      -0.068ns (0.703 - 0.771)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: MFCC/indataA_42 to MFCC/pow_tmp_79
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X5Y62.AQ       Tcko                  0.430   MFCC/indataA<45>
+                                                       MFCC/indataA_42
+    DSP48_X0Y5.A8        net (fanout=3)        3.017   MFCC/indataA<42>
+    DSP48_X0Y5.P47       Tdspdo_A_P            3.926   MFCC/SMULTI/Mmult_outdataX_submult_2
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_2
+    DSP48_X0Y6.C31       net (fanout=18)       1.349   MFCC/SMULTI/Mmult_outdataX_submult_2_P47_to_Mmult_outdataX_submult_21
+    DSP48_X0Y6.PCOUT1    Tdspdo_C_PCOUT        3.149   MFCC/SMULTI/Mmult_outdataX_submult_21
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_21
+    DSP48_X0Y7.PCIN1     net (fanout=1)        0.002   MFCC/SMULTI/Mmult_outdataX_submult_21_PCOUT_to_Mmult_outdataX_submult_22_PCIN_1
+    DSP48_X0Y7.P30       Tdspdo_PCIN_P         2.645   MFCC/SMULTI/Mmult_outdataX_submult_22
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_22
+    DSP48_X0Y8.C13       net (fanout=1)        1.227   MFCC/SMULTI/Mmult_outdataX_submult_22_P30_to_Mmult_outdataX_submult_23
+    DSP48_X0Y8.P7        Tdspdo_C_P            3.141   MFCC/SMULTI/Mmult_outdataX_submult_23
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_23
+    SLICE_X8Y49.B4       net (fanout=2)        2.357   MFCC/SMULTI/Mmult_outdataX_submult_2_41
+    SLICE_X8Y49.COUT     Topcyb                0.448   MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_lut<41>
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+    SLICE_X8Y50.CIN      net (fanout=1)        0.003   MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+    SLICE_X8Y50.AMUX     Tcina                 0.210   MFCC/SMULTI/Mmult_outdataX1_Madd_45
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_xor<45>
+    SLICE_X6Y77.A4       net (fanout=1)        2.474   MFCC/SMULTI/Mmult_outdataX1_Madd_44
+    SLICE_X6Y77.AMUX     Topaa                 0.456   MFCC/outdataX<79>
+                                                       MFCC/SMULTI/Mmult_outdataX2_Madd_lut<78>
+                                                       MFCC/SMULTI/Mmult_outdataX2_Madd_xor<79>
+    SLICE_X8Y82.C3       net (fanout=2)        1.103   MFCC/outdataX<78>
+    SLICE_X8Y82.CLK      Tas                   0.523   MFCC/pow_tmp<79>
+                                                       MFCC/Madd_n1160_Madd_lut<78>
+                                                       MFCC/Madd_n1160_Madd_xor<79>
+                                                       MFCC/pow_tmp_79
+    -------------------------------------------------  ---------------------------
+    Total                                     26.460ns (14.928ns logic, 11.532ns route)
+                                                       (56.4% logic, 43.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point MFCC/pow_tmp_78 (SLICE_X8Y82.C3), 1788901541 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     -6.539ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               MFCC/indataA_42 (FF)
+  Destination:          MFCC/pow_tmp_78 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      26.436ns (Levels of Logic = 8)
+  Clock Path Skew:      -0.068ns (0.703 - 0.771)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: MFCC/indataA_42 to MFCC/pow_tmp_78
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X5Y62.AQ       Tcko                  0.430   MFCC/indataA<45>
+                                                       MFCC/indataA_42
+    DSP48_X0Y5.A8        net (fanout=3)        3.017   MFCC/indataA<42>
+    DSP48_X0Y5.P47       Tdspdo_A_P            3.926   MFCC/SMULTI/Mmult_outdataX_submult_2
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_2
+    DSP48_X0Y6.C31       net (fanout=18)       1.349   MFCC/SMULTI/Mmult_outdataX_submult_2_P47_to_Mmult_outdataX_submult_21
+    DSP48_X0Y6.PCOUT0    Tdspdo_C_PCOUT        3.149   MFCC/SMULTI/Mmult_outdataX_submult_21
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_21
+    DSP48_X0Y7.PCIN0     net (fanout=1)        0.002   MFCC/SMULTI/Mmult_outdataX_submult_21_PCOUT_to_Mmult_outdataX_submult_22_PCIN_0
+    DSP48_X0Y7.P30       Tdspdo_PCIN_P         2.645   MFCC/SMULTI/Mmult_outdataX_submult_22
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_22
+    DSP48_X0Y8.C13       net (fanout=1)        1.227   MFCC/SMULTI/Mmult_outdataX_submult_22_P30_to_Mmult_outdataX_submult_23
+    DSP48_X0Y8.P7        Tdspdo_C_P            3.141   MFCC/SMULTI/Mmult_outdataX_submult_23
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_23
+    SLICE_X8Y49.B4       net (fanout=2)        2.357   MFCC/SMULTI/Mmult_outdataX_submult_2_41
+    SLICE_X8Y49.COUT     Topcyb                0.448   MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_lut<41>
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+    SLICE_X8Y50.CIN      net (fanout=1)        0.003   MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+    SLICE_X8Y50.AMUX     Tcina                 0.210   MFCC/SMULTI/Mmult_outdataX1_Madd_45
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_xor<45>
+    SLICE_X6Y77.A4       net (fanout=1)        2.474   MFCC/SMULTI/Mmult_outdataX1_Madd_44
+    SLICE_X6Y77.AMUX     Topaa                 0.456   MFCC/outdataX<79>
+                                                       MFCC/SMULTI/Mmult_outdataX2_Madd_lut<78>
+                                                       MFCC/SMULTI/Mmult_outdataX2_Madd_xor<79>
+    SLICE_X8Y82.C3       net (fanout=2)        1.103   MFCC/outdataX<78>
+    SLICE_X8Y82.CLK      Tas                   0.499   MFCC/pow_tmp<79>
+                                                       MFCC/Madd_n1160_Madd_lut<78>
+                                                       MFCC/Madd_n1160_Madd_xor<79>
+                                                       MFCC/pow_tmp_78
+    -------------------------------------------------  ---------------------------
+    Total                                     26.436ns (14.904ns logic, 11.532ns route)
+                                                       (56.4% logic, 43.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     -6.539ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               MFCC/indataA_42 (FF)
+  Destination:          MFCC/pow_tmp_78 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      26.436ns (Levels of Logic = 8)
+  Clock Path Skew:      -0.068ns (0.703 - 0.771)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: MFCC/indataA_42 to MFCC/pow_tmp_78
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X5Y62.AQ       Tcko                  0.430   MFCC/indataA<45>
+                                                       MFCC/indataA_42
+    DSP48_X0Y5.A8        net (fanout=3)        3.017   MFCC/indataA<42>
+    DSP48_X0Y5.P47       Tdspdo_A_P            3.926   MFCC/SMULTI/Mmult_outdataX_submult_2
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_2
+    DSP48_X0Y6.C31       net (fanout=18)       1.349   MFCC/SMULTI/Mmult_outdataX_submult_2_P47_to_Mmult_outdataX_submult_21
+    DSP48_X0Y6.PCOUT9    Tdspdo_C_PCOUT        3.149   MFCC/SMULTI/Mmult_outdataX_submult_21
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_21
+    DSP48_X0Y7.PCIN9     net (fanout=1)        0.002   MFCC/SMULTI/Mmult_outdataX_submult_21_PCOUT_to_Mmult_outdataX_submult_22_PCIN_9
+    DSP48_X0Y7.P30       Tdspdo_PCIN_P         2.645   MFCC/SMULTI/Mmult_outdataX_submult_22
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_22
+    DSP48_X0Y8.C13       net (fanout=1)        1.227   MFCC/SMULTI/Mmult_outdataX_submult_22_P30_to_Mmult_outdataX_submult_23
+    DSP48_X0Y8.P7        Tdspdo_C_P            3.141   MFCC/SMULTI/Mmult_outdataX_submult_23
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_23
+    SLICE_X8Y49.B4       net (fanout=2)        2.357   MFCC/SMULTI/Mmult_outdataX_submult_2_41
+    SLICE_X8Y49.COUT     Topcyb                0.448   MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_lut<41>
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+    SLICE_X8Y50.CIN      net (fanout=1)        0.003   MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+    SLICE_X8Y50.AMUX     Tcina                 0.210   MFCC/SMULTI/Mmult_outdataX1_Madd_45
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_xor<45>
+    SLICE_X6Y77.A4       net (fanout=1)        2.474   MFCC/SMULTI/Mmult_outdataX1_Madd_44
+    SLICE_X6Y77.AMUX     Topaa                 0.456   MFCC/outdataX<79>
+                                                       MFCC/SMULTI/Mmult_outdataX2_Madd_lut<78>
+                                                       MFCC/SMULTI/Mmult_outdataX2_Madd_xor<79>
+    SLICE_X8Y82.C3       net (fanout=2)        1.103   MFCC/outdataX<78>
+    SLICE_X8Y82.CLK      Tas                   0.499   MFCC/pow_tmp<79>
+                                                       MFCC/Madd_n1160_Madd_lut<78>
+                                                       MFCC/Madd_n1160_Madd_xor<79>
+                                                       MFCC/pow_tmp_78
+    -------------------------------------------------  ---------------------------
+    Total                                     26.436ns (14.904ns logic, 11.532ns route)
+                                                       (56.4% logic, 43.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     -6.539ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               MFCC/indataA_42 (FF)
+  Destination:          MFCC/pow_tmp_78 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      26.436ns (Levels of Logic = 8)
+  Clock Path Skew:      -0.068ns (0.703 - 0.771)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: MFCC/indataA_42 to MFCC/pow_tmp_78
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X5Y62.AQ       Tcko                  0.430   MFCC/indataA<45>
+                                                       MFCC/indataA_42
+    DSP48_X0Y5.A8        net (fanout=3)        3.017   MFCC/indataA<42>
+    DSP48_X0Y5.P47       Tdspdo_A_P            3.926   MFCC/SMULTI/Mmult_outdataX_submult_2
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_2
+    DSP48_X0Y6.C31       net (fanout=18)       1.349   MFCC/SMULTI/Mmult_outdataX_submult_2_P47_to_Mmult_outdataX_submult_21
+    DSP48_X0Y6.PCOUT1    Tdspdo_C_PCOUT        3.149   MFCC/SMULTI/Mmult_outdataX_submult_21
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_21
+    DSP48_X0Y7.PCIN1     net (fanout=1)        0.002   MFCC/SMULTI/Mmult_outdataX_submult_21_PCOUT_to_Mmult_outdataX_submult_22_PCIN_1
+    DSP48_X0Y7.P30       Tdspdo_PCIN_P         2.645   MFCC/SMULTI/Mmult_outdataX_submult_22
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_22
+    DSP48_X0Y8.C13       net (fanout=1)        1.227   MFCC/SMULTI/Mmult_outdataX_submult_22_P30_to_Mmult_outdataX_submult_23
+    DSP48_X0Y8.P7        Tdspdo_C_P            3.141   MFCC/SMULTI/Mmult_outdataX_submult_23
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_23
+    SLICE_X8Y49.B4       net (fanout=2)        2.357   MFCC/SMULTI/Mmult_outdataX_submult_2_41
+    SLICE_X8Y49.COUT     Topcyb                0.448   MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_lut<41>
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+    SLICE_X8Y50.CIN      net (fanout=1)        0.003   MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+    SLICE_X8Y50.AMUX     Tcina                 0.210   MFCC/SMULTI/Mmult_outdataX1_Madd_45
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_xor<45>
+    SLICE_X6Y77.A4       net (fanout=1)        2.474   MFCC/SMULTI/Mmult_outdataX1_Madd_44
+    SLICE_X6Y77.AMUX     Topaa                 0.456   MFCC/outdataX<79>
+                                                       MFCC/SMULTI/Mmult_outdataX2_Madd_lut<78>
+                                                       MFCC/SMULTI/Mmult_outdataX2_Madd_xor<79>
+    SLICE_X8Y82.C3       net (fanout=2)        1.103   MFCC/outdataX<78>
+    SLICE_X8Y82.CLK      Tas                   0.499   MFCC/pow_tmp<79>
+                                                       MFCC/Madd_n1160_Madd_lut<78>
+                                                       MFCC/Madd_n1160_Madd_xor<79>
+                                                       MFCC/pow_tmp_78
+    -------------------------------------------------  ---------------------------
+    Total                                     26.436ns (14.904ns logic, 11.532ns route)
+                                                       (56.4% logic, 43.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point MFCC/pow_tmp_79 (SLICE_X8Y82.B5), 1545227518 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     -6.516ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               MFCC/indataA_42 (FF)
+  Destination:          MFCC/pow_tmp_79 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      26.413ns (Levels of Logic = 7)
+  Clock Path Skew:      -0.068ns (0.703 - 0.771)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: MFCC/indataA_42 to MFCC/pow_tmp_79
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X5Y62.AQ       Tcko                  0.430   MFCC/indataA<45>
+                                                       MFCC/indataA_42
+    DSP48_X0Y5.A8        net (fanout=3)        3.017   MFCC/indataA<42>
+    DSP48_X0Y5.P47       Tdspdo_A_P            3.926   MFCC/SMULTI/Mmult_outdataX_submult_2
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_2
+    DSP48_X0Y6.C31       net (fanout=18)       1.349   MFCC/SMULTI/Mmult_outdataX_submult_2_P47_to_Mmult_outdataX_submult_21
+    DSP48_X0Y6.PCOUT0    Tdspdo_C_PCOUT        3.149   MFCC/SMULTI/Mmult_outdataX_submult_21
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_21
+    DSP48_X0Y7.PCIN0     net (fanout=1)        0.002   MFCC/SMULTI/Mmult_outdataX_submult_21_PCOUT_to_Mmult_outdataX_submult_22_PCIN_0
+    DSP48_X0Y7.P30       Tdspdo_PCIN_P         2.645   MFCC/SMULTI/Mmult_outdataX_submult_22
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_22
+    DSP48_X0Y8.C13       net (fanout=1)        1.227   MFCC/SMULTI/Mmult_outdataX_submult_22_P30_to_Mmult_outdataX_submult_23
+    DSP48_X0Y8.P7        Tdspdo_C_P            3.141   MFCC/SMULTI/Mmult_outdataX_submult_23
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_23
+    SLICE_X8Y49.B4       net (fanout=2)        2.357   MFCC/SMULTI/Mmult_outdataX_submult_2_41
+    SLICE_X8Y49.DMUX     Topbd                 0.644   MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_lut<41>
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+    SLICE_X6Y76.D5       net (fanout=1)        2.410   MFCC/SMULTI/Mmult_outdataX1_Madd_43
+    SLICE_X6Y76.DMUX     Topdd                 0.463   MFCC/SMULTI/Mmult_outdataX2_Madd_cy<77>
+                                                       MFCC/SMULTI/Mmult_outdataX2_Madd_lut<77>
+                                                       MFCC/SMULTI/Mmult_outdataX2_Madd_cy<77>
+    SLICE_X8Y82.B5       net (fanout=2)        0.979   MFCC/outdataX<77>
+    SLICE_X8Y82.CLK      Tas                   0.674   MFCC/pow_tmp<79>
+                                                       MFCC/Madd_n1160_Madd_lut<77>
+                                                       MFCC/Madd_n1160_Madd_xor<79>
+                                                       MFCC/pow_tmp_79
+    -------------------------------------------------  ---------------------------
+    Total                                     26.413ns (15.072ns logic, 11.341ns route)
+                                                       (57.1% logic, 42.9% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     -6.516ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               MFCC/indataA_42 (FF)
+  Destination:          MFCC/pow_tmp_79 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      26.413ns (Levels of Logic = 7)
+  Clock Path Skew:      -0.068ns (0.703 - 0.771)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: MFCC/indataA_42 to MFCC/pow_tmp_79
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X5Y62.AQ       Tcko                  0.430   MFCC/indataA<45>
+                                                       MFCC/indataA_42
+    DSP48_X0Y5.A8        net (fanout=3)        3.017   MFCC/indataA<42>
+    DSP48_X0Y5.P47       Tdspdo_A_P            3.926   MFCC/SMULTI/Mmult_outdataX_submult_2
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_2
+    DSP48_X0Y6.C31       net (fanout=18)       1.349   MFCC/SMULTI/Mmult_outdataX_submult_2_P47_to_Mmult_outdataX_submult_21
+    DSP48_X0Y6.PCOUT9    Tdspdo_C_PCOUT        3.149   MFCC/SMULTI/Mmult_outdataX_submult_21
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_21
+    DSP48_X0Y7.PCIN9     net (fanout=1)        0.002   MFCC/SMULTI/Mmult_outdataX_submult_21_PCOUT_to_Mmult_outdataX_submult_22_PCIN_9
+    DSP48_X0Y7.P30       Tdspdo_PCIN_P         2.645   MFCC/SMULTI/Mmult_outdataX_submult_22
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_22
+    DSP48_X0Y8.C13       net (fanout=1)        1.227   MFCC/SMULTI/Mmult_outdataX_submult_22_P30_to_Mmult_outdataX_submult_23
+    DSP48_X0Y8.P7        Tdspdo_C_P            3.141   MFCC/SMULTI/Mmult_outdataX_submult_23
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_23
+    SLICE_X8Y49.B4       net (fanout=2)        2.357   MFCC/SMULTI/Mmult_outdataX_submult_2_41
+    SLICE_X8Y49.DMUX     Topbd                 0.644   MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_lut<41>
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+    SLICE_X6Y76.D5       net (fanout=1)        2.410   MFCC/SMULTI/Mmult_outdataX1_Madd_43
+    SLICE_X6Y76.DMUX     Topdd                 0.463   MFCC/SMULTI/Mmult_outdataX2_Madd_cy<77>
+                                                       MFCC/SMULTI/Mmult_outdataX2_Madd_lut<77>
+                                                       MFCC/SMULTI/Mmult_outdataX2_Madd_cy<77>
+    SLICE_X8Y82.B5       net (fanout=2)        0.979   MFCC/outdataX<77>
+    SLICE_X8Y82.CLK      Tas                   0.674   MFCC/pow_tmp<79>
+                                                       MFCC/Madd_n1160_Madd_lut<77>
+                                                       MFCC/Madd_n1160_Madd_xor<79>
+                                                       MFCC/pow_tmp_79
+    -------------------------------------------------  ---------------------------
+    Total                                     26.413ns (15.072ns logic, 11.341ns route)
+                                                       (57.1% logic, 42.9% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     -6.516ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               MFCC/indataA_42 (FF)
+  Destination:          MFCC/pow_tmp_79 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      26.413ns (Levels of Logic = 7)
+  Clock Path Skew:      -0.068ns (0.703 - 0.771)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: MFCC/indataA_42 to MFCC/pow_tmp_79
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X5Y62.AQ       Tcko                  0.430   MFCC/indataA<45>
+                                                       MFCC/indataA_42
+    DSP48_X0Y5.A8        net (fanout=3)        3.017   MFCC/indataA<42>
+    DSP48_X0Y5.P47       Tdspdo_A_P            3.926   MFCC/SMULTI/Mmult_outdataX_submult_2
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_2
+    DSP48_X0Y6.C31       net (fanout=18)       1.349   MFCC/SMULTI/Mmult_outdataX_submult_2_P47_to_Mmult_outdataX_submult_21
+    DSP48_X0Y6.PCOUT1    Tdspdo_C_PCOUT        3.149   MFCC/SMULTI/Mmult_outdataX_submult_21
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_21
+    DSP48_X0Y7.PCIN1     net (fanout=1)        0.002   MFCC/SMULTI/Mmult_outdataX_submult_21_PCOUT_to_Mmult_outdataX_submult_22_PCIN_1
+    DSP48_X0Y7.P30       Tdspdo_PCIN_P         2.645   MFCC/SMULTI/Mmult_outdataX_submult_22
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_22
+    DSP48_X0Y8.C13       net (fanout=1)        1.227   MFCC/SMULTI/Mmult_outdataX_submult_22_P30_to_Mmult_outdataX_submult_23
+    DSP48_X0Y8.P7        Tdspdo_C_P            3.141   MFCC/SMULTI/Mmult_outdataX_submult_23
+                                                       MFCC/SMULTI/Mmult_outdataX_submult_23
+    SLICE_X8Y49.B4       net (fanout=2)        2.357   MFCC/SMULTI/Mmult_outdataX_submult_2_41
+    SLICE_X8Y49.DMUX     Topbd                 0.644   MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_lut<41>
+                                                       MFCC/SMULTI/Mmult_outdataX1_Madd_cy<43>
+    SLICE_X6Y76.D5       net (fanout=1)        2.410   MFCC/SMULTI/Mmult_outdataX1_Madd_43
+    SLICE_X6Y76.DMUX     Topdd                 0.463   MFCC/SMULTI/Mmult_outdataX2_Madd_cy<77>
+                                                       MFCC/SMULTI/Mmult_outdataX2_Madd_lut<77>
+                                                       MFCC/SMULTI/Mmult_outdataX2_Madd_cy<77>
+    SLICE_X8Y82.B5       net (fanout=2)        0.979   MFCC/outdataX<77>
+    SLICE_X8Y82.CLK      Tas                   0.674   MFCC/pow_tmp<79>
+                                                       MFCC/Madd_n1160_Madd_lut<77>
+                                                       MFCC/Madd_n1160_Madd_xor<79>
+                                                       MFCC/pow_tmp_79
+    -------------------------------------------------  ---------------------------
+    Total                                     26.413ns (15.072ns logic, 11.341ns route)
+                                                       (57.1% logic, 42.9% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: TS_clk = PERIOD TIMEGRP "clk" 20 ns HIGH 40%;
+--------------------------------------------------------------------------------
+
+Paths for end point DP_main/vad_cnt_3 (SLICE_X10Y97.CE), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.245ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               DP_main/vad_out (FF)
+  Destination:          DP_main/vad_cnt_3 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.248ns (Levels of Logic = 0)
+  Clock Path Skew:      0.003ns (0.044 - 0.041)
+  Source Clock:         clk_BUFGP rising at 20.000ns
+  Destination Clock:    clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: DP_main/vad_out to DP_main/vad_cnt_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X11Y98.AQ      Tcko                  0.198   vad
+                                                       DP_main/vad_out
+    SLICE_X10Y97.CE      net (fanout=9)        0.158   vad
+    SLICE_X10Y97.CLK     Tckce       (-Th)     0.108   DP_main/vad_cnt<3>
+                                                       DP_main/vad_cnt_3
+    -------------------------------------------------  ---------------------------
+    Total                                      0.248ns (0.090ns logic, 0.158ns route)
+                                                       (36.3% logic, 63.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point MFCC/FFT_16kHz/blk00000916 (SLICE_X52Y27.DI), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.247ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               MFCC/FFT_16kHz/blk000007af (FF)
+  Destination:          MFCC/FFT_16kHz/blk00000916 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.249ns (Levels of Logic = 0)
+  Clock Path Skew:      0.002ns (0.040 - 0.038)
+  Source Clock:         clk_BUFGP rising at 20.000ns
+  Destination Clock:    clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: MFCC/FFT_16kHz/blk000007af to MFCC/FFT_16kHz/blk00000916
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X53Y27.DQ      Tcko                  0.198   MFCC/FFT_16kHz/sig00000c8a
+                                                       MFCC/FFT_16kHz/blk000007af
+    SLICE_X52Y27.DI      net (fanout=1)        0.018   MFCC/FFT_16kHz/sig00000c8a
+    SLICE_X52Y27.CLK     Tdh         (-Th)    -0.033   MFCC/FFT_16kHz/sig00000023
+                                                       MFCC/FFT_16kHz/blk00000916
+    -------------------------------------------------  ---------------------------
+    Total                                      0.249ns (0.231ns logic, 0.018ns route)
+                                                       (92.8% logic, 7.2% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point DP_main/vad_cnt_2 (SLICE_X10Y97.CE), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.249ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               DP_main/vad_out (FF)
+  Destination:          DP_main/vad_cnt_2 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.252ns (Levels of Logic = 0)
+  Clock Path Skew:      0.003ns (0.044 - 0.041)
+  Source Clock:         clk_BUFGP rising at 20.000ns
+  Destination Clock:    clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: DP_main/vad_out to DP_main/vad_cnt_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X11Y98.AQ      Tcko                  0.198   vad
+                                                       DP_main/vad_out
+    SLICE_X10Y97.CE      net (fanout=9)        0.158   vad
+    SLICE_X10Y97.CLK     Tckce       (-Th)     0.104   DP_main/vad_cnt<3>
+                                                       DP_main/vad_cnt_2
+    -------------------------------------------------  ---------------------------
+    Total                                      0.252ns (0.094ns logic, 0.158ns route)
+                                                       (37.3% logic, 62.7% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_clk = PERIOD TIMEGRP "clk" 20 ns HIGH 40%;
+--------------------------------------------------------------------------------
+Slack: 16.430ns (period - min period limit)
+  Period: 20.000ns
+  Min period limit: 3.570ns (280.112MHz) (Trper_CLKA(Fmax))
+  Physical resource: SPM0405HD4H/MEMS_Filter/Mram__n4450101/CLKA
+  Logical resource: SPM0405HD4H/MEMS_Filter/Mram__n4450101/CLKA
+  Location pin: RAMB16_X1Y14.CLKA
+  Clock network: clk_BUFGP
+--------------------------------------------------------------------------------
+Slack: 16.430ns (period - min period limit)
+  Period: 20.000ns
+  Min period limit: 3.570ns (280.112MHz) (Trper_CLKB(Fmax))
+  Physical resource: SPM0405HD4H/MEMS_Filter/Mram__n4450101/CLKB
+  Logical resource: SPM0405HD4H/MEMS_Filter/Mram__n4450101/CLKB
+  Location pin: RAMB16_X1Y14.CLKB
+  Clock network: clk_BUFGP
+--------------------------------------------------------------------------------
+Slack: 16.430ns (period - min period limit)
+  Period: 20.000ns
+  Min period limit: 3.570ns (280.112MHz) (Trper_CLKA(Fmax))
+  Physical resource: SPM0405HD4H/MEMS_Filter/Mram__n4450111/CLKA
+  Logical resource: SPM0405HD4H/MEMS_Filter/Mram__n4450111/CLKA
+  Location pin: RAMB16_X0Y4.CLKA
+  Clock network: clk_BUFGP
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: COMP "dat_i" OFFSET = IN 500 ns VALID 250 ns BEFORE COMP 
+"clk" "RISING";
+For more information, see Offset In Analysis in the Timing Closure User Guide (UG612).
+
+ 1 path analyzed, 1 endpoint analyzed, 1 failing endpoint
+ 1 timing error detected. (0 setup errors, 1 hold error)
+ Minimum allowable offset is   4.638ns.
+--------------------------------------------------------------------------------
+
+Paths for end point SPM0405HD4H/MEMS_Filter/data_0 (SLICE_X1Y19.AX), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     495.362ns (requirement - (data path - clock path - clock arrival + uncertainty))
+  Source:               dat_i (PAD)
+  Destination:          SPM0405HD4H/MEMS_Filter/data_0 (FF)
+  Destination Clock:    clk_BUFGP rising at 0.000ns
+  Requirement:          500.000ns
+  Data Path Delay:      8.367ns (Levels of Logic = 1)
+  Clock Path Delay:     3.754ns (Levels of Logic = 2)
+  Clock Uncertainty:    0.025ns
+
+  Clock Uncertainty:          0.025ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.050ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: dat_i to SPM0405HD4H/MEMS_Filter/data_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    F2.I                 Tiopi                 1.547   dat_i
+                                                       dat_i
+                                                       dat_i_IBUF
+                                                       ProtoComp618.IMUX.1
+    SLICE_X1Y19.AX       net (fanout=1)        6.706   dat_i_IBUF
+    SLICE_X1Y19.CLK      Tdick                 0.114   SPM0405HD4H/MEMS_Filter/data<3>
+                                                       SPM0405HD4H/MEMS_Filter/data_0
+    -------------------------------------------------  ---------------------------
+    Total                                      8.367ns (1.661ns logic, 6.706ns route)
+                                                       (19.9% logic, 80.1% route)
+
+  Minimum Clock Path at Slow Process Corner: clk to SPM0405HD4H/MEMS_Filter/data_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    L12.I                Tiopi                 1.344   clk
+                                                       clk
+                                                       clk_BUFGP/IBUFG
+                                                       ProtoComp618.IMUX
+    BUFGMUX_X2Y1.I0      net (fanout=1)        0.816   clk_BUFGP/IBUFG
+    BUFGMUX_X2Y1.O       Tgi0o                 0.197   clk_BUFGP/BUFG
+                                                       clk_BUFGP/BUFG
+    SLICE_X1Y19.CLK      net (fanout=1479)     1.397   clk_BUFGP
+    -------------------------------------------------  ---------------------------
+    Total                                      3.754ns (1.541ns logic, 2.213ns route)
+                                                       (41.0% logic, 59.0% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: COMP "dat_i" OFFSET = IN 500 ns VALID 250 ns BEFORE COMP "clk" "RISING";
+--------------------------------------------------------------------------------
+
+Paths for end point SPM0405HD4H/MEMS_Filter/data_0 (SLICE_X1Y19.AX), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      -247.916ns (requirement - (clock path + clock arrival + uncertainty - data path))
+  Source:               dat_i (PAD)
+  Destination:          SPM0405HD4H/MEMS_Filter/data_0 (FF)
+  Destination Clock:    clk_BUFGP rising at 0.000ns
+  Requirement:          -250.000ns
+  Data Path Delay:      4.023ns (Levels of Logic = 1)(Component delays alone exceeds constraint)
+  Clock Path Delay:     1.914ns (Levels of Logic = 2)
+  Clock Uncertainty:    0.025ns
+
+  Clock Uncertainty:          0.025ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.050ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Minimum Data Path at Fast Process Corner: dat_i to SPM0405HD4H/MEMS_Filter/data_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    F2.I                 Tiopi                 0.589   dat_i
+                                                       dat_i
+                                                       dat_i_IBUF
+                                                       ProtoComp618.IMUX.1
+    SLICE_X1Y19.AX       net (fanout=1)        3.375   dat_i_IBUF
+    SLICE_X1Y19.CLK      Tckdi       (-Th)    -0.059   SPM0405HD4H/MEMS_Filter/data<3>
+                                                       SPM0405HD4H/MEMS_Filter/data_0
+    -------------------------------------------------  ---------------------------
+    Total                                      4.023ns (0.648ns logic, 3.375ns route)
+                                                       (16.1% logic, 83.9% route)
+
+  Maximum Clock Path at Fast Process Corner: clk to SPM0405HD4H/MEMS_Filter/data_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    L12.I                Tiopi                 0.887   clk
+                                                       clk
+                                                       clk_BUFGP/IBUFG
+                                                       ProtoComp618.IMUX
+    BUFGMUX_X2Y1.I0      net (fanout=1)        0.245   clk_BUFGP/IBUFG
+    BUFGMUX_X2Y1.O       Tgi0o                 0.063   clk_BUFGP/BUFG
+                                                       clk_BUFGP/BUFG
+    SLICE_X1Y19.CLK      net (fanout=1479)     0.719   clk_BUFGP
+    -------------------------------------------------  ---------------------------
+    Total                                      1.914ns (0.950ns logic, 0.964ns route)
+                                                       (49.6% logic, 50.4% route)
+
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: OFFSET = IN 20 ns VALID 20 ns BEFORE COMP "clk" "RISING";
+For more information, see Offset In Analysis in the Timing Closure User Guide (UG612).
+
+ 1 path analyzed, 1 endpoint analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum allowable offset is   3.198ns.
+--------------------------------------------------------------------------------
+
+Paths for end point scr_dnn_2 (SLICE_X37Y44.AX), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     16.802ns (requirement - (data path - clock path - clock arrival + uncertainty))
+  Source:               switch (PAD)
+  Destination:          scr_dnn_2 (FF)
+  Destination Clock:    clk_BUFGP rising at 0.000ns
+  Requirement:          20.000ns
+  Data Path Delay:      6.906ns (Levels of Logic = 1)
+  Clock Path Delay:     3.733ns (Levels of Logic = 2)
+  Clock Uncertainty:    0.025ns
+
+  Clock Uncertainty:          0.025ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.050ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: switch to scr_dnn_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    T6.I                 Tiopi                 1.070   switch
+                                                       switch
+                                                       switch_IBUF
+                                                       ProtoComp620.IINV
+                                                       ProtoComp620.IMUX
+    SLICE_X37Y44.AX      net (fanout=1)        5.722   scr_dnn_2_glue_set
+    SLICE_X37Y44.CLK     Tdick                 0.114   scr_dnn<2>
+                                                       scr_dnn_2
+    -------------------------------------------------  ---------------------------
+    Total                                      6.906ns (1.184ns logic, 5.722ns route)
+                                                       (17.1% logic, 82.9% route)
+
+  Minimum Clock Path at Slow Process Corner: clk to scr_dnn_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    L12.I                Tiopi                 1.344   clk
+                                                       clk
+                                                       clk_BUFGP/IBUFG
+                                                       ProtoComp618.IMUX
+    BUFGMUX_X2Y1.I0      net (fanout=1)        0.816   clk_BUFGP/IBUFG
+    BUFGMUX_X2Y1.O       Tgi0o                 0.197   clk_BUFGP/BUFG
+                                                       clk_BUFGP/BUFG
+    SLICE_X37Y44.CLK     net (fanout=1479)     1.376   clk_BUFGP
+    -------------------------------------------------  ---------------------------
+    Total                                      3.733ns (1.541ns logic, 2.192ns route)
+                                                       (41.3% logic, 58.7% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: OFFSET = IN 20 ns VALID 20 ns BEFORE COMP "clk" "RISING";
+--------------------------------------------------------------------------------
+
+Paths for end point scr_dnn_2 (SLICE_X37Y44.AX), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      1.425ns (requirement - (clock path + clock arrival + uncertainty - data path))
+  Source:               switch (PAD)
+  Destination:          scr_dnn_2 (FF)
+  Destination Clock:    clk_BUFGP rising at 0.000ns
+  Requirement:          0.000ns
+  Data Path Delay:      3.343ns (Levels of Logic = 1)
+  Clock Path Delay:     1.893ns (Levels of Logic = 2)
+  Clock Uncertainty:    0.025ns
+
+  Clock Uncertainty:          0.025ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.050ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Minimum Data Path at Fast Process Corner: switch to scr_dnn_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    T6.I                 Tiopi                 0.331   switch
+                                                       switch
+                                                       switch_IBUF
+                                                       ProtoComp620.IINV
+                                                       ProtoComp620.IMUX
+    SLICE_X37Y44.AX      net (fanout=1)        2.953   scr_dnn_2_glue_set
+    SLICE_X37Y44.CLK     Tckdi       (-Th)    -0.059   scr_dnn<2>
+                                                       scr_dnn_2
+    -------------------------------------------------  ---------------------------
+    Total                                      3.343ns (0.390ns logic, 2.953ns route)
+                                                       (11.7% logic, 88.3% route)
+
+  Maximum Clock Path at Fast Process Corner: clk to scr_dnn_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    L12.I                Tiopi                 0.887   clk
+                                                       clk
+                                                       clk_BUFGP/IBUFG
+                                                       ProtoComp618.IMUX
+    BUFGMUX_X2Y1.I0      net (fanout=1)        0.245   clk_BUFGP/IBUFG
+    BUFGMUX_X2Y1.O       Tgi0o                 0.063   clk_BUFGP/BUFG
+                                                       clk_BUFGP/BUFG
+    SLICE_X37Y44.CLK     net (fanout=1479)     0.698   clk_BUFGP
+    -------------------------------------------------  ---------------------------
+    Total                                      1.893ns (0.950ns logic, 0.943ns route)
+                                                       (50.2% logic, 49.8% route)
+
+--------------------------------------------------------------------------------
+
+
+2 constraints not met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+dat_i       |    4.638(R)|      SLOW  |   -2.084(R)|      FAST  |clk_BUFGP         |   0.000|
+switch      |    3.198(R)|      SLOW  |   -1.425(R)|      FAST  |clk_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |   26.563|         |         |         |
+---------------+---------+---------+---------+---------+
+
+COMP "dat_i" OFFSET = IN 500 ns VALID 250 ns BEFORE COMP "clk" "RISING";
+Worst Case Data Window 2.554; Ideal Clock Offset To Actual Clock -371.639; 
+------------------+------------+------------+------------+------------+---------+---------+-------------+
+                  |            |  Process   |            |  Process   |  Setup  |  Hold   |Source Offset|
+Source            |   Setup    |   Corner   |    Hold    |   Corner   |  Slack  |  Slack  |  To Center  |
+------------------+------------+------------+------------+------------+---------+---------+-------------+
+dat_i             |    4.638(R)|      SLOW  |   -2.084(R)|      FAST  |  495.362| -247.916|      371.639|
+------------------+------------+------------+------------+------------+---------+---------+-------------+
+Worst Case Summary|       4.638|         -  |      -2.084|         -  |  495.362| -247.916|             |
+------------------+------------+------------+------------+------------+---------+---------+-------------+
+
+OFFSET = IN 20 ns VALID 20 ns BEFORE COMP "clk" "RISING";
+Worst Case Data Window 1.773; Ideal Clock Offset To Actual Clock -7.689; 
+------------------+------------+------------+------------+------------+---------+---------+-------------+
+                  |            |  Process   |            |  Process   |  Setup  |  Hold   |Source Offset|
+Source            |   Setup    |   Corner   |    Hold    |   Corner   |  Slack  |  Slack  |  To Center  |
+------------------+------------+------------+------------+------------+---------+---------+-------------+
+switch            |    3.198(R)|      SLOW  |   -1.425(R)|      FAST  |   16.802|    1.425|        7.689|
+------------------+------------+------------+------------+------------+---------+---------+-------------+
+Worst Case Summary|       3.198|         -  |      -1.425|         -  |   16.802|    1.425|             |
+------------------+------------+------------+------------+------------+---------+---------+-------------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 1202  Score: 5602331  (Setup/Max: 5354415, Hold: 247916)
+
+Constraints cover 644074392088 paths, 0 nets, and 39340 connections
+
+Design statistics:
+   Minimum period:  26.563ns{1}   (Maximum frequency:  37.646MHz)
+   Minimum input required time before clock:   4.638ns
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed WED 2 AUG 15:6:30 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 541 MB
+
+
+

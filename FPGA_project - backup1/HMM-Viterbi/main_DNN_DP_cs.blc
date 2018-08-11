@@ -1,0 +1,33 @@
+Release 14.7 ngcbuild P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngcbuild.exe -dd C:/.Xilinx/HMM-Viterbi/_ngo -sd ipcore_dir -sd
+../MFC_REC/ipcore_dir -p xc6slx45-csg324-2 -i
+C:\.Xilinx\HMM-Viterbi\main_DNN_DP.ngc C:\.Xilinx\HMM-Viterbi\main_DNN_DP_cs.ngc
+
+Reading NGO file "C:/.Xilinx/HMM-Viterbi/main_DNN_DP.ngc" ...
+Loading design module "ipcore_dir/FFT_16kHz.ngc"...
+Loading design module "../MFC_REC/ipcore_dir/BROM.ngc"...
+Loading design module "ipcore_dir/BRAM_input.ngc"...
+Loading design module "ipcore_dir/BRAM_node.ngc"...
+Loading design module "ipcore_dir/MultAccum.ngc"...
+Loading design module "ipcore_dir/multiplier.ngc"...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 116188 kilobytes
+
+Writing NGC file "C:/.Xilinx/HMM-Viterbi/main_DNN_DP_cs.ngc" ...
+Total REAL time to NGCBUILD completion:  4 sec
+Total CPU time to NGCBUILD completion:   4 sec
+
+Writing NGCBUILD log file "C:/.Xilinx/HMM-Viterbi/main_DNN_DP_cs.blc"...

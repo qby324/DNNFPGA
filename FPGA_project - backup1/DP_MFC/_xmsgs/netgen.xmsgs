@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="NetListWriters" num="306" delta="old" >Signal bus <arg fmt="%s" index="1">clk_div_cnt</arg><arg fmt="%s" index="2">[10 : 0]</arg> on block <arg fmt="%s" index="3">clock_divide_6</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="old" >Signal bus <arg fmt="%s" index="1">vec2_11</arg><arg fmt="%s" index="2">[303 : 0]</arg> on block <arg fmt="%s" index="3">DP_dist_mfc</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="old" >Signal bus <arg fmt="%s" index="1">_n0283</arg><arg fmt="%s" index="2">[303 : 0]</arg> on block <arg fmt="%s" index="3">DP_dist_mfc</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="old" >Signal bus <arg fmt="%s" index="1">ff_GND_23_o_add_86_OUT</arg><arg fmt="%s" index="2">[38 : 0]</arg> on block <arg fmt="%s" index="3">DP_match_mfc</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="old" >Signal bus <arg fmt="%s" index="1">ffnxt_GND_23_o_add_137_OUT</arg><arg fmt="%s" index="2">[38 : 0]</arg> on block <arg fmt="%s" index="3">DP_match_mfc</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="old" >Signal bus <arg fmt="%s" index="1">GND_18_o_GND_18_o_sub_107_OUT</arg><arg fmt="%s" index="2">[3 : 1]</arg> on block <arg fmt="%s" index="3">log2_10bit</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="old" >Signal bus <arg fmt="%s" index="1">_n5058</arg><arg fmt="%s" index="2">[55 : 0]</arg> on block <arg fmt="%s" index="3">MFCC</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="old" >Signal bus <arg fmt="%s" index="1">Madd__n1621_cy</arg><arg fmt="%s" index="2">[3 : 0]</arg> on block <arg fmt="%s" index="3">MFCC</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="old" >Signal bus <arg fmt="%s" index="1">clk_div_cnt</arg><arg fmt="%s" index="2">[10 : 0]</arg> on block <arg fmt="%s" index="3">clock_divide_2</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="old" >Signal bus <arg fmt="%s" index="1">scr_mfc</arg><arg fmt="%s" index="2">[30 : 4]</arg> on block <arg fmt="%s" index="3">main_DP</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="info" file="NetListWriters" num="633" delta="old" >The generated Verilog netlist contains Xilinx <arg fmt="%s" index="1">UNISIM</arg> simulation primitives and has to be used with <arg fmt="%s" index="2">UNISIM</arg> simulation library for correct compilation and simulation. 
+</msg>
+
+</messages>
+

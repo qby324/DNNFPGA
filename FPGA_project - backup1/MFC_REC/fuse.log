@@ -1,0 +1,118 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/simtest_isim_beh.exe -prj C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/simtest_beh.prj work.simtest work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/ipcore_dir/FFT_16kHz.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/vad.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/SMULTI.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/log2_10bit.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/ipcore_dir/BROM.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/BRAM.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/../HMM-Viterbi/sigmoid.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/../HMM-Viterbi/ipcore_dir/multiplier.v" into library work
+WARNING:HDLCompiler:687 - "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/../HMM-Viterbi/ipcore_dir/multiplier.v" Line 770: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/../HMM-Viterbi/ipcore_dir/MultAccum.v" into library work
+WARNING:HDLCompiler:687 - "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/../HMM-Viterbi/ipcore_dir/MultAccum.v" Line 319: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/../HMM-Viterbi/ipcore_dir/BRAM_node.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/../HMM-Viterbi/ipcore_dir/BRAM_input.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/MFCC.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/../HMM-Viterbi/DNN_0117.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/simtest.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+WARNING:HDLCompiler:687 - "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module <glbl>.
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/simtest.v" Line 58: Size mismatch in connection of port <vec_in>. Formal port size is 20-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/simtest.v" Line 60: Size mismatch in connection of port <vec_out>. Formal port size is 11-bit while actual signal size is 22-bit.
+WARNING:HDLCompiler:189 - "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/../HMM-Viterbi/DNN_0117.v" Line 153: Size mismatch in connection of port <a>. Formal port size is 16-bit while actual signal size is 17-bit.
+WARNING:HDLCompiler:189 - "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/../HMM-Viterbi/DNN_0117.v" Line 172: Size mismatch in connection of port <sigin>. Formal port size is 27-bit while actual signal size is 28-bit.
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1570: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1574: Element index 3 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1657: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1661: Element index 3 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1718: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1719: Element index 3 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1770: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1771: Element index 3 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1866: Element index 23 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1867: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1872: Element index 31 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1873: Element index 3 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1976: Element index 23 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1977: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1982: Element index 31 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1983: Element index 3 into memp is out of bounds
+Completed static elaboration
+Compiling module BRAM(DWIDTH=16,AWIDTH=9,WORDS=51...
+Compiling module BRAM(DWIDTH=30,AWIDTH=9,WORDS=40...
+Compiling module BRAM(DWIDTH=40,AWIDTH=9,WORDS=51...
+Compiling module BRAM(DWIDTH=50,AWIDTH=8,WORDS=25...
+Compiling module BRAM(DWIDTH=21,AWIDTH=5,WORDS=24...
+Compiling module BRAM(DWIDTH=26,AWIDTH=4,WORDS=13...
+Compiling module VCC
+Compiling module GND
+Compiling module LUT3(INIT=8'b11100000)
+Compiling module FDRE
+Compiling module FDE
+Compiling module FD
+Compiling module DSP48A1(A0REG=1,B0REG=1,CARRYINR...
+Compiling module DSP48A1(A0REG=1,B0REG=1,CARRYOUT...
+Compiling module DSP48A1(A0REG=1,B0REG=1,CARRYOUT...
+Compiling module DSP48A1(CARRYOUTREG=0,CREG=0,DRE...
+Compiling module XORCY
+Compiling module MUXCY
+Compiling module LUT6(INIT=64'b100000000000000000...
+Compiling module SRL16E
+Compiling module LUT1(INIT=2'b01)
+Compiling module LUT2(INIT=4'b1000)
+Compiling module LUT4(INIT=16'b010111000100010)
+Compiling module FDR
+Compiling module FDSE
+Compiling module MUXF8
+Compiling module MUXF7
+Compiling module LUT5(INIT=32'b101111111011111110...
+Compiling module FDS
+Compiling module INV
+Compiling module RAMB16BWER(DATA_WIDTH_A=36,DATA_...
+Compiling module SRLC16E
+Compiling module SRLC32E
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1397: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1401: Element index 3 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1483: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1487: Element index 3 into memp is out of bounds
+Compiling module RAMB8BWER(DATA_WIDTH_A=18,DATA_W...
+Compiling module FFT_16kHz
+Compiling module log2_10bit
+Compiling module SMULTI
+Compiling module vad
+Compiling module MFCC_default
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module BROM
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module BRAM_input
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module BRAM_node
+Compiling module DSP48A1(A1REG=0,B1REG=0,CARRYINR...
+Compiling module MULT_AND
+Compiling module multiplier
+Compiling module DSP48A1(A1REG=0,B1REG=0,CARRYINR...
+Compiling module MultAccum
+Compiling module sigmoid(IBIT=27,OBIT=11)
+Compiling module DNN_0117
+Compiling module simtest
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 19 sub-compilation(s) to finish...
+Compiled 105 Verilog Units
+Built simulation executable C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/simtest_isim_beh.exe
+Fuse Memory Usage: 82200 KB
+Fuse CPU Usage: 12077 ms

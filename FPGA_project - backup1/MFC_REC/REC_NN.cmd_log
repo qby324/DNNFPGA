@@ -1,0 +1,196 @@
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml REC_NN.twx REC_NN.ncd -o REC_NN.twr REC_NN.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f REC_NN.ut REC_NN.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml REC_NN.twx REC_NN.ncd -o REC_NN.twr REC_NN.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f REC_NN.ut REC_NN.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml REC_NN.twx REC_NN.ncd -o REC_NN.twr REC_NN.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f REC_NN.ut REC_NN.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml REC_NN.twx REC_NN.ncd -o REC_NN.twr REC_NN.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f REC_NN.ut REC_NN.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml REC_NN.twx REC_NN.ncd -o REC_NN.twr REC_NN.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f REC_NN.ut REC_NN.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml REC_NN.twx REC_NN.ncd -o REC_NN.twr REC_NN.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f REC_NN.ut REC_NN.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml REC_NN.twx REC_NN.ncd -o REC_NN.twr REC_NN.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f REC_NN.ut REC_NN.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/MFC_REC/REC_NN.xst" -ofn "C:/.Xilinx/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml REC_NN.twx REC_NN.ncd -o REC_NN.twr REC_NN.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f REC_NN.ut REC_NN.ncd 
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+xst -intstyle ise -ifn "C:/Users/tslab/Desktop/FPGA_project - backup/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab/Desktop/FPGA_project - backup/MFC_REC/REC_NN.syr" 
+par -w -intstyle ise -ol high -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml REC_NN.twx REC_NN.ncd -o REC_NN.twr REC_NN.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f REC_NN.ut REC_NN.ncd 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml REC_NN.twx REC_NN.ncd -o REC_NN.twr REC_NN.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f REC_NN.ut REC_NN.ncd 
+bitgen -intstyle ise -f REC_NN.ut REC_NN.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml REC_NN.twx REC_NN.ncd -o REC_NN.twr REC_NN.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f REC_NN.ut REC_NN.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml REC_NN.twx REC_NN.ncd -o REC_NN.twr REC_NN.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f REC_NN.ut REC_NN.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml REC_NN.twx REC_NN.ncd -o REC_NN.twr REC_NN.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f REC_NN.ut REC_NN.ncd 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml REC_NN.twx REC_NN.ncd -o REC_NN.twr REC_NN.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f REC_NN.ut REC_NN.ncd 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml REC_NN.twx REC_NN.ncd -o REC_NN.twr REC_NN.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f REC_NN.ut REC_NN.ncd 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml REC_NN.twx REC_NN.ncd -o REC_NN.twr REC_NN.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f REC_NN.ut REC_NN.ncd 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml REC_NN.twx REC_NN.ncd -o REC_NN.twr REC_NN.pcf -ucf main_REC.ucf 
+bitgen -intstyle ise -f REC_NN.ut REC_NN.ncd 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -smartguide "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN_guide.ncd" -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -smartguide "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN_guide.ncd" -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -smartguide "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN_guide.ncd" -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -smartguide "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN_guide.ncd" -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol std -smartguide "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN_guide.ncd" -x REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+par -w -intstyle ise -ol std -smartguide "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN_guide.ncd" -x REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -smartguide "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN_guide.ncd" -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -smartguide "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN_guide.ncd" -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -smartguide "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN_guide.ncd" -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -smartguide "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN_guide.ncd" -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -smartguide "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN_guide.ncd" -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -smartguide "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN_guide.ncd" -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+par -w -intstyle ise -ol high -smartguide "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN_guide.ncd" -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/newtest2/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/newtest2/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+xst -intstyle ise -ifn "C:/Users/tslab-802-2/Desktop/newtest2/FPGA_project - backup1/MFC_REC/REC_NN.xst" -ofn "C:/Users/tslab-802-2/Desktop/newtest2/FPGA_project - backup1/MFC_REC/REC_NN.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../HMM-Viterbi/ipcore_dir -nt timestamp -uc main_REC.ucf -p xc6slx45-csg324-2 REC_NN_cs.ngc REC_NN.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -smartguide "C:/Users/tslab-802-2/Desktop/newtest2/FPGA_project - backup1/MFC_REC/REC_NN_guide.ncd" -power off -o REC_NN_map.ncd REC_NN.ngd REC_NN.pcf 
+par -w -intstyle ise -ol high -smartguide "C:/Users/tslab-802-2/Desktop/newtest2/FPGA_project - backup1/MFC_REC/REC_NN_guide.ncd" -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 

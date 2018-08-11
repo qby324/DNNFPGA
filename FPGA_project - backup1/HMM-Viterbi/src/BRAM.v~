@@ -1,0 +1,65 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: Chiba University
+// Engineer: Harua N.
+// 
+// Create Date:    16:52:37 01/08/2012 
+// Design Name:	 BRAM
+// Module Name:    BRAM 
+// Project Name:  MASTER
+// Target Devices: any
+// Tool versions: any
+// Description:
+//	
+// BRAM #(.DWIDTH(16),.AWIDTH(10),.WORDS(1024)) 
+//  RINGBUFFER(.clk(clk),.write(write),.addr(index),.indata(voicedata),.outdata(outdata));
+//
+//
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+module BRAM #(parameter DWIDTH=40,AWIDTH=9,WORDS=512) (clk, write, addr, indata, outdata);
+
+ input clk,write;
+ input [AWIDTH-1:0] addr;
+ input [DWIDTH-1:0] indata;
+ output signed[DWIDTH-1:0] outdata;
+ reg signed[DWIDTH-1:0] outdata;
+ reg signed[DWIDTH-1:0] mem [0:WORDS-1];
+
+ always @(posedge clk)
+   begin
+     if(write) mem[addr] <= indata;
+     outdata <= mem[addr];
+  end
+
+ integer i;
+ initial begin
+    for(i=0;i<WORDS;i=i+1)
+		
+		//if(i>0)begin
+		//	mem[i]=i;
+		//end else begin
+			//mem[i]=-100;
+		//end
+		/*
+		case(i)
+			0:mem[i]<=278193;
+			1:mem[i]<=526326;
+			2:mem[i]<=598790;
+			3:mem[i]<=45025;
+			4:mem[i]<=-34824;
+			5:mem[i]<=194876;
+			6:mem[i]<=-376733;
+			7:mem[i]<=-153535;
+			8:mem[i]<=-228916;
+			9:mem[i]<=-108448;
+			10:mem[i]<=-161137;
+			11:mem[i]<=-15067;
+			default:mem[i]<=0;
+		endcase
+		*/
+		mem[i]=1;
+ end
+
+endmodule

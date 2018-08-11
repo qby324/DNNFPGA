@@ -1,0 +1,17 @@
+# Output products list for <MultAccumnew6bit>
+MultAccumnew6bit.asy
+MultAccumnew6bit.gise
+MultAccumnew6bit.ngc
+MultAccumnew6bit.sym
+MultAccumnew6bit.v
+MultAccumnew6bit.veo
+MultAccumnew6bit.xco
+MultAccumnew6bit.xise
+MultAccumnew6bit\doc\xbip_multaccum_ds716.pdf
+MultAccumnew6bit\doc\xbip_multaccum_v2_0_readme.txt
+MultAccumnew6bit\doc\xbip_multaccum_v2_0_vinfo.html
+MultAccumnew6bit_flist.txt
+MultAccumnew6bit_xmdf.tcl
+_xmsgs\pn_parser.xmsgs
+core_resources.txt
+gui_latency.txt

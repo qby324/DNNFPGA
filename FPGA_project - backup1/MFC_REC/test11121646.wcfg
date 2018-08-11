@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/.Xilinx/MFC_REC/test_rec_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_rec" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/test_rec/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rec/x_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x_i[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rec/write" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rec/rec/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[9:0]</obj_property>
+      <obj_property name="ObjectShortName">i[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rec/vad" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vad</obj_property>
+      <obj_property name="ObjectShortName">vad</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rec/vad_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vad_out</obj_property>
+      <obj_property name="ObjectShortName">vad_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rec/rec/before_dv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">before_dv</obj_property>
+      <obj_property name="ObjectShortName">before_dv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rec/dv_out" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dv_out</obj_property>
+      <obj_property name="ObjectShortName">dv_out</obj_property>
+      <obj_property name="label">dv_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rec/out_index" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_index[4:0]</obj_property>
+      <obj_property name="ObjectShortName">out_index[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rec/rec/idx_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">idx_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">idx_cnt[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rec/x_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x_o[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rec/rec/mfc_tmp" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">mfc_tmp[11:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">mfc_tmp[11:0,31:0]</obj_property>
+      <obj_property name="label">mfc_tmp[11:0,31:0]</obj_property>
+      <wvobject fp_name="/test_rec/rec/mfc_tmp[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mfc_tmp[11,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_rec/rec/mfc_tmp[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mfc_tmp[10,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_rec/rec/mfc_tmp[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mfc_tmp[9,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_rec/rec/mfc_tmp[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mfc_tmp[8,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_rec/rec/mfc_tmp[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mfc_tmp[7,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_rec/rec/mfc_tmp[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mfc_tmp[6,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_rec/rec/mfc_tmp[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mfc_tmp[5,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_rec/rec/mfc_tmp[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mfc_tmp[4,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_rec/rec/mfc_tmp[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mfc_tmp[3,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_rec/rec/mfc_tmp[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mfc_tmp[2,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_rec/rec/mfc_tmp[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mfc_tmp[1,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_rec/rec/mfc_tmp[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mfc_tmp[0,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/test_rec/rec/index" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">index[3:0]</obj_property>
+      <obj_property name="ObjectShortName">index[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rec/dat_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dat_out[383:0]</obj_property>
+      <obj_property name="ObjectShortName">dat_out[383:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rec/rec/rec_process" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rec_process[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rec_process[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_rec/max" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">max</obj_property>
+      <obj_property name="ObjectShortName">max</obj_property>
+   </wvobject>
+</wave_config>

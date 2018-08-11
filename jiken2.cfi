@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            04/12/2017 - 20:10
+SOURCE          C:\Users\tslab-802-2\Desktop\jiken2\jiken2.mcs
+DEVICE          2048K
+DATA_WIDTH      1
+FILL_DATA       0xFF
+SIGNATURE       0x0A65224F
+START_ADDRESS   0x00000000 END_ADDRESS 0x0016A9B3 DIRECTION_UP   "C:/Users/tslab-802-2/Desktop/jiken2/FPGA_project - backup1/DP_MFC/main_dnn_dp_cclktemp.bit" 6slx45csg324

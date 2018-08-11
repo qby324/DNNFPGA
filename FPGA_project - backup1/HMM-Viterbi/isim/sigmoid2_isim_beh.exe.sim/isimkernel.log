@@ -1,0 +1,28 @@
+Command line:
+   sigmoid2_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  2518
+
+Tue Jan 27 18:46:06 2015
+
+
+ Elaboration Time: 0.390625 sec
+
+ Current Memory Usage: 374.96 Meg
+
+ Total Signals          : 16993
+ Total Nets             : 6407
+ Total Signal Drivers   : 5898
+ Total Blocks           : 3384
+ Total Primitive Blocks : 3137
+ Total Processes        : 10489
+ Total Traceable Variables  : 5127
+ Total Scalar Nets and Variables : 40491
+
+ Total Simulation Time: 0.46875 sec
+
+ Current Memory Usage: 374.96 Meg
+
+Tue Jan 27 18:46:23 2015
+

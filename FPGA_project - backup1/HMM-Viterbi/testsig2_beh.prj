@@ -1,0 +1,6 @@
+verilog work "ipcore_dir/sig_mulA.v"
+verilog work "ipcore_dir/sig_mulB.v"
+verilog work "ipcore_dir/sig_mulC.v"
+verilog work "sigmoid2.v"
+verilog work "testsig2.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

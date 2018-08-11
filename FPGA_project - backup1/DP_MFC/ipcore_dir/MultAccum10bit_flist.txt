@@ -1,0 +1,17 @@
+# Output products list for <MultAccum10bit>
+MultAccum10bit.asy
+MultAccum10bit.gise
+MultAccum10bit.ngc
+MultAccum10bit.sym
+MultAccum10bit.v
+MultAccum10bit.veo
+MultAccum10bit.xco
+MultAccum10bit.xise
+MultAccum10bit\doc\xbip_multaccum_ds716.pdf
+MultAccum10bit\doc\xbip_multaccum_v2_0_readme.txt
+MultAccum10bit\doc\xbip_multaccum_v2_0_vinfo.html
+MultAccum10bit_flist.txt
+MultAccum10bit_xmdf.tcl
+_xmsgs\pn_parser.xmsgs
+core_resources.txt
+gui_latency.txt

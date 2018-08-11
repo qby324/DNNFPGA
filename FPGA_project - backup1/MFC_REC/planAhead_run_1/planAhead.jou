@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sun Jan 18 03:32:41 2015
+# Process ID: 2820
+# Log file: C:/.Xilinx/MFC_REC/planAhead_run_1/planAhead.log
+# Journal file: C:/.Xilinx/MFC_REC/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/.Xilinx/MFC_REC/pa.fromNetlist.tcl

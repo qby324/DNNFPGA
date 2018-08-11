@@ -1,0 +1,14 @@
+
+
+
+// Instantiate the module
+DNN_main instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .vec_in(vec_in), 
+    .dv_in(dv_in), 
+    .vec_out(vec_out), 
+    .dv_out(dv_out)
+    );
+
+

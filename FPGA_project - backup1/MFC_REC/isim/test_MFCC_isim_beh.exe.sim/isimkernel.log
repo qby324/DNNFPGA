@@ -1,0 +1,28 @@
+Command line:
+   test_MFCC_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  2686
+
+Sat Jan 10 23:46:01 2015
+
+
+ Elaboration Time: 0.921875 sec
+
+ Current Memory Usage: 391.143 Meg
+
+ Total Signals          : 24291
+ Total Nets             : 16489
+ Total Signal Drivers   : 9679
+ Total Blocks           : 4078
+ Total Primitive Blocks : 3465
+ Total Processes        : 17816
+ Total Traceable Variables  : 10391
+ Total Scalar Nets and Variables : 410625
+
+ Total Simulation Time: 90.5469 sec
+
+ Current Memory Usage: 391.143 Meg
+
+Sat Jan 10 23:48:09 2015
+

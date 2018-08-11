@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Par" num="492" delta="old" >Multi-threading (&quot;-mt&quot; option) is not supported for the SmartGuide flow. PAR will use only one processor.
+
+</msg>
+
+<msg type="info" file="Par" num="402" delta="old" >SmartGuide was run during Map. Since all guiding (mapping, packing, placement and routing) is completed in MAP, PAR does not require the use of the guide switches. The -smartguide switch only generates a post place and route guide report in the SmartGuide Report File(.GRF). Runtime can be reduced, if this detailed report is not generated. PAR will automatically generate the SmartGuide summary report based on the guide file used during MAP. This summary information is always in the PAR report file and the GRF.
+</msg>
+
+<msg type="warning" file="Route" num="463" delta="old" >The router has detected a very dense, congested design. It is extremely unlikely the router will be able to finish the design and meet your requirements. To prevent excessive run time the router will exit with a partially routed design. This behavior will allow you to identify difficult designs earlier. The cause of this behavior is either overly difficult constraints, putting too much logic into this device, or an issue with the implementation. If you would prefer a fully routed design, ease the constraints (if any), remove some logic from the design, or change the placement before running router again. If you are willing to accept a long run time, set the option &quot;-xe c&quot; to override the present behavior.
+</msg>
+
+<msg type="warning" file="Route" num="543" delta="old" >This design is experiencing routing congestion. Please review the Xilinx Routing Optimization White Paper, WP381 on www.xilinx.com, for guidelines and techniques in resolving this issue.
+</msg>
+
+<msg type="warning" file="Route" num="563" delta="old" >
+ Router will not fix hold error 
+</msg>
+
+<msg type="warning" file="Par" num="468" delta="old" >Your design did not meet timing.  The following are some suggestions to assist you to meet timing in your design.
+
+Review the timing report using Timing Analyzer (In ISE select &quot;Post-Place &amp;
+Route Static Timing Report&quot;). Go to the failing constraint(s) and evaluate the failing paths for each constraint.
+
+Try the Design Goal and Strategies for Timing Performance(In ISE select Project -&gt; Design Goals &amp; Strategies) to ensure the best options are set in the tools for timing closure.
+
+</msg>
+
+<msg type="info" file="Timing" num="2761" delta="old" >N/A entries in the Constraints List may indicate that the constraint is not analyzed due to the following: No paths covered by this constraint; Other constraints intersect with this constraint; or This constraint was disabled by a Path Tracing Control. Please run the Timespec Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.</msg>
+
+<msg type="warning" file="ParHelpers" num="360" delta="old" >Design is not completely routed.
+
+</msg>
+
+<msg type="warning" file="Par" num="100" delta="new" >Design is not completely routed. There are <arg fmt="%d" index="1">162</arg> signals that are not
+completely routed in this design. See the &quot;<arg fmt="%s" index="2">REC_NN.unroutes</arg>&quot; file for a list of
+all unrouted signals. Check for other warnings in your PAR report that might
+indicate why these nets are unroutable. These nets can also be evaluated
+in FPGA Editor by selecting &quot;Unrouted Nets&quot; in the List Window.
+
+</msg>
+
+</messages>
+

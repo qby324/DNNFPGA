@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">mean2</arg><arg fmt="%s" index="2">[20 : 0]</arg> on block <arg fmt="%s" index="3">recog</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">mean5</arg><arg fmt="%s" index="2">[20 : 0]</arg> on block <arg fmt="%s" index="3">recog</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_diff1_cy</arg><arg fmt="%s" index="2">[59 : 3]</arg> on block <arg fmt="%s" index="3">recog</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_diff2_cy</arg><arg fmt="%s" index="2">[59 : 3]</arg> on block <arg fmt="%s" index="3">recog</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_diff3_cy</arg><arg fmt="%s" index="2">[59 : 3]</arg> on block <arg fmt="%s" index="3">recog</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_diff4_cy</arg><arg fmt="%s" index="2">[59 : 3]</arg> on block <arg fmt="%s" index="3">recog</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_diff5_cy</arg><arg fmt="%s" index="2">[59 : 3]</arg> on block <arg fmt="%s" index="3">recog</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Mmult_outdataX0_Madd_cy</arg><arg fmt="%s" index="2">[75 : 71]</arg> on block <arg fmt="%s" index="3">SMULTI_INST_1</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Mmult_outdataX1_Madd_cy</arg><arg fmt="%s" index="2">[43 : 3]</arg> on block <arg fmt="%s" index="3">SMULTI_INST_1</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Mmult_outdataX2_Madd_cy</arg><arg fmt="%s" index="2">[77 : 37]</arg> on block <arg fmt="%s" index="3">SMULTI_INST_1</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Mmult_outdataX2_Madd_cy</arg><arg fmt="%s" index="2">[77 : 37]</arg> on block <arg fmt="%s" index="3">SMULTI</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Mmult_outdataX0_Madd_cy</arg><arg fmt="%s" index="2">[75 : 71]</arg> on block <arg fmt="%s" index="3">SMULTI</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Mmult_outdataX1_Madd_cy</arg><arg fmt="%s" index="2">[43 : 3]</arg> on block <arg fmt="%s" index="3">SMULTI</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">GND_17_o_GND_17_o_sub_107_OUT</arg><arg fmt="%s" index="2">[3 : 1]</arg> on block <arg fmt="%s" index="3">log2_10bit</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Madd__n1244_cy</arg><arg fmt="%s" index="2">[3 : 1]</arg> on block <arg fmt="%s" index="3">MFCC</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_dct_tmp2_cy</arg><arg fmt="%s" index="2">[31 : 3]</arg> on block <arg fmt="%s" index="3">MFCC</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_MFBtmp_in_cy</arg><arg fmt="%s" index="2">[59 : 3]</arg> on block <arg fmt="%s" index="3">MFCC</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Mcount_shift_cnt_cy</arg><arg fmt="%s" index="2">[7 : 3]</arg> on block <arg fmt="%s" index="3">MFCC</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Mcount_shift_framecnt_cy</arg><arg fmt="%s" index="2">[7 : 3]</arg> on block <arg fmt="%s" index="3">MFCC</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Madd_n0781_Madd_cy</arg><arg fmt="%s" index="2">[75 : 3]</arg> on block <arg fmt="%s" index="3">MFCC</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Mcount_ringaddr_cy</arg><arg fmt="%s" index="2">[7 : 3]</arg> on block <arg fmt="%s" index="3">MFCC</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Mcount_pow_index_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MFCC</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">_n4000</arg><arg fmt="%s" index="2">[62 : 0]</arg> on block <arg fmt="%s" index="3">MFCC</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum31_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum23_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum15_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum9_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum24_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum16_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum25_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum17_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum26_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum18_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum27_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum19_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Mmux__n4391_rs_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum28_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum29_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Mmux__n4204_rs_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Mmux__n4159_rs_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Mmux__n4346_rs_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Mmux__n4112_rs_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Mmux__n4299_rs_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum10_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum11_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum20_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum12_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum21_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum13_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum30_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum22_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum14_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum0_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum1_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum2_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Mmux__n4252_rs_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Mmux__n4068_rs_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum3_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum4_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum5_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum6_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum7_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum8_cy</arg><arg fmt="%s" index="2">[11 : 3]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum25_lut</arg><arg fmt="%s" index="2">[15 : 0]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum17_lut</arg><arg fmt="%s" index="2">[7 : 0]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum26_lut</arg><arg fmt="%s" index="2">[15 : 0]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum27_lut</arg><arg fmt="%s" index="2">[15 : 0]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum19_lut</arg><arg fmt="%s" index="2">[7 : 0]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum28_lut</arg><arg fmt="%s" index="2">[15 : 0]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum29_lut</arg><arg fmt="%s" index="2">[15 : 0]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum12_lut</arg><arg fmt="%s" index="2">[7 : 0]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum14_lut</arg><arg fmt="%s" index="2">[7 : 0]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum2_lut</arg><arg fmt="%s" index="2">[15 : 0]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum3_lut</arg><arg fmt="%s" index="2">[15 : 0]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum4_lut</arg><arg fmt="%s" index="2">[15 : 0]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum5_lut</arg><arg fmt="%s" index="2">[15 : 0]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_sum6_lut</arg><arg fmt="%s" index="2">[15 : 0]</arg> on block <arg fmt="%s" index="3">MEMS_Filter</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Mcount_clk_div_cnt_cy</arg><arg fmt="%s" index="2">[15 : 3]</arg> on block <arg fmt="%s" index="3">clock_divide_2</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="info" file="NetListWriters" num="633" delta="new" >The generated Verilog netlist contains Xilinx <arg fmt="%s" index="1">SIMPRIM</arg> simulation primitives and has to be used with <arg fmt="%s" index="2">SIMPRIM</arg> simulation library for correct compilation and simulation. 
+</msg>
+
+<msg type="info" file="NetListWriters" num="0" delta="new" >Xilinx recommends running separate simulations to check for setup by specifying the MAX field in the SDF file and for hold by specifying the MIN field in the SDF file. Please refer to Simulator documentation for more details on specifying MIN and MAX field in the SDF.
+</msg>
+
+<msg type="info" file="NetListWriters" num="665" delta="new" >For more information on how to pass the SDF switches to the simulator, see your Simulator tool documentation.
+</msg>
+
+</messages>
+

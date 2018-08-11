@@ -1,0 +1,21 @@
+NET "clk" LOC = "L12" |IOSTANDARD = LVCMOS33;
+NET "clk" TNM_NET = "clk";
+TIMESPEC TS_clk = PERIOD "clk" 20 ns HIGH 40 %;
+
+NET "led1" LOC = V7;
+NET "led2" LOC = U7;
+NET "switch" LOC = T6;
+
+NET "dat_i"LOC="F2" |IOSTANDARD = LVTTL ;     //!< }CN
+NET "sclk" LOC="G3" |IOSTANDARD = LVTTL ;          //!< }CNclk
+NET "led3" LOC="C9" |IOSTANDARD = LVTTL |SLEW = SLOW |DRIVE = 8; //!< o:LED on board
+NET "beep" LOC="N2" |IOSTANDARD = LVTTL |SLEW = SLOW |DRIVE = 8; //!< óAlpXs[J
+#Created by Constraints Editor (xc6slx45-csg324-2) - 2013/11/12
+NET "dat_i" OFFSET = IN 500 ns VALID 250 ns BEFORE "clk" RISING;
+OFFSET = IN 20 ns VALID 20 ns BEFORE "clk" RISING;
+#Created by Constraints Editor (xc6slx45-csg324-2) - 2013/12/15
+
+#NET "HMM_viterbi/clock_devide_10M/clk_div" TNM_NET = detect_NN/clock_devide_10M/clk_div;
+#TIMESPEC TS_detect_NN_clock_devide_10M_clk_div = PERIOD "detect_NN/clock_devide_10M/clk_div" 10 MHz HIGH 50%;
+#PIN "detect_NN/clock_devide_10M/clk_div_BUFG.O" CLOCK_DEDICATED_ROUTE = FALSE;
+#PIN "clock_devide_10M/clk_div_BUFG.O" CLOCK_DEDICATED_ROUTE = FALSE; 

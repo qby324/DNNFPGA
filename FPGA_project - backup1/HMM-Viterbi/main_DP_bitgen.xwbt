@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\.Xilinx\HMM-Viterbi\main_DP.ncd
+OUTFILE=C:\.Xilinx\HMM-Viterbi\main_DP.bit
+FAMILY=Spartan6
+PART=xc6slx45-2csg324
+WORKINGDIR=C:\.Xilinx\HMM-Viterbi
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,14 @@
+NET "clk" LOC = "L12" |IOSTANDARD = LVCMOS33;
+NET "clk" TNM_NET = "clk";
+TIMESPEC TS_clk = PERIOD "clk" 20 ns HIGH 40 %;
+
+NET "led1" LOC = V7;
+NET "led2" LOC = U7;
+
+NET "dat_i"LOC="F2" |IOSTANDARD = LVTTL ;     //!< マイクからの入力
+NET "sclk" LOC="G3" |IOSTANDARD = LVTTL ;          //!< マイクのclk
+NET "led3" LOC="C9" |IOSTANDARD = LVTTL |SLEW = SLOW |DRIVE = 8; //!< 出力:LED on board
+NET "beep" LOC="N2" |IOSTANDARD = LVTTL |SLEW = SLOW |DRIVE = 8; //!< 出力、四角いスピーカ
+#Created by Constraints Editor (xc6slx45-csg324-2) - 2013/11/12
+NET "dat_i" OFFSET = IN 500 ns VALID 250 ns BEFORE "clk" RISING;
+OFFSET = IN 20 ns VALID 20 ns BEFORE "clk" RISING;

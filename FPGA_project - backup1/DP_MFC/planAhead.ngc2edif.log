@@ -1,0 +1,161 @@
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design main_DNN_DP.ngc ...
+WARNING:NetListWriters:298 - No output is written to main_DNN_DP.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus vec2_59<128 : 0> on block DP_distance is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus dim_cnt[5]_X_28_o_wide_mux_51_OUT<9 : 0>
+   on block DP_distance is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _n0235<290 : 0> on block DP_distance is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus n0188<26 : 1> on block sigmoid is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus n0194<11 : 1> on block sigmoid is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[11][19]_PWR_25_o_sub_37_OUT<19:0>_lut<16 : 2> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[8][19]_PWR_25_o_sub_34_OUT<19:0>_lut<14 : 4> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[10][19]_GND_19_o_sub_36_OUT<19:0>_lut<19 : 4> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[9][19]_PWR_25_o_sub_35_OUT<19:0>_lut<14 : 5> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[5][19]_PWR_25_o_sub_31_OUT<19:0>_lut<15 : 3> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[7][19]_PWR_25_o_sub_33_OUT<19:0>_lut<14 : 1> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[6][19]_PWR_25_o_sub_32_OUT<19:0>_lut<15 : 5> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[2][19]_GND_19_o_sub_28_OUT<19:0>_lut<19 : 4> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[4][19]_PWR_25_o_sub_30_OUT<19:0>_lut<16 : 8> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[3][19]_PWR_25_o_sub_29_OUT<19:0>_lut<15 : 3> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[1][19]_GND_19_o_sub_27_OUT<19:0>_lut<19 : 1> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[0][19]_GND_19_o_sub_26_OUT<19:0>_lut<19 : 2> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus GND_15_o_GND_15_o_sub_107_OUT[3 : 1] on
+   block log2_10bit is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   process_index[4]_process_index[4]_mux_45_OUT<3 : 1> on block MFCC is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus _n5058<55 : 0> on block MFCC is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Madd__n1646_cy<3 : 0> on block MFCC is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus n0539[7:0]<7 : 1> on block MEMS_Filter
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_tmp0[15]_GND_6_o_sub_840_OUT_lut<15
+   : 4> on block MEMS_Filter is not reconstructed, because there are some
+   missing bus signals.
+  finished :Prep
+Writing EDIF netlist file main_DNN_DP.edif ...
+ngc2edif: Total memory usage is 127024 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design FFT_16kHz.ngc ...
+WARNING:NetListWriters:298 - No output is written to FFT_16kHz.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file FFT_16kHz.edif ...
+ngc2edif: Total memory usage is 94640 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design MultAccum.ngc ...
+WARNING:NetListWriters:298 - No output is written to MultAccum.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file MultAccum.edif ...
+ngc2edif: Total memory usage is 86448 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design BRAM_input.ngc ...
+WARNING:NetListWriters:298 - No output is written to BRAM_input.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file BRAM_input.edif ...
+ngc2edif: Total memory usage is 82352 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design BROM.ngc ...
+WARNING:NetListWriters:298 - No output is written to BROM.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file BROM.edif ...
+ngc2edif: Total memory usage is 86448 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design BRAM_node.ngc ...
+WARNING:NetListWriters:298 - No output is written to BRAM_node.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file BRAM_node.edif ...
+ngc2edif: Total memory usage is 82352 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design multiplier.ngc ...
+WARNING:NetListWriters:298 - No output is written to multiplier.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file multiplier.edif ...
+ngc2edif: Total memory usage is 86448 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design FFT_16kHz.ngc ...
+WARNING:NetListWriters:298 - No output is written to FFT_16kHz.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file FFT_16kHz.edif ...
+ngc2edif: Total memory usage is 94640 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design BROM.ngc ...
+WARNING:NetListWriters:298 - No output is written to BROM.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file BROM.edif ...
+ngc2edif: Total memory usage is 86448 kilobytes
+

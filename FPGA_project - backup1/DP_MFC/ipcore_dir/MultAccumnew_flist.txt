@@ -1,0 +1,17 @@
+# Output products list for <MultAccumnew>
+MultAccumnew.asy
+MultAccumnew.gise
+MultAccumnew.ngc
+MultAccumnew.sym
+MultAccumnew.v
+MultAccumnew.veo
+MultAccumnew.xco
+MultAccumnew.xise
+MultAccumnew\doc\xbip_multaccum_ds716.pdf
+MultAccumnew\doc\xbip_multaccum_v2_0_readme.txt
+MultAccumnew\doc\xbip_multaccum_v2_0_vinfo.html
+MultAccumnew_flist.txt
+MultAccumnew_xmdf.tcl
+_xmsgs\pn_parser.xmsgs
+core_resources.txt
+gui_latency.txt

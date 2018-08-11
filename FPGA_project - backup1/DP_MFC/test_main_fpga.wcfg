@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/work2/haruka/HMM-V/Test_main_fpga_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Test_main_fpga" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/Test_main_fpga/sclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sclk</obj_property>
+      <obj_property name="ObjectShortName">sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_main_fpga/led1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">led1</obj_property>
+      <obj_property name="ObjectShortName">led1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_main_fpga/led2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">led2</obj_property>
+      <obj_property name="ObjectShortName">led2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_main_fpga/led3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">led3</obj_property>
+      <obj_property name="ObjectShortName">led3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_main_fpga/beep" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">beep</obj_property>
+      <obj_property name="ObjectShortName">beep</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_main_fpga/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_main_fpga/dat_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dat_i</obj_property>
+      <obj_property name="ObjectShortName">dat_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_main_fpga/tmp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tmp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tmp[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_main_fpga/STEP" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">STEP[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STEP[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_main_fpga/STEP_half" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">STEP_half[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STEP_half[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_main_fpga/STEP_2M" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">STEP_2M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STEP_2M[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group54" type="group">
+      <obj_property name="label">recog</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/reset" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/x_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">x_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x_i[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/write" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">write</obj_property>
+         <obj_property name="ObjectShortName">write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/load" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">load</obj_property>
+         <obj_property name="ObjectShortName">load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/result" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">result[1:0]</obj_property>
+         <obj_property name="ObjectShortName">result[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/dv" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">dv</obj_property>
+         <obj_property name="ObjectShortName">dv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/done" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/port" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">port</obj_property>
+         <obj_property name="ObjectShortName">port</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/mean" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">mean[0:5,63:0]</obj_property>
+         <obj_property name="ObjectShortName">mean[0:5,63:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/mean[0]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,63:0]</obj_property>
+            <obj_property name="ObjectShortName">mean[0,63:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/mean[1]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,63:0]</obj_property>
+            <obj_property name="ObjectShortName">mean[1,63:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/mean[2]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[2,63:0]</obj_property>
+            <obj_property name="ObjectShortName">mean[2,63:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/mean[3]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[3,63:0]</obj_property>
+            <obj_property name="ObjectShortName">mean[3,63:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/mean[4]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[4,63:0]</obj_property>
+            <obj_property name="ObjectShortName">mean[4,63:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/mean[5]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[5,63:0]</obj_property>
+            <obj_property name="ObjectShortName">mean[5,63:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/diff" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">diff[63:0]</obj_property>
+         <obj_property name="ObjectShortName">diff[63:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/diff_tmp" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">diff_tmp[63:0]</obj_property>
+         <obj_property name="ObjectShortName">diff_tmp[63:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/diff_bfr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">diff_bfr[63:0]</obj_property>
+         <obj_property name="ObjectShortName">diff_bfr[63:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/buff" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">buff[0:11,31:0]</obj_property>
+         <obj_property name="ObjectShortName">buff[0:11,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/buff[0]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,31:0]</obj_property>
+            <obj_property name="ObjectShortName">buff[0,31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/buff[1]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,31:0]</obj_property>
+            <obj_property name="ObjectShortName">buff[1,31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/buff[2]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[2,31:0]</obj_property>
+            <obj_property name="ObjectShortName">buff[2,31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/buff[3]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[3,31:0]</obj_property>
+            <obj_property name="ObjectShortName">buff[3,31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/buff[4]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[4,31:0]</obj_property>
+            <obj_property name="ObjectShortName">buff[4,31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/buff[5]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[5,31:0]</obj_property>
+            <obj_property name="ObjectShortName">buff[5,31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/buff[6]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[6,31:0]</obj_property>
+            <obj_property name="ObjectShortName">buff[6,31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/buff[7]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[7,31:0]</obj_property>
+            <obj_property name="ObjectShortName">buff[7,31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/buff[8]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[8,31:0]</obj_property>
+            <obj_property name="ObjectShortName">buff[8,31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/buff[9]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[9,31:0]</obj_property>
+            <obj_property name="ObjectShortName">buff[9,31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/buff[10]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[10,31:0]</obj_property>
+            <obj_property name="ObjectShortName">buff[10,31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/buff[11]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[11,31:0]</obj_property>
+            <obj_property name="ObjectShortName">buff[11,31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/addr_buf" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">addr_buf[5:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_buf[5:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/init_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">init_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">init_i[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">i[4:0]</obj_property>
+         <obj_property name="ObjectShortName">i[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/j" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">j[3:0]</obj_property>
+         <obj_property name="ObjectShortName">j[3:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/beforedv" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">beforedv</obj_property>
+         <obj_property name="ObjectShortName">beforedv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/start" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/wait1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wait1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">wait1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/min_model" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">min_model[4:0]</obj_property>
+         <obj_property name="ObjectShortName">min_model[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/BWIDTH" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">BWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BWIDTH[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/AWIDTH" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">AWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AWIDTH[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/MFCC_SIZE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">MFCC_SIZE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MFCC_SIZE[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/recog/MODEL_NUM" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">MODEL_NUM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MODEL_NUM[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group67" type="group">
+      <obj_property name="label">detect</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/reset" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/x_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">x_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">x_i[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/write" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">write</obj_property>
+         <obj_property name="ObjectShortName">write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/result_dv" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">result_dv</obj_property>
+         <obj_property name="ObjectShortName">result_dv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/result" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">result[1:0]</obj_property>
+         <obj_property name="ObjectShortName">result[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/clk_10MHz" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk_10MHz</obj_property>
+         <obj_property name="ObjectShortName">clk_10MHz</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/x_o" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">x_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x_o[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/mfcc_dv" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mfcc_dv</obj_property>
+         <obj_property name="ObjectShortName">mfcc_dv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/x_index" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">x_index[4:0]</obj_property>
+         <obj_property name="ObjectShortName">x_index[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/rec_load" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rec_load</obj_property>
+         <obj_property name="ObjectShortName">rec_load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/detect_NN/rec_done" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rec_done</obj_property>
+         <obj_property name="ObjectShortName">rec_done</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group100" type="group">
+      <obj_property name="label">uut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Test_main_fpga/uut/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/dat_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">dat_i</obj_property>
+         <obj_property name="ObjectShortName">dat_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/clk_10MHz" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk_10MHz</obj_property>
+         <obj_property name="ObjectShortName">clk_10MHz</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/clk_2MHz" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk_2MHz</obj_property>
+         <obj_property name="ObjectShortName">clk_2MHz</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/clk_4000Hz" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk_4000Hz</obj_property>
+         <obj_property name="ObjectShortName">clk_4000Hz</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/clk_100Hz" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk_100Hz</obj_property>
+         <obj_property name="ObjectShortName">clk_100Hz</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/clk_5Hz" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk_5Hz</obj_property>
+         <obj_property name="ObjectShortName">clk_5Hz</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/clk_1Hz" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk_1Hz</obj_property>
+         <obj_property name="ObjectShortName">clk_1Hz</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/SPM0405HD4H_dv" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">SPM0405HD4H_dv</obj_property>
+         <obj_property name="ObjectShortName">SPM0405HD4H_dv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/dat_o" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dat_o[15:0]</obj_property>
+         <obj_property name="ObjectShortName">dat_o[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/dv" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">dv</obj_property>
+         <obj_property name="ObjectShortName">dv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/active_frame" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">active_frame[1:0]</obj_property>
+         <obj_property name="ObjectShortName">active_frame[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/sclk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sclk</obj_property>
+         <obj_property name="ObjectShortName">sclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/led1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">led1</obj_property>
+         <obj_property name="ObjectShortName">led1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/led2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">led2</obj_property>
+         <obj_property name="ObjectShortName">led2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/led3" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">led3</obj_property>
+         <obj_property name="ObjectShortName">led3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/beep" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">beep</obj_property>
+         <obj_property name="ObjectShortName">beep</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/reset" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/counter" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">counter[15:0]</obj_property>
+         <obj_property name="ObjectShortName">counter[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/beep_start" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">beep_start</obj_property>
+         <obj_property name="ObjectShortName">beep_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/dat_o2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dat_o2[255:0]</obj_property>
+         <obj_property name="ObjectShortName">dat_o2[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/dat_o3" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dat_o3[255:0]</obj_property>
+         <obj_property name="ObjectShortName">dat_o3[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">i[20:0]</obj_property>
+         <obj_property name="ObjectShortName">i[20:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/j" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">j[20:0]</obj_property>
+         <obj_property name="ObjectShortName">j[20:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/max" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">max</obj_property>
+         <obj_property name="ObjectShortName">max</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/_beforedv" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">_beforedv</obj_property>
+         <obj_property name="ObjectShortName">_beforedv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/_beforei" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">_beforei[20:0]</obj_property>
+         <obj_property name="ObjectShortName">_beforei[20:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/active_frame_bfr" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">active_frame_bfr</obj_property>
+         <obj_property name="ObjectShortName">active_frame_bfr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/beep_cnt" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">beep_cnt[31:0]</obj_property>
+         <obj_property name="ObjectShortName">beep_cnt[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/DATWIDTH" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">DATWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DATWIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/BWIDTH" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">BWIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BWIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test_main_fpga/uut/QBIT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">QBIT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">QBIT[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

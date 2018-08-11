@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/work2/haruka/fpga_work/HMM-V14/detect_NN.xst" -ofn "/work2/haruka/fpga_work/HMM-V14/detect_NN.syr" 

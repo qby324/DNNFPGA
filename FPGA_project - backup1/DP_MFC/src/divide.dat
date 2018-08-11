@@ -1,0 +1,200 @@
+1:begin
+ tmp3 <= 0; end
+2:begin
+ tmp3 <= -6931; end
+3:begin
+ tmp3 <= -10986; end
+4:begin
+ tmp3 <= -13862; end
+5:begin
+ tmp3 <= -16094; end
+6:begin
+ tmp3 <= -17917; end
+7:begin
+ tmp3 <= -19459; end
+8:begin
+ tmp3 <= -20794; end
+9:begin
+ tmp3 <= -21972; end
+10:begin
+ tmp3 <= -23025; end
+11:begin
+ tmp3 <= -23978; end
+12:begin
+ tmp3 <= -24849; end
+13:begin
+ tmp3 <= -25649; end
+14:begin
+ tmp3 <= -26390; end
+15:begin
+ tmp3 <= -27080; end
+16:begin
+ tmp3 <= -27725; end
+17:begin
+ tmp3 <= -28332; end
+18:begin
+ tmp3 <= -28903; end
+19:begin
+ tmp3 <= -29444; end
+20:begin
+ tmp3 <= -29957; end
+21:begin
+ tmp3 <= -30445; end
+22:begin
+ tmp3 <= -30910; end
+23:begin
+ tmp3 <= -31354; end
+24:begin
+ tmp3 <= -31780; end
+25:begin
+ tmp3 <= -32188; end
+26:begin
+ tmp3 <= -32580; end
+27:begin
+ tmp3 <= -32958; end
+28:begin
+ tmp3 <= -33322; end
+29:begin
+ tmp3 <= -33672; end
+30:begin
+ tmp3 <= -34011; end
+31:begin
+ tmp3 <= -34339; end
+32:begin
+ tmp3 <= -34657; end
+33:begin
+ tmp3 <= -34965; end
+34:begin
+ tmp3 <= -35263; end
+35:begin
+ tmp3 <= -35553; end
+36:begin
+ tmp3 <= -35835; end
+37:begin
+ tmp3 <= -36109; end
+38:begin
+ tmp3 <= -36375; end
+39:begin
+ tmp3 <= -36635; end
+40:begin
+ tmp3 <= -36888; end
+41:begin
+ tmp3 <= -37135; end
+42:begin
+ tmp3 <= -37376; end
+43:begin
+ tmp3 <= -37612; end
+44:begin
+ tmp3 <= -37841; end
+45:begin
+ tmp3 <= -38066; end
+46:begin
+ tmp3 <= -38286; end
+47:begin
+ tmp3 <= -38501; end
+48:begin
+ tmp3 <= -38712; end
+49:begin
+ tmp3 <= -38918; end
+50:begin
+ tmp3 <= -39120; end
+51:begin
+ tmp3 <= -39318; end
+52:begin
+ tmp3 <= -39512; end
+53:begin
+ tmp3 <= -39702; end
+54:begin
+ tmp3 <= -39889; end
+55:begin
+ tmp3 <= -40073; end
+56:begin
+ tmp3 <= -40253; end
+57:begin
+ tmp3 <= -40430; end
+58:begin
+ tmp3 <= -40604; end
+59:begin
+ tmp3 <= -40775; end
+60:begin
+ tmp3 <= -40943; end
+61:begin
+ tmp3 <= -41108; end
+62:begin
+ tmp3 <= -41271; end
+63:begin
+ tmp3 <= -41431; end
+64:begin
+ tmp3 <= -41588; end
+65:begin
+ tmp3 <= -41743; end
+66:begin
+ tmp3 <= -41896; end
+67:begin
+ tmp3 <= -42046; end
+68:begin
+ tmp3 <= -42195; end
+69:begin
+ tmp3 <= -42341; end
+70:begin
+ tmp3 <= -42484; end
+71:begin
+ tmp3 <= -42626; end
+72:begin
+ tmp3 <= -42766; end
+73:begin
+ tmp3 <= -42904; end
+74:begin
+ tmp3 <= -43040; end
+75:begin
+ tmp3 <= -43174; end
+76:begin
+ tmp3 <= -43307; end
+77:begin
+ tmp3 <= -43438; end
+78:begin
+ tmp3 <= -43567; end
+79:begin
+ tmp3 <= -43694; end
+80:begin
+ tmp3 <= -43820; end
+81:begin
+ tmp3 <= -43944; end
+82:begin
+ tmp3 <= -44067; end
+83:begin
+ tmp3 <= -44188; end
+84:begin
+ tmp3 <= -44308; end
+85:begin
+ tmp3 <= -44426; end
+86:begin
+ tmp3 <= -44543; end
+87:begin
+ tmp3 <= -44659; end
+88:begin
+ tmp3 <= -44773; end
+89:begin
+ tmp3 <= -44886; end
+90:begin
+ tmp3 <= -44998; end
+91:begin
+ tmp3 <= -45108; end
+92:begin
+ tmp3 <= -45217; end
+93:begin
+ tmp3 <= -45325; end
+94:begin
+ tmp3 <= -45432; end
+95:begin
+ tmp3 <= -45538; end
+96:begin
+ tmp3 <= -45643; end
+97:begin
+ tmp3 <= -45747; end
+98:begin
+ tmp3 <= -45849; end
+99:begin
+ tmp3 <= -45951; end
+100:begin
+ tmp3 <= -46051; end

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/BRAM.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/DNN_0117.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/DNN_main.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/DP_dist_mfc.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/DP_dist_mfc.v</arg>&quot; Line <arg fmt="%d" index="2">96</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/src/tpl/ono_midori_38.mfc&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/DP_dist_mfc.v&quot; line 96
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/DP_main_mfc.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/DP_match_mfc.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/DP_multi.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/HMM_1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/inv_sqrt.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/main_DNN_DP.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/normalize.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/sigmoid.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/sigmoid2.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/softmax.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/BRAM_annoyy.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/BRAM_annoyy.v</arg>&quot; Line <arg fmt="%d" index="2">37</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/wavtest.txt&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/BRAM_annoyy.v&quot; line 37
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/BRAM_test5.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/DNN_norm.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/DP_distance.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/DP_distance.v</arg>&quot; Line <arg fmt="%d" index="2">96</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/tpl/z_midori_39.dnn&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/DP_distance.v&quot; line 96
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/DP_main.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/DP_matching.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/HMM.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/HMM.v</arg>&quot; Line <arg fmt="%d" index="2">87</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/g.dat&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/HMM.v&quot; line 87
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/HMM_viterbi.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MEMS_Filter.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MEMS_Filter.v</arg>&quot; Line <arg fmt="%d" index="2">143</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/mic_coef.dat&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MEMS_Filter.v&quot; line 143
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCC.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCC.v</arg>&quot; Line <arg fmt="%d" index="2">29</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/register.v&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCC.v&quot; line 29
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCC.v</arg>&quot; Line <arg fmt="%d" index="2">47</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/ringbuffer.v&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCC.v&quot; line 47
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCC.v</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/hamwin.v&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCC.v&quot; line 52
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/hamwin.v</arg>&quot; Line <arg fmt="%d" index="2">6</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/src/ham16khz.dat&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/hamwin.v&quot; line 6
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCC.v</arg>&quot; Line <arg fmt="%d" index="2">56</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/fft_use.v&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCC.v&quot; line 56
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCC.v</arg>&quot; Line <arg fmt="%d" index="2">60</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/fft_power.v&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCC.v&quot; line 60
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCC.v</arg>&quot; Line <arg fmt="%d" index="2">64</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFB.v&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCC.v&quot; line 64
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCC.v</arg>&quot; Line <arg fmt="%d" index="2">68</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/DCT.v&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCC.v&quot; line 68
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCC.v</arg>&quot; Line <arg fmt="%d" index="2">72</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/pick.v&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCC.v&quot; line 72
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCC.v</arg>&quot; Line <arg fmt="%d" index="2">76</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/liftering.v&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCC.v&quot; line 76
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCCtest.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCCtest.v</arg>&quot; Line <arg fmt="%d" index="2">274</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/hamwin.v&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCCtest.v&quot; line 274
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/hamwin.v</arg>&quot; Line <arg fmt="%d" index="2">6</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/src/ham16khz.dat&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/hamwin.v&quot; line 6
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCCtest.v</arg>&quot; Line <arg fmt="%d" index="2">278</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/fft_use.v&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCCtest.v&quot; line 278
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCCtest.v</arg>&quot; Line <arg fmt="%d" index="2">282</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/fft_power.v&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCCtest.v&quot; line 282
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCCtest.v</arg>&quot; Line <arg fmt="%d" index="2">286</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFB.v&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCCtest.v&quot; line 286
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCCtest.v</arg>&quot; Line <arg fmt="%d" index="2">290</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/DCT.v&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCCtest.v&quot; line 290
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCCtest.v</arg>&quot; Line <arg fmt="%d" index="2">294</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/pick.v&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCCtest.v&quot; line 294
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCCtest.v</arg>&quot; Line <arg fmt="%d" index="2">298</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/liftering.v&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/MFCCtest.v&quot; line 298
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/SMULTI.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/SPM0405HD4H.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/clock_divide.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/gbHMM.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/gbHMM.v</arg>&quot; Line <arg fmt="%d" index="2">87</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/noise.dat&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/gbHMM.v&quot; line 87
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/log2_10bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/main_DP.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/silHMM.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/silHMM.v</arg>&quot; Line <arg fmt="%d" index="2">87</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/sil.dat&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/silHMM.v&quot; line 87
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/vad.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/viterbi.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/viterbi.v</arg>&quot; Line <arg fmt="%d" index="2">82</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/transitions.dat&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/viterbi.v&quot; line 82
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/viterbi_1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/viterbi_1.v</arg>&quot; Line <arg fmt="%d" index="2">60</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/transitions.dat&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/viterbi_1.v&quot; line 60
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/viterbi_1.v</arg>&quot; Line <arg fmt="%d" index="2">200</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/divide.dat&apos; in file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/src/viterbi_1.v&quot; line 200
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/tes_mac.v&quot; into library work</arg>
+</msg>
+
+</messages>
+

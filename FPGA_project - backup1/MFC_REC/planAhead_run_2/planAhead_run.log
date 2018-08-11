@@ -1,0 +1,228 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/pa.fromHdl.tcl}
+# create_project -name MFC_REC -dir "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/planAhead_run_3" -part xc6slx45csg324-2
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "main_REC.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/main_REC.ucf' to fileset 'constrs_1'
+# add_files [list {ipcore_dir/BROM.ngc}]
+# set hdlfile [add_files [list {vad.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {SMULTI.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {MEMS_Filter.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {log2_10bit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/BROM.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {FFT_16kHz.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# add_files [list {FFT_16kHz.ngc}]
+# set hdlfile [add_files [list {BRAM.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../HMM-Viterbi/sigmoid.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../HMM-Viterbi/ipcore_dir/multiplier.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../HMM-Viterbi/ipcore_dir/MultAccum.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../HMM-Viterbi/ipcore_dir/BRAM_node.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../HMM-Viterbi/ipcore_dir/BRAM_input.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {SPM0405HD4H.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {rec_dim.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {MFCC.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {clock_divide.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../HMM-Viterbi/DNN_0117.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {REC_NN.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# add_files [list {../HMM-Viterbi/ipcore_dir/BRAM_input.ngc}]
+# add_files [list {../HMM-Viterbi/ipcore_dir/BRAM_node.ngc}]
+# add_files [list {../HMM-Viterbi/ipcore_dir/MultAccum.ngc}]
+# add_files [list {../HMM-Viterbi/ipcore_dir/multiplier.ngc}]
+# set_property top REC_NN $srcset
+# add_files [list {main_REC.ucf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/BROM.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/FFT_16kHz.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {../HMM-Viterbi/ipcore_dir/BRAM_input.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {../HMM-Viterbi/ipcore_dir/BRAM_node.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {../HMM-Viterbi/ipcore_dir/div_gen_v4_0.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {../HMM-Viterbi/ipcore_dir/FFT_16kHz.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {../HMM-Viterbi/ipcore_dir/FFT_8kHz.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {../HMM-Viterbi/ipcore_dir/MultAccum.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {../HMM-Viterbi/ipcore_dir/multiplier.ncf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx45csg324-2
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/vad.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/SMULTI.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/MEMS_Filter.v" into library work
+Parsing verilog file "mic_coef.dat" included at line 143. [C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/MEMS_Filter.v:143]
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/log2_10bit.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/ipcore_dir/BROM.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/FFT_16kHz.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/BRAM.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/sigmoid.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/ipcore_dir/multiplier.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/ipcore_dir/MultAccum.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/ipcore_dir/BRAM_node.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/ipcore_dir/BRAM_input.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/SPM0405HD4H.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/rec_dim.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/MFCC.v" into library work
+Parsing verilog file "register.v" included at line 29. [C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/MFCC.v:29]
+Parsing verilog file "ringbuffer.v" included at line 47. [C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/MFCC.v:47]
+Parsing verilog file "hamwin.v" included at line 52. [C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/MFCC.v:52]
+Parsing verilog file "src/ham16khz.dat" included at line 6. [hamwin.v:6]
+Parsing verilog file "fft_use.v" included at line 56. [C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/MFCC.v:56]
+Parsing verilog file "fft_power.v" included at line 60. [C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/MFCC.v:60]
+Parsing verilog file "MFB.v" included at line 64. [C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/MFCC.v:64]
+Parsing verilog file "DCT.v" included at line 68. [C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/MFCC.v:68]
+Parsing verilog file "pick.v" included at line 72. [C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/MFCC.v:72]
+Parsing verilog file "liftering.v" included at line 76. [C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/MFCC.v:76]
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/clock_divide.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/DNN_0117.v" into library work
+Analyzing Verilog file "C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/REC_NN.v" into library work
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design FFT_16kHz.ngc ...
+WARNING:NetListWriters:298 - No output is written to FFT_16kHz.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file FFT_16kHz.edif ...
+ngc2edif: Total memory usage is 94636 kilobytes
+
+Reading core file 'C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/FFT_16kHz.ngc' for (cell view 'FFT_16kHz', library 'work', file 'FFT_16kHz.v')
+Parsing EDIF File [./.Xil/PlanAhead-3484-DESKTOP-CQ3EHDM/ngc2edif/FFT_16kHz.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-3484-DESKTOP-CQ3EHDM/ngc2edif/FFT_16kHz.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design BROM.ngc ...
+WARNING:NetListWriters:298 - No output is written to BROM.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file BROM.edif ...
+ngc2edif: Total memory usage is 86444 kilobytes
+
+Reading core file 'C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/ipcore_dir/BROM.ngc' for (cell view 'BROM', library 'work', file 'BROM.v')
+Parsing EDIF File [./.Xil/PlanAhead-3484-DESKTOP-CQ3EHDM/ngc2edif/BROM.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-3484-DESKTOP-CQ3EHDM/ngc2edif/BROM.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design BRAM_input.ngc ...
+WARNING:NetListWriters:298 - No output is written to BRAM_input.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file BRAM_input.edif ...
+ngc2edif: Total memory usage is 82348 kilobytes
+
+Reading core file 'C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/ipcore_dir/BRAM_input.ngc' for (cell view 'BRAM_input', library 'work', file 'BRAM_input.v')
+Parsing EDIF File [./.Xil/PlanAhead-3484-DESKTOP-CQ3EHDM/ngc2edif/BRAM_input.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-3484-DESKTOP-CQ3EHDM/ngc2edif/BRAM_input.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design BRAM_node.ngc ...
+WARNING:NetListWriters:298 - No output is written to BRAM_node.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file BRAM_node.edif ...
+ngc2edif: Total memory usage is 82348 kilobytes
+
+Reading core file 'C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/ipcore_dir/BRAM_node.ngc' for (cell view 'BRAM_node', library 'work', file 'BRAM_node.v')
+Parsing EDIF File [./.Xil/PlanAhead-3484-DESKTOP-CQ3EHDM/ngc2edif/BRAM_node.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-3484-DESKTOP-CQ3EHDM/ngc2edif/BRAM_node.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design multiplier.ngc ...
+WARNING:NetListWriters:298 - No output is written to multiplier.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file multiplier.edif ...
+ngc2edif: Total memory usage is 86444 kilobytes
+
+Reading core file 'C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/ipcore_dir/multiplier.ngc' for (cell view 'multiplier', library 'work', file 'multiplier.v')
+Parsing EDIF File [./.Xil/PlanAhead-3484-DESKTOP-CQ3EHDM/ngc2edif/multiplier.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-3484-DESKTOP-CQ3EHDM/ngc2edif/multiplier.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design MultAccum.ngc ...
+WARNING:NetListWriters:298 - No output is written to MultAccum.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file MultAccum.edif ...
+ngc2edif: Total memory usage is 86444 kilobytes
+
+Reading core file 'C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/HMM-Viterbi/ipcore_dir/MultAccum.ngc' for (cell view 'MultAccum', library 'work', file 'MultAccum.v')
+Parsing EDIF File [./.Xil/PlanAhead-3484-DESKTOP-CQ3EHDM/ngc2edif/MultAccum.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-3484-DESKTOP-CQ3EHDM/ngc2edif/MultAccum.edif]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx45/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx45/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx45/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+WARNING: [Timing 38-83] Timing library cell SRLC32E does not define port A[4] which is referred to in the netlist. The library cell will be ignored and the cell will be treated as a black box for timing purposes.
+WARNING: [Timing 38-83] Timing library cell SRLC32E does not define port A[3] which is referred to in the netlist. The library cell will be ignored and the cell will be treated as a black box for timing purposes.
+WARNING: [Timing 38-83] Timing library cell SRLC32E does not define port A[2] which is referred to in the netlist. The library cell will be ignored and the cell will be treated as a black box for timing purposes.
+WARNING: [Timing 38-83] Timing library cell SRLC32E does not define port A[1] which is referred to in the netlist. The library cell will be ignored and the cell will be treated as a black box for timing purposes.
+WARNING: [Timing 38-83] Timing library cell SRLC32E does not define port A[0] which is referred to in the netlist. The library cell will be ignored and the cell will be treated as a black box for timing purposes.
+Parsing UCF File [C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/main_REC.ucf]
+Finished Parsing UCF File [C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/main_REC.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 5c828075
+open_rtl_design: Time (s): elapsed = 00:00:37 . Memory (MB): peak = 745.172 ; gain = 321.488
+update_compile_order -fileset sim_1
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Wed Nov 02 17:04:49 2016...
+INFO: [Common 17-83] Releasing license: PlanAhead

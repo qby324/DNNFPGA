@@ -1,0 +1,389 @@
+Release 14.7 Map P.20131013 (nt)
+Xilinx Map Application Log File for Design 'main_DP'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -detail -ir
+off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+Target Device  : xc6slx45
+Target Package : csg324
+Target Speed   : -2
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : SUN 18 JAN 4:29:3 2015
+
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 46 secs 
+Total CPU  time at the beginning of Placer: 46 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:7f4306c5) REAL time: 1 mins 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:7f4306c5) REAL time: 1 mins 1 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:9fcd2e64) REAL time: 1 mins 1 secs 
+
+Phase 4.2  Initial Placement for Architecture Specific Features
+
+Phase 4.2  Initial Placement for Architecture Specific Features
+(Checksum:6f3e0f74) REAL time: 1 mins 34 secs 
+
+Phase 5.36  Local Placement Optimization
+Phase 5.36  Local Placement Optimization (Checksum:6f3e0f74) REAL time: 1 mins 34 secs 
+
+Phase 6.30  Global Clock Region Assignment
+Phase 6.30  Global Clock Region Assignment (Checksum:6f3e0f74) REAL time: 1 mins 34 secs 
+
+Phase 7.3  Local Placement Optimization
+Phase 7.3  Local Placement Optimization (Checksum:6f3e0f74) REAL time: 1 mins 34 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:6f3e0f74) REAL time: 1 mins 35 secs 
+
+Phase 9.8  Global Placement
+.....................
+...........................................
+.......................................................................................................................................................
+.........................................................................................................................................
+...............................
+Phase 9.8  Global Placement (Checksum:6f3e2877) REAL time: 4 mins 55 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:6f3e2877) REAL time: 4 mins 55 secs 
+
+Phase 11.18  Placement Optimization
+Phase 11.18  Placement Optimization (Checksum:c44ff1da) REAL time: 6 mins 46 secs 
+
+Phase 12.5  Local Placement Optimization
+Phase 12.5  Local Placement Optimization (Checksum:c44ff1da) REAL time: 6 mins 46 secs 
+
+Phase 13.34  Placement Validation
+Phase 13.34  Placement Validation (Checksum:2c7cb8b9) REAL time: 6 mins 46 secs 
+
+Total REAL time to Placer completion: 6 mins 59 secs 
+Total CPU  time to Placer completion: 7 mins 36 secs 
+Running post-placement packing...
+Writing output files...
+WARNING:PhysDesignRules:372 - Gated clock. Clock net icon_control0<13> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_063_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_062_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_069_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_0317_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_1912_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_vmove_121_RAMD_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_199_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_0613_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_0612_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_0610_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_0322_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_0319_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_hmove_021_RAMD_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_hmove_022_RAMD_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_068_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_067_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_0316_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_11012_RAMD_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_11013_RAMD_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_11010_RAMD_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_11011_RAMD_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_vmove_022_RAMD_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_061_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_vmove_021_RAMD_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_064_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_065_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_066_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_0312_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_0311_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_0310_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_0313_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_0315_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_0318_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_0321_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_hmove_132_RAMD_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_hmove_131_RAMD_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_0314_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_194_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_len_031_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_len_041_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_1911_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_191_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_len_042_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_197_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_195_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_193_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_192_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_len_142_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_196_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_len_141_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_1910_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_len_032_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_vmove_132_RAMD_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_0611_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_1103_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_1913_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_1108_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_1109_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_1101_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_1105_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_1104_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_198_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_1107_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_len_172_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_len_171_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_1106_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_0320_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/Mram_scr_1102_RAMD_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/DP_distance/Mram_vec12_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/DP_distance/Mram_vec11_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/DP_distance/Mram_vec13_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main_mfc/DP_matching/DP_distance/Mram_vec14_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:2410 - This design is using one or more 9K Block RAMs
+   (RAMB8BWER).  9K Block RAM initialization data, both user defined and
+   default, may be incorrect and should not be used.  For more information,
+   please reference Xilinx Answer Record 39999.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:   83
+Slice Logic Utilization:
+  Number of Slice Registers:                 4,983 out of  54,576    9%
+    Number used as Flip Flops:               4,854
+    Number used as Latches:                      1
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:              128
+  Number of Slice LUTs:                      7,259 out of  27,288   26%
+    Number used as logic:                    6,060 out of  27,288   22%
+      Number using O6 output only:           4,081
+      Number using O5 output only:             203
+      Number using O5 and O6:                1,776
+      Number used as ROM:                        0
+    Number used as Memory:                     978 out of   6,408   15%
+      Number used as Dual Port RAM:            548
+        Number using O6 output only:           532
+        Number using O5 output only:             0
+        Number using O5 and O6:                 16
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:           430
+        Number using O6 output only:           193
+        Number using O5 output only:             1
+        Number using O5 and O6:                236
+    Number used exclusively as route-thrus:    221
+      Number with same-slice register load:    120
+      Number with same-slice carry load:       101
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 2,635 out of   6,822   38%
+  Number of MUXCYs used:                     2,488 out of  13,644   18%
+  Number of LUT Flip Flop pairs used:        8,461
+    Number with an unused Flip Flop:         4,104 out of   8,461   48%
+    Number with an unused LUT:               1,202 out of   8,461   14%
+    Number of fully used LUT-FF pairs:       3,155 out of   8,461   37%
+    Number of unique control sets:             202
+    Number of slice register sites lost
+      to control set restrictions:             755 out of  54,576    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                         7 out of     218    3%
+    Number of LOCed IOBs:                        7 out of       7  100%
+    IOB Flip Flops:                              4
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                        31 out of     116   26%
+  Number of RAMB8BWERs:                          6 out of     232    2%
+  Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       2 out of      16   12%
+    Number used as BUFGs:                        2
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     0 out of       8    0%
+  Number of ILOGIC2/ISERDES2s:                   0 out of     376    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     376    0%
+  Number of OLOGIC2/OSERDES2s:                   4 out of     376    1%
+    Number used as OLOGIC2s:                     4
+    Number used as OSERDES2s:                    0
+  Number of BSCANs:                              1 out of       4   25%
+  Number of BUFHs:                               0 out of     256    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                           48 out of      58   82%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            0 out of       4    0%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+  Number of RPM macros:           11
+Average Fanout of Non-Clock Nets:                3.11
+
+Peak Memory Usage:  438 MB
+Total REAL time to MAP completion:  7 mins 7 secs 
+Total CPU time to MAP completion (all processors):   7 mins 45 secs 
+
+Mapping completed.
+See MAP report file "main_DP_map.mrp" for details.

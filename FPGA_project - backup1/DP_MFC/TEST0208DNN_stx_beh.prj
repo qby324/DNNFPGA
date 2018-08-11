@@ -1,0 +1,8 @@
+verilog isim_temp "sigmoid.v"
+verilog isim_temp "ipcore_dir/multiplier.v"
+verilog isim_temp "ipcore_dir/MultAccum.v"
+verilog isim_temp "ipcore_dir/BRAM_node.v"
+verilog isim_temp "ipcore_dir/BRAM_input.v"
+verilog isim_temp "DNN_0117.v"
+verilog isim_temp "TEST0208DNN.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

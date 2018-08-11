@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Simulator" num="958" delta="unknown" >Library Mapping: Sourcing library mapping file &quot;<arg fmt="%s" index="1">C:/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/nt64/xilinxsim.ini</arg>&quot;
+</msg>
+
+<msg type="info" file="Simulator" num="958" delta="unknown" >Library Mapping: Sourcing library mapping file &quot;<arg fmt="%s" index="1">xilinxsim.ini</arg>&quot;
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/ipcore_dir/multiplier.v" Line 770: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">glbl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 36: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 37: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 38: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 39: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 40: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 41: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 42: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 43: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 44: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 49: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 51: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 52: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 53: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 54: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 55: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 56: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 57: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 58: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 59: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 60: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 61: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 62: Parameter declaration becomes local in <arg fmt="%s" index="1">DNN_0117</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">glbl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="97" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 93: <arg fmt="%s" index="1">dinV</arg> was previously declared with a different range
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/BITDNNTEST.v" Line 48: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">dinV</arg>&gt;. Formal port size is <arg fmt="%d" index="2">16</arg>-bit while actual signal size is <arg fmt="%d" index="1">15</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 83: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">addra</arg>&gt;. Formal port size is <arg fmt="%d" index="2">14</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/tslab-802-2/Desktop/newtest4/FPGA_project - backup1/DP_MFC/DNN_0117.v" Line 168: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">sigin</arg>&gt;. Formal port size is <arg fmt="%d" index="2">27</arg>-bit while actual signal size is <arg fmt="%d" index="1">28</arg>-bit.
+</msg>
+
+</messages>
+

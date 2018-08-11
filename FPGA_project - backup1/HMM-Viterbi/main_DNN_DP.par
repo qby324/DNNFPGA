@@ -1,0 +1,298 @@
+Release 14.7 par P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+ANNOYYXP::  Fri Jan 23 17:31:21 2015
+
+par -w -intstyle ise -ol high -mt 4 main_DNN_DP_map.ncd main_DNN_DP.ncd
+main_DNN_DP.pcf 
+
+
+Constraints file: main_DNN_DP.pcf.
+Loading device for application Rf_Device from file '6slx45.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+   "main_DNN_DP" is an NCD, version 3.2, device xc6slx45, package csg324, speed -2
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.23 2013-10-13".
+
+
+
+Device Utilization Summary:
+
+Slice Logic Utilization:
+  Number of Slice Registers:                 5,552 out of  54,576   10%
+    Number used as Flip Flops:               5,499
+    Number used as Latches:                      1
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:               52
+  Number of Slice LUTs:                      7,813 out of  27,288   28%
+    Number used as logic:                    6,833 out of  27,288   25%
+      Number using O6 output only:           4,668
+      Number using O5 output only:             372
+      Number using O5 and O6:                1,793
+      Number used as ROM:                        0
+    Number used as Memory:                     762 out of   6,408   11%
+      Number used as Dual Port RAM:            366
+        Number using O6 output only:           366
+        Number using O5 output only:             0
+        Number using O5 and O6:                  0
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:           396
+        Number using O6 output only:           164
+        Number using O5 output only:             1
+        Number using O5 and O6:                231
+    Number used exclusively as route-thrus:    218
+      Number with same-slice register load:    105
+      Number with same-slice carry load:       113
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 2,725 out of   6,822   39%
+  Number of MUXCYs used:                     2,584 out of  13,644   18%
+  Number of LUT Flip Flop pairs used:        8,909
+    Number with an unused Flip Flop:         3,991 out of   8,909   44%
+    Number with an unused LUT:               1,096 out of   8,909   12%
+    Number of fully used LUT-FF pairs:       3,822 out of   8,909   42%
+    Number of slice register sites lost
+      to control set restrictions:               0 out of  54,576    0%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                         8 out of     218    3%
+    Number of LOCed IOBs:                        8 out of       8  100%
+    IOB Flip Flops:                              5
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                        39 out of     116   33%
+  Number of RAMB8BWERs:                         15 out of     232    6%
+  Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       2 out of      16   12%
+    Number used as BUFGs:                        2
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     0 out of       8    0%
+  Number of ILOGIC2/ISERDES2s:                   0 out of     376    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     376    0%
+  Number of OLOGIC2/OSERDES2s:                   5 out of     376    1%
+    Number used as OLOGIC2s:                     5
+    Number used as OSERDES2s:                    0
+  Number of BSCANs:                              1 out of       4   25%
+  Number of BUFHs:                               0 out of     256    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                           49 out of      58   84%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            0 out of       4    0%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+PAR will use up to 4 processors
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
+   Command Line Tools User Guide for information on generating a TSI report.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_len_162_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_vmove_131_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_vmove_122_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_hmove_022_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_vmove_121_RAMA_DPO has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_vmove_121_RAMB_DPO has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_vmove_121_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_len_042_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_len_132_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_hmove_122_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_len_041_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_len_021_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_len_022_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_len_131_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_143_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_152_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_hmove_021_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_hmove_121_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_145_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_144_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_148_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_032_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_146_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_153_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_158_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_155_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_031_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_038_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_036_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_157_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_147_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_len_161_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_035_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_141_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_154_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_034_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_033_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_151_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_142_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_156_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/Mram_scr_037_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/DP_distance/Mram_vec13_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/DP_distance/Mram_vec11_RAMD_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal DP_main/DP_matching/DP_distance/Mram_vec12_RAMD_O has no load.  PAR will not attempt to route this signal.
+Starting Multi-threaded Router
+
+
+Phase  1  : 54522 unrouted;      REAL time: 25 secs 
+
+Phase  2  : 41462 unrouted;      REAL time: 28 secs 
+
+Phase  3  : 20494 unrouted;      REAL time: 1 mins 2 secs 
+
+Phase  4  : 21986 unrouted; (Setup:3613980, Hold:250534, Component Switching Limit:0)     REAL time: 1 mins 19 secs 
+
+Phase  5  : 0 unrouted; (Setup:4320855, Hold:250534, Component Switching Limit:0)     REAL time: 3 mins 19 secs 
+
+Phase  6  : 0 unrouted; (Setup:4320855, Hold:250534, Component Switching Limit:0)     REAL time: 3 mins 19 secs 
+
+Phase  7  : 0 unrouted; (Setup:4320855, Hold:250534, Component Switching Limit:0)     REAL time: 3 mins 19 secs 
+
+Phase  8  : 0 unrouted; (Setup:4320855, Hold:250534, Component Switching Limit:0)     REAL time: 3 mins 19 secs 
+WARNING:Route:522 - Unusually high hold time violation detected among 1 connections.The router will continue and try to fix it 
+	dat_i:I -> SPM0405HD4H/MEMS_Filter/data<3>:AX -248938
+
+
+Phase  9  : 0 unrouted; (Setup:4320855, Hold:248938, Component Switching Limit:0)     REAL time: 3 mins 41 secs 
+
+Phase 10  : 0 unrouted; (Setup:3931133, Hold:248938, Component Switching Limit:0)     REAL time: 3 mins 43 secs 
+Total REAL time to Router completion: 3 mins 44 secs 
+Total CPU time to Router completion (all processors): 5 mins 51 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|           clk_BUFGP |  BUFGMUX_X2Y1| No   | 1674 |  0.696     |  2.404      |
++---------------------+--------------+------+------+------------+-------------+
+|    icon_control0<0> |  BUFGMUX_X2Y3| No   |   61 |  0.062     |  1.770      |
++---------------------+--------------+------+------+------------+-------------+
+|   icon_control0<13> |         Local|      |    4 |  0.000     |  1.194      |
++---------------------+--------------+------+------+------------+-------------+
+|U_icon_pro/U0/iUPDAT |              |      |      |            |             |
+|               E_OUT |         Local|      |    1 |  0.000     |  2.543      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 4180071 (Setup: 3931133, Hold: 248938, Component Switching Limit: 0)
+
+WARNING:Par:468 - Your design did not meet timing.  The following are some suggestions to assist you to meet timing in your design.
+
+   Review the timing report using Timing Analyzer (In ISE select "Post-Place &
+   Route Static Timing Report"). Go to the failing constraint(s) and evaluate the failing paths for each constraint.
+
+   Try the Design Goal and Strategies for Timing Performance(In ISE select Project -> Design Goals & Strategies) to ensure the best options
+   are set in the tools for timing closure.
+
+   Use the Xilinx "SmartXplorer" script to try special combinations of
+   options known to produce very good results.
+
+   Visit the Xilinx technical support web at http://support.xilinx.com and go to
+   either "Troubleshoot->Tech Tips->Timing & Constraints" or "
+   TechXclusives->Timing Closure" for tips and suggestions for meeting timing
+   in your design.
+
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more 
+   information, see the TSI report.  Please consult the Xilinx Command Line 
+   Tools User Guide for information on generating a TSI report.
+Number of Timing Constraints that were not applied: 2
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+* COMP "dat_i" OFFSET = IN 500 ns VALID 250 | SETUP       |   497.300ns|     2.700ns|       0|           0
+   ns BEFORE COMP "clk" "RISING"            | HOLD        |  -248.938ns|            |       1|      248938
+----------------------------------------------------------------------------------------------------------
+* TS_clk = PERIOD TIMEGRP "clk" 20 ns HIGH  | SETUP       |    -5.240ns|    25.240ns|    1196|     3931133
+  40%                                       | HOLD        |     0.253ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_U_TO_J = MAXDELAY FROM TIMEGRP "U_CLK" | SETUP       |    10.176ns|     4.824ns|       0|           0
+   TO TIMEGRP "J_CLK" 15 ns                 | HOLD        |     1.171ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_U_TO_U = MAXDELAY FROM TIMEGRP "U_CLK" | SETUP       |    13.934ns|     1.066ns|       0|           0
+   TO TIMEGRP "U_CLK" 15 ns                 | HOLD        |     0.469ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_J_CLK = PERIOD TIMEGRP "J_CLK" 30 ns H | SETUP       |    16.749ns|    13.251ns|       0|           0
+  IGH 50%                                   | HOLD        |     0.306ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  OFFSET = IN 20 ns VALID 20 ns BEFORE COMP | SETUP       |    16.852ns|     3.148ns|       0|           0
+   "clk" "RISING"                           | HOLD        |     0.740ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_D2_TO_T2_ila_pro_0_path" TIG     | SETUP       |         N/A|     4.643ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_J2_TO_D2_ila_pro_0_path" TIG     | N/A         |         N/A|         N/A|     N/A|         N/A
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_J3_TO_D2_ila_pro_0_path" TIG     | N/A         |         N/A|         N/A|     N/A|         N/A
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_J4_TO_D2_ila_pro_0_path" TIG     | MAXDELAY    |         N/A|     6.266ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_J_TO_D_path" TIG                 | SETUP       |         N/A|     7.941ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_D_TO_J_path" TIG                 | SETUP       |         N/A|     4.077ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+
+
+2 constraints not met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 44 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 3 mins 57 secs 
+Total CPU time to PAR completion (all processors): 6 mins 5 secs 
+
+Peak Memory Usage:  395 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - 1197 errors found.
+
+Number of error messages: 0
+Number of warning messages: 48
+Number of info messages: 1
+
+Writing design to file main_DNN_DP.ncd
+
+
+
+PAR done!

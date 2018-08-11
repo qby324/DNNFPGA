@@ -1,0 +1,14 @@
+# Output products list for <sig_mulC>
+_xmsgs\pn_parser.xmsgs
+sig_mulC.asy
+sig_mulC.gise
+sig_mulC.ngc
+sig_mulC.v
+sig_mulC.veo
+sig_mulC.xco
+sig_mulC.xise
+sig_mulC\doc\mult_gen_ds255.pdf
+sig_mulC\doc\mult_gen_v11_2_readme.txt
+sig_mulC\doc\mult_gen_v11_2_vinfo.html
+sig_mulC_flist.txt
+sig_mulC_xmdf.tcl

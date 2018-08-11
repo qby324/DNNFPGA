@@ -1,0 +1,3 @@
+vhdtdtfi -lang verilog -prj WordDetect -o C:/.Xilinx/HMM-Viterbi/DNN_main.tfi -lib work C:/.Xilinx/HMM-Viterbi//DNN_main.v -module DNN_main -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work C:/.Xilinx/HMM-Viterbi/DNN_main.v -lang verilog -prj WordDetect -o DNN_main.spl -module DNN_main -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 DNN_main.spl C:/.Xilinx/HMM-Viterbi/DNN_main.sym 

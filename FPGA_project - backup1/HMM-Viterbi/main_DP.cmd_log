@@ -1,0 +1,176 @@
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf -ucf main_DP.ucf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf -ucf main_DP.ucf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf -ucf main_DP.ucf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf -ucf main_DP.ucf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf -ucf main_DP.ucf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf -ucf main_DP.ucf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf -ucf main_DP.ucf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf -ucf main_DP.ucf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf -ucf main_DP.ucf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf -ucf main_DP.ucf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf -ucf main_DP.ucf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf -ucf main_DP.ucf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf -ucf main_DP.ucf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf -ucf main_DP.ucf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf -ucf main_DP.ucf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf -ucf main_DP.ucf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../MFC_REC/ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -detail -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf -ucf main_DP.ucf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/HMM-Viterbi/main_DP.xst" -ofn "C:/.Xilinx/HMM-Viterbi/main_DP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../MFC_REC/ipcore_dir -nt timestamp -uc main_DP.ucf -p xc6slx45-csg324-2 main_DP_cs.ngc main_DP.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -detail -ir off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+par -w -intstyle ise -ol high -mt 4 main_DP_map.ncd main_DP.ncd main_DP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_DP.twx main_DP.ncd -o main_DP.twr main_DP.pcf -ucf main_DP.ucf 
+bitgen -intstyle ise -f main_DP.ut main_DP.ncd 

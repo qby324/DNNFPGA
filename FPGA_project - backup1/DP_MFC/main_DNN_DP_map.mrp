@@ -1,0 +1,1687 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'main_DNN_DP'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -detail -ir
+off -pr off -lc off -smartguide
+"C:/Users/tslab-802-2/Desktop/jiken2/FPGA_project -
+backup1/DP_MFC/main_DNN_DP_guide.ncd" -power on -o main_DNN_DP_map.ncd
+main_DNN_DP.ngd main_DNN_DP.pcf 
+Target Device  : xc6slx45
+Target Package : csg324
+Target Speed   : -2
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : WED 2 AUG 14:56:36 2017
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:   34
+Slice Logic Utilization:
+  Number of Slice Registers:                 5,176 out of  54,576    9%
+    Number used as Flip Flops:               5,124
+    Number used as Latches:                      0
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:               52
+  Number of Slice LUTs:                      7,074 out of  27,288   25%
+    Number used as logic:                    6,308 out of  27,288   23%
+      Number using O6 output only:           4,070
+      Number using O5 output only:             298
+      Number using O5 and O6:                1,940
+      Number used as ROM:                        0
+    Number used as Memory:                     524 out of   6,408    8%
+      Number used as Dual Port RAM:            198
+        Number using O6 output only:            22
+        Number using O5 output only:             5
+        Number using O5 and O6:                171
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:           326
+        Number using O6 output only:           111
+        Number using O5 output only:             0
+        Number using O5 and O6:                215
+    Number used exclusively as route-thrus:    242
+      Number with same-slice register load:    137
+      Number with same-slice carry load:       105
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 2,359 out of   6,822   34%
+  Number of MUXCYs used:                     2,468 out of  13,644   18%
+  Number of LUT Flip Flop pairs used:        7,962
+    Number with an unused Flip Flop:         3,556 out of   7,962   44%
+    Number with an unused LUT:                 888 out of   7,962   11%
+    Number of fully used LUT-FF pairs:       3,518 out of   7,962   44%
+    Number of unique control sets:             146
+    Number of slice register sites lost
+      to control set restrictions:             390 out of  54,576    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                         8 out of     218    3%
+    Number of LOCed IOBs:                        8 out of       8  100%
+    IOB Flip Flops:                              4
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                        36 out of     116   31%
+  Number of RAMB8BWERs:                          9 out of     232    3%
+  Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       1 out of      16    6%
+    Number used as BUFGs:                        1
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     0 out of       8    0%
+  Number of ILOGIC2/ISERDES2s:                   0 out of     376    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     376    0%
+  Number of OLOGIC2/OSERDES2s:                   4 out of     376    1%
+    Number used as OLOGIC2s:                     4
+    Number used as OSERDES2s:                    0
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     256    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                           50 out of      58   86%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            0 out of       4    0%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+Average Fanout of Non-Clock Nets:                3.05
+
+Peak Memory Usage:  996 MB
+Total REAL time to MAP completion:  5 mins 24 secs 
+Total CPU time to MAP completion:   5 mins 13 secs 
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Map:291 - Multi-threading ("-mt" option) is not supported for the
+   SmartGuide flow. MAP will use only one processor.
+
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_len_041_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_len_141_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_031_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_032_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_len_161_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_len_031_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_034_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_033_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_144_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_151_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_154_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_152_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_hmove_021_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_142_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_141_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_153_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_vmove_131_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_hmove_121_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_scr_143_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_vmove_121_RAMA_D1_DPO> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/Mram_vmove_121_RAMD_D1_O> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/DP_distance/Mram_vec13_RAMD_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/DP_distance/Mram_vec12_RAMD_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DP_main/DP_matching/DP_distance/Mram_vec11_RAMD_O> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:2410 - This design is using one or more 9K Block RAMs
+   (RAMB8BWER).  9K Block RAM initialization data, both user defined and
+   default, may be incorrect and should not be used.  For more information,
+   please reference Xilinx Answer Record 39999.
+
+Section 3 - Informational
+-------------------------
+INFO:Security:54 - 'xc6slx45' is a WebPack part.
+INFO:LIT:243 - Logical network
+   MFCC/FFT_16kHz/U0/i_synth/non_floating_point.arch_e.xfft_inst/control/busy_i_
+   reg2 has no load.
+INFO:LIT:243 - Logical network
+   MFCC/FFT_16kHz/U0/i_synth/non_floating_point.arch_e.xfft_inst/control/edone_i
+   _reg has no load.
+INFO:LIT:243 - Logical network
+   MFCC/FFT_16kHz/U0/i_synth/non_floating_point.arch_e.xfft_inst/control/done_i_
+   reg has no load.
+INFO:LIT:243 - Logical network MFCC/FFT_16kHz/sig00000bf6 has no load.
+INFO:LIT:243 - Logical network MFCC/FFT_16kHz/sig00000bf7 has no load.
+INFO:LIT:243 - Logical network DNN_0117/outdataP<4> has no load.
+INFO:LIT:243 - Logical network DNN_0117/outdataP<3> has no load.
+INFO:LIT:243 - Logical network DNN_0117/outdataP<2> has no load.
+INFO:LIT:243 - Logical network DNN_0117/outdataP<1> has no load.
+INFO:LIT:243 - Logical network DNN_0117/outdataP<0> has no load.
+INFO:LIT:243 - Logical network DNN_0117/nnpara/douta<15> has no load.
+INFO:LIT:243 - Logical network DNN_0117/nnpara/douta<14> has no load.
+INFO:LIT:243 - Logical network DP_main/DP_matching/Mram_len_162/SPO has no load.
+INFO:LIT:243 - Logical network DP_main/DP_matching/Mram_len_042/SPO has no load.
+INFO:LIT:243 - Logical network DP_main/DP_matching/Mram_vmove_122/SPO has no
+   load.
+INFO:LIT:243 - Logical network DP_main/DP_matching/Mram_len_132/SPO has no load.
+INFO:LIT:243 - Logical network DP_main/DP_matching/Mram_len_032/SPO has no load.
+INFO:LIT:243 - Logical network DP_main/DP_matching/Mram_hmove_122/SPO has no
+   load.
+INFO:LIT:243 - Logical network DP_main/DP_matching/Mram_hmove_022/SPO has no
+   load.
+INFO:LIT:243 - Logical network DP_main/DP_matching/DP_distance/Mram_vec141/SPO
+   has no load.
+INFO:LIT:243 - Logical network DP_main/DP_matching/DP_distance/Mram_vec142/SPO
+   has no load.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:MapLib:980 - The following NGM file is used during SmartGuide:
+   "C:\Users\tslab-802-2\Desktop\jiken2\FPGA_project -
+   backup1\DP_MFC\main_DNN_DP_map.ngm". The NGM file contains information on how
+   the guide file was originally mapped. It is required for the best SmartGuide
+   results.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
+   Command Line Tools User Guide for information on generating a TSI report.
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Pack:1650 - Map created a placed design.
+INFO:Map:207 - Power optimization/reduction has been run on this design. Please
+   use XPower to analyze and report the power usage for this design.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+ 304 block(s) removed
+  98 block(s) optimized away
+ 221 signal(s) removed
+ 404 Block(s) redundant
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+Loadless block "DNN_0117/multi_std/blk00000001/blk00000012" (XOR) removed.
+Loadless block "DNN_0117/multi_std/blk00000001/blk00000021" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk000003fb" (XOR) removed.
+ The signal "MFCC/FFT_16kHz/sig000008a2" is loadless and has been removed.
+  Loadless block "MFCC/FFT_16kHz/blk00000428" (MUX) removed.
+   The signal "MFCC/FFT_16kHz/sig000008a3" is loadless and has been removed.
+    Loadless block "MFCC/FFT_16kHz/blk00000429" (MUX) removed.
+   The signal "MFCC/FFT_16kHz/sig00000d98" is loadless and has been removed.
+    Loadless block "MFCC/FFT_16kHz/blk00000aa6" (ROM) removed.
+     The signal "MFCC/FFT_16kHz/sig00000313" is loadless and has been removed.
+      Loadless block "MFCC/FFT_16kHz/blk000001d5" (FF) removed.
+       The signal "MFCC/FFT_16kHz/sig000003bc" is loadless and has been removed.
+ The signal "MFCC/FFT_16kHz/sig00000876" is loadless and has been removed.
+  Loadless block "MFCC/FFT_16kHz/blk000009f1" (ROM) removed.
+Loadless block "MFCC/FFT_16kHz/blk000003fc" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000454" (XOR) removed.
+ The signal "MFCC/FFT_16kHz/sig00000925" is loadless and has been removed.
+  Loadless block "MFCC/FFT_16kHz/blk00000481" (MUX) removed.
+   The signal "MFCC/FFT_16kHz/sig00000926" is loadless and has been removed.
+    Loadless block "MFCC/FFT_16kHz/blk00000482" (MUX) removed.
+   The signal "MFCC/FFT_16kHz/sig00000d99" is loadless and has been removed.
+    Loadless block "MFCC/FFT_16kHz/blk00000aa7" (ROM) removed.
+     The signal "MFCC/FFT_16kHz/sig0000033c" is loadless and has been removed.
+      Loadless block "MFCC/FFT_16kHz/blk0000017d" (FF) removed.
+       The signal "MFCC/FFT_16kHz/sig000007fa" is loadless and has been removed.
+        Loadless block "MFCC/FFT_16kHz/blk000001a9" (FF) removed.
+ The signal "MFCC/FFT_16kHz/sig000008f9" is loadless and has been removed.
+  Loadless block "MFCC/FFT_16kHz/blk00000a1d" (ROM) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000455" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000503" (XOR) removed.
+ The signal "MFCC/FFT_16kHz/sig0000097d" is loadless and has been removed.
+  Loadless block "MFCC/FFT_16kHz/blk0000052f" (MUX) removed.
+   The signal "MFCC/FFT_16kHz/sig0000097e" is loadless and has been removed.
+    Loadless block "MFCC/FFT_16kHz/blk00000530" (MUX) removed.
+     The signal "MFCC/FFT_16kHz/sig0000097f" is loadless and has been removed.
+      Loadless block "MFCC/FFT_16kHz/blk00000531" (MUX) removed.
+       The signal "MFCC/FFT_16kHz/sig00000980" is loadless and has been removed.
+        Loadless block "MFCC/FFT_16kHz/blk00000532" (MUX) removed.
+         The signal "MFCC/FFT_16kHz/sig00000981" is loadless and has been removed.
+          Loadless block "MFCC/FFT_16kHz/blk00000533" (MUX) removed.
+           The signal "MFCC/FFT_16kHz/sig00000982" is loadless and has been removed.
+            Loadless block "MFCC/FFT_16kHz/blk00000534" (MUX) removed.
+             The signal "MFCC/FFT_16kHz/sig00000983" is loadless and has been removed.
+              Loadless block "MFCC/FFT_16kHz/blk00000535" (MUX) removed.
+               The signal "MFCC/FFT_16kHz/sig00000984" is loadless and has been removed.
+                Loadless block "MFCC/FFT_16kHz/blk00000536" (MUX) removed.
+                 The signal "MFCC/FFT_16kHz/sig00000985" is loadless and has been removed.
+                  Loadless block "MFCC/FFT_16kHz/blk00000537" (MUX) removed.
+                   The signal "MFCC/FFT_16kHz/sig00000986" is loadless and has been removed.
+                    Loadless block "MFCC/FFT_16kHz/blk00000538" (MUX) removed.
+                     The signal "MFCC/FFT_16kHz/sig00000987" is loadless and has been removed.
+                      Loadless block "MFCC/FFT_16kHz/blk00000539" (MUX) removed.
+                       The signal "MFCC/FFT_16kHz/sig00000988" is loadless and has been removed.
+                        Loadless block "MFCC/FFT_16kHz/blk0000053a" (MUX) removed.
+                         The signal "MFCC/FFT_16kHz/sig00000989" is loadless and has been removed.
+                          Loadless block "MFCC/FFT_16kHz/blk0000053b" (MUX) removed.
+                           The signal "MFCC/FFT_16kHz/sig0000098a" is loadless and has been removed.
+                            Loadless block "MFCC/FFT_16kHz/blk0000053c" (MUX) removed.
+                             The signal "MFCC/FFT_16kHz/sig0000098b" is loadless and has been removed.
+                              Loadless block "MFCC/FFT_16kHz/blk0000053d" (MUX) removed.
+                               The signal "MFCC/FFT_16kHz/sig0000098c" is loadless and has been removed.
+                                Loadless block "MFCC/FFT_16kHz/blk0000053e" (MUX) removed.
+                                 The signal "MFCC/FFT_16kHz/sig0000098d" is loadless and has been removed.
+                                  Loadless block "MFCC/FFT_16kHz/blk0000053f" (MUX) removed.
+                                   The signal "MFCC/FFT_16kHz/sig0000098e" is loadless and has been removed.
+                                    Loadless block "MFCC/FFT_16kHz/blk00000540" (MUX) removed.
+                                     The signal "MFCC/FFT_16kHz/sig0000098f" is loadless and has been removed.
+                                      Loadless block "MFCC/FFT_16kHz/blk00000541" (MUX) removed.
+                                       The signal "MFCC/FFT_16kHz/sig00000990" is loadless and has been removed.
+                                        Loadless block "MFCC/FFT_16kHz/blk00000542" (MUX) removed.
+                                         The signal "MFCC/FFT_16kHz/sig00000991" is loadless and has been removed.
+                                          Loadless block "MFCC/FFT_16kHz/blk00000543" (MUX) removed.
+                                           The signal "MFCC/FFT_16kHz/sig00000992" is loadless and has been removed.
+                                            Loadless block "MFCC/FFT_16kHz/blk00000544" (MUX) removed.
+                                             The signal "MFCC/FFT_16kHz/sig00000993" is loadless and has been removed.
+                                              Loadless block "MFCC/FFT_16kHz/blk00000545" (MUX) removed.
+                                               The signal "MFCC/FFT_16kHz/sig00000994" is loadless and has been removed.
+                                                Loadless block "MFCC/FFT_16kHz/blk00000546" (MUX) removed.
+                                                 The signal "MFCC/FFT_16kHz/sig00000995" is loadless and has been removed.
+*Loadless block "MFCC/FFT_16kHz/blk00000547" (MUX) removed.
+* The signal "MFCC/FFT_16kHz/sig00000996" is loadless and has been removed.
+*  Loadless block "MFCC/FFT_16kHz/blk00000548" (MUX) removed.
+*   The signal "MFCC/FFT_16kHz/sig00000997" is loadless and has been removed.
+*    Loadless block "MFCC/FFT_16kHz/blk00000549" (MUX) removed.
+*     The signal "MFCC/FFT_16kHz/sig00000998" is loadless and has been removed.
+*      Loadless block "MFCC/FFT_16kHz/blk0000054a" (MUX) removed.
+*       The signal "MFCC/FFT_16kHz/sig00000999" is loadless and has been removed.
+*        Loadless block "MFCC/FFT_16kHz/blk0000054b" (MUX) removed.
+*         The signal "MFCC/FFT_16kHz/sig0000099a" is loadless and has been removed.
+*          Loadless block "MFCC/FFT_16kHz/blk0000054c" (MUX) removed.
+*           The signal "MFCC/FFT_16kHz/sig0000099b" is loadless and has been removed.
+*            Loadless block "MFCC/FFT_16kHz/blk0000054d" (MUX) removed.
+*             The signal "MFCC/FFT_16kHz/sig0000099c" is loadless and has been removed.
+*              Loadless block "MFCC/FFT_16kHz/blk0000054e" (MUX) removed.
+*               The signal "MFCC/FFT_16kHz/sig0000099d" is loadless and has been removed.
+*                Loadless block "MFCC/FFT_16kHz/blk0000054f" (MUX) removed.
+*                 The signal "MFCC/FFT_16kHz/sig0000099e" is loadless and has been removed.
+*                  Loadless block "MFCC/FFT_16kHz/blk00000550" (MUX) removed.
+*                   The signal "MFCC/FFT_16kHz/sig0000099f" is loadless and has been removed.
+*                    Loadless block "MFCC/FFT_16kHz/blk00000551" (MUX) removed.
+*                     The signal "MFCC/FFT_16kHz/sig000009a0" is loadless and has been removed.
+*                      Loadless block "MFCC/FFT_16kHz/blk00000552" (MUX) removed.
+*                       The signal "MFCC/FFT_16kHz/sig000009a1" is loadless and has been removed.
+*                        Loadless block "MFCC/FFT_16kHz/blk00000553" (MUX) removed.
+*                         The signal "MFCC/FFT_16kHz/sig000009a2" is loadless and has been removed.
+*                          Loadless block "MFCC/FFT_16kHz/blk00000554" (MUX) removed.
+*                           The signal "MFCC/FFT_16kHz/sig000009a3" is loadless and has been removed.
+*                            Loadless block "MFCC/FFT_16kHz/blk00000555" (MUX) removed.
+*                             The signal "MFCC/FFT_16kHz/sig000009a4" is loadless and has been removed.
+*                              Loadless block "MFCC/FFT_16kHz/blk00000556" (MUX) removed.
+*                               The signal "MFCC/FFT_16kHz/sig000009a5" is loadless and has been removed.
+*                                Loadless block "MFCC/FFT_16kHz/blk00000557" (MUX) removed.
+*                                 The signal "MFCC/FFT_16kHz/sig000009a6" is loadless and has been removed.
+*                                  Loadless block "MFCC/FFT_16kHz/blk00000558" (MUX) removed.
+*                                   The signal "MFCC/FFT_16kHz/sig000009a7" is loadless and has been removed.
+*                                    Loadless block "MFCC/FFT_16kHz/blk00000559" (MUX) removed.
+*                                     The signal "MFCC/FFT_16kHz/sig000009a8" is loadless and has been removed.
+*                                      Loadless block "MFCC/FFT_16kHz/blk0000055b" (MUX) removed.
+*                                       The signal "MFCC/FFT_16kHz/sig00000d9d" is loadless and has been removed.
+*                                        Loadless block "MFCC/FFT_16kHz/blk00000aab" (ROM) removed.
+*                                     The signal "MFCC/FFT_16kHz/sig00000d9c" is loadless and has been removed.
+*                                      Loadless block "MFCC/FFT_16kHz/blk00000aaa" (ROM) removed.
+*                                   The signal "MFCC/FFT_16kHz/sig00000d9b" is loadless and has been removed.
+*                                    Loadless block "MFCC/FFT_16kHz/blk00000aa9" (ROM) removed.
+*                                 The signal "MFCC/FFT_16kHz/sig00000979" is loadless and has been removed.
+*                                  Loadless block "MFCC/FFT_16kHz/blk00000a42" (ROM) removed.
+*                               The signal "MFCC/FFT_16kHz/sig00000978" is loadless and has been removed.
+*                                Loadless block "MFCC/FFT_16kHz/blk00000a47" (ROM) removed.
+*                             The signal "MFCC/FFT_16kHz/sig00000977" is loadless and has been removed.
+*                              Loadless block "MFCC/FFT_16kHz/blk00000a48" (ROM) removed.
+*                           The signal "MFCC/FFT_16kHz/sig00000976" is loadless and has been removed.
+*                            Loadless block "MFCC/FFT_16kHz/blk00000a49" (ROM) removed.
+*                         The signal "MFCC/FFT_16kHz/sig00000975" is loadless and has been removed.
+*                          Loadless block "MFCC/FFT_16kHz/blk00000a4a" (ROM) removed.
+*                       The signal "MFCC/FFT_16kHz/sig00000974" is loadless and has been removed.
+*                        Loadless block "MFCC/FFT_16kHz/blk00000a4b" (ROM) removed.
+*                     The signal "MFCC/FFT_16kHz/sig00000973" is loadless and has been removed.
+*                      Loadless block "MFCC/FFT_16kHz/blk00000a4c" (ROM) removed.
+*                   The signal "MFCC/FFT_16kHz/sig00000972" is loadless and has been removed.
+*                    Loadless block "MFCC/FFT_16kHz/blk00000a24" (ROM) removed.
+*                 The signal "MFCC/FFT_16kHz/sig00000971" is loadless and has been removed.
+*                  Loadless block "MFCC/FFT_16kHz/blk00000a25" (ROM) removed.
+*               The signal "MFCC/FFT_16kHz/sig00000970" is loadless and has been removed.
+*                Loadless block "MFCC/FFT_16kHz/blk00000a26" (ROM) removed.
+*             The signal "MFCC/FFT_16kHz/sig0000096f" is loadless and has been removed.
+*              Loadless block "MFCC/FFT_16kHz/blk00000a27" (ROM) removed.
+*           The signal "MFCC/FFT_16kHz/sig0000096e" is loadless and has been removed.
+*            Loadless block "MFCC/FFT_16kHz/blk00000a28" (ROM) removed.
+*         The signal "MFCC/FFT_16kHz/sig0000096d" is loadless and has been removed.
+*          Loadless block "MFCC/FFT_16kHz/blk00000a29" (ROM) removed.
+*       The signal "MFCC/FFT_16kHz/sig0000096c" is loadless and has been removed.
+*        Loadless block "MFCC/FFT_16kHz/blk00000a2a" (ROM) removed.
+*     The signal "MFCC/FFT_16kHz/sig0000096b" is loadless and has been removed.
+*      Loadless block "MFCC/FFT_16kHz/blk00000a2b" (ROM) removed.
+*   The signal "MFCC/FFT_16kHz/sig0000096a" is loadless and has been removed.
+*    Loadless block "MFCC/FFT_16kHz/blk00000a2c" (ROM) removed.
+* The signal "MFCC/FFT_16kHz/sig00000969" is loadless and has been removed.
+*  Loadless block "MFCC/FFT_16kHz/blk00000a2d" (ROM) removed.
+                                                 The signal "MFCC/FFT_16kHz/sig00000968" is loadless and has been removed.
+*Loadless block "MFCC/FFT_16kHz/blk00000a2e" (ROM) removed.
+                                               The signal "MFCC/FFT_16kHz/sig00000967" is loadless and has been removed.
+                                                Loadless block "MFCC/FFT_16kHz/blk00000a2f" (ROM) removed.
+                                             The signal "MFCC/FFT_16kHz/sig00000966" is loadless and has been removed.
+                                              Loadless block "MFCC/FFT_16kHz/blk00000a30" (ROM) removed.
+                                           The signal "MFCC/FFT_16kHz/sig00000965" is loadless and has been removed.
+                                            Loadless block "MFCC/FFT_16kHz/blk00000a31" (ROM) removed.
+                                         The signal "MFCC/FFT_16kHz/sig00000964" is loadless and has been removed.
+                                          Loadless block "MFCC/FFT_16kHz/blk00000a32" (ROM) removed.
+                                       The signal "MFCC/FFT_16kHz/sig00000963" is loadless and has been removed.
+                                        Loadless block "MFCC/FFT_16kHz/blk00000a33" (ROM) removed.
+                                     The signal "MFCC/FFT_16kHz/sig00000962" is loadless and has been removed.
+                                      Loadless block "MFCC/FFT_16kHz/blk00000a34" (ROM) removed.
+                                   The signal "MFCC/FFT_16kHz/sig00000961" is loadless and has been removed.
+                                    Loadless block "MFCC/FFT_16kHz/blk00000a35" (ROM) removed.
+                                 The signal "MFCC/FFT_16kHz/sig00000960" is loadless and has been removed.
+                                  Loadless block "MFCC/FFT_16kHz/blk00000a36" (ROM) removed.
+                               The signal "MFCC/FFT_16kHz/sig0000095f" is loadless and has been removed.
+                                Loadless block "MFCC/FFT_16kHz/blk00000a37" (ROM) removed.
+                             The signal "MFCC/FFT_16kHz/sig0000095e" is loadless and has been removed.
+                              Loadless block "MFCC/FFT_16kHz/blk00000a38" (ROM) removed.
+                           The signal "MFCC/FFT_16kHz/sig0000095d" is loadless and has been removed.
+                            Loadless block "MFCC/FFT_16kHz/blk00000a39" (ROM) removed.
+                         The signal "MFCC/FFT_16kHz/sig0000095c" is loadless and has been removed.
+                          Loadless block "MFCC/FFT_16kHz/blk00000a3a" (ROM) removed.
+                       The signal "MFCC/FFT_16kHz/sig0000095b" is loadless and has been removed.
+                        Loadless block "MFCC/FFT_16kHz/blk00000a3b" (ROM) removed.
+                     The signal "MFCC/FFT_16kHz/sig0000095a" is loadless and has been removed.
+                      Loadless block "MFCC/FFT_16kHz/blk00000a3c" (ROM) removed.
+                   The signal "MFCC/FFT_16kHz/sig00000959" is loadless and has been removed.
+                    Loadless block "MFCC/FFT_16kHz/blk00000a3d" (ROM) removed.
+                 The signal "MFCC/FFT_16kHz/sig00000958" is loadless and has been removed.
+                  Loadless block "MFCC/FFT_16kHz/blk00000a3e" (ROM) removed.
+               The signal "MFCC/FFT_16kHz/sig00000957" is loadless and has been removed.
+                Loadless block "MFCC/FFT_16kHz/blk00000a3f" (ROM) removed.
+             The signal "MFCC/FFT_16kHz/sig00000956" is loadless and has been removed.
+              Loadless block "MFCC/FFT_16kHz/blk00000a40" (ROM) removed.
+           The signal "MFCC/FFT_16kHz/sig00000955" is loadless and has been removed.
+            Loadless block "MFCC/FFT_16kHz/blk00000a41" (ROM) removed.
+         The signal "MFCC/FFT_16kHz/sig00000954" is loadless and has been removed.
+          Loadless block "MFCC/FFT_16kHz/blk00000a43" (ROM) removed.
+       The signal "MFCC/FFT_16kHz/sig00000953" is loadless and has been removed.
+        Loadless block "MFCC/FFT_16kHz/blk00000a44" (ROM) removed.
+     The signal "MFCC/FFT_16kHz/sig00000952" is loadless and has been removed.
+      Loadless block "MFCC/FFT_16kHz/blk00000a45" (ROM) removed.
+   The signal "MFCC/FFT_16kHz/sig00000d9a" is loadless and has been removed.
+    Loadless block "MFCC/FFT_16kHz/blk00000aa8" (ROM) removed.
+ The signal "MFCC/FFT_16kHz/sig00000951" is loadless and has been removed.
+  Loadless block "MFCC/FFT_16kHz/blk00000a46" (ROM) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000504" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000505" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000506" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000507" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000508" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000509" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000050a" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000050b" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000050c" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000050d" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000050e" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000050f" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000510" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000511" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000512" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000513" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000514" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000515" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000516" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000517" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000518" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000519" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000051a" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000051b" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000051c" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000051d" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000051e" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000051f" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000520" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000521" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000522" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000523" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000524" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000525" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000526" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000527" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000528" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000529" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000052a" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000052b" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000052c" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000052d" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000052e" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000055a" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000055c" (XOR) removed.
+ The signal "MFCC/FFT_16kHz/sig000009d5" is loadless and has been removed.
+  Loadless block "MFCC/FFT_16kHz/blk00000588" (MUX) removed.
+   The signal "MFCC/FFT_16kHz/sig000009d6" is loadless and has been removed.
+    Loadless block "MFCC/FFT_16kHz/blk00000589" (MUX) removed.
+     The signal "MFCC/FFT_16kHz/sig000009d7" is loadless and has been removed.
+      Loadless block "MFCC/FFT_16kHz/blk0000058a" (MUX) removed.
+       The signal "MFCC/FFT_16kHz/sig000009d8" is loadless and has been removed.
+        Loadless block "MFCC/FFT_16kHz/blk0000058b" (MUX) removed.
+         The signal "MFCC/FFT_16kHz/sig000009d9" is loadless and has been removed.
+          Loadless block "MFCC/FFT_16kHz/blk0000058c" (MUX) removed.
+           The signal "MFCC/FFT_16kHz/sig000009da" is loadless and has been removed.
+            Loadless block "MFCC/FFT_16kHz/blk0000058d" (MUX) removed.
+             The signal "MFCC/FFT_16kHz/sig000009db" is loadless and has been removed.
+              Loadless block "MFCC/FFT_16kHz/blk0000058e" (MUX) removed.
+               The signal "MFCC/FFT_16kHz/sig000009dc" is loadless and has been removed.
+                Loadless block "MFCC/FFT_16kHz/blk0000058f" (MUX) removed.
+                 The signal "MFCC/FFT_16kHz/sig000009dd" is loadless and has been removed.
+                  Loadless block "MFCC/FFT_16kHz/blk00000590" (MUX) removed.
+                   The signal "MFCC/FFT_16kHz/sig000009de" is loadless and has been removed.
+                    Loadless block "MFCC/FFT_16kHz/blk00000591" (MUX) removed.
+                     The signal "MFCC/FFT_16kHz/sig000009df" is loadless and has been removed.
+                      Loadless block "MFCC/FFT_16kHz/blk00000592" (MUX) removed.
+                       The signal "MFCC/FFT_16kHz/sig000009e0" is loadless and has been removed.
+                        Loadless block "MFCC/FFT_16kHz/blk00000593" (MUX) removed.
+                         The signal "MFCC/FFT_16kHz/sig000009e1" is loadless and has been removed.
+                          Loadless block "MFCC/FFT_16kHz/blk00000594" (MUX) removed.
+                           The signal "MFCC/FFT_16kHz/sig000009e2" is loadless and has been removed.
+                            Loadless block "MFCC/FFT_16kHz/blk00000595" (MUX) removed.
+                             The signal "MFCC/FFT_16kHz/sig000009e3" is loadless and has been removed.
+                              Loadless block "MFCC/FFT_16kHz/blk00000596" (MUX) removed.
+                               The signal "MFCC/FFT_16kHz/sig000009e4" is loadless and has been removed.
+                                Loadless block "MFCC/FFT_16kHz/blk00000597" (MUX) removed.
+                                 The signal "MFCC/FFT_16kHz/sig000009e5" is loadless and has been removed.
+                                  Loadless block "MFCC/FFT_16kHz/blk00000598" (MUX) removed.
+                                   The signal "MFCC/FFT_16kHz/sig000009e6" is loadless and has been removed.
+                                    Loadless block "MFCC/FFT_16kHz/blk00000599" (MUX) removed.
+                                     The signal "MFCC/FFT_16kHz/sig000009e7" is loadless and has been removed.
+                                      Loadless block "MFCC/FFT_16kHz/blk0000059a" (MUX) removed.
+                                       The signal "MFCC/FFT_16kHz/sig000009e8" is loadless and has been removed.
+                                        Loadless block "MFCC/FFT_16kHz/blk0000059b" (MUX) removed.
+                                         The signal "MFCC/FFT_16kHz/sig000009e9" is loadless and has been removed.
+                                          Loadless block "MFCC/FFT_16kHz/blk0000059c" (MUX) removed.
+                                           The signal "MFCC/FFT_16kHz/sig000009ea" is loadless and has been removed.
+                                            Loadless block "MFCC/FFT_16kHz/blk0000059d" (MUX) removed.
+                                             The signal "MFCC/FFT_16kHz/sig000009eb" is loadless and has been removed.
+                                              Loadless block "MFCC/FFT_16kHz/blk0000059e" (MUX) removed.
+                                               The signal "MFCC/FFT_16kHz/sig000009ec" is loadless and has been removed.
+                                                Loadless block "MFCC/FFT_16kHz/blk0000059f" (MUX) removed.
+                                                 The signal "MFCC/FFT_16kHz/sig000009ed" is loadless and has been removed.
+*Loadless block "MFCC/FFT_16kHz/blk000005a0" (MUX) removed.
+* The signal "MFCC/FFT_16kHz/sig000009ee" is loadless and has been removed.
+*  Loadless block "MFCC/FFT_16kHz/blk000005a1" (MUX) removed.
+*   The signal "MFCC/FFT_16kHz/sig000009ef" is loadless and has been removed.
+*    Loadless block "MFCC/FFT_16kHz/blk000005a2" (MUX) removed.
+*     The signal "MFCC/FFT_16kHz/sig000009f0" is loadless and has been removed.
+*      Loadless block "MFCC/FFT_16kHz/blk000005a3" (MUX) removed.
+*       The signal "MFCC/FFT_16kHz/sig000009f1" is loadless and has been removed.
+*        Loadless block "MFCC/FFT_16kHz/blk000005a4" (MUX) removed.
+*         The signal "MFCC/FFT_16kHz/sig000009f2" is loadless and has been removed.
+*          Loadless block "MFCC/FFT_16kHz/blk000005a5" (MUX) removed.
+*           The signal "MFCC/FFT_16kHz/sig000009f3" is loadless and has been removed.
+*            Loadless block "MFCC/FFT_16kHz/blk000005a6" (MUX) removed.
+*             The signal "MFCC/FFT_16kHz/sig000009f4" is loadless and has been removed.
+*              Loadless block "MFCC/FFT_16kHz/blk000005a7" (MUX) removed.
+*               The signal "MFCC/FFT_16kHz/sig000009f5" is loadless and has been removed.
+*                Loadless block "MFCC/FFT_16kHz/blk000005a8" (MUX) removed.
+*                 The signal "MFCC/FFT_16kHz/sig000009f6" is loadless and has been removed.
+*                  Loadless block "MFCC/FFT_16kHz/blk000005a9" (MUX) removed.
+*                   The signal "MFCC/FFT_16kHz/sig000009f7" is loadless and has been removed.
+*                    Loadless block "MFCC/FFT_16kHz/blk000005aa" (MUX) removed.
+*                     The signal "MFCC/FFT_16kHz/sig000009f8" is loadless and has been removed.
+*                      Loadless block "MFCC/FFT_16kHz/blk000005ab" (MUX) removed.
+*                       The signal "MFCC/FFT_16kHz/sig000009f9" is loadless and has been removed.
+*                        Loadless block "MFCC/FFT_16kHz/blk000005ac" (MUX) removed.
+*                         The signal "MFCC/FFT_16kHz/sig000009fa" is loadless and has been removed.
+*                          Loadless block "MFCC/FFT_16kHz/blk000005ad" (MUX) removed.
+*                           The signal "MFCC/FFT_16kHz/sig000009fb" is loadless and has been removed.
+*                            Loadless block "MFCC/FFT_16kHz/blk000005ae" (MUX) removed.
+*                             The signal "MFCC/FFT_16kHz/sig000009fc" is loadless and has been removed.
+*                              Loadless block "MFCC/FFT_16kHz/blk000005af" (MUX) removed.
+*                               The signal "MFCC/FFT_16kHz/sig000009fd" is loadless and has been removed.
+*                                Loadless block "MFCC/FFT_16kHz/blk000005b0" (MUX) removed.
+*                                 The signal "MFCC/FFT_16kHz/sig000009fe" is loadless and has been removed.
+*                                  Loadless block "MFCC/FFT_16kHz/blk000005b1" (MUX) removed.
+*                                   The signal "MFCC/FFT_16kHz/sig000009ff" is loadless and has been removed.
+*                                    Loadless block "MFCC/FFT_16kHz/blk000005b2" (MUX) removed.
+*                                     The signal "MFCC/FFT_16kHz/sig00000a00" is loadless and has been removed.
+*                                      Loadless block "MFCC/FFT_16kHz/blk000005b4" (MUX) removed.
+*                                       The signal "MFCC/FFT_16kHz/sig00000da1" is loadless and has been removed.
+*                                        Loadless block "MFCC/FFT_16kHz/blk00000aaf" (ROM) removed.
+*                                     The signal "MFCC/FFT_16kHz/sig00000da0" is loadless and has been removed.
+*                                      Loadless block "MFCC/FFT_16kHz/blk00000aae" (ROM) removed.
+*                                   The signal "MFCC/FFT_16kHz/sig00000d9f" is loadless and has been removed.
+*                                    Loadless block "MFCC/FFT_16kHz/blk00000aad" (ROM) removed.
+*                                 The signal "MFCC/FFT_16kHz/sig000009d1" is loadless and has been removed.
+*                                  Loadless block "MFCC/FFT_16kHz/blk00000a6b" (ROM) removed.
+*                               The signal "MFCC/FFT_16kHz/sig000009d0" is loadless and has been removed.
+*                                Loadless block "MFCC/FFT_16kHz/blk00000a70" (ROM) removed.
+*                             The signal "MFCC/FFT_16kHz/sig000009cf" is loadless and has been removed.
+*                              Loadless block "MFCC/FFT_16kHz/blk00000a71" (ROM) removed.
+*                           The signal "MFCC/FFT_16kHz/sig000009ce" is loadless and has been removed.
+*                            Loadless block "MFCC/FFT_16kHz/blk00000a72" (ROM) removed.
+*                         The signal "MFCC/FFT_16kHz/sig000009cd" is loadless and has been removed.
+*                          Loadless block "MFCC/FFT_16kHz/blk00000a73" (ROM) removed.
+*                       The signal "MFCC/FFT_16kHz/sig000009cc" is loadless and has been removed.
+*                        Loadless block "MFCC/FFT_16kHz/blk00000a74" (ROM) removed.
+*                     The signal "MFCC/FFT_16kHz/sig000009cb" is loadless and has been removed.
+*                      Loadless block "MFCC/FFT_16kHz/blk00000a75" (ROM) removed.
+*                   The signal "MFCC/FFT_16kHz/sig000009ca" is loadless and has been removed.
+*                    Loadless block "MFCC/FFT_16kHz/blk00000a4d" (ROM) removed.
+*                 The signal "MFCC/FFT_16kHz/sig000009c9" is loadless and has been removed.
+*                  Loadless block "MFCC/FFT_16kHz/blk00000a4e" (ROM) removed.
+*               The signal "MFCC/FFT_16kHz/sig000009c8" is loadless and has been removed.
+*                Loadless block "MFCC/FFT_16kHz/blk00000a4f" (ROM) removed.
+*             The signal "MFCC/FFT_16kHz/sig000009c7" is loadless and has been removed.
+*              Loadless block "MFCC/FFT_16kHz/blk00000a50" (ROM) removed.
+*           The signal "MFCC/FFT_16kHz/sig000009c6" is loadless and has been removed.
+*            Loadless block "MFCC/FFT_16kHz/blk00000a51" (ROM) removed.
+*         The signal "MFCC/FFT_16kHz/sig000009c5" is loadless and has been removed.
+*          Loadless block "MFCC/FFT_16kHz/blk00000a52" (ROM) removed.
+*       The signal "MFCC/FFT_16kHz/sig000009c4" is loadless and has been removed.
+*        Loadless block "MFCC/FFT_16kHz/blk00000a53" (ROM) removed.
+*     The signal "MFCC/FFT_16kHz/sig000009c3" is loadless and has been removed.
+*      Loadless block "MFCC/FFT_16kHz/blk00000a54" (ROM) removed.
+*   The signal "MFCC/FFT_16kHz/sig000009c2" is loadless and has been removed.
+*    Loadless block "MFCC/FFT_16kHz/blk00000a55" (ROM) removed.
+* The signal "MFCC/FFT_16kHz/sig000009c1" is loadless and has been removed.
+*  Loadless block "MFCC/FFT_16kHz/blk00000a56" (ROM) removed.
+                                                 The signal "MFCC/FFT_16kHz/sig000009c0" is loadless and has been removed.
+*Loadless block "MFCC/FFT_16kHz/blk00000a57" (ROM) removed.
+                                               The signal "MFCC/FFT_16kHz/sig000009bf" is loadless and has been removed.
+                                                Loadless block "MFCC/FFT_16kHz/blk00000a58" (ROM) removed.
+                                             The signal "MFCC/FFT_16kHz/sig000009be" is loadless and has been removed.
+                                              Loadless block "MFCC/FFT_16kHz/blk00000a59" (ROM) removed.
+                                           The signal "MFCC/FFT_16kHz/sig000009bd" is loadless and has been removed.
+                                            Loadless block "MFCC/FFT_16kHz/blk00000a5a" (ROM) removed.
+                                         The signal "MFCC/FFT_16kHz/sig000009bc" is loadless and has been removed.
+                                          Loadless block "MFCC/FFT_16kHz/blk00000a5b" (ROM) removed.
+                                       The signal "MFCC/FFT_16kHz/sig000009bb" is loadless and has been removed.
+                                        Loadless block "MFCC/FFT_16kHz/blk00000a5c" (ROM) removed.
+                                     The signal "MFCC/FFT_16kHz/sig000009ba" is loadless and has been removed.
+                                      Loadless block "MFCC/FFT_16kHz/blk00000a5d" (ROM) removed.
+                                   The signal "MFCC/FFT_16kHz/sig000009b9" is loadless and has been removed.
+                                    Loadless block "MFCC/FFT_16kHz/blk00000a5e" (ROM) removed.
+                                 The signal "MFCC/FFT_16kHz/sig000009b8" is loadless and has been removed.
+                                  Loadless block "MFCC/FFT_16kHz/blk00000a5f" (ROM) removed.
+                               The signal "MFCC/FFT_16kHz/sig000009b7" is loadless and has been removed.
+                                Loadless block "MFCC/FFT_16kHz/blk00000a60" (ROM) removed.
+                             The signal "MFCC/FFT_16kHz/sig000009b6" is loadless and has been removed.
+                              Loadless block "MFCC/FFT_16kHz/blk00000a61" (ROM) removed.
+                           The signal "MFCC/FFT_16kHz/sig000009b5" is loadless and has been removed.
+                            Loadless block "MFCC/FFT_16kHz/blk00000a62" (ROM) removed.
+                         The signal "MFCC/FFT_16kHz/sig000009b4" is loadless and has been removed.
+                          Loadless block "MFCC/FFT_16kHz/blk00000a63" (ROM) removed.
+                       The signal "MFCC/FFT_16kHz/sig000009b3" is loadless and has been removed.
+                        Loadless block "MFCC/FFT_16kHz/blk00000a64" (ROM) removed.
+                     The signal "MFCC/FFT_16kHz/sig000009b2" is loadless and has been removed.
+                      Loadless block "MFCC/FFT_16kHz/blk00000a65" (ROM) removed.
+                   The signal "MFCC/FFT_16kHz/sig000009b1" is loadless and has been removed.
+                    Loadless block "MFCC/FFT_16kHz/blk00000a66" (ROM) removed.
+                 The signal "MFCC/FFT_16kHz/sig000009b0" is loadless and has been removed.
+                  Loadless block "MFCC/FFT_16kHz/blk00000a67" (ROM) removed.
+               The signal "MFCC/FFT_16kHz/sig000009af" is loadless and has been removed.
+                Loadless block "MFCC/FFT_16kHz/blk00000a68" (ROM) removed.
+             The signal "MFCC/FFT_16kHz/sig000009ae" is loadless and has been removed.
+              Loadless block "MFCC/FFT_16kHz/blk00000a69" (ROM) removed.
+           The signal "MFCC/FFT_16kHz/sig000009ad" is loadless and has been removed.
+            Loadless block "MFCC/FFT_16kHz/blk00000a6a" (ROM) removed.
+         The signal "MFCC/FFT_16kHz/sig000009ac" is loadless and has been removed.
+          Loadless block "MFCC/FFT_16kHz/blk00000a6c" (ROM) removed.
+       The signal "MFCC/FFT_16kHz/sig000009ab" is loadless and has been removed.
+        Loadless block "MFCC/FFT_16kHz/blk00000a6d" (ROM) removed.
+     The signal "MFCC/FFT_16kHz/sig000009aa" is loadless and has been removed.
+      Loadless block "MFCC/FFT_16kHz/blk00000a6e" (ROM) removed.
+   The signal "MFCC/FFT_16kHz/sig00000d9e" is loadless and has been removed.
+    Loadless block "MFCC/FFT_16kHz/blk00000aac" (ROM) removed.
+ The signal "MFCC/FFT_16kHz/sig000009a9" is loadless and has been removed.
+  Loadless block "MFCC/FFT_16kHz/blk00000a6f" (ROM) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000055d" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000055e" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000055f" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000560" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000561" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000562" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000563" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000564" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000565" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000566" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000567" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000568" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000569" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000056a" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000056b" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000056c" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000056d" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000056e" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000056f" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000570" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000571" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000572" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000573" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000574" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000575" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000576" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000577" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000578" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000579" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000057a" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000057b" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000057c" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000057d" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000057e" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000057f" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000580" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000581" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000582" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000583" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000584" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000585" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000586" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk00000587" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk000005b3" (XOR) removed.
+Loadless block "MFCC/FFT_16kHz/blk0000067e" (SFF) removed.
+ The signal "MFCC/FFT_16kHz/sig00000af7" is loadless and has been removed.
+Loadless block "MFCC/FFT_16kHz/blk000006d0" (SFF) removed.
+ The signal "MFCC/FFT_16kHz/sig00000b20" is loadless and has been removed.
+The signal
+"MFCC/FFT_16kHz/U0/i_synth/non_floating_point.arch_e.xfft_inst/control/busy_i_re
+g2" is sourceless and has been removed.
+The signal
+"MFCC/FFT_16kHz/U0/i_synth/non_floating_point.arch_e.xfft_inst/control/edone_i_r
+eg" is sourceless and has been removed.
+The signal
+"MFCC/FFT_16kHz/U0/i_synth/non_floating_point.arch_e.xfft_inst/control/done_i_re
+g" is sourceless and has been removed.
+The signal "MFCC/FFT_16kHz/sig00000c92" is sourceless and has been removed.
+ Sourceless block "MFCC/FFT_16kHz/blk000007ef" (SFF) removed.
+The signal "MFCC/FFT_16kHz/sig00000bf8" is sourceless and has been removed.
+ Sourceless block "MFCC/FFT_16kHz/blk000007f0" (SFF) removed.
+The signal "MFCC/FFT_16kHz/sig00000c93" is sourceless and has been removed.
+ Sourceless block "MFCC/FFT_16kHz/blk000007f1" (SFF) removed.
+The signal "MFCC/FFT_16kHz/sig00000be3" is sourceless and has been removed.
+ Sourceless block "MFCC/FFT_16kHz/blk000007f2" (SFF) removed.
+The signal "MFCC/FFT_16kHz/sig00000be4" is sourceless and has been removed.
+ Sourceless block "MFCC/FFT_16kHz/blk000007f3" (SFF) removed.
+The signal "MFCC/FFT_16kHz/sig00000bfd" is sourceless and has been removed.
+ Sourceless block "MFCC/FFT_16kHz/blk000007f4" (FF) removed.
+ Sourceless block "MFCC/FFT_16kHz/blk000007f5" (FF) removed.
+The signal "MFCC/FFT_16kHz/sig00000bf6" is sourceless and has been removed.
+The signal "MFCC/FFT_16kHz/sig00000c52" is sourceless and has been removed.
+ Sourceless block "MFCC/FFT_16kHz/blk00000803" (SFF) removed.
+The signal "MFCC/FFT_16kHz/sig00000c17" is sourceless and has been removed.
+ Sourceless block "MFCC/FFT_16kHz/blk00000813" (SFF) removed.
+  The signal "MFCC/FFT_16kHz/sig00000bf7" is sourceless and has been removed.
+The signal "MFCC/FFT_16kHz/sig00000def" is sourceless and has been removed.
+The signal "DNN_0117/outdataP<4>" is sourceless and has been removed.
+The signal "DNN_0117/outdataP<3>" is sourceless and has been removed.
+The signal "DNN_0117/outdataP<2>" is sourceless and has been removed.
+The signal "DNN_0117/outdataP<1>" is sourceless and has been removed.
+The signal "DNN_0117/outdataP<0>" is sourceless and has been removed.
+The signal "DNN_0117/nnpara/douta<15>" is sourceless and has been removed.
+The signal "DNN_0117/nnpara/douta<14>" is sourceless and has been removed.
+The signal "DNN_0117/nnpara/N0" is sourceless and has been removed.
+The signal
+"DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+tr/ramloop[5].ram.ram_douta<6>" is sourceless and has been removed.
+ Sourceless block
+"DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+tr/has_mux_a.A/Mmux_dout_mux61" (ROM) removed.
+The signal
+"DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+tr/ramloop[2].ram.ram_douta<14>" is sourceless and has been removed.
+The signal
+"DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+tr/ramloop[6].ram.ram_douta<2>" is sourceless and has been removed.
+The signal
+"DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+tr/ramloop[5].ram.ram_douta<7>" is sourceless and has been removed.
+ Sourceless block
+"DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+tr/has_mux_a.A/Mmux_dout_mux71" (ROM) removed.
+The signal
+"DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+tr/ramloop[2].ram.ram_douta<15>" is sourceless and has been removed.
+The signal
+"DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+tr/ramloop[6].ram.ram_douta<3>" is sourceless and has been removed.
+
+The trimmed logic reported below is either:
+   1. part of a cycle
+   2. part of disabled logic
+   3. a side-effect of other trimmed logic
+
+The signal "dnn_o<0>" is unused and has been removed.
+Unused block "MFCC/FFT_16kHz/blk00000655" (SRL16E) removed.
+Unused block "MFCC/FFT_16kHz/blk000006a7" (SRL16E) removed.
+Unused block "MFCC/FFT_16kHz/blk000007f6" (SFF) removed.
+Unused block "MFCC/FFT_16kHz/blk0000080e" (SFF) removed.
+Unused block "MFCC/FFT_16kHz/blk00000a82" (ROM) removed.
+Unused block "MFCC/FFT_16kHz/blk00000b20" (ROM) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+GND 		DNN_0117/XST_GND
+VCC 		DNN_0117/XST_VCC
+VCC 		DNN_0117/mac_affine/blk00000001/blk00000002
+GND 		DNN_0117/mac_affine/blk00000001/blk00000003
+VCC 		DNN_0117/mac_affinenew/blk00000001/blk00000002
+GND 		DNN_0117/mac_affinenew/blk00000001/blk00000003
+VCC 		DNN_0117/multi_std/blk00000001/blk00000002
+GND 		DNN_0117/multi_std/blk00000001/blk00000003
+GND 		DNN_0117/newnode/XST_GND
+VCC 		DNN_0117/newnode/XST_VCC
+GND 		DNN_0117/nnpara/XST_GND
+VCC 		DNN_0117/nnpara/XST_VCC
+GND 		DNN_0117/node/XST_GND
+VCC 		DNN_0117/node/XST_VCC
+GND 		DNN_0117/vec_std/XST_GND
+VCC 		DNN_0117/vec_std/XST_VCC
+GND 		DNN_0117/sigmoid/XST_GND
+VCC 		DNN_0117/sigmoid/XST_VCC
+GND 		DP_main/XST_GND
+VCC 		DP_main/XST_VCC
+GND 		DP_main/DP_matching/XST_GND
+VCC 		DP_main/DP_matching/XST_VCC
+GND 		DP_main/DP_matching/DP_distance/XST_GND
+VCC 		DP_main/DP_matching/DP_distance/XST_VCC
+VCC 		MFCC/FFT_16kHz/blk00000001
+GND 		MFCC/FFT_16kHz/blk00000002
+GND 		MFCC/FFT_16kHz/blk00000251/blk00000252
+GND 		MFCC/FFT_16kHz/blk0000027e/blk0000027f
+GND 		MFCC/FFT_16kHz/blk0000034b/blk0000034c
+VCC 		MFCC/FFT_16kHz/blk0000034b/blk0000034d
+GND 		MFCC/FFT_16kHz/blk00000350/blk00000351
+VCC 		MFCC/FFT_16kHz/blk00000350/blk00000352
+GND 		MFCC/FFT_16kHz/blk000003a3/blk000003a4
+VCC 		MFCC/FFT_16kHz/blk000003a3/blk000003a5
+GND 		MFCC/FFT_16kHz/blk000003f6/blk000003f7
+VCC 		MFCC/FFT_16kHz/blk000003f6/blk000003f8
+FDRE 		MFCC/FFT_16kHz/blk00000794
+	Property STUCK_AT NOT found
+GND 		MFCC/FFT_16kHz/blk00000814/blk00000815
+VCC 		MFCC/FFT_16kHz/blk00000814/blk00000816
+LUT3 		MFCC/FFT_16kHz/blk0000082d
+   optimized to 1
+LUT3 		MFCC/FFT_16kHz/blk0000082e
+   optimized to 1
+LUT3 		MFCC/FFT_16kHz/blk0000082f
+   optimized to 1
+LUT6 		MFCC/FFT_16kHz/blk0000086e
+   optimized to 0
+LUT6 		MFCC/FFT_16kHz/blk0000086f
+   optimized to 0
+LUT6 		MFCC/FFT_16kHz/blk00000870
+   optimized to 0
+LUT6 		MFCC/FFT_16kHz/blk00000871
+   optimized to 0
+LUT6 		MFCC/FFT_16kHz/blk00000872
+   optimized to 0
+LUT6 		MFCC/FFT_16kHz/blk00000873
+   optimized to 0
+LUT6 		MFCC/FFT_16kHz/blk00000874
+   optimized to 0
+LUT6 		MFCC/FFT_16kHz/blk00000875
+   optimized to 0
+LUT6 		MFCC/FFT_16kHz/blk00000876
+   optimized to 0
+GND 		MFCC/FFT_16kHz/blk000008a4/blk000008a5
+VCC 		MFCC/FFT_16kHz/blk000008a4/blk000008a6
+GND 		MFCC/FFT_16kHz/blk000008b9/blk000008ba
+VCC 		MFCC/FFT_16kHz/blk000008b9/blk000008bb
+GND 		MFCC/FFT_16kHz/blk000008be/blk000008bf
+VCC 		MFCC/FFT_16kHz/blk000008be/blk000008c0
+GND 		MFCC/FFT_16kHz/blk000008ca/blk000008cb
+VCC 		MFCC/FFT_16kHz/blk000008ca/blk000008cc
+GND 		MFCC/FFT_16kHz/blk000008cf/blk000008d0
+VCC 		MFCC/FFT_16kHz/blk000008cf/blk000008d1
+GND 		MFCC/FFT_16kHz/blk000008d4/blk000008d5
+VCC 		MFCC/FFT_16kHz/blk000008d4/blk000008d6
+LUT3 		MFCC/FFT_16kHz/blk00000afe
+   optimized to 1
+FDS 		MFCC/FFT_16kHz/blk00000aff
+	Property STUCK_AT NOT found
+GND 		MFCC/XST_GND
+VCC 		MFCC/XST_VCC
+GND 		MFCC/BRAM_FB/XST_GND
+VCC 		MFCC/BRAM_FB/XST_VCC
+GND 		MFCC/BRAM_FFT_IM/XST_GND
+VCC 		MFCC/BRAM_FFT_IM/XST_VCC
+GND 		MFCC/BRAM_FFT_PO/XST_GND
+VCC 		MFCC/BRAM_FFT_PO/XST_VCC
+GND 		MFCC/BRAM_FFT_RE/XST_GND
+VCC 		MFCC/BRAM_FFT_RE/XST_VCC
+GND 		MFCC/BRAM_FRAME/XST_GND
+VCC 		MFCC/BRAM_FRAME/XST_VCC
+GND 		MFCC/BRAM_HAM/XST_GND
+VCC 		MFCC/BRAM_HAM/XST_VCC
+GND 		MFCC/BRAM_MFCC/XST_GND
+VCC 		MFCC/BRAM_MFCC/XST_VCC
+GND 		MFCC/RINGBUFFER/XST_GND
+VCC 		MFCC/RINGBUFFER/XST_VCC
+GND 		MFCC/SMULTI/XST_GND
+VCC 		MFCC/SMULTI/XST_VCC
+GND 		MFCC/SMULTI2/XST_GND
+VCC 		MFCC/SMULTI2/XST_VCC
+GND 		MFCC/log2/XST_GND
+GND 		MFCC/usevad/XST_GND
+VCC 		MFCC/usevad/XST_VCC
+GND 		SPM0405HD4H/XST_GND
+VCC 		SPM0405HD4H/XST_VCC
+GND 		SPM0405HD4H/MEMS_Filter/XST_GND
+VCC 		SPM0405HD4H/MEMS_Filter/XST_VCC
+GND 		clock_devide_2M/XST_GND
+VCC 		clock_devide_2M/XST_VCC
+
+Redundant Block(s):
+TYPE 		BLOCK
+LUT1 		Mcount_k_cy<1>_rt
+LUT1 		Mcount_k_cy<2>_rt
+LUT1 		Mcount_k_cy<3>_rt
+LUT1 		Mcount_j_cy<1>_rt
+LUT1 		Mcount_k_xor<4>_rt
+LUT1 		Mcount_j_xor<2>_rt
+INV 		switch_inv1_INV_0
+LUT1 		DNN_0117/Madd_addrW[15]_GND_19_o_add_107_OUT_cy<1>_rt
+LUT1 		DNN_0117/Madd_addrW[15]_GND_19_o_add_107_OUT_cy<2>_rt
+LUT1 		DNN_0117/Madd_addrW[15]_GND_19_o_add_107_OUT_cy<3>_rt
+LUT1 		DNN_0117/Madd_addrW[15]_GND_19_o_add_107_OUT_cy<4>_rt
+LUT1 		DNN_0117/Madd_addrW[15]_GND_19_o_add_107_OUT_cy<5>_rt
+LUT1 		DNN_0117/Madd_addrW[15]_GND_19_o_add_107_OUT_cy<6>_rt
+LUT1 		DNN_0117/Madd_addrW[15]_GND_19_o_add_107_OUT_cy<7>_rt
+LUT1 		DNN_0117/Madd_addrW[15]_GND_19_o_add_107_OUT_cy<8>_rt
+LUT1 		DNN_0117/Madd_addrW[15]_GND_19_o_add_107_OUT_cy<9>_rt
+LUT1 		DNN_0117/Madd_addrW[15]_GND_19_o_add_107_OUT_cy<10>_rt
+LUT1 		DNN_0117/Madd_addrW[15]_GND_19_o_add_107_OUT_cy<11>_rt
+LUT1 		DNN_0117/Msub_GND_19_o_GND_19_o_sub_104_OUT<15:0>_cy<0>_rt
+LUT1 		DNN_0117/Msub_x_i[9][19]_PWR_25_o_sub_35_OUT<19:0>_cy<1>_rt
+LUT1 		DNN_0117/Msub_x_i[9][19]_PWR_25_o_sub_35_OUT<19:0>_cy<3>_rt
+LUT1 		DNN_0117/Msub_x_i[9][19]_PWR_25_o_sub_35_OUT<19:0>_cy<4>_rt
+LUT1 		DNN_0117/Msub_x_i[9][19]_PWR_25_o_sub_35_OUT<19:0>_cy<5>_rt
+LUT1 		DNN_0117/Msub_x_i[9][19]_PWR_25_o_sub_35_OUT<19:0>_cy<7>_rt
+LUT1 		DNN_0117/Msub_x_i[9][19]_PWR_25_o_sub_35_OUT<19:0>_cy<8>_rt
+LUT1 		DNN_0117/Msub_x_i[9][19]_PWR_25_o_sub_35_OUT<19:0>_cy<9>_rt
+LUT1 		DNN_0117/Msub_x_i[9][19]_PWR_25_o_sub_35_OUT<19:0>_cy<10>_rt
+LUT1 		DNN_0117/Msub_x_i[9][19]_PWR_25_o_sub_35_OUT<19:0>_cy<12>_rt
+LUT1 		DNN_0117/Msub_x_i[9][19]_PWR_25_o_sub_35_OUT<19:0>_cy<13>_rt
+LUT1 		DNN_0117/Msub_x_i[9][19]_PWR_25_o_sub_35_OUT<19:0>_cy<15>_rt
+LUT1 		DNN_0117/Msub_x_i[9][19]_PWR_25_o_sub_35_OUT<19:0>_cy<16>_rt
+LUT1 		DNN_0117/Msub_x_i[9][19]_PWR_25_o_sub_35_OUT<19:0>_cy<17>_rt
+LUT1 		DNN_0117/Msub_x_i[9][19]_PWR_25_o_sub_35_OUT<19:0>_cy<18>_rt
+LUT1 		DNN_0117/Msub_x_i[11][19]_PWR_25_o_sub_37_OUT<19:0>_cy<2>_rt
+LUT1 		DNN_0117/Msub_x_i[11][19]_PWR_25_o_sub_37_OUT<19:0>_cy<3>_rt
+LUT1 		DNN_0117/Msub_x_i[11][19]_PWR_25_o_sub_37_OUT<19:0>_cy<6>_rt
+LUT1 		DNN_0117/Msub_x_i[11][19]_PWR_25_o_sub_37_OUT<19:0>_cy<7>_rt
+LUT1 		DNN_0117/Msub_x_i[11][19]_PWR_25_o_sub_37_OUT<19:0>_cy<8>_rt
+LUT1 		DNN_0117/Msub_x_i[11][19]_PWR_25_o_sub_37_OUT<19:0>_cy<9>_rt
+LUT1 		DNN_0117/Msub_x_i[11][19]_PWR_25_o_sub_37_OUT<19:0>_cy<10>_rt
+LUT1 		DNN_0117/Msub_x_i[11][19]_PWR_25_o_sub_37_OUT<19:0>_cy<11>_rt
+LUT1 		DNN_0117/Msub_x_i[11][19]_PWR_25_o_sub_37_OUT<19:0>_cy<12>_rt
+LUT1 		DNN_0117/Msub_x_i[11][19]_PWR_25_o_sub_37_OUT<19:0>_cy<14>_rt
+LUT1 		DNN_0117/Msub_x_i[11][19]_PWR_25_o_sub_37_OUT<19:0>_cy<15>_rt
+LUT1 		DNN_0117/Msub_x_i[11][19]_PWR_25_o_sub_37_OUT<19:0>_cy<17>_rt
+LUT1 		DNN_0117/Msub_x_i[11][19]_PWR_25_o_sub_37_OUT<19:0>_cy<18>_rt
+LUT1 		DNN_0117/Msub_x_i[10][19]_GND_19_o_sub_36_OUT<19:0>_cy<0>_rt
+LUT1 		DNN_0117/Msub_x_i[10][19]_GND_19_o_sub_36_OUT<19:0>_cy<1>_rt
+LUT1 		DNN_0117/Msub_x_i[10][19]_GND_19_o_sub_36_OUT<19:0>_cy<2>_rt
+LUT1 		DNN_0117/Msub_x_i[10][19]_GND_19_o_sub_36_OUT<19:0>_cy<5>_rt
+LUT1 		DNN_0117/Msub_x_i[10][19]_GND_19_o_sub_36_OUT<19:0>_cy<8>_rt
+LUT1 		DNN_0117/Msub_x_i[10][19]_GND_19_o_sub_36_OUT<19:0>_cy<12>_rt
+LUT1 		DNN_0117/Msub_x_i[6][19]_PWR_25_o_sub_32_OUT<19:0>_cy<0>_rt
+LUT1 		DNN_0117/Msub_x_i[6][19]_PWR_25_o_sub_32_OUT<19:0>_cy<6>_rt
+LUT1 		DNN_0117/Msub_x_i[6][19]_PWR_25_o_sub_32_OUT<19:0>_cy<7>_rt
+LUT1 		DNN_0117/Msub_x_i[6][19]_PWR_25_o_sub_32_OUT<19:0>_cy<9>_rt
+LUT1 		DNN_0117/Msub_x_i[6][19]_PWR_25_o_sub_32_OUT<19:0>_cy<11>_rt
+LUT1 		DNN_0117/Msub_x_i[6][19]_PWR_25_o_sub_32_OUT<19:0>_cy<13>_rt
+LUT1 		DNN_0117/Msub_x_i[6][19]_PWR_25_o_sub_32_OUT<19:0>_cy<16>_rt
+LUT1 		DNN_0117/Msub_x_i[6][19]_PWR_25_o_sub_32_OUT<19:0>_cy<17>_rt
+LUT1 		DNN_0117/Msub_x_i[6][19]_PWR_25_o_sub_32_OUT<19:0>_cy<18>_rt
+LUT1 		DNN_0117/Msub_x_i[8][19]_PWR_25_o_sub_34_OUT<19:0>_cy<4>_rt
+LUT1 		DNN_0117/Msub_x_i[8][19]_PWR_25_o_sub_34_OUT<19:0>_cy<5>_rt
+LUT1 		DNN_0117/Msub_x_i[8][19]_PWR_25_o_sub_34_OUT<19:0>_cy<6>_rt
+LUT1 		DNN_0117/Msub_x_i[8][19]_PWR_25_o_sub_34_OUT<19:0>_cy<7>_rt
+LUT1 		DNN_0117/Msub_x_i[8][19]_PWR_25_o_sub_34_OUT<19:0>_cy<8>_rt
+LUT1 		DNN_0117/Msub_x_i[8][19]_PWR_25_o_sub_34_OUT<19:0>_cy<9>_rt
+LUT1 		DNN_0117/Msub_x_i[8][19]_PWR_25_o_sub_34_OUT<19:0>_cy<13>_rt
+LUT1 		DNN_0117/Msub_x_i[8][19]_PWR_25_o_sub_34_OUT<19:0>_cy<15>_rt
+LUT1 		DNN_0117/Msub_x_i[8][19]_PWR_25_o_sub_34_OUT<19:0>_cy<16>_rt
+LUT1 		DNN_0117/Msub_x_i[8][19]_PWR_25_o_sub_34_OUT<19:0>_cy<17>_rt
+LUT1 		DNN_0117/Msub_x_i[8][19]_PWR_25_o_sub_34_OUT<19:0>_cy<18>_rt
+LUT1 		DNN_0117/Msub_x_i[7][19]_PWR_25_o_sub_33_OUT<19:0>_cy<0>_rt
+LUT1 		DNN_0117/Msub_x_i[7][19]_PWR_25_o_sub_33_OUT<19:0>_cy<4>_rt
+LUT1 		DNN_0117/Msub_x_i[7][19]_PWR_25_o_sub_33_OUT<19:0>_cy<11>_rt
+LUT1 		DNN_0117/Msub_x_i[7][19]_PWR_25_o_sub_33_OUT<19:0>_cy<12>_rt
+LUT1 		DNN_0117/Msub_x_i[7][19]_PWR_25_o_sub_33_OUT<19:0>_cy<15>_rt
+LUT1 		DNN_0117/Msub_x_i[7][19]_PWR_25_o_sub_33_OUT<19:0>_cy<16>_rt
+LUT1 		DNN_0117/Msub_x_i[7][19]_PWR_25_o_sub_33_OUT<19:0>_cy<17>_rt
+LUT1 		DNN_0117/Msub_x_i[7][19]_PWR_25_o_sub_33_OUT<19:0>_cy<18>_rt
+LUT1 		DNN_0117/Msub_x_i[5][19]_PWR_25_o_sub_31_OUT<19:0>_cy<0>_rt
+LUT1 		DNN_0117/Msub_x_i[5][19]_PWR_25_o_sub_31_OUT<19:0>_cy<1>_rt
+LUT1 		DNN_0117/Msub_x_i[5][19]_PWR_25_o_sub_31_OUT<19:0>_cy<2>_rt
+LUT1 		DNN_0117/Msub_x_i[5][19]_PWR_25_o_sub_31_OUT<19:0>_cy<3>_rt
+LUT1 		DNN_0117/Msub_x_i[5][19]_PWR_25_o_sub_31_OUT<19:0>_cy<4>_rt
+LUT1 		DNN_0117/Msub_x_i[5][19]_PWR_25_o_sub_31_OUT<19:0>_cy<6>_rt
+LUT1 		DNN_0117/Msub_x_i[5][19]_PWR_25_o_sub_31_OUT<19:0>_cy<7>_rt
+LUT1 		DNN_0117/Msub_x_i[5][19]_PWR_25_o_sub_31_OUT<19:0>_cy<8>_rt
+LUT1 		DNN_0117/Msub_x_i[5][19]_PWR_25_o_sub_31_OUT<19:0>_cy<9>_rt
+LUT1 		DNN_0117/Msub_x_i[5][19]_PWR_25_o_sub_31_OUT<19:0>_cy<12>_rt
+LUT1 		DNN_0117/Msub_x_i[5][19]_PWR_25_o_sub_31_OUT<19:0>_cy<14>_rt
+LUT1 		DNN_0117/Msub_x_i[5][19]_PWR_25_o_sub_31_OUT<19:0>_cy<16>_rt
+LUT1 		DNN_0117/Msub_x_i[5][19]_PWR_25_o_sub_31_OUT<19:0>_cy<17>_rt
+LUT1 		DNN_0117/Msub_x_i[5][19]_PWR_25_o_sub_31_OUT<19:0>_cy<18>_rt
+LUT1 		DNN_0117/Msub_x_i[4][19]_PWR_25_o_sub_30_OUT<19:0>_cy<1>_rt
+LUT1 		DNN_0117/Msub_x_i[4][19]_PWR_25_o_sub_30_OUT<19:0>_cy<2>_rt
+LUT1 		DNN_0117/Msub_x_i[4][19]_PWR_25_o_sub_30_OUT<19:0>_cy<4>_rt
+LUT1 		DNN_0117/Msub_x_i[4][19]_PWR_25_o_sub_30_OUT<19:0>_cy<5>_rt
+LUT1 		DNN_0117/Msub_x_i[4][19]_PWR_25_o_sub_30_OUT<19:0>_cy<6>_rt
+LUT1 		DNN_0117/Msub_x_i[4][19]_PWR_25_o_sub_30_OUT<19:0>_cy<9>_rt
+LUT1 		DNN_0117/Msub_x_i[4][19]_PWR_25_o_sub_30_OUT<19:0>_cy<10>_rt
+LUT1 		DNN_0117/Msub_x_i[4][19]_PWR_25_o_sub_30_OUT<19:0>_cy<12>_rt
+LUT1 		DNN_0117/Msub_x_i[4][19]_PWR_25_o_sub_30_OUT<19:0>_cy<13>_rt
+LUT1 		DNN_0117/Msub_x_i[4][19]_PWR_25_o_sub_30_OUT<19:0>_cy<14>_rt
+LUT1 		DNN_0117/Msub_x_i[4][19]_PWR_25_o_sub_30_OUT<19:0>_cy<15>_rt
+LUT1 		DNN_0117/Msub_x_i[4][19]_PWR_25_o_sub_30_OUT<19:0>_cy<17>_rt
+LUT1 		DNN_0117/Msub_x_i[4][19]_PWR_25_o_sub_30_OUT<19:0>_cy<18>_rt
+LUT1 		DNN_0117/Msub_x_i[1][19]_GND_19_o_sub_27_OUT<19:0>_cy<3>_rt
+LUT1 		DNN_0117/Msub_x_i[1][19]_GND_19_o_sub_27_OUT<19:0>_cy<6>_rt
+LUT1 		DNN_0117/Msub_x_i[1][19]_GND_19_o_sub_27_OUT<19:0>_cy<7>_rt
+LUT1 		DNN_0117/Msub_x_i[1][19]_GND_19_o_sub_27_OUT<19:0>_cy<12>_rt
+LUT1 		DNN_0117/Msub_x_i[1][19]_GND_19_o_sub_27_OUT<19:0>_cy<13>_rt
+LUT1 		DNN_0117/Msub_x_i[1][19]_GND_19_o_sub_27_OUT<19:0>_cy<14>_rt
+LUT1 		DNN_0117/Msub_x_i[3][19]_PWR_25_o_sub_29_OUT<19:0>_cy<0>_rt
+LUT1 		DNN_0117/Msub_x_i[3][19]_PWR_25_o_sub_29_OUT<19:0>_cy<1>_rt
+LUT1 		DNN_0117/Msub_x_i[3][19]_PWR_25_o_sub_29_OUT<19:0>_cy<2>_rt
+LUT1 		DNN_0117/Msub_x_i[3][19]_PWR_25_o_sub_29_OUT<19:0>_cy<3>_rt
+LUT1 		DNN_0117/Msub_x_i[3][19]_PWR_25_o_sub_29_OUT<19:0>_cy<4>_rt
+LUT1 		DNN_0117/Msub_x_i[3][19]_PWR_25_o_sub_29_OUT<19:0>_cy<5>_rt
+LUT1 		DNN_0117/Msub_x_i[3][19]_PWR_25_o_sub_29_OUT<19:0>_cy<7>_rt
+LUT1 		DNN_0117/Msub_x_i[3][19]_PWR_25_o_sub_29_OUT<19:0>_cy<11>_rt
+LUT1 		DNN_0117/Msub_x_i[3][19]_PWR_25_o_sub_29_OUT<19:0>_cy<12>_rt
+LUT1 		DNN_0117/Msub_x_i[3][19]_PWR_25_o_sub_29_OUT<19:0>_cy<14>_rt
+LUT1 		DNN_0117/Msub_x_i[3][19]_PWR_25_o_sub_29_OUT<19:0>_cy<16>_rt
+LUT1 		DNN_0117/Msub_x_i[3][19]_PWR_25_o_sub_29_OUT<19:0>_cy<17>_rt
+LUT1 		DNN_0117/Msub_x_i[3][19]_PWR_25_o_sub_29_OUT<19:0>_cy<18>_rt
+LUT1 		DNN_0117/Msub_x_i[2][19]_GND_19_o_sub_28_OUT<19:0>_cy<1>_rt
+LUT1 		DNN_0117/Msub_x_i[2][19]_GND_19_o_sub_28_OUT<19:0>_cy<3>_rt
+LUT1 		DNN_0117/Msub_x_i[2][19]_GND_19_o_sub_28_OUT<19:0>_cy<4>_rt
+LUT1 		DNN_0117/Msub_x_i[2][19]_GND_19_o_sub_28_OUT<19:0>_cy<6>_rt
+LUT1 		DNN_0117/Msub_x_i[2][19]_GND_19_o_sub_28_OUT<19:0>_cy<7>_rt
+LUT1 		DNN_0117/Msub_x_i[2][19]_GND_19_o_sub_28_OUT<19:0>_cy<8>_rt
+LUT1 		DNN_0117/Msub_x_i[2][19]_GND_19_o_sub_28_OUT<19:0>_cy<10>_rt
+LUT1 		DNN_0117/Msub_x_i[2][19]_GND_19_o_sub_28_OUT<19:0>_cy<13>_rt
+LUT1 		DNN_0117/Msub_x_i[2][19]_GND_19_o_sub_28_OUT<19:0>_cy<16>_rt
+LUT1 		DNN_0117/Msub_x_i[0][19]_GND_19_o_sub_26_OUT<19:0>_cy<0>_rt
+LUT1 		DNN_0117/Msub_x_i[0][19]_GND_19_o_sub_26_OUT<19:0>_cy<1>_rt
+LUT1 		DNN_0117/Msub_x_i[0][19]_GND_19_o_sub_26_OUT<19:0>_cy<2>_rt
+LUT1 		DNN_0117/Msub_x_i[0][19]_GND_19_o_sub_26_OUT<19:0>_cy<5>_rt
+LUT1 		DNN_0117/Msub_x_i[0][19]_GND_19_o_sub_26_OUT<19:0>_cy<6>_rt
+LUT1 		DNN_0117/Msub_x_i[0][19]_GND_19_o_sub_26_OUT<19:0>_cy<7>_rt
+LUT1 		DNN_0117/Msub_x_i[0][19]_GND_19_o_sub_26_OUT<19:0>_cy<9>_rt
+LUT1 		DNN_0117/Msub_x_i[0][19]_GND_19_o_sub_26_OUT<19:0>_cy<15>_rt
+LUT1 		DNN_0117/Msub_x_i[0][19]_GND_19_o_sub_26_OUT<19:0>_cy<16>_rt
+LUT1 		DNN_0117/Madd_addrW[15]_GND_19_o_add_107_OUT_xor<12>_rt
+INV
+		DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.c
+str/out21_INV_0
+LUT1 		DNN_0117/Msub_x_i[9][19]_PWR_25_o_sub_35_OUT<19:0>_xor<19>_rt
+LUT1 		DNN_0117/Msub_x_i[11][19]_PWR_25_o_sub_37_OUT<19:0>_xor<19>_rt
+LUT1 		DNN_0117/Msub_x_i[6][19]_PWR_25_o_sub_32_OUT<19:0>_xor<19>_rt
+LUT1 		DNN_0117/Msub_x_i[8][19]_PWR_25_o_sub_34_OUT<19:0>_xor<19>_rt
+LUT1 		DNN_0117/Msub_x_i[7][19]_PWR_25_o_sub_33_OUT<19:0>_xor<19>_rt
+LUT1 		DNN_0117/Msub_x_i[5][19]_PWR_25_o_sub_31_OUT<19:0>_xor<19>_rt
+LUT1 		DNN_0117/Msub_x_i[4][19]_PWR_25_o_sub_30_OUT<19:0>_xor<19>_rt
+LUT1 		DNN_0117/Msub_x_i[3][19]_PWR_25_o_sub_29_OUT<19:0>_xor<19>_rt
+LUT1 		DNN_0117/sigmoid/Madd_sigin[26]_GND_27_o_add_9_OUT_cy<11>_rt
+LUT1 		DNN_0117/sigmoid/Madd_sigin[26]_GND_27_o_add_9_OUT_cy<12>_rt
+LUT1 		DNN_0117/sigmoid/Madd_sigin[26]_GND_27_o_add_9_OUT_cy<13>_rt
+LUT1 		DNN_0117/sigmoid/Madd_sigin[26]_GND_27_o_add_9_OUT_cy<14>_rt
+LUT1 		DNN_0117/sigmoid/Madd_sigin[26]_GND_27_o_add_9_OUT_cy<15>_rt
+LUT1 		DNN_0117/sigmoid/Madd_sigin[26]_GND_27_o_add_9_OUT_cy<16>_rt
+LUT1 		DNN_0117/sigmoid/Madd_sigin[26]_GND_27_o_add_9_OUT_cy<17>_rt
+LUT1 		DNN_0117/sigmoid/Madd_sigin[26]_GND_27_o_add_9_OUT_cy<18>_rt
+LUT1 		DNN_0117/sigmoid/Madd_sigin[26]_GND_27_o_add_9_OUT_cy<19>_rt
+LUT1 		DNN_0117/sigmoid/Madd_sigin[26]_GND_27_o_add_9_OUT_cy<20>_rt
+LUT1 		DNN_0117/sigmoid/Madd_sigin[26]_GND_27_o_add_9_OUT_cy<21>_rt
+LUT1 		DNN_0117/sigmoid/Madd_sigin[26]_GND_27_o_add_9_OUT_cy<22>_rt
+LUT1 		DNN_0117/sigmoid/Madd_sigin[26]_GND_27_o_add_9_OUT_cy<23>_rt
+LUT1 		DNN_0117/sigmoid/Madd_sigin[26]_GND_27_o_add_9_OUT_cy<24>_rt
+LUT1 		DNN_0117/sigmoid/Madd_sigin[26]_GND_27_o_add_9_OUT_cy<25>_rt
+LUT1 		DNN_0117/sigmoid/Madd_sigin[26]_GND_27_o_add_9_OUT_xor<26>_rt
+LUT1 		DNN_0117/sigmoid/Madd_n0097_Madd_cy<0>_rt
+LUT1 		DNN_0117/sigmoid/Madd_n0098_Madd_cy<0>_rt
+LUT1 		DNN_0117/sigmoid/Madd_n0098_Madd_cy<10>_rt
+LUT1 		DNN_0117/sigmoid/Madd_n0103_Madd_cy<0>_rt
+LUT1 		DNN_0117/sigmoid/Madd_n0103_Madd_cy<10>_rt
+LUT1 		DP_main/Mcount_vad_cnt_cy<1>_rt
+LUT1 		DP_main/Mcount_vad_cnt_cy<2>_rt
+LUT1 		DP_main/Mcount_vad_cnt_cy<3>_rt
+LUT1 		DP_main/Mcount_vad_cnt_cy<4>_rt
+LUT1 		DP_main/Mcount_vad_cnt_cy<5>_rt
+LUT1 		DP_main/Mcount_vad_cnt_cy<6>_rt
+LUT1 		DP_main/Mcount_vad_cnt_cy<7>_rt
+LUT1 		DP_main/Mcount_vad_cnt_cy<8>_rt
+LUT1 		DP_main/Mcount_vad_cnt_cy<9>_rt
+LUT1 		DP_main/Mcount_vad_cnt_cy<10>_rt
+LUT1 		DP_main/Mcount_vad_cnt_cy<11>_rt
+LUT1 		DP_main/Mcount_vad_cnt_cy<12>_rt
+LUT1 		DP_main/Mcount_vad_cnt_cy<13>_rt
+LUT1 		DP_main/Mcount_vad_cnt_cy<14>_rt
+LUT1 		DP_main/Mcount_vad_cnt_cy<15>_rt
+LUT1 		DP_main/Mcount_vad_cnt_cy<16>_rt
+LUT1 		DP_main/Mcount_vad_cnt_cy<17>_rt
+LUT1 		DP_main/Mcount_vad_cnt_cy<18>_rt
+LUT1 		DP_main/Mcount_vad_cnt_cy<19>_rt
+LUT1 		DP_main/Mcount_vad_cnt_cy<20>_rt
+LUT1 		DP_main/Mcount_vad_cnt_xor<21>_rt
+LUT1 		DP_main/DP_matching/DP_distance/Mcount_dim_cnt_cy<1>_rt
+LUT1 		DP_main/DP_matching/DP_distance/Mcount_dim_cnt_cy<2>_rt
+LUT1 		DP_main/DP_matching/DP_distance/Mcount_dim_cnt_cy<3>_rt
+LUT1 		DP_main/DP_matching/DP_distance/Mcount_dim_cnt_cy<4>_rt
+LUT1 		DP_main/DP_matching/DP_distance/Mcount_dim_cnt_cy<5>_rt
+LUT1 		DP_main/DP_matching/DP_distance/Mcount_dim_cnt_cy<6>_rt
+LUT1 		DP_main/DP_matching/DP_distance/Mcount_input_dim_cy<1>_rt
+LUT1 		DP_main/DP_matching/DP_distance/Mcount_input_dim_cy<2>_rt
+LUT1 		DP_main/DP_matching/DP_distance/Mcount_input_dim_cy<3>_rt
+LUT1 		DP_main/DP_matching/DP_distance/Mcount_input_dim_cy<4>_rt
+LUT1 		DP_main/DP_matching/DP_distance/Mcount_dim_cnt_xor<7>_rt
+LUT1 		DP_main/DP_matching/DP_distance/Mcount_input_dim_xor<5>_rt
+LUT1 		MFCC/Madd_addr1[8]_GND_7_o_add_470_OUT_cy<1>_rt
+LUT1 		MFCC/Madd_addr1[8]_GND_7_o_add_470_OUT_cy<2>_rt
+LUT1 		MFCC/Madd_addr1[8]_GND_7_o_add_470_OUT_cy<3>_rt
+LUT1 		MFCC/Madd_addr1[8]_GND_7_o_add_470_OUT_cy<4>_rt
+LUT1 		MFCC/Madd_addr1[8]_GND_7_o_add_470_OUT_cy<5>_rt
+LUT1 		MFCC/Madd_addr1[8]_GND_7_o_add_470_OUT_cy<6>_rt
+LUT1 		MFCC/Madd_addr1[8]_GND_7_o_add_470_OUT_cy<7>_rt
+LUT1 		MFCC/Madd_addr_re[8]_GND_7_o_add_532_OUT_cy<1>_rt
+LUT1 		MFCC/Madd_addr_re[8]_GND_7_o_add_532_OUT_cy<2>_rt
+LUT1 		MFCC/Madd_addr_re[8]_GND_7_o_add_532_OUT_cy<3>_rt
+LUT1 		MFCC/Madd_addr_re[8]_GND_7_o_add_532_OUT_cy<4>_rt
+LUT1 		MFCC/Madd_addr_re[8]_GND_7_o_add_532_OUT_cy<5>_rt
+LUT1 		MFCC/Madd_addr_re[8]_GND_7_o_add_532_OUT_cy<6>_rt
+LUT1 		MFCC/Madd_addr_re[8]_GND_7_o_add_532_OUT_cy<7>_rt
+LUT1 		MFCC/Madd_ham_index[9]_GND_7_o_add_469_OUT_cy<1>_rt
+LUT1 		MFCC/Madd_ham_index[9]_GND_7_o_add_469_OUT_cy<2>_rt
+LUT1 		MFCC/Madd_ham_index[9]_GND_7_o_add_469_OUT_cy<3>_rt
+LUT1 		MFCC/Madd_ham_index[9]_GND_7_o_add_469_OUT_cy<4>_rt
+LUT1 		MFCC/Madd_ham_index[9]_GND_7_o_add_469_OUT_cy<5>_rt
+LUT1 		MFCC/Madd_ham_index[9]_GND_7_o_add_469_OUT_cy<6>_rt
+LUT1 		MFCC/Madd_ham_index[9]_GND_7_o_add_469_OUT_cy<7>_rt
+LUT1 		MFCC/Madd_ham_index[9]_GND_7_o_add_469_OUT_cy<8>_rt
+LUT1 		MFCC/Madd_addr_ham[8]_GND_7_o_add_471_OUT_cy<1>_rt
+LUT1 		MFCC/Madd_addr_ham[8]_GND_7_o_add_471_OUT_cy<2>_rt
+LUT1 		MFCC/Madd_addr_ham[8]_GND_7_o_add_471_OUT_cy<3>_rt
+LUT1 		MFCC/Madd_addr_ham[8]_GND_7_o_add_471_OUT_cy<4>_rt
+LUT1 		MFCC/Madd_addr_ham[8]_GND_7_o_add_471_OUT_cy<5>_rt
+LUT1 		MFCC/Madd_addr_ham[8]_GND_7_o_add_471_OUT_cy<6>_rt
+LUT1 		MFCC/Madd_addr_ham[8]_GND_7_o_add_471_OUT_cy<7>_rt
+LUT1 		MFCC/Mcount_ringaddr_cy<1>_rt
+LUT1 		MFCC/Mcount_ringaddr_cy<2>_rt
+LUT1 		MFCC/Mcount_ringaddr_cy<3>_rt
+LUT1 		MFCC/Mcount_ringaddr_cy<4>_rt
+LUT1 		MFCC/Mcount_ringaddr_cy<5>_rt
+LUT1 		MFCC/Mcount_ringaddr_cy<6>_rt
+LUT1 		MFCC/Mcount_ringaddr_cy<7>_rt
+LUT1 		MFCC/Mcount_shift_cnt_cy<1>_rt
+LUT1 		MFCC/Mcount_shift_cnt_cy<2>_rt
+LUT1 		MFCC/Mcount_shift_cnt_cy<3>_rt
+LUT1 		MFCC/Mcount_shift_cnt_cy<4>_rt
+LUT1 		MFCC/Mcount_shift_cnt_cy<5>_rt
+LUT1 		MFCC/Mcount_shift_cnt_cy<6>_rt
+LUT1 		MFCC/Mcount_shift_cnt_cy<7>_rt
+LUT1 		MFCC/Mcount_shift_cnt_cy<8>_rt
+LUT1 		MFCC/Mcount_shift_framecnt_cy<1>_rt
+LUT1 		MFCC/Mcount_shift_framecnt_cy<2>_rt
+LUT1 		MFCC/Mcount_shift_framecnt_cy<3>_rt
+LUT1 		MFCC/Mcount_shift_framecnt_cy<4>_rt
+LUT1 		MFCC/Mcount_shift_framecnt_cy<5>_rt
+LUT1 		MFCC/Mcount_shift_framecnt_cy<6>_rt
+LUT1 		MFCC/Mcount_shift_framecnt_cy<7>_rt
+LUT1 		MFCC/Mcount_shift_framecnt_cy<8>_rt
+LUT1 		MFCC/Mcount_xk_index_cnt_cy<1>_rt
+LUT1 		MFCC/Mcount_xk_index_cnt_cy<2>_rt
+LUT1 		MFCC/Mcount_xk_index_cnt_cy<3>_rt
+LUT1 		MFCC/Mcount_xk_index_cnt_cy<4>_rt
+LUT1 		MFCC/Mcount_xk_index_cnt_cy<5>_rt
+LUT1 		MFCC/Mcount_xk_index_cnt_cy<6>_rt
+LUT1 		MFCC/Mcount_xk_index_cnt_cy<7>_rt
+LUT1 		MFCC/Mcount_xk_index_cnt_cy<8>_rt
+LUT1 		MFCC/Mcount_xk_index_cnt_cy<9>_rt
+LUT1 		MFCC/Mcount_xk_index_cnt_cy<10>_rt
+LUT1 		MFCC/Mcount_xk_index_cnt_cy<11>_rt
+LUT1 		MFCC/Mcount_xk_index_cnt_cy<12>_rt
+LUT1 		MFCC/Mcount_xk_index_cnt_cy<13>_rt
+LUT1 		MFCC/Madd_n1226_Madd_cy<0>_rt
+LUT1 		MFCC/Madd_n1226_Madd_cy<1>_rt
+LUT1 		MFCC/Madd_n1226_Madd_cy<2>_rt
+LUT1 		MFCC/Madd_n1226_Madd_cy<3>_rt
+LUT1 		MFCC/Madd_n1226_Madd_cy<4>_rt
+LUT1 		MFCC/Madd_n1226_Madd_cy<5>_rt
+LUT1 		MFCC/Madd_n1226_Madd_cy<6>_rt
+LUT1 		MFCC/Madd_n1226_Madd_cy<7>_rt
+LUT1 		MFCC/Madd_n1226_Madd_cy<8>_rt
+LUT1 		MFCC/Madd_n1226_Madd_cy<9>_rt
+LUT1 		MFCC/Madd_n1226_Madd_cy<10>_rt
+LUT1 		MFCC/Madd_n1226_Madd_cy<11>_rt
+LUT1 		MFCC/Madd_n1226_Madd_cy<12>_rt
+LUT1 		MFCC/Madd_n1226_Madd_cy<13>_rt
+LUT1 		MFCC/Madd_n1226_Madd_cy<14>_rt
+LUT1 		MFCC/Madd_n1226_Madd_cy<15>_rt
+LUT1 		MFCC/Madd_n1226_Madd_cy<16>_rt
+LUT1 		MFCC/Madd_n1226_Madd_cy<17>_rt
+LUT1 		MFCC/Madd_n1226_Madd_cy<18>_rt
+LUT1 		MFCC/Madd_addr1[8]_GND_7_o_add_470_OUT_xor<8>_rt
+LUT1 		MFCC/Madd_ham_index[9]_GND_7_o_add_469_OUT_xor<9>_rt
+LUT1 		MFCC/Mcount_ringaddr_xor<8>_rt
+LUT1 		MFCC/Mcount_shift_cnt_xor<9>_rt
+LUT1 		MFCC/Mcount_shift_framecnt_xor<9>_rt
+LUT1 		MFCC/Mcount_xk_index_cnt_xor<14>_rt
+LUT1 		MFCC/Madd_xk_re[39]_GND_7_o_add_498_OUT_cy<0>_rt
+LUT1 		MFCC/Madd_xk_im[39]_GND_7_o_add_502_OUT_cy<0>_rt
+INV 		MFCC/_n5051_inv_INV_0
+INV 		MFCC/FFT_16kHz/blk00000b3c
+INV 		MFCC/FFT_16kHz/blk00000b3b
+LUT1 		MFCC/FFT_16kHz/blk00000afb
+LUT1 		MFCC/FFT_16kHz/blk00000afa
+LUT1 		MFCC/FFT_16kHz/blk00000af9
+LUT1 		MFCC/FFT_16kHz/blk00000af8
+LUT1 		MFCC/FFT_16kHz/blk00000af7
+LUT1 		MFCC/FFT_16kHz/blk00000af6
+LUT1 		MFCC/FFT_16kHz/blk00000af5
+LUT1 		MFCC/FFT_16kHz/blk00000af4
+LUT1 		MFCC/FFT_16kHz/blk00000af3
+LUT1 		MFCC/FFT_16kHz/blk00000af2
+LUT1 		MFCC/FFT_16kHz/blk00000af1
+LUT1 		MFCC/FFT_16kHz/blk00000af0
+LUT1 		MFCC/FFT_16kHz/blk00000aef
+LUT1 		MFCC/FFT_16kHz/blk00000aee
+LUT1 		MFCC/FFT_16kHz/blk00000aed
+LUT1 		MFCC/FFT_16kHz/blk00000aec
+LUT1 		MFCC/FFT_16kHz/blk00000aeb
+LUT1 		MFCC/FFT_16kHz/blk00000aea
+LUT1 		MFCC/FFT_16kHz/blk00000ae9
+LUT1 		MFCC/FFT_16kHz/blk00000ae8
+LUT1 		MFCC/FFT_16kHz/blk00000ae7
+LUT1 		MFCC/FFT_16kHz/blk00000ae6
+LUT1 		MFCC/FFT_16kHz/blk00000ae5
+LUT1 		MFCC/FFT_16kHz/blk00000ae4
+LUT1 		MFCC/FFT_16kHz/blk00000ae3
+LUT1 		MFCC/FFT_16kHz/blk00000ae2
+LUT1 		MFCC/FFT_16kHz/blk00000ae1
+LUT1 		MFCC/FFT_16kHz/blk00000ae0
+LUT1 		MFCC/FFT_16kHz/blk00000adf
+LUT1 		MFCC/FFT_16kHz/blk00000ade
+LUT1 		MFCC/FFT_16kHz/blk00000add
+LUT1 		MFCC/FFT_16kHz/blk00000adc
+LUT1 		MFCC/FFT_16kHz/blk00000adb
+LUT1 		MFCC/FFT_16kHz/blk00000ada
+LUT1 		MFCC/FFT_16kHz/blk00000ad9
+LUT1 		MFCC/FFT_16kHz/blk00000ad8
+LUT1 		MFCC/FFT_16kHz/blk00000ad7
+LUT1 		MFCC/FFT_16kHz/blk00000ad6
+LUT1 		MFCC/FFT_16kHz/blk00000ad5
+LUT1 		MFCC/FFT_16kHz/blk00000ad4
+LUT1 		MFCC/FFT_16kHz/blk00000ad3
+LUT1 		MFCC/FFT_16kHz/blk00000ad2
+LUT1 		MFCC/FFT_16kHz/blk00000ad1
+LUT1 		MFCC/FFT_16kHz/blk00000ad0
+LUT1 		MFCC/FFT_16kHz/blk00000acf
+LUT1 		MFCC/FFT_16kHz/blk00000ace
+LUT1 		MFCC/FFT_16kHz/blk00000acd
+LUT1 		MFCC/FFT_16kHz/blk00000acc
+LUT1 		MFCC/FFT_16kHz/blk00000acb
+LUT1 		MFCC/FFT_16kHz/blk00000aca
+LUT1 		MFCC/FFT_16kHz/blk00000ac9
+LUT1 		MFCC/FFT_16kHz/blk00000ac8
+LUT1 		MFCC/FFT_16kHz/blk00000ac7
+LUT1 		MFCC/FFT_16kHz/blk00000ac6
+LUT1 		MFCC/FFT_16kHz/blk00000ac5
+LUT1 		MFCC/FFT_16kHz/blk00000ac4
+LUT1 		MFCC/FFT_16kHz/blk00000ac3
+LUT1 		MFCC/FFT_16kHz/blk00000ac2
+LUT1 		MFCC/FFT_16kHz/blk00000ac1
+LUT1 		MFCC/FFT_16kHz/blk00000ac0
+LUT1 		MFCC/FFT_16kHz/blk00000abf
+LUT1 		MFCC/FFT_16kHz/blk00000abe
+LUT1 		MFCC/FFT_16kHz/blk00000abd
+LUT1 		MFCC/FFT_16kHz/blk00000abc
+LUT1 		MFCC/FFT_16kHz/blk00000abb
+LUT1 		MFCC/FFT_16kHz/blk00000aba
+LUT1 		MFCC/FFT_16kHz/blk00000ab9
+LUT1 		MFCC/FFT_16kHz/blk00000ab8
+LUT1 		MFCC/FFT_16kHz/blk00000ab7
+LUT1 		MFCC/FFT_16kHz/blk00000ab6
+LUT1 		MFCC/FFT_16kHz/blk00000ab5
+LUT1 		MFCC/FFT_16kHz/blk00000ab4
+LUT1 		MFCC/FFT_16kHz/blk00000ab3
+LUT1 		MFCC/FFT_16kHz/blk00000ab2
+LUT1 		MFCC/FFT_16kHz/blk00000ab1
+LUT1 		MFCC/FFT_16kHz/blk00000ab0
+INV 		MFCC/log2/_n0302_inv_INV_0
+LUT1 		MFCC/usevad/Maccum_data_tmp_cy<50>_rt
+LUT1 		MFCC/usevad/Maccum_data_tmp_cy<51>_rt
+LUT1 		MFCC/usevad/Maccum_data_tmp_cy<52>_rt
+LUT1 		MFCC/usevad/Maccum_data_tmp_cy<53>_rt
+LUT1 		MFCC/usevad/Maccum_data_tmp_cy<54>_rt
+LUT1 		MFCC/usevad/Maccum_data_tmp_cy<55>_rt
+LUT1 		MFCC/usevad/Maccum_data_tmp_cy<56>_rt
+LUT1 		MFCC/usevad/Maccum_data_tmp_cy<57>_rt
+LUT1 		MFCC/usevad/Maccum_data_tmp_xor<58>_rt
+LUT1 		SPM0405HD4H/Mcount_cnt_cy<1>_rt
+LUT1 		SPM0405HD4H/Mcount_cnt_cy<2>_rt
+LUT1 		SPM0405HD4H/Mcount_cnt_cy<3>_rt
+LUT1 		SPM0405HD4H/Mcount_cnt_cy<4>_rt
+LUT1 		SPM0405HD4H/Mcount_cnt_cy<5>_rt
+LUT1 		SPM0405HD4H/Mcount_cnt_xor<6>_rt
+LUT1 		SPM0405HD4H/MEMS_Filter/Msub_tmp0[15]_GND_6_o_sub_840_OUT_cy<3>_rt
+LUT1 		SPM0405HD4H/MEMS_Filter/Msub_tmp0[15]_GND_6_o_sub_840_OUT_cy<6>_rt
+LUT1 		SPM0405HD4H/MEMS_Filter/Msub_tmp0[15]_GND_6_o_sub_840_OUT_cy<7>_rt
+LUT1 		SPM0405HD4H/MEMS_Filter/Msub_tmp0[15]_GND_6_o_sub_840_OUT_cy<9>_rt
+LUT1 		SPM0405HD4H/MEMS_Filter/Msub_tmp0[15]_GND_6_o_sub_840_OUT_cy<12>_rt
+LUT1 		SPM0405HD4H/MEMS_Filter/Msub_tmp0[15]_GND_6_o_sub_840_OUT_cy<13>_rt
+LUT1 		clock_devide_2M/Mcount_clk_div_cnt_cy<1>_rt
+LUT1 		clock_devide_2M/Mcount_clk_div_cnt_cy<2>_rt
+LUT1 		clock_devide_2M/Mcount_clk_div_cnt_xor<3>_rt
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| beep                               | IOB              | OUTPUT    | LVTTL                |       | 8        | SLOW |              |          |          |
+| clk                                | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| dat_i                              | IOB              | INPUT     | LVTTL                |       |          |      |              |          |          |
+| led1                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | OFF          |          |          |
+| led2                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | OFF          |          |          |
+| led3                               | IOB              | OUTPUT    | LVTTL                |       | 8        | SLOW | OFF          |          |          |
+| sclk                               | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW | OFF          |          |          |
+| switch                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+
+Wed Aug 02 15:01:45 2017
+
+  Estimated SmartGuide Results
+  ----------------------------
+  This section describes the guide results after placement. Re-implemented 
+  components are components that were guided, but moved in order to satisfy
+  timing requirements.
+
+    Estimated Percentage of guided Components                 |  99.9%
+    Estimated Percentage of re-implemented Components         |   0.0%
+    Estimated Percentage of new/changed Components            |   0.1%
+    Estimated Percentage of fully guided Nets                 |  99.8%
+    Estimated Percentage of partially guided or unrouted Nets |   0.2%
+
+  A detailed SmartGuide report (.GRF) can be generated during PAR by
+  specifying the [-smartguide <guidefile[.ncd]>] switch on the PAR
+  command line. The GRF file contains all components and nets that were
+  not guided. A final summary report is always generated and is available
+  in the PAR report file and in the GRF regardless of the PAR -smartguide switch.
+
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+A logic-level (pre-route) timing report can be generated by using Xilinx static
+timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
+mapped NCD and PCF files. Please note that this timing report will be generated
+using estimated delay information. For accurate numbers, please generate a
+timing report with the post Place and Route NCD file.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing
+Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
+Command Line Tools User Guide "TRACE" chapter.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+
+Section 12 - Control Set Information
+------------------------------------
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Clock Signal | Reset Signal                                   | Set Signal | Enable Signal                                            | Slice Load Count | Bel Load Count |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| clk_BUFGP    |                                                |            |                                                          | 359              | 1398           |
+| clk_BUFGP    |                                                |            | DNN_0117/_n1228_inv                                      | 1                | 5              |
+| clk_BUFGP    |                                                |            | DNN_0117/_n1261_inv                                      | 2                | 6              |
+| clk_BUFGP    |                                                |            | DNN_0117/_n1265_inv                                      | 3                | 6              |
+| clk_BUFGP    |                                                |            | DNN_0117/_n1275_inv                                      | 3                | 11             |
+| clk_BUFGP    |                                                |            | DNN_0117/_n1308_inv                                      | 3                | 8              |
+| clk_BUFGP    |                                                |            | DNN_0117/_n1345_inv                                      | 1                | 2              |
+| clk_BUFGP    |                                                |            | DNN_0117/_n1409_inv                                      | 6                | 13             |
+| clk_BUFGP    |                                                |            | DNN_0117/_n1497_inv                                      | 3                | 8              |
+| clk_BUFGP    |                                                |            | DNN_0117/_n1526_inv                                      | 2                | 7              |
+| clk_BUFGP    |                                                |            | DNN_0117/_n1607_inv                                      | 7                | 27             |
+| clk_BUFGP    |                                                |            | DNN_0117/_n1607_inv1                                     | 1                | 3              |
+| clk_BUFGP    |                                                |            | DNN_0117/_n1651_inv                                      | 6                | 25             |
+| clk_BUFGP    |                                                |            | DNN_0117/_n1690_inv                                      | 4                | 13             |
+| clk_BUFGP    |                                                |            | DNN_0117/_n1705_inv                                      | 12               | 20             |
+| clk_BUFGP    |                                                |            | DNN_0117/process[3]_GND_19_o_Select_225_o2               | 2                | 6              |
+| clk_BUFGP    |                                                |            | DNN_0117/process[3]_GND_19_o_equal_220_o                 | 1                | 2              |
+| clk_BUFGP    |                                                |            | DNN_0117/process[3]_writeV_Select_230_o2                 | 5                | 20             |
+| clk_BUFGP    |                                                |            | DNN_0117/process[3]_writeV_Select_230_o21                | 3                | 11             |
+| clk_BUFGP    |                                                |            | DNN_0117/sigmoid/_n0264_inv1                             | 1                | 6              |
+| clk_BUFGP    |                                                |            | DNN_0117/sigmoid/_n0277_inv1                             | 6                | 12             |
+| clk_BUFGP    |                                                |            | DNN_0117/sigmoid/_n0294_inv                              | 11               | 27             |
+| clk_BUFGP    |                                                |            | DNN_0117/sigmoid/process[2]_GND_27_o_equal_60_o          | 5                | 27             |
+| clk_BUFGP    |                                                |            | DP_main/DP_matching/DP_distance/_n0251                   | 3                | 18             |
+| clk_BUFGP    |                                                |            | DP_main/DP_matching/DP_distance/_n0349_inv               | 3                | 11             |
+| clk_BUFGP    |                                                |            | DP_main/DP_matching/DP_distance/_n0352_inv               | 4                | 16             |
+| clk_BUFGP    |                                                |            | DP_main/DP_matching/DP_distance/_n0367_inv               | 113              | 494            |
+| clk_BUFGP    |                                                |            | DP_main/DP_matching/_n1803                               | 6                | 32             |
+| clk_BUFGP    |                                                |            | DP_main/DP_matching/_n18702                              | 26               | 201            |
+| clk_BUFGP    |                                                |            | DP_main/DP_matching/_n19212                              | 20               | 152            |
+| clk_BUFGP    |                                                |            | DP_main/DP_matching/framedone                            | 3                | 7              |
+| clk_BUFGP    |                                                |            | MFCC/FFT_16kHz/sig0000005f                               | 10               | 32             |
+| clk_BUFGP    |                                                |            | MFCC/FFT_16kHz/sig0000024a                               | 29               | 80             |
+| clk_BUFGP    |                                                |            | MFCC/FFT_16kHz/sig000007ce                               | 25               | 86             |
+| clk_BUFGP    |                                                |            | MFCC/FFT_16kHz/sig00000bfb                               | 1                | 4              |
+| clk_BUFGP    |                                                |            | MFCC/FFT_16kHz/sig00000c94                               | 14               | 62             |
+| clk_BUFGP    |                                                |            | MFCC/FFT_16kHz/sig00000df9                               | 15               | 40             |
+| clk_BUFGP    |                                                |            | MFCC/FFT_16kHz/sig00000dfa                               | 2                | 8              |
+| clk_BUFGP    |                                                |            | MFCC/GLOBAL_LOGIC1                                       | 91               | 541            |
+| clk_BUFGP    |                                                |            | MFCC/_n3655_inv                                          | 3                | 9              |
+| clk_BUFGP    |                                                |            | MFCC/_n3679_inv                                          | 1                | 2              |
+| clk_BUFGP    |                                                |            | MFCC/_n3689_inv                                          | 2                | 16             |
+| clk_BUFGP    |                                                |            | MFCC/_n5031_inv                                          | 28               | 64             |
+| clk_BUFGP    |                                                |            | MFCC/_n5051_inv                                          | 3                | 10             |
+| clk_BUFGP    |                                                |            | MFCC/_n5141_inv                                          | 21               | 50             |
+| clk_BUFGP    |                                                |            | MFCC/_n5184_inv                                          | 3                | 9              |
+| clk_BUFGP    |                                                |            | MFCC/_n5201_inv                                          | 4                | 30             |
+| clk_BUFGP    |                                                |            | MFCC/_n5216_inv                                          | 1                | 3              |
+| clk_BUFGP    |                                                |            | MFCC/_n5256_inv                                          | 3                | 9              |
+| clk_BUFGP    |                                                |            | MFCC/_n5281_inv                                          | 20               | 80             |
+| clk_BUFGP    |                                                |            | MFCC/_n5378_inv                                          | 7                | 50             |
+| clk_BUFGP    |                                                |            | MFCC/_n5426_inv                                          | 3                | 8              |
+| clk_BUFGP    |                                                |            | MFCC/_n5449_inv                                          | 8                | 40             |
+| clk_BUFGP    |                                                |            | MFCC/_n5478_inv                                          | 13               | 50             |
+| clk_BUFGP    |                                                |            | MFCC/_n5515_inv                                          | 3                | 5              |
+| clk_BUFGP    |                                                |            | MFCC/_n5575_inv                                          | 2                | 4              |
+| clk_BUFGP    |                                                |            | MFCC/_n5614_inv                                          | 7                | 26             |
+| clk_BUFGP    |                                                |            | MFCC/_n5629_inv                                          | 7                | 26             |
+| clk_BUFGP    |                                                |            | MFCC/_n5636_inv                                          | 7                | 26             |
+| clk_BUFGP    |                                                |            | MFCC/log2/_n0340_inv                                     | 6                | 10             |
+| clk_BUFGP    |                                                |            | MFCC/log2/_n0359_inv                                     | 4                | 6              |
+| clk_BUFGP    |                                                |            | MFCC/process_index[4]_GND_7_o_equal_1085_o               | 3                | 6              |
+| clk_BUFGP    |                                                |            | MFCC/process_index[4]_GND_7_o_equal_1087_o               | 7                | 25             |
+| clk_BUFGP    |                                                |            | MFCC/usevad/GND_18_o_GND_18_o_AND_4129_o                 | 10               | 43             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3324_inv                       | 4                | 7              |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3348_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3371_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3394_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3417_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3440_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3463_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3486_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3509_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3532_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3555_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3578_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3601_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3624_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3647_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3670_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3693_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3716_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3739_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3762_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3785_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3808_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3831_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3854_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3877_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3900_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3923_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3946_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3969_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n3992_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n4015_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n4038_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n4061_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n4086_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n4133_inv                       | 16               | 64             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n4178_inv                       | 8                | 32             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n4273_inv                       | 4                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/_n4273_inv1                      | 16               | 128            |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/process[4]_GND_6_o_Select_851_o2 | 5                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/MEMS_Filter/process[4]_GND_6_o_equal_842_o   | 124              | 512            |
+| clk_BUFGP    |                                                |            | SPM0405HD4H/dv_rstpot                                    | 3                | 16             |
+| clk_BUFGP    |                                                |            | SPM0405HD4H_dv                                           | 7                | 25             |
+| clk_BUFGP    | DNN_0117/sigmoid/_n0250                        |            | DNN_0117/sigmoid/process[2]_GND_27_o_equal_61_o          | 1                | 4              |
+| clk_BUFGP    | DP_main/DP_matching/DP_distance/_n0244         |            | DP_main/DP_matching/DP_distance/_n0352_inv               | 2                | 6              |
+| clk_BUFGP    | DP_main/DP_matching/DP_distance/calc_start_inv |            |                                                          | 2                | 2              |
+| clk_BUFGP    | DP_main/DP_matching/DP_distance/calc_start_inv |            | DP_main/DP_matching/DP_distance/_n0346_inv               | 2                | 8              |
+| clk_BUFGP    | DP_main/DP_matching/DP_distance/calc_start_inv |            | DP_main/DP_matching/DP_distance/process_FSM_FFd1         | 5                | 18             |
+| clk_BUFGP    | DP_main/Reset_OR_DriverANDClockEnable          |            | vad                                                      | 6                | 22             |
+| clk_BUFGP    | GND_1_o_GND_1_o_equal_4_o                      |            |                                                          | 2                | 5              |
+| clk_BUFGP    | GND_1_o_GND_1_o_equal_7_o                      |            |                                                          | 1                | 3              |
+| clk_BUFGP    | MFCC/FFT_16kHz/sig00000003                     |            | MFCC/FFT_16kHz/sig00000cb7                               | 3                | 9              |
+| clk_BUFGP    | MFCC/FFT_16kHz/sig00000d27                     |            |                                                          | 3                | 9              |
+| clk_BUFGP    | MFCC/GND_7_o_GND_7_o_equal_53_o                |            | SPM0405HD4H_dv                                           | 3                | 10             |
+| clk_BUFGP    | MFCC/_n3521                                    |            | MFCC/_n5662_inv                                          | 3                | 9              |
+| clk_BUFGP    | MFCC/_n3525                                    |            | MFCC/_n5669_inv                                          | 3                | 10             |
+| clk_BUFGP    | MFCC/_n3550                                    |            | MFCC/_n5673_inv                                          | 4                | 15             |
+| clk_BUFGP    | MFCC/_n3558                                    |            | MFCC/_n5677_inv                                          | 7                | 30             |
+| clk_BUFGP    | MFCC/_n3562                                    |            | MFCC/_n5697_inv                                          | 4                | 15             |
+| clk_BUFGP    | MFCC/_n3562                                    |            | MFCC/_n5702_inv                                          | 2                | 3              |
+| clk_BUFGP    | MFCC/_n3567                                    |            |                                                          | 1                | 2              |
+| clk_BUFGP    | MFCC/_n3567                                    |            | MFCC/_n3645                                              | 2                | 5              |
+| clk_BUFGP    | MFCC/_n3567                                    |            | MFCC/_n5711_inv                                          | 5                | 20             |
+| clk_BUFGP    | MFCC/_n3587                                    |            | MFCC/_n5732_inv                                          | 3                | 6              |
+| clk_BUFGP    | MFCC/_n3587                                    |            | MFCC/_n5749_inv                                          | 16               | 64             |
+| clk_BUFGP    | MFCC/_n3587                                    |            | MFCC/_n5759_inv                                          | 1                | 3              |
+| clk_BUFGP    | MFCC/_n3596                                    |            | MFCC/_n5766_inv                                          | 2                | 5              |
+| clk_BUFGP    | MFCC/_n3596                                    |            | MFCC/_n5782_inv                                          | 2                | 5              |
+| clk_BUFGP    | MFCC/_n3614                                    |            | MFCC/_n36141                                             | 4                | 22             |
+| clk_BUFGP    | MFCC/_n3614                                    |            | MFCC/_n5798_inv                                          | 9                | 36             |
+| clk_BUFGP    | MFCC/_n3614                                    |            | MFCC/_n5815_inv                                          | 1                | 2              |
+| clk_BUFGP    | MFCC/_n3623                                    |            | MFCC/process_index[4]_GND_7_o_equal_1087_o               | 1                | 2              |
+| clk_BUFGP    | MFCC/_n3629                                    |            | MFCC/_n3623                                              | 1                | 5              |
+| clk_BUFGP    | MFCC/_n3631                                    |            | MFCC/_n5824_inv                                          | 2                | 4              |
+| clk_BUFGP    | MFCC/_n3631                                    |            | MFCC/process_index[4]_GND_7_o_equal_1088_o               | 1                | 3              |
+| clk_BUFGP    | MFCC/_n3636                                    |            | MFCC/process_index[4]_dv_out_Select_1155_o4              | 5                | 20             |
+| clk_BUFGP    | MFCC/log2/_n0220                               |            | MFCC/log2/_n0363_inv                                     | 4                | 19             |
+| clk_BUFGP    | MFCC/log2/start_inv                            |            |                                                          | 2                | 3              |
+| clk_BUFGP    | MFCC/sclr                                      |            |                                                          | 44               | 161            |
+| clk_BUFGP    | MFCC/usevad/_n0038                             |            | MFCC/usevad/GND_18_o_GND_18_o_AND_4130_o                 | 15               | 59             |
+| clk_BUFGP    | SPM0405HD4H/dv_rstpot                          |            | SPM0405HD4H/GND_5_o_GND_5_o_AND_33_o                     | 2                | 7              |
+| clk_BUFGP    | clock_devide_2M/GND_2_o_GND_2_o_AND_1_o        |            |                                                          | 1                | 1              |
+| clk_BUFGP    | clock_devide_2M/Mcount_clk_div_cnt_val         |            |                                                          | 1                | 4              |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Module                             | Partition | Slices*       | Slice Reg     | LUTs          | LUTRAM        | BRAM/FIFO | DSP48A1 | BUFG  | BUFIO | BUFR  | DCM   | PLL_ADV   | Full Hierarchical Name                                                                                                         |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| main_DNN_DP/                       |           | 10/2390       | 9/5124        | 21/7074       | 0/524         | 0/45      | 0/50    | 1/1   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP                                                                                                                    |
+| +DNN_0117                          |           | 261/343       | 442/525       | 835/1085      | 0/0           | 1/11      | 0/3     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117                                                                                                           |
+| ++mac_affine                       |           | 0/1           | 0/0           | 0/1           | 0/0           | 0/0       | 0/1     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/mac_affine                                                                                                |
+| +++blk00000001                     |           | 1/1           | 0/0           | 1/1           | 0/0           | 0/0       | 1/1     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/mac_affine/blk00000001                                                                                    |
+| ++mac_affinenew                    |           | 0/1           | 0/0           | 0/1           | 0/0           | 0/0       | 0/1     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/mac_affinenew                                                                                             |
+| +++blk00000001                     |           | 1/1           | 0/0           | 1/1           | 0/0           | 0/0       | 1/1     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/mac_affinenew/blk00000001                                                                                 |
+| ++multi_std                        |           | 0/4           | 0/0           | 0/16          | 0/0           | 0/0       | 0/1     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/multi_std                                                                                                 |
+| +++blk00000001                     |           | 4/4           | 0/0           | 16/16         | 0/0           | 0/0       | 1/1     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/multi_std/blk00000001                                                                                     |
+| ++newnode                          |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/newnode                                                                                                   |
+| +++U0                              |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/newnode/U0                                                                                                |
+| ++++xst_blk_mem_generator          |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/newnode/U0/xst_blk_mem_generator                                                                          |
+| +++++gnativebmg.native_blk_mem_gen |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/newnode/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen                                            |
+| ++++++valid.cstr                   |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/newnode/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr                                 |
+| +++++++ramloop[0].ram.r            |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/newnode/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r                |
+| ++++++++s6_noinit.ram              |           | 0/0           | 0/0           | 0/0           | 0/0           | 1/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/newnode/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram  |
+| ++nnpara                           |           | 0/14          | 0/3           | 0/15          | 0/0           | 0/7       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/nnpara                                                                                                    |
+| +++U0                              |           | 0/14          | 0/3           | 0/15          | 0/0           | 0/7       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/nnpara/U0                                                                                                 |
+| ++++xst_blk_mem_generator          |           | 0/14          | 0/3           | 0/15          | 0/0           | 0/7       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/nnpara/U0/xst_blk_mem_generator                                                                           |
+| +++++gnativebmg.native_blk_mem_gen |           | 0/14          | 0/3           | 0/15          | 0/0           | 0/7       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen                                             |
+| ++++++valid.cstr                   |           | 1/14          | 0/3           | 0/15          | 0/0           | 0/7       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr                                  |
+| +++++++bindec_a.bindec_inst_a      |           | 1/1           | 0/0           | 1/1           | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a           |
+| +++++++has_mux_a.A                 |           | 12/12         | 3/3           | 14/14         | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A                      |
+| +++++++ramloop[0].ram.r            |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r                 |
+| ++++++++s6_init.ram                |           | 0/0           | 0/0           | 0/0           | 0/0           | 1/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram     |
+| +++++++ramloop[1].ram.r            |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r                 |
+| ++++++++s6_init.ram                |           | 0/0           | 0/0           | 0/0           | 0/0           | 1/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram     |
+| +++++++ramloop[2].ram.r            |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r                 |
+| ++++++++s6_init.ram                |           | 0/0           | 0/0           | 0/0           | 0/0           | 1/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_init.ram     |
+| +++++++ramloop[3].ram.r            |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r                 |
+| ++++++++s6_init.ram                |           | 0/0           | 0/0           | 0/0           | 0/0           | 1/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_init.ram     |
+| +++++++ramloop[4].ram.r            |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r                 |
+| ++++++++s6_init.ram                |           | 0/0           | 0/0           | 0/0           | 0/0           | 1/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_init.ram     |
+| +++++++ramloop[5].ram.r            |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r                 |
+| ++++++++s6_init.ram                |           | 0/0           | 0/0           | 0/0           | 0/0           | 1/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_init.ram     |
+| +++++++ramloop[6].ram.r            |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r                 |
+| ++++++++s6_init.ram                |           | 0/0           | 0/0           | 0/0           | 0/0           | 1/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/nnpara/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_init.ram     |
+| ++node                             |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/node                                                                                                      |
+| +++U0                              |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/node/U0                                                                                                   |
+| ++++xst_blk_mem_generator          |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/node/U0/xst_blk_mem_generator                                                                             |
+| +++++gnativebmg.native_blk_mem_gen |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/node/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen                                               |
+| ++++++valid.cstr                   |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/node/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr                                    |
+| +++++++ramloop[0].ram.r            |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/node/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r                   |
+| ++++++++s6_noinit.ram              |           | 0/0           | 0/0           | 0/0           | 0/0           | 1/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/node/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram     |
+| ++sigmoid                          |           | 62/62         | 80/80         | 217/217       | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/sigmoid                                                                                                   |
+| ++vec_std                          |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/vec_std                                                                                                   |
+| +++U0                              |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/vec_std/U0                                                                                                |
+| ++++xst_blk_mem_generator          |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/vec_std/U0/xst_blk_mem_generator                                                                          |
+| +++++gnativebmg.native_blk_mem_gen |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/vec_std/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen                                            |
+| ++++++valid.cstr                   |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/vec_std/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr                                 |
+| +++++++ramloop[0].ram.r            |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/vec_std/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r                |
+| ++++++++s6_noinit.ram              |           | 0/0           | 0/0           | 0/0           | 0/0           | 1/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DNN_0117/vec_std/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram  |
+| +DP_main                           |           | 12/428        | 24/630        | 43/1447       | 0/198         | 0/4       | 1/9     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DP_main                                                                                                            |
+| ++DP_matching                      |           | 220/416       | 44/606        | 722/1404      | 182/198       | 4/4       | 8/8     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DP_main/DP_matching                                                                                                |
+| +++DP_distance                     |           | 196/196       | 562/562       | 682/682       | 16/16         | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/DP_main/DP_matching/DP_distance                                                                                    |
+| +MFCC                              |           | 565/1113      | 911/2621      | 1832/3133     | 0/326         | 3/22      | 0/38    | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC                                                                                                               |
+| ++BRAM_FB                          |           | 0/0           | 0/0           | 0/0           | 0/0           | 1/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/BRAM_FB                                                                                                       |
+| ++BRAM_FFT_IM                      |           | 0/0           | 0/0           | 0/0           | 0/0           | 2/2       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/BRAM_FFT_IM                                                                                                   |
+| ++BRAM_FFT_PO                      |           | 0/0           | 0/0           | 0/0           | 0/0           | 2/2       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/BRAM_FFT_PO                                                                                                   |
+| ++BRAM_FFT_RE                      |           | 0/0           | 0/0           | 0/0           | 0/0           | 2/2       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/BRAM_FFT_RE                                                                                                   |
+| ++BRAM_FRAME                       |           | 0/0           | 0/0           | 0/0           | 0/0           | 1/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/BRAM_FRAME                                                                                                    |
+| ++BRAM_HAM                         |           | 0/0           | 0/0           | 0/0           | 0/0           | 1/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/BRAM_HAM                                                                                                      |
+| ++BRAM_MFCC                        |           | 0/0           | 0/0           | 0/0           | 0/0           | 1/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/BRAM_MFCC                                                                                                     |
+| ++FFT_16kHz                        |           | 352/407       | 1388/1565     | 731/846       | 233/326       | 1/7       | 12/12   | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/FFT_16kHz                                                                                                     |
+| +++blk00000251                     |           | 8/8           | 40/40         | 13/13         | 0/0           | 3/3       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/FFT_16kHz/blk00000251                                                                                         |
+| +++blk0000027e                     |           | 10/10         | 40/40         | 8/8           | 0/0           | 3/3       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/FFT_16kHz/blk0000027e                                                                                         |
+| +++blk0000034b                     |           | 1/1           | 1/1           | 0/0           | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/FFT_16kHz/blk0000034b                                                                                         |
+| +++blk00000350                     |           | 14/14         | 40/40         | 40/40         | 40/40         | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/FFT_16kHz/blk00000350                                                                                         |
+| +++blk000003a3                     |           | 12/12         | 40/40         | 40/40         | 40/40         | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/FFT_16kHz/blk000003a3                                                                                         |
+| +++blk000003f6                     |           | 1/1           | 1/1           | 1/1           | 1/1           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/FFT_16kHz/blk000003f6                                                                                         |
+| +++blk00000814                     |           | 1/1           | 1/1           | 0/0           | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/FFT_16kHz/blk00000814                                                                                         |
+| +++blk000008a4                     |           | 3/3           | 9/9           | 9/9           | 9/9           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/FFT_16kHz/blk000008a4                                                                                         |
+| +++blk000008b9                     |           | 1/1           | 1/1           | 1/1           | 1/1           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/FFT_16kHz/blk000008b9                                                                                         |
+| +++blk000008be                     |           | 1/1           | 1/1           | 1/1           | 1/1           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/FFT_16kHz/blk000008be                                                                                         |
+| +++blk000008ca                     |           | 1/1           | 1/1           | 2/2           | 1/1           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/FFT_16kHz/blk000008ca                                                                                         |
+| +++blk000008cf                     |           | 1/1           | 1/1           | 0/0           | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/FFT_16kHz/blk000008cf                                                                                         |
+| +++blk000008d4                     |           | 1/1           | 1/1           | 0/0           | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/FFT_16kHz/blk000008d4                                                                                         |
+| ++RINGBUFFER                       |           | 0/0           | 0/0           | 0/0           | 0/0           | 1/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/RINGBUFFER                                                                                                    |
+| ++SMULTI                           |           | 27/27         | 0/0           | 104/104       | 0/0           | 0/0       | 13/13   | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/SMULTI                                                                                                        |
+| ++SMULTI2                          |           | 27/27         | 0/0           | 104/104       | 0/0           | 0/0       | 13/13   | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/SMULTI2                                                                                                       |
+| ++log2                             |           | 56/56         | 39/39         | 172/172       | 0/0           | 1/1       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/log2                                                                                                          |
+| ++usevad                           |           | 31/31         | 106/106       | 75/75         | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/MFCC/usevad                                                                                                        |
+| +SPM0405HD4H                       |           | 7/494         | 25/1334       | 14/1382       | 0/0           | 0/8       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/SPM0405HD4H                                                                                                        |
+| ++MEMS_Filter                      |           | 487/487       | 1309/1309     | 1368/1368     | 0/0           | 8/8       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/SPM0405HD4H/MEMS_Filter                                                                                            |
+| +clock_devide_2M                   |           | 2/2           | 5/5           | 6/6           | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/clock_devide_2M                                                                                                    |
+| +main_DNN_DP                       |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/0       | 0/0     | 0/0   | 0/0   | 0/0   | 0/0   | 0/0       | main_DNN_DP/main_DNN_DP                                                                                                        |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+* Slices can be packed with basic elements from multiple hierarchies.
+  Therefore, a slice will be counted in every hierarchical module
+  that each of its packed basic elements belong to.
+** For each column, there are two numbers reported <A>/<B>.
+   <A> is the number of elements that belong to that specific hierarchical module.
+   <B> is the total number of elements from that hierarchical module and any lower level
+   hierarchical modules below.
+*** The LUTRAM column counts all LUTs used as memory including RAM, ROM, and shift registers.

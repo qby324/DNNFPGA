@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/.Xilinx/HMM-Viterbi/testsig2_isim_beh.exe" -prj "C:/.Xilinx/HMM-Viterbi/testsig2_beh.prj" "work.testsig2" "work.glbl" -mt "on" -v "1" 

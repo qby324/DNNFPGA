@@ -1,0 +1,12 @@
+[Inputs]
+clk
+reset
+dv_in
+=vec_in[25:0]=
+[Outputs]
+dv_out
+=vec_out[10:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel DNN_main
+

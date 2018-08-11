@@ -1,0 +1,20 @@
+Creating log file C:\Users\tslab-802-2\Desktop\jiken2\FPGA_project -
+backup1\DP_MFC\main_DNN_DP_xpa.log.
+Loading device for application Rf_Device from file '6slx45.nph' in environment
+C:\Xilinx\14.7\ISE_DS\ISE\.
+   "main_DNN_DP" is an NCD, version 3.2, device xc6slx45, package csg324, speed
+-2
+
+INFO:Power:1693 - 
+   --------------------------------------------------------------
+                         The power estimate will be calculated using PRODUCTION
+   data.
+   --------------------------------------------------------------
+
+Design load 20% completeDesign load 25% completeDesign load 30% completeDesign load 60% completeDesign load 95% completeDesign load 100% completeRunning Vector-less Activity Propagation
+............
+Finished Running Vector-less Activity Propagation
+Finished Running Vector-less Activity Propagation 7 secs 
+
+Design 'main_DNN_DP.ncd' and constraints 'main_DNN_DP.pcf' opened successfully
+

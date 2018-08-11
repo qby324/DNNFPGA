@@ -1,0 +1,8 @@
+verilog isim_temp "ipcore_dir/BROM.v"
+verilog isim_temp "../HMM-Viterbi/sigmoid.v"
+verilog isim_temp "../HMM-Viterbi/ipcore_dir/multiplier.v"
+verilog isim_temp "../HMM-Viterbi/ipcore_dir/MultAccum.v"
+verilog isim_temp "../HMM-Viterbi/ipcore_dir/BRAM_node.v"
+verilog isim_temp "../HMM-Viterbi/ipcore_dir/BRAM_input.v"
+verilog isim_temp "../HMM-Viterbi/DNN_0117.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

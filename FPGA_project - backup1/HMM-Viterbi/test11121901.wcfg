@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/.Xilinx/HMM-Viterbi/Test_HMM_viterbi_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Test_HMM_viterbi" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="31" />
+   <wvobject fp_name="/Test_HMM_viterbi/dv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dv</obj_property>
+      <obj_property name="ObjectShortName">dv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/active_frame" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">active_frame</obj_property>
+      <obj_property name="ObjectShortName">active_frame</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/x_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x_i[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/write" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter[15:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/dp_dv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dp_dv</obj_property>
+      <obj_property name="ObjectShortName">dp_dv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[8:0]</obj_property>
+      <obj_property name="ObjectShortName">i[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/len_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">len_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">len_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/scr_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">scr_o[48:0]</obj_property>
+      <obj_property name="ObjectShortName">scr_o[48:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/x_index" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_index[4:0]</obj_property>
+      <obj_property name="ObjectShortName">x_index[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/mfcc_dv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mfcc_dv</obj_property>
+      <obj_property name="ObjectShortName">mfcc_dv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/x_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/DP_distance/vec1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vec1[0:11,32:0]</obj_property>
+      <obj_property name="ObjectShortName">vec1[0:11,32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/DP_distance/vec2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vec2[0:11,32:0]</obj_property>
+      <obj_property name="ObjectShortName">vec2[0:11,32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/dist_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dist_ready</obj_property>
+      <obj_property name="ObjectShortName">dist_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/dist_dv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dist_dv</obj_property>
+      <obj_property name="ObjectShortName">dist_dv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/dist" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dist[66:0]</obj_property>
+      <obj_property name="ObjectShortName">dist[66:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/dv_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dv_o</obj_property>
+      <obj_property name="ObjectShortName">dv_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">scr_o[72:0]</obj_property>
+      <obj_property name="ObjectShortName">scr_o[72:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">len_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">len_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">len[0:1,0:33,7:0]</obj_property>
+      <obj_property name="ObjectShortName">len[0:1,0:33,7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,0:33,7:0]</obj_property>
+         <obj_property name="ObjectShortName">len[0,0:33,7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,0]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,0,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,0,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,1]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,1,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,1,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,2]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,2,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,2,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,3]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,3,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,3,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,4]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,4,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,4,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,5]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,5,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,5,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,6]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,6,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,6,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,7]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,7,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,7,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,8]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,8,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,8,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,9]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,9,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,9,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,10]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,10,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,10,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,11]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,11,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,11,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,12]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,12,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,12,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,13]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,13,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,13,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,14]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,14,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,14,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,15]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,15,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,15,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,16]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,16,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,16,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,17]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,17,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,17,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,18]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,18,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,18,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,19]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,19,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,19,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,20]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,20,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,20,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,21]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,21,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,21,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,22]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,22,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,22,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,23]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,23,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,23,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,24]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,24,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,24,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,25]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,25,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,25,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,26]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,26,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,26,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,27]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,27,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,27,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,28]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,28,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,28,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,29]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,29,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,29,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,30]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,30,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,30,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,31]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,31,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,31,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,32]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,32,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,32,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[0,33]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,33,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[0,33,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,0:33,7:0]</obj_property>
+         <obj_property name="ObjectShortName">len[1,0:33,7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,0]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,0,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,0,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,1]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,1,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,1,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,2]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,2,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,2,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,3]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,3,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,3,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,4]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,4,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,4,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,5]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,5,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,5,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,6]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,6,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,6,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,7]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,7,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,7,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,8]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,8,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,8,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,9]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,9,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,9,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,10]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,10,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,10,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,11]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,11,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,11,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,12]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,12,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,12,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,13]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,13,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,13,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,14]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,14,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,14,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,15]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,15,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,15,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,16]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,16,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,16,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,17]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,17,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,17,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,18]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,18,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,18,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,19]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,19,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,19,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,20]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,20,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,20,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,21]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,21,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,21,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,22]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,22,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,22,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,23]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,23,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,23,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,24]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,24,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,24,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,25]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,25,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,25,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,26]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,26,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,26,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,27]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,27,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,27,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,28]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,28,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,28,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,29]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,29,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,29,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,30]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,30,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,30,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,31]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,31,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,31,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,32]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,32,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,32,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/len[1,33]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,33,7:0]</obj_property>
+            <obj_property name="ObjectShortName">len[1,33,7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">scr[0:1,0:33,40:0]</obj_property>
+      <obj_property name="ObjectShortName">scr[0:1,0:33,40:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,0:33,40:0]</obj_property>
+         <obj_property name="ObjectShortName">scr[0,0:33,40:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,0]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,0,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,0,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,1]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,1,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,1,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,2]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,2,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,2,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,3]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,3,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,3,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,4]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,4,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,4,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,5]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,5,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,5,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,6]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,6,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,6,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,7]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,7,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,7,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,8]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,8,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,8,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,9]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,9,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,9,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,10]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,10,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,10,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,11]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,11,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,11,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,12]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,12,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,12,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,13]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,13,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,13,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,14]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,14,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,14,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,15]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,15,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,15,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,16]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,16,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,16,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,17]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,17,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,17,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,18]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,18,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,18,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,19]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,19,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,19,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,20]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,20,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,20,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,21]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,21,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,21,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,22]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,22,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,22,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,23]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,23,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,23,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,24]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,24,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,24,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,25]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,25,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,25,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,26]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,26,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,26,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,27]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,27,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,27,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,28]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,28,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,28,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,29]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,29,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,29,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,30]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,30,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,30,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,31]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,31,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,31,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,32]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,32,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,32,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[0,33]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,33,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[0,33,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,0:33,40:0]</obj_property>
+         <obj_property name="ObjectShortName">scr[1,0:33,40:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,0]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,0,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,0,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,1]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,1,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,1,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,2]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,2,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,2,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,3]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,3,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,3,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,4]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,4,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,4,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,5]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,5,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,5,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,6]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,6,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,6,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,7]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,7,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,7,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,8]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,8,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,8,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,9]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,9,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,9,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,10]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,10,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,10,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,11]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,11,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,11,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,12]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,12,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,12,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,13]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,13,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,13,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,14]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,14,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,14,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,15]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,15,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,15,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,16]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,16,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,16,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,17]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,17,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,17,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,18]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,18,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,18,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,19]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,19,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,19,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,20]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,20,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,20,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,21]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,21,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,21,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,22]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,22,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,22,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,23]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,23,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,23,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,24]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,24,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,24,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,25]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,25,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,25,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,26]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,26,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,26,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,27]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,27,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,27,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,28]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,28,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,28,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,29]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,29,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,29,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,30]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,30,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,30,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,31]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,31,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,31,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,32]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,32,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,32,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/scr[1,33]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,33,40:0]</obj_property>
+            <obj_property name="ObjectShortName">scr[1,33,40:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">h_cnt[0:1,0:33,3:0]</obj_property>
+      <obj_property name="ObjectShortName">h_cnt[0:1,0:33,3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,0:33,3:0]</obj_property>
+         <obj_property name="ObjectShortName">h_cnt[0,0:33,3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,0]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,0,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,0,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,1]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,1,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,1,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,2]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,2,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,2,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,3]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,3,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,3,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,4]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,4,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,4,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,5]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,5,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,5,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,6]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,6,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,6,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,7]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,7,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,7,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,8]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,8,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,8,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,9]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,9,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,9,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,10]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,10,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,10,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,11]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,11,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,11,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,12]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,12,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,12,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,13]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,13,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,13,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,14]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,14,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,14,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,15]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,15,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,15,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,16]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,16,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,16,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,17]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,17,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,17,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,18]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,18,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,18,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,19]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,19,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,19,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,20]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,20,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,20,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,21]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,21,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,21,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,22]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,22,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,22,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,23]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,23,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,23,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,24]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,24,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,24,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,25]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,25,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,25,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,26]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,26,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,26,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,27]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,27,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,27,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,28]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,28,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,28,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,29]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,29,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,29,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,30]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,30,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,30,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,31]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,31,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,31,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,32]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,32,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,32,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[0,33]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,33,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[0,33,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,0:33,3:0]</obj_property>
+         <obj_property name="ObjectShortName">h_cnt[1,0:33,3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,0]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,0,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,0,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,1]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,1,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,1,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,2]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,2,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,2,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,3]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,3,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,3,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,4]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,4,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,4,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,5]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,5,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,5,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,6]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,6,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,6,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,7]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,7,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,7,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,8]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,8,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,8,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,9]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,9,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,9,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,10]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,10,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,10,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,11]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,11,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,11,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,12]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,12,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,12,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,13]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,13,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,13,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,14]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,14,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,14,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,15]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,15,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,15,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,16]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,16,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,16,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,17]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,17,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,17,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,18]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,18,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,18,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,19]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,19,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,19,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,20]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,20,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,20,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,21]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,21,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,21,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,22]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,22,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,22,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,23]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,23,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,23,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,24]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,24,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,24,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,25]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,25,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,25,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,26]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,26,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,26,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,27]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,27,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,27,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,28]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,28,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,28,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,29]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,29,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,29,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,30]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,30,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,30,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,31]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,31,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,31,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,32]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,32,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,32,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/h_cnt[1,33]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,33,3:0]</obj_property>
+            <obj_property name="ObjectShortName">h_cnt[1,33,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">v_cnt[0:1,0:33,3:0]</obj_property>
+      <obj_property name="ObjectShortName">v_cnt[0:1,0:33,3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,0:33,3:0]</obj_property>
+         <obj_property name="ObjectShortName">v_cnt[0,0:33,3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,0]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,0,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,0,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,1]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,1,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,1,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,2]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,2,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,2,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,3]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,3,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,3,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,4]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,4,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,4,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,5]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,5,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,5,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,6]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,6,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,6,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,7]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,7,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,7,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,8]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,8,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,8,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,9]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,9,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,9,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,10]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,10,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,10,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,11]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,11,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,11,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,12]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,12,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,12,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,13]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,13,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,13,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,14]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,14,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,14,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,15]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,15,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,15,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,16]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,16,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,16,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,17]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,17,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,17,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,18]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,18,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,18,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,19]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,19,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,19,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,20]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,20,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,20,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,21]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,21,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,21,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,22]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,22,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,22,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,23]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,23,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,23,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,24]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,24,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,24,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,25]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,25,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,25,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,26]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,26,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,26,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,27]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,27,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,27,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,28]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,28,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,28,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,29]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,29,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,29,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,30]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,30,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,30,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,31]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,31,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,31,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,32]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,32,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,32,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[0,33]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,33,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[0,33,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,0:33,3:0]</obj_property>
+         <obj_property name="ObjectShortName">v_cnt[1,0:33,3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,0]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,0,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,0,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,1]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,1,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,1,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,2]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,2,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,2,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,3]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,3,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,3,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,4]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,4,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,4,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,5]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,5,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,5,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,6]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,6,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,6,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,7]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,7,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,7,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,8]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,8,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,8,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,9]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,9,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,9,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,10]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,10,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,10,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,11]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,11,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,11,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,12]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,12,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,12,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,13]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,13,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,13,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,14]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,14,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,14,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,15]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,15,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,15,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,16]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,16,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,16,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,17]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,17,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,17,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,18]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,18,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,18,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,19]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,19,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,19,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,20]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,20,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,20,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,21]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,21,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,21,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,22]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,22,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,22,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,23]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,23,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,23,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,24]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,24,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,24,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,25]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,25,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,25,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,26]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,26,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,26,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,27]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,27,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,27,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,28]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,28,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,28,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,29]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,29,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,29,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,30]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,30,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,30,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,31]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,31,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,31,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,32]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,32,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,32,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/v_cnt[1,33]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,33,3:0]</obj_property>
+            <obj_property name="ObjectShortName">v_cnt[1,33,3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/ff" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ff</obj_property>
+      <obj_property name="ObjectShortName">ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/process" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">process[3:0]</obj_property>
+      <obj_property name="ObjectShortName">process[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/dist_start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dist_start</obj_property>
+      <obj_property name="ObjectShortName">dist_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/framedone" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">framedone</obj_property>
+      <obj_property name="ObjectShortName">framedone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_HMM_viterbi/DP_main/DP_matching/bfr_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bfr_ready</obj_property>
+      <obj_property name="ObjectShortName">bfr_ready</obj_property>
+   </wvobject>
+</wave_config>

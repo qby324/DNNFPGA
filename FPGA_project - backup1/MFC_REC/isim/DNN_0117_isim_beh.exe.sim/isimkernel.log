@@ -1,0 +1,28 @@
+Command line:
+   DNN_0117_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  61666
+
+Fri Dec 16 21:42:37 2016
+
+
+ Elaboration Time: 0.25 sec
+
+ Current Memory Usage: 380.26 Meg
+
+ Total Signals          : 1073
+ Total Nets             : 2586
+ Total Signal Drivers   : 309
+ Total Blocks           : 148
+ Total Primitive Blocks : 113
+ Total Processes        : 486
+ Total Traceable Variables  : 1293
+ Total Scalar Nets and Variables : 307467
+
+ Total Simulation Time: 0.390625 sec
+
+ Current Memory Usage: 694.833 Meg
+
+Fri Dec 16 21:43:18 2016
+

@@ -1,0 +1,228 @@
+Release 14.4 par P.49d (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+turbo.ailab.tj.chiba-u.jp::  Mon Feb 24 17:03:00 2014
+
+par -w -intstyle ise -ol high -mt 4 main_MFCC_map.ncd main_MFCC.ncd
+main_MFCC.pcf 
+
+
+Constraints file: main_MFCC.pcf.
+Loading device for application Rf_Device from file '6slx45.nph' in environment
+/net/penguin/data/software/ISE/14.4/ISE_DS/ISE/.
+   "main_MFCC" is an NCD, version 3.2, device xc6slx45, package csg324, speed -2
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:54 - 'xc6slx45' is a WebPack part.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue
+to function, but you no longer qualify for Xilinx software updates or new releases.
+
+----------------------------------------------------------------------
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.23 2012-12-04".
+
+
+
+Device Utilization Summary:
+
+Slice Logic Utilization:
+  Number of Slice Registers:                 3,241 out of  54,576    5%
+    Number used as Flip Flops:               3,241
+    Number used as Latches:                      0
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                      4,100 out of  27,288   15%
+    Number used as logic:                    3,593 out of  27,288   13%
+      Number using O6 output only:           2,690
+      Number using O5 output only:             142
+      Number using O5 and O6:                  761
+      Number used as ROM:                        0
+    Number used as Memory:                     326 out of   6,408    5%
+      Number used as Dual Port RAM:              0
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:           326
+        Number using O6 output only:           111
+        Number using O5 output only:             0
+        Number using O5 and O6:                215
+    Number used exclusively as route-thrus:    181
+      Number with same-slice register load:     94
+      Number with same-slice carry load:        87
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 1,449 out of   6,822   21%
+  Number of MUXCYs used:                     1,112 out of  13,644    8%
+  Number of LUT Flip Flop pairs used:        4,629
+    Number with an unused Flip Flop:         2,037 out of   4,629   44%
+    Number with an unused LUT:                 529 out of   4,629   11%
+    Number of fully used LUT-FF pairs:       2,063 out of   4,629   44%
+    Number of slice register sites lost
+      to control set restrictions:               0 out of  54,576    0%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                         7 out of     218    3%
+    Number of LOCed IOBs:                        6 out of       7   85%
+    IOB Flip Flops:                              4
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                        40 out of     116   34%
+  Number of RAMB8BWERs:                          6 out of     232    2%
+  Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       2 out of      16   12%
+    Number used as BUFGs:                        2
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     0 out of       8    0%
+  Number of ILOGIC2/ISERDES2s:                   0 out of     376    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     376    0%
+  Number of OLOGIC2/OSERDES2s:                   4 out of     376    1%
+    Number used as OLOGIC2s:                     4
+    Number used as OSERDES2s:                    0
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     256    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                           49 out of      58   84%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            0 out of       4    0%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+PAR will use up to 4 processors
+WARNING:Timing:3175 - clk does not clock data from dat_i
+WARNING:Timing:3225 - Timing constraint COMP "dat_i" OFFSET = IN 500 ns VALID 250 ns BEFORE COMP "clk" "RISING"; ignored during timing
+   analysis
+WARNING:Timing:3224 - The clock clk associated with OFFSET = IN 20 ns VALID 20 ns BEFORE COMP "clk" "RISING"; does not clock any registered
+   input components.
+WARNING:Timing:3225 - Timing constraint OFFSET = IN 20 ns VALID 20 ns BEFORE COMP "clk" "RISING"; ignored during timing analysis
+WARNING:Par:288 - The signal dat_i_IBUF has no load.  PAR will not attempt to route this signal.
+Starting Multi-threaded Router
+
+
+Phase  1  : 32272 unrouted;      REAL time: 20 secs 
+
+Phase  2  : 22163 unrouted;      REAL time: 23 secs 
+
+Phase  3  : 14551 unrouted;      REAL time: 1 mins 49 secs 
+
+Phase  4  : 14551 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 50 secs 
+
+Updating file: main_MFCC.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 2 mins 4 secs 
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 2 mins 4 secs 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 2 mins 4 secs 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 2 mins 4 secs 
+
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 2 mins 4 secs 
+
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 2 mins 4 secs 
+Total REAL time to Router completion: 2 mins 4 secs 
+Total CPU time to Router completion (all processors): 2 mins 42 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|           clk_BUFGP |  BUFGMUX_X2Y1| No   |   48 |  0.690     |  2.403      |
++---------------------+--------------+------+------+------------+-------------+
+|recogaiueo/clk_10MHz |              |      |      |            |             |
+|                     |  BUFGMUX_X2Y3| No   |  840 |  0.063     |  1.772      |
++---------------------+--------------+------+------+------------+-------------+
+|           clk_100Hz |         Local|      |    4 |  0.187     |  1.453      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+WARNING:Timing:3175 - clk does not clock data from dat_i
+WARNING:Timing:3225 - Timing constraint COMP "dat_i" OFFSET = IN 500 ns VALID 
+   250 ns BEFORE COMP "clk" "RISING"; ignored during timing analysis
+WARNING:Timing:3224 - The clock clk associated with OFFSET = IN 20 ns VALID 20 
+   ns BEFORE COMP "clk" "RISING"; does not clock any registered input 
+   components.
+WARNING:Timing:3225 - Timing constraint OFFSET = IN 20 ns VALID 20 ns BEFORE 
+   COMP "clk" "RISING"; ignored during timing analysis
+Number of Timing Constraints that were not applied: 2
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  TS_clk = PERIOD TIMEGRP "clk" 20 ns HIGH  | SETUP       |    13.869ns|     6.131ns|       0|           0
+  40%                                       | HOLD        |     0.290ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  COMP "dat_i" OFFSET = IN 500 ns VALID 250 | N/A         |         N/A|         N/A|     N/A|         N/A
+   ns BEFORE COMP "clk" "RISING"            |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  OFFSET = IN 20 ns VALID 20 ns BEFORE COMP | N/A         |         N/A|         N/A|     N/A|         N/A
+   "clk" "RISING"                           |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 1 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 2 mins 5 secs 
+Total CPU time to PAR completion (all processors): 2 mins 44 secs 
+
+Peak Memory Usage:  1150 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 7
+Number of info messages: 0
+
+Writing design to file main_MFCC.ncd
+
+
+
+PAR done!

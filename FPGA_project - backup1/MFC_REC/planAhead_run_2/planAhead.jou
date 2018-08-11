@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Nov 02 17:03:11 2016
+# Process ID: 3484
+# Log file: C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/tslab-802-2/Desktop/work1/FPGA_project - backup1/MFC_REC/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1

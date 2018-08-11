@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj MFC_REC -o C:/.Xilinx/MFC_REC/DNN_main.tfi -lib work C:/.Xilinx/HMM-Viterbi//DNN_main.v -module DNN_main -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

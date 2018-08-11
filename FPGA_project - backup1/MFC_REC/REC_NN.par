@@ -1,0 +1,295 @@
+Release 14.7 par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+DESKTOP-CQ3EHDM::  Mon Feb 13 22:09:33 2017
+
+par -w -intstyle ise -ol high -smartguide
+"C:/Users/tslab-802-2/Desktop/newtest2/FPGA_project -
+backup1/MFC_REC/REC_NN_guide.ncd" -mt off REC_NN_map.ncd REC_NN.ncd REC_NN.pcf 
+
+
+Constraints file: REC_NN.pcf.
+Loading device for application Rf_Device from file '6slx45.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+   "REC_NN" is an NCD, version 3.2, device xc6slx45, package csg324, speed -2
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:54 - 'xc6slx45' is a WebPack part.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue
+to function, but you no longer qualify for Xilinx software updates or new releases.
+
+----------------------------------------------------------------------
+
+Loading database for application par from file: "C:/Users/tslab-802-2/Desktop/newtest2/FPGA_project -
+backup1/MFC_REC/REC_NN_guide.ncd"
+   "REC_NN" is an NCD, version 3.2, device xc6slx45, package csg324, speed -2
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.23 2013-10-13".
+
+
+
+INFO:Par:402 - SmartGuide was run during Map. Since all guiding (mapping, packing, placement and routing) is completed in MAP, PAR does not
+   require the use of the guide switches. The -smartguide switch only generates a post place and route guide report in the SmartGuide Report
+   File(.GRF). Runtime can be reduced, if this detailed report is not generated. PAR will automatically generate the SmartGuide summary
+   report based on the guide file used during MAP. This summary information is always in the PAR report file and the GRF.
+Device Utilization Summary:
+
+Slice Logic Utilization:
+  Number of Slice Registers:                 7,101 out of  54,576   13%
+    Number used as Flip Flops:               7,100
+    Number used as Latches:                      1
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                     17,889 out of  27,288   65%
+    Number used as logic:                   16,979 out of  27,288   62%
+      Number using O6 output only:          14,788
+      Number using O5 output only:             304
+      Number using O5 and O6:                1,887
+      Number used as ROM:                        0
+    Number used as Memory:                     414 out of   6,408    6%
+      Number used as Dual Port RAM:              0
+      Number used as Single Port RAM:           25
+        Number using O6 output only:             2
+        Number using O5 output only:             1
+        Number using O5 and O6:                 22
+      Number used as Shift Register:           389
+        Number using O6 output only:           164
+        Number using O5 output only:             1
+        Number using O5 and O6:                224
+    Number used exclusively as route-thrus:    496
+      Number with same-slice register load:    425
+      Number with same-slice carry load:        71
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 5,671 out of   6,822   83%
+  Number of MUXCYs used:                     2,244 out of  13,644   16%
+  Number of LUT Flip Flop pairs used:       18,679
+    Number with an unused Flip Flop:        12,581 out of  18,679   67%
+    Number with an unused LUT:                 790 out of  18,679    4%
+    Number of fully used LUT-FF pairs:       5,308 out of  18,679   28%
+    Number of slice register sites lost
+      to control set restrictions:               0 out of  54,576    0%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                         7 out of     218    3%
+    Number of LOCed IOBs:                        7 out of       7  100%
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                        19 out of     116   16%
+  Number of RAMB8BWERs:                         20 out of     232    8%
+  Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       2 out of      16   12%
+    Number used as BUFGs:                        2
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     0 out of       8    0%
+  Number of ILOGIC2/ISERDES2s:                   0 out of     376    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     376    0%
+  Number of OLOGIC2/OSERDES2s:                   0 out of     376    0%
+  Number of BSCANs:                              1 out of       4   25%
+  Number of BUFHs:                               0 out of     256    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                           40 out of      58   68%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            0 out of       4    0%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 44 secs 
+Finished initial Timing Analysis.  REAL time: 45 secs 
+
+Starting Router
+
+
+Phase  1  : 16307 unrouted;      REAL time: 50 secs 
+
+Phase  2  : 7286 unrouted;      REAL time: 53 secs 
+
+Phase  3  : 9249 unrouted;      REAL time: 1 mins 25 secs 
+
+Phase  4  : 10757 unrouted; (Setup:2406240, Hold:247927, Component Switching Limit:0)     REAL time: 2 mins 9 secs 
+  Intermediate status: 204 unrouted;       REAL time: 4 hrs 18 mins 8 secs 
+
+  Intermediate status: 213 unrouted;       REAL time: 4 hrs 48 mins 34 secs 
+
+  Intermediate status: 188 unrouted;       REAL time: 5 hrs 22 mins 47 secs 
+
+  Intermediate status: 194 unrouted;       REAL time: 5 hrs 58 mins 35 secs 
+
+WARNING:Route:463 - The router has detected a very dense, congested design. It is extremely unlikely the router will be able to finish the
+   design and meet your requirements. To prevent excessive run time the router will exit with a partially routed design. This behavior will
+   allow you to identify difficult designs earlier. The cause of this behavior is either overly difficult constraints, putting too much
+   logic into this device, or an issue with the implementation. If you would prefer a fully routed design, ease the constraints (if any),
+   remove some logic from the design, or change the placement before running router again. If you are willing to accept a long run time, set
+   the option "-xe c" to override the present behavior.
+WARNING:Route:543 - This design is experiencing routing congestion. Please review the Xilinx Routing Optimization White Paper, WP381 on
+   www.xilinx.com, for guidelines and techniques in resolving this issue.
+WARNING:Route:563 - 
+    Router will not fix hold error 
+
+Phase  5  : 223 unrouted; (Setup:3786935, Hold:247927, Component Switching Limit:0)     REAL time: 6 hrs 30 mins 43 secs 
+Total REAL time to Router completion: 6 hrs 30 mins 43 secs 
+Total CPU time to Router completion: 6 hrs 30 mins 29 secs 
+
+  SmartGuide Results
+  ------------------
+  This section describes the guide results after invoking the Router. This
+  report accurately reflects the differences between the input design
+  and the guide design.
+
+  Number of Components in the input design    |   5760
+    Number of guided Components               |   5549 out of   5760  96.3%
+    Number of re-implemented Components       |     26 out of   5760   0.5%
+    Number of new/changed Components          |    185 out of   5760   3.2%
+  Number of Nets in the input design          |  24391
+    Number of guided Nets                     |  20652 out of  24391  84.7%
+    Number of partially guided Nets           |   1379 out of  24391   5.7%
+    Number of re-routed Nets                  |   2340 out of  24391   9.6%
+    Number of new/changed Nets                |     20 out of  24391   0.1%
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|           clk_BUFGP |  BUFGMUX_X2Y1| No   | 2078 |  0.069     |  1.777      |
++---------------------+--------------+------+------+------------+-------------+
+|    icon_control0<0> |  BUFGMUX_X2Y3| No   |   62 |  0.058     |  1.769      |
++---------------------+--------------+------+------+------------+-------------+
+|   icon_control0<13> |         Local|      |    4 |  0.000     |  0.929      |
++---------------------+--------------+------+------+------------+-------------+
+|U_icon_pro/U0/iUPDAT |              |      |      |            |             |
+|               E_OUT |         Local|      |    1 |  0.000     |  1.887      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 4034862 (Setup: 3786935, Hold: 247927, Component Switching Limit: 0)
+
+WARNING:Par:468 - Your design did not meet timing.  The following are some suggestions to assist you to meet timing in your design.
+
+   Review the timing report using Timing Analyzer (In ISE select "Post-Place &
+   Route Static Timing Report"). Go to the failing constraint(s) and evaluate the failing paths for each constraint.
+
+   Try the Design Goal and Strategies for Timing Performance(In ISE select Project -> Design Goals & Strategies) to ensure the best options
+   are set in the tools for timing closure.
+
+   Use the Xilinx "SmartXplorer" script to try special combinations of
+   options known to produce very good results.
+
+   Visit the Xilinx technical support web at http://support.xilinx.com and go to
+   either "Troubleshoot->Tech Tips->Timing & Constraints" or "
+   TechXclusives->Timing Closure" for tips and suggestions for meeting timing
+   in your design.
+
+Number of Timing Constraints that were not applied: 3
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+* COMP "dat_i" OFFSET = IN 500 ns VALID 250 | SETUP       |   495.651ns|     4.349ns|       0|           0
+   ns BEFORE COMP "clk" "RISING"            | HOLD        |  -247.927ns|            |       1|      247927
+----------------------------------------------------------------------------------------------------------
+* TS_clk = PERIOD TIMEGRP "clk" 20 ns HIGH  | SETUP       |   -11.043ns|    31.043ns|     889|     3786935
+  40%                                       | HOLD        |     0.247ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_U_TO_J = MAXDELAY FROM TIMEGRP "U_CLK" | SETUP       |     9.814ns|     5.186ns|       0|           0
+   TO TIMEGRP "J_CLK" 15 ns                 | HOLD        |     0.972ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_U_TO_U = MAXDELAY FROM TIMEGRP "U_CLK" | SETUP       |    13.984ns|     1.016ns|       0|           0
+   TO TIMEGRP "U_CLK" 15 ns                 | HOLD        |     0.417ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_J_CLK = PERIOD TIMEGRP "J_CLK" 30 ns H | SETUP       |    17.395ns|    12.605ns|       0|           0
+  IGH 50%                                   | HOLD        |     0.385ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_D2_TO_T2_ila_pro_0_path" TIG     | SETUP       |         N/A|     5.195ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_J2_TO_D2_ila_pro_0_path" TIG     | N/A         |         N/A|         N/A|     N/A|         N/A
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_J3_TO_D2_ila_pro_0_path" TIG     | N/A         |         N/A|         N/A|     N/A|         N/A
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_J4_TO_D2_ila_pro_0_path" TIG     | MAXDELAY    |         N/A|     6.126ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_J_TO_D_path" TIG                 | SETUP       |         N/A|     8.321ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_D_TO_J_path" TIG                 | MAXDELAY    |         N/A|    10.897ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  OFFSET = IN 20 ns VALID 20 ns BEFORE COMP | N/A         |         N/A|         N/A|     N/A|         N/A
+   "clk" "RISING"                           |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+2 constraints not met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+162 signals are not completely routed. See the REC_NN.unroutes file for a list of all unrouted signals.
+
+WARNING:Par:100 - Design is not completely routed. There are 162 signals that are not
+   completely routed in this design. See the "REC_NN.unroutes" file for a list of
+   all unrouted signals. Check for other warnings in your PAR report that might
+   indicate why these nets are unroutable. These nets can also be evaluated
+   in FPGA Editor by selecting "Unrouted Nets" in the List Window.
+
+Total REAL time to PAR completion: 6 hrs 31 mins 8 secs 
+Total CPU time to PAR completion: 6 hrs 30 mins 52 secs 
+
+Peak Memory Usage:  962 MB
+
+Placer: Placement generated during map.
+Routing: Completed - errors found.
+Timing: Completed - 890 errors found.
+
+Number of error messages: 0
+Number of warning messages: 7
+Number of info messages: 1
+
+Writing design to file REC_NN.ncd
+
+
+
+PAR done!

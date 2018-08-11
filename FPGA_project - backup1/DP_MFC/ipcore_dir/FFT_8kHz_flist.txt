@@ -1,0 +1,15 @@
+# Output products list for <FFT_8kHz>
+FFT_8kHz.asy
+FFT_8kHz.gise
+FFT_8kHz.ngc
+FFT_8kHz.sym
+FFT_8kHz.v
+FFT_8kHz.veo
+FFT_8kHz.xco
+FFT_8kHz.xise
+FFT_8kHz\doc\xfft_ds260.pdf
+FFT_8kHz\doc\xfft_v7_1_readme.txt
+FFT_8kHz\doc\xfft_v7_1_vinfo.html
+FFT_8kHz_flist.txt
+FFT_8kHz_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

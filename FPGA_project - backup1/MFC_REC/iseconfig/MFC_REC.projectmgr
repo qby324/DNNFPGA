@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="MFC_REC" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/DNN_main C:|.Xilinx|HMM-Viterbi|DNN_main.v</ClosedNode>
+         <ClosedNode>/DNN_main C:|Users|tslab-802-2|Desktop|newtest2|FPGA_project - backup1|HMM-Viterbi|DNN_main.v</ClosedNode>
+         <ClosedNode>/DNN_main C:|Users|tslab|Desktop|FPGA_project - backup|HMM-Viterbi|DNN_main.v</ClosedNode>
+         <ClosedNode>/REC_NN C:|.Xilinx|MFC_REC|REC_NN.v/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/REC_NN C:|.Xilinx|MFC_REC|REC_NN.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/REC_NN C:|.Xilinx|MFC_REC|REC_NN.v/nnmain - DNN_0117</ClosedNode>
+         <ClosedNode>/REC_NN C:|.Xilinx|MFC_REC|REC_NN.v/nnmain - DNN_main</ClosedNode>
+         <ClosedNode>/REC_NN C:|Users|tslab|Desktop|FPGA_project - backup1|MFC_REC|REC_NN.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/REC_NN C:|Users|tslab|Desktop|FPGA_project - backup1|MFC_REC|REC_NN.v/nnmain - DNN_0117</ClosedNode>
+         <ClosedNode>/REC_NN C:|Users|tslab|Desktop|FPGA_project - backup|MFC_REC|REC_NN.v</ClosedNode>
+         <ClosedNode>/main_REC C:|.Xilinx|MFC_REC|REC_NN.v</ClosedNode>
+         <ClosedNode>/main_REC C:|.Xilinx|MFC_REC|main_REC.v/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/main_REC C:|.Xilinx|MFC_REC|main_REC.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/main_REC C:|Users|tslab|Desktop|FPGA_project - backup1|MFC_REC|main_REC.v</ClosedNode>
+         <ClosedNode>/main_REC C:|Users|tslab|Desktop|FPGA_project - backup|MFC_REC|main_REC.v</ClosedNode>
+         <ClosedNode>/main_REC Z:|Documents|FPGA|MFC_REC|main_REC.v/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/main_REC Z:|Documents|FPGA|MFC_REC|main_REC.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/test_MFCC C:|.Xilinx|MFC_REC|test_MFCC.v</ClosedNode>
+         <ClosedNode>/test_MFCC C:|.Xilinx|MFC_REC|test_MFCC.v/uut - MFCCtest</ClosedNode>
+         <ClosedNode>/test_MFCC C:|Users|tslab|Desktop|FPGA_project - backup1|MFC_REC|test_MFCC.v</ClosedNode>
+         <ClosedNode>/test_MFCC C:|Users|tslab|Desktop|FPGA_project - backup|MFC_REC|test_MFCC.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>nnpara - BROM (C:/Users/tslab-802-2/Desktop/newtest2/FPGA_project - backup1/MFC_REC/ipcore_dir/BROM.xco)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >20</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001de000000020000000000000000000000000200000064ffffffff000000810000000300000002000001de0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>nnpara - BROM (C:/Users/tslab-802-2/Desktop/newtest2/FPGA_project - backup1/MFC_REC/ipcore_dir/BROM.xco)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000011f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000011f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000392000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000250000000100000000000000710000000100000000000002ba0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>BRAM.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000000fb000000010001000100000000000000000000000064ffffffff000000810000000000000001000000fb0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Back-annotate Pin Locations</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate IBIS Model</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate Post-Place &amp; Route Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001120000009001000000040100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000011f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000011f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_CDC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_NGC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013b000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013b0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000130000000010000000100000000000000000000000064ffffffff000000810000000000000001000001300000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/REC_NN C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|MFC_REC|REC_NN.v/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/REC_NN C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|MFC_REC|REC_NN.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/REC_NN C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|MFC_REC|REC_NN.v/nnmain - DNN_0117</ClosedNode>
+         <ClosedNode>/main_REC C:|.Xilinx|MFC_REC|main_REC.v</ClosedNode>
+         <ClosedNode>/main_REC C:|.Xilinx|MFC_REC|main_REC.v/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/main_REC C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|MFC_REC|main_REC.v</ClosedNode>
+         <ClosedNode>/simtest C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|MFC_REC|simtest.v/uut - MFCC</ClosedNode>
+         <ClosedNode>/test_MFCC C:|.Xilinx|MFC_REC|test_MFCC.v</ClosedNode>
+         <ClosedNode>/test_MFCC C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|MFC_REC|test_MFCC.v</ClosedNode>
+         <ClosedNode>/test_nn C:|.Xilinx|MFC_REC|test_nn.v/nnmain - DNN_main</ClosedNode>
+         <ClosedNode>/test_nn C:|.Xilinx|MFC_REC|test_nn.v/uut - MFCC</ClosedNode>
+         <ClosedNode>/test_nn C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|MFC_REC|test_nn.v</ClosedNode>
+         <ClosedNode>/test_rec C:|.Xilinx|MFC_REC|test_nn.v/uut - MFCC</ClosedNode>
+         <ClosedNode>/test_rec C:|.Xilinx|MFC_REC|test_rec.v/uut - MFCC</ClosedNode>
+         <ClosedNode>/test_rec C:|.Xilinx|MFC_REC|test_rec.v/uut - main_REC/MFCC - MFCC</ClosedNode>
+         <ClosedNode>/test_rec C:|.Xilinx|MFC_REC|test_rec.v/uut - main_REC/SPM0405HD4H - SPM0405HD4H</ClosedNode>
+         <ClosedNode>/test_rec C:|Users|tslab-802-2|Desktop|newtest|FPGA_project - backup1|MFC_REC|test_rec.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Unassigned User Library Modules</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001de000000020000000000000000000000000200000064ffffffff000000810000000300000002000001de0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Unassigned User Library Modules</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000011f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000011f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013b000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013b0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013b000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013b0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="ManualCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>main_REC.ucf (C:/.Xilinx/MFC_REC/main_REC.ucf)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000128000000020000000000000000000000000000000064ffffffff000000810000000000000002000000ae00000001000000000000007a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>main_REC.ucf (C:/.Xilinx/MFC_REC/main_REC.ucf)</CurrentItem>
+   </ItemView>
+</Project>

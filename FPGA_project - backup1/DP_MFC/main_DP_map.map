@@ -1,0 +1,57 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'main_DP'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -detail -ir
+off -pr off -lc off -power on -o main_DP_map.ncd main_DP.ngd main_DP.pcf 
+Target Device  : xc6slx45
+Target Package : csg324
+Target Speed   : -2
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : FRI 28 AUG 20:17:58 2015
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:54 - 'xc6slx45' is a WebPack part.
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is tslab, on host TSLAB-PC.
+ERROR:Security:9c - No 'ISE' nor 'WebPack' feature version 2013.10 was available
+for part 'xc6slx45'.
+----------------------------------------------------------------------
+License server machine is down or not responding.
+ See the system adminstrator about starting the license server system, or
+ make sure you're referring to the right host (see LM_LICENSE_FILE).
+Feature:       WebPack
+Hostname:      silica
+License path: 
+C:/.Xilinx\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.li
+c;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7
+\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-96,7
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".License server machine is down or not
+responding.
+ See the system adminstrator about starting the license server system, or
+ make sure you're referring to the right host (see LM_LICENSE_FILE).
+Feature:       ISE
+Hostname:      silica
+License path: 
+C:/.Xilinx\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.li
+c;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7
+\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-96,7
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:Map:258 - A problem was encountered attempting to get the license for this
+   architecture. 
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   0

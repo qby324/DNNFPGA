@@ -1,0 +1,19 @@
+ISim log file
+Running: C:\.Xilinx\HMM-Viterbi\testsig2_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/.Xilinx/HMM-Viterbi/testsig2_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+ISim P.20131013 (signature 0x8ef4fb42)
+This is a Full version of ISim.
+WARNING: File "C:/.Xilinx/HMM-Viterbi/sigmoid2.v" Line 26.  For instance uut/mulA/, width 27 of formal port a is not equal to width 32 of actual signal sigin.
+WARNING: File "C:/.Xilinx/HMM-Viterbi/sigmoid2.v" Line 26.  For instance uut/mulB/, width 27 of formal port a is not equal to width 32 of actual signal sigin.
+WARNING: File "C:/.Xilinx/HMM-Viterbi/sigmoid2.v" Line 26.  For instance uut/mulB/, width 27 of formal port b is not equal to width 32 of actual signal sigin.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 63210 ns : File "C:/.Xilinx/HMM-Viterbi/sigmoid2.v" Line 60

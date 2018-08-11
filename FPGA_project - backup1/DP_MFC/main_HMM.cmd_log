@@ -1,0 +1,39 @@
+xst -intstyle ise -ifn "/work2/haruka/fpga_work/HMM-V14/main_HMM.xst" -ofn "/work2/haruka/fpga_work/HMM-V14/main_HMM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx45-csg324-2 main_HMM.ngc main_HMM.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_HMM_map.ncd main_HMM.ngd main_HMM.pcf 
+par -w -intstyle ise -ol high -mt 4 main_HMM_map.ncd main_HMM.ncd main_HMM.pcf 
+xst -intstyle ise -ifn "C:/.Xilinx/haruka/HMM-V14/main_HMM.xst" -ofn "C:/.Xilinx/haruka/HMM-V14/main_HMM.syr" 
+xst -intstyle ise -ifn "D:/work/HMM-Viterbi/main_HMM.xst" -ofn "D:/work/HMM-Viterbi/main_HMM.syr" 
+xst -intstyle ise -ifn "D:/work/HMM-Viterbi/main_HMM.xst" -ofn "D:/work/HMM-Viterbi/main_HMM.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.xst" -ofn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.xst" -ofn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.xst" -ofn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.xst" -ofn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.xst" -ofn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.xst" -ofn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.xst" -ofn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.xst" -ofn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.xst" -ofn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.xst" -ofn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.xst" -ofn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.xst" -ofn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.xst" -ofn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.xst" -ofn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx45-csg324-2 main_HMM.ngc main_HMM.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_HMM_map.ncd main_HMM.ngd main_HMM.pcf 
+par -w -intstyle ise -ol high -mt 4 main_HMM_map.ncd main_HMM.ncd main_HMM.pcf 
+bitgen -intstyle ise -f main_HMM.ut main_HMM.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx45-csg324-2 main_HMM.ngc main_HMM.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_HMM_map.ncd main_HMM.ngd main_HMM.pcf 
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_HMM_map.ncd main_HMM.ngd main_HMM.pcf 
+par -w -intstyle ise -ol high -mt 4 main_HMM_map.ncd main_HMM.ncd main_HMM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_HMM.twx main_HMM.ncd -o main_HMM.twr main_HMM.pcf 
+bitgen -intstyle ise -f main_HMM.ut main_HMM.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx45-csg324-2 main_HMM.ngc main_HMM.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_HMM_map.ncd main_HMM.ngd main_HMM.pcf 
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power on -o main_HMM_map.ncd main_HMM.ngd main_HMM.pcf 
+par -w -intstyle ise -ol high -mt 4 main_HMM_map.ncd main_HMM.ncd main_HMM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml main_HMM.twx main_HMM.ncd -o main_HMM.twr main_HMM.pcf 
+bitgen -intstyle ise -f main_HMM.ut main_HMM.ncd 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.xst" -ofn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.syr" 
+xst -intstyle ise -ifn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.xst" -ofn "Z:/Documents/FPGA/HMM-Viterbi/main_HMM.syr" 

@@ -1,0 +1,219 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: Chiba University
+// Engineer: Haruka NAGATANI
+// 
+// Create Date:    13:50:24 12/15/2011 
+// Target Devices: Spartan6 
+// Description: 
+//					Extract MFCC
+// 
+// Memo:
+//				
+//
+//////////////////////////////////////////////////////////////////////////////////
+module MFCC(clk,sclk,x_i,write,x_o,out_index,dv_out);
+   input clk;                      	//!< Global Clock
+	input sclk;					//!< sclk
+   input write;				//!< Data write
+   input signed [15:0] x_i; 		//!< data
+   output signed [31:0] x_o;		//!< MFCC
+   output [4:0] 	out_index;	//!< index of MFCC
+   output 		dv_out;		//!< output during 1
+   reg signed [31:0] 	x_o=0;		//!<  
+   reg [4:0] 		out_index=0;	//!< 
+   reg 			dv_out=0;	//!<  
+   
+   //!	Register instance
+`include "register.v"
+   
+   //!	Processing
+   reg [4:0] 		process_index=8;
+
+   //****************************
+   //! 	for Debug
+   //! 	ChipScope Pro Register
+   //****************************
+	/*
+   parameter CS_BWIDTH=250;
+   parameter CS_QBIT=50;
+   parameter BUFWIDTH=256;
+   reg signed [CS_QBIT-1:0] CS_buffer [0:BUFWIDTH-1];
+   reg [20:0] 		    CS_init_i=0;
+   
+   reg [CS_BWIDTH-1:0] 	    CS_dat_o=0;		//!< ChipScope buffer
+   reg [CS_BWIDTH-1:0] 	    CS_dat_o2=0;		//!< ChipScope 
+   reg [20:0] 		    CS_i=0;		//!<
+   reg [20:0] 		    CS_j=0;		//!<
+   reg 			    CS_max=0;			//!< CS Trigger
+   reg 			    CS_bfr_dv=0;
+   reg 			    CS_bfr_clk10MHz=0;
+	reg             CS_bfr_bfr_clk10MHz=0;		
+   reg [20:0] 		    CS_bfr_i=0;
+   reg 			    CS_load_start=1;
+   reg [20:0] 		    CS_addr_b=0; 
+   reg 			    CS_ready=0;
+   reg [20:0] 		    CS_bfr_index=0; 		    
+   reg [20:0] 		    CS_max_counter=0;
+ 		    
+   initial begin
+		for(CS_init_i=0;CS_init_i<BUFWIDTH;CS_init_i=CS_init_i+1)begin
+			CS_buffer[CS_init_i]=0;
+		end
+   end
+
+   always@(posedge clk)begin
+
+      //!	all data into buffer
+      CS_bfr_index<=xn_index;
+      if(dv ==0 && rfd==1 && CS_load_start==1 && CS_bfr_index != xn_index && CS_bfr_index > 0)begin
+	 if(CS_addr_b == BUFWIDTH)begin
+	    CS_addr_b<=0;
+	    CS_load_start<=0;
+	 end else begin
+	    CS_addr_b<=CS_addr_b+1;
+	 end
+	 CS_buffer[CS_addr_b]<=outdata_po;
+      end else begin
+
+	 if(process_index==10)begin
+	    CS_load_start<=1;
+	    CS_addr_b<=0;
+	 end
+      end
+      
+      CS_bfr_dv<=CS_load_start;
+      CS_bfr_clk10MHz<=sclk;
+		CS_bfr_bfr_clk10MHz<=CS_bfr_clk10MHz;
+      if(CS_ready == 1 && CS_bfr_bfr_clk10MHz==1 && CS_bfr_clk10MHz==0)begin
+	 //CS_dat_o[i+DWIDTH_ham-1:i]<=outdataX[DWIDTH_ham-1:0];
+	 CS_dat_o[CS_i+29]<=CS_buffer[CS_j][29];	
+	 CS_dat_o[CS_i+28]<=CS_buffer[CS_j][28];	
+	 CS_dat_o[CS_i+27]<=CS_buffer[CS_j][27];	
+	 CS_dat_o[CS_i+26]<=CS_buffer[CS_j][26];	
+	 CS_dat_o[CS_i+25]<=CS_buffer[CS_j][25];	
+	 CS_dat_o[CS_i+24]<=CS_buffer[CS_j][24];	
+	 CS_dat_o[CS_i+23]<=CS_buffer[CS_j][23];	
+	 CS_dat_o[CS_i+22]<=CS_buffer[CS_j][22];	
+	 CS_dat_o[CS_i+21]<=CS_buffer[CS_j][21];	
+	 CS_dat_o[CS_i+20]<=CS_buffer[CS_j][20];	
+	 CS_dat_o[CS_i+19]<=CS_buffer[CS_j][19];	
+	 CS_dat_o[CS_i+18]<=CS_buffer[CS_j][18];	
+	 CS_dat_o[CS_i+17]<=CS_buffer[CS_j][17];	
+	 CS_dat_o[CS_i+16]<=CS_buffer[CS_j][16];
+	 CS_dat_o[CS_i+15]<=CS_buffer[CS_j][15];
+	 CS_dat_o[CS_i+14]<=CS_buffer[CS_j][14];
+	 CS_dat_o[CS_i+13]<=CS_buffer[CS_j][13];
+	 CS_dat_o[CS_i+12]<=CS_buffer[CS_j][12];
+	 CS_dat_o[CS_i+11]<=CS_buffer[CS_j][11];
+	 CS_dat_o[CS_i+10]<=CS_buffer[CS_j][10];
+	 CS_dat_o[CS_i+9]<=CS_buffer[CS_j][9];
+	 CS_dat_o[CS_i+8]<=CS_buffer[CS_j][8];
+	 CS_dat_o[CS_i+7]<=CS_buffer[CS_j][7];
+	 CS_dat_o[CS_i+6]<=CS_buffer[CS_j][6];
+	 CS_dat_o[CS_i+5]<=CS_buffer[CS_j][5];
+	 CS_dat_o[CS_i+4]<=CS_buffer[CS_j][4];
+	 CS_dat_o[CS_i+3]<=CS_buffer[CS_j][3];
+	 CS_dat_o[CS_i+2]<=CS_buffer[CS_j][2];
+	 CS_dat_o[CS_i+1]<=CS_buffer[CS_j][1];
+	 CS_dat_o[CS_i]<=CS_buffer[CS_j][0];			
+	 if(CS_i==CS_BWIDTH - CS_QBIT)begin
+	    CS_i<=0;
+	 end else begin
+	    CS_i<=CS_i+CS_QBIT;
+	 end
+	 if(CS_j==BUFWIDTH-1)begin
+	    CS_j<=0;
+	    CS_ready<=0;
+	 end else begin
+	    CS_j<=CS_j+1;
+	 end
+      end else begin
+	 // CS_i<=0;
+	 // CS_j<=0;
+	 if(CS_bfr_dv==1 && CS_load_start==0)begin
+	    CS_ready<=1;
+	 end
+      end
+      
+      //!	Copy buffer for ChipScope
+      if(CS_i==0 && CS_bfr_i==0)begin
+	 CS_dat_o2<=CS_dat_o;
+      end
+      
+      //!	ChipScope Trigger
+      CS_bfr_i<=CS_i;
+      if(CS_bfr_i == CS_QBIT*2 && CS_i==CS_QBIT*3)begin
+	 CS_max_counter<=CS_max_counter+1;
+	 CS_max<=1;
+      end else begin
+	 CS_max<=0;
+      end
+   end
+	
+   //--------------------------
+*/
+
+//!	Estimate MFCC
+always@(posedge sclk) begin
+
+	`include "ringbuffer.v" 	
+
+   case(process_index)
+     //!	Hamming Window
+     1:begin
+	`include "hamwin.v"
+     end
+     //!	Use FFT Module
+     2:begin
+	`include "fft_use.v"
+     end
+     //!	Estimate Power Spectrum
+     3:begin
+	`include "fft_power.v"
+     end
+     //!	MelFilterBank
+     4:begin
+	`include "MFB.v"
+     end
+     //! 	Discrete Cosine Transform
+     5:begin
+	`include "DCT.v"
+     end
+     //! 	pick low dimension
+     6:begin
+	`include "pick.v" 
+     end
+     //!	Liftering
+     7:begin
+	`include "liftering.v"
+     end
+     //!	 Ready MFCC Output
+     8:begin
+			dv_out<=0;
+			addr3<=0;
+			out_index<=0;
+			process_index<=process_index+1;
+     end
+     9:begin
+			if(addr3==11)begin
+				process_index<=process_index+1;
+				addr3<=0;
+			end else begin
+				addr3<=addr3+1;
+				dv_out<=1;
+			end
+			//x_o<=outdata3+CS_max+CS_dat_o2[CS_j]+CS_dat_o2[0];			
+			x_o<=outdata3;
+			out_index<=addr3-1;
+     end
+     10:begin
+			dv_out<=0;
+     end
+     default:begin
+     end
+   endcase
+
+end
+
+endmodule

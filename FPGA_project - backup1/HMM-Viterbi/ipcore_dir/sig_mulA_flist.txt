@@ -1,0 +1,15 @@
+# Output products list for <sig_mulA>
+_xmsgs\pn_parser.xmsgs
+sig_mulA.asy
+sig_mulA.gise
+sig_mulA.ngc
+sig_mulA.sym
+sig_mulA.v
+sig_mulA.veo
+sig_mulA.xco
+sig_mulA.xise
+sig_mulA\doc\mult_gen_ds255.pdf
+sig_mulA\doc\mult_gen_v11_2_readme.txt
+sig_mulA\doc\mult_gen_v11_2_vinfo.html
+sig_mulA_flist.txt
+sig_mulA_xmdf.tcl

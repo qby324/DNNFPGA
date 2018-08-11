@@ -1,0 +1,2 @@
+verilog work "src/Test_main_fpga.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

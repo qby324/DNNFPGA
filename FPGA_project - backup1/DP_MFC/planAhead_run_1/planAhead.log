@@ -1,0 +1,245 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Jan 06 19:18:57 2017
+# Process ID: 8740
+# Log file: C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -6 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/pa.fromNetlist.tcl}
+# create_project -name WordDetect -dir "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/planAhead_run_1" -part xc6slx45csg324-2
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/main_DNN_DP.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC} {ipcore_dir} {../MFC_REC/ipcore_dir} }
+# add_files [list {ipcore_dir/BRAM_input.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/BRAM_node.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/div_gen_v4_0.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/FFT_16kHz.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/FFT_8kHz.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/MultAccum.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/multiplier.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {../MFC_REC/ipcore_dir/BROM.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {../MFC_REC/ipcore_dir/FFT_16kHz.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {../MFC_REC/ipcore_dir/voice.ncf}] -fileset [get_property constrset [current_run]]
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "main_DNN_DP.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/main_DNN_DP.ucf' to fileset 'constrs_1'
+# add_files [list {main_DNN_DP.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx45csg324-2
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design main_DNN_DP.ngc ...
+WARNING:NetListWriters:298 - No output is written to main_DNN_DP.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus vec2_59<128 : 0> on block DP_distance is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus dim_cnt[5]_X_28_o_wide_mux_51_OUT<9 : 0>
+   on block DP_distance is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _n0235<290 : 0> on block DP_distance is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus n0188<26 : 1> on block sigmoid is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus n0194<11 : 1> on block sigmoid is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[11][19]_PWR_25_o_sub_37_OUT<19:0>_lut<16 : 2> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[8][19]_PWR_25_o_sub_34_OUT<19:0>_lut<14 : 4> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[10][19]_GND_19_o_sub_36_OUT<19:0>_lut<19 : 4> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[9][19]_PWR_25_o_sub_35_OUT<19:0>_lut<14 : 5> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[5][19]_PWR_25_o_sub_31_OUT<19:0>_lut<15 : 3> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[7][19]_PWR_25_o_sub_33_OUT<19:0>_lut<14 : 1> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[6][19]_PWR_25_o_sub_32_OUT<19:0>_lut<15 : 5> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[2][19]_GND_19_o_sub_28_OUT<19:0>_lut<19 : 4> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[4][19]_PWR_25_o_sub_30_OUT<19:0>_lut<16 : 8> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[3][19]_PWR_25_o_sub_29_OUT<19:0>_lut<15 : 3> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[1][19]_GND_19_o_sub_27_OUT<19:0>_lut<19 : 1> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_x_i[0][19]_GND_19_o_sub_26_OUT<19:0>_lut<19 : 2> on block DNN_0117 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus GND_15_o_GND_15_o_sub_107_OUT[3 : 1] on
+   block log2_10bit is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   process_index[4]_process_index[4]_mux_45_OUT<3 : 1> on block MFCC is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus _n5058<55 : 0> on block MFCC is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Madd__n1646_cy<3 : 0> on block MFCC is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus n0539[7:0]<7 : 1> on block MEMS_Filter
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_tmp0[15]_GND_6_o_sub_840_OUT_lut<15
+   : 4> on block MEMS_Filter is not reconstructed, because there are some
+   missing bus signals.
+  finished :Prep
+Writing EDIF netlist file main_DNN_DP.edif ...
+ngc2edif: Total memory usage is 127024 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/WordDetect.data/cache/main_DNN_DP_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/WordDetect.data/cache/main_DNN_DP_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design FFT_16kHz.ngc ...
+WARNING:NetListWriters:298 - No output is written to FFT_16kHz.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file FFT_16kHz.edif ...
+ngc2edif: Total memory usage is 94640 kilobytes
+
+Reading core file 'C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/ipcore_dir/FFT_16kHz.ngc' for (cell view 'FFT_16kHz', library 'main_DNN_DP_lib', file 'main_DNN_DP.ngc')
+Parsing EDIF File [./planAhead_run_1/WordDetect.data/cache/FFT_16kHz_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/WordDetect.data/cache/FFT_16kHz_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design MultAccum.ngc ...
+WARNING:NetListWriters:298 - No output is written to MultAccum.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file MultAccum.edif ...
+ngc2edif: Total memory usage is 86448 kilobytes
+
+Reading core file 'C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/ipcore_dir/MultAccum.ngc' for (cell view 'MultAccum', library 'main_DNN_DP_lib', file 'main_DNN_DP.ngc')
+Parsing EDIF File [./planAhead_run_1/WordDetect.data/cache/MultAccum_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/WordDetect.data/cache/MultAccum_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design BRAM_input.ngc ...
+WARNING:NetListWriters:298 - No output is written to BRAM_input.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file BRAM_input.edif ...
+ngc2edif: Total memory usage is 82352 kilobytes
+
+Reading core file 'C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/ipcore_dir/BRAM_input.ngc' for (cell view 'BRAM_input', library 'main_DNN_DP_lib', file 'main_DNN_DP.ngc')
+Parsing EDIF File [./planAhead_run_1/WordDetect.data/cache/BRAM_input_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/WordDetect.data/cache/BRAM_input_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design BROM.ngc ...
+WARNING:NetListWriters:298 - No output is written to BROM.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file BROM.edif ...
+ngc2edif: Total memory usage is 86448 kilobytes
+
+Reading core file 'C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/ipcore_dir/BROM.ngc' for (cell view 'BROM', library 'main_DNN_DP_lib', file 'main_DNN_DP.ngc')
+Parsing EDIF File [./planAhead_run_1/WordDetect.data/cache/BROM_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/WordDetect.data/cache/BROM_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design BRAM_node.ngc ...
+WARNING:NetListWriters:298 - No output is written to BRAM_node.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file BRAM_node.edif ...
+ngc2edif: Total memory usage is 82352 kilobytes
+
+Reading core file 'C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/ipcore_dir/BRAM_node.ngc' for (cell view 'BRAM_node', library 'main_DNN_DP_lib', file 'main_DNN_DP.ngc')
+Parsing EDIF File [./planAhead_run_1/WordDetect.data/cache/BRAM_node_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/WordDetect.data/cache/BRAM_node_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design multiplier.ngc ...
+WARNING:NetListWriters:298 - No output is written to multiplier.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file multiplier.edif ...
+ngc2edif: Total memory usage is 86448 kilobytes
+
+Reading core file 'C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/ipcore_dir/multiplier.ngc' for (cell view 'multiplier', library 'main_DNN_DP_lib', file 'main_DNN_DP.ngc')
+Parsing EDIF File [./planAhead_run_1/WordDetect.data/cache/multiplier_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/WordDetect.data/cache/multiplier_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 142 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx45/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx45/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx45/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+WARNING: [Timing 38-83] Timing library cell SRLC32E does not define port A[4] which is referred to in the netlist. The library cell will be ignored and the cell will be treated as a black box for timing purposes.
+WARNING: [Timing 38-83] Timing library cell SRLC32E does not define port A[3] which is referred to in the netlist. The library cell will be ignored and the cell will be treated as a black box for timing purposes.
+WARNING: [Timing 38-83] Timing library cell SRLC32E does not define port A[2] which is referred to in the netlist. The library cell will be ignored and the cell will be treated as a black box for timing purposes.
+WARNING: [Timing 38-83] Timing library cell SRLC32E does not define port A[1] which is referred to in the netlist. The library cell will be ignored and the cell will be treated as a black box for timing purposes.
+WARNING: [Timing 38-83] Timing library cell SRLC32E does not define port A[0] which is referred to in the netlist. The library cell will be ignored and the cell will be treated as a black box for timing purposes.
+Parsing UCF File [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/ipcore_dir/BRAM_input.ncf]
+Finished Parsing UCF File [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/ipcore_dir/BRAM_input.ncf]
+Parsing UCF File [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/ipcore_dir/BRAM_node.ncf]
+Finished Parsing UCF File [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/ipcore_dir/BRAM_node.ncf]
+Parsing UCF File [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/ipcore_dir/FFT_16kHz.ncf]
+Finished Parsing UCF File [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/ipcore_dir/FFT_16kHz.ncf]
+Parsing UCF File [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/ipcore_dir/MultAccum.ncf]
+Finished Parsing UCF File [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/ipcore_dir/MultAccum.ncf]
+Parsing UCF File [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/ipcore_dir/multiplier.ncf]
+Finished Parsing UCF File [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/ipcore_dir/multiplier.ncf]
+Parsing UCF File [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/ipcore_dir/BROM.ncf]
+Finished Parsing UCF File [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/ipcore_dir/BROM.ncf]
+Parsing UCF File [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/ipcore_dir/FFT_16kHz.ncf]
+Finished Parsing UCF File [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/MFC_REC/ipcore_dir/FFT_16kHz.ncf]
+Parsing UCF File [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/main_DNN_DP.ucf]
+Finished Parsing UCF File [C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC/main_DNN_DP.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 142 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 1 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 42 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 99 instances
+
+Phase 0 | Netlist Checksum: ff3f2101
+link_design: Time (s): elapsed = 00:00:38 . Memory (MB): peak = 662.750 ; gain = 237.199
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Users/tslab-802-2/Desktop/newtest/FPGA_project - backup1/DP_MFC\planAhead_pid8740.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Fri Jan 06 19:21:07 2017...
+INFO: [Common 17-83] Releasing license: PlanAhead
